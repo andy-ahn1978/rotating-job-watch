@@ -1,24 +1,31 @@
 name: Job Watch V4
 
 on:
-  schedule:
-    - cron: '15 12 * * *'
-    - cron: '15 22 * * *'
   workflow_dispatch:
+  schedule:
+    # Once per day at 13:17 UTC.
+    # In Ontario this is 9:17 AM EDT / 8:17 AM EST.
+    - cron: "17 13 * * *"
 
 permissions:
   contents: write
   issues: write
 
 jobs:
-  monitor:
+  watch:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
-      - run: pip install -r requirements.txt
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
       - name: Search Adzuna and official sources
         env:
@@ -28,18 +35,18 @@ jobs:
 
       - name: Send alerts
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scripts/notify.py
 
       - name: Save results
         run: |
-          git config user.name "job-watch-bot"
-          git config user.email "actions@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add jobs.json seen_jobs.json new_jobs.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Update V4 monitored jobs"
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update job watch results"
             git push
           fi
