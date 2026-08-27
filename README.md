@@ -1,3 +1,46 @@
+# V4.1.1 compatibility fix
+
+Replace BOTH files together:
+
+- scripts/score.py
+- scripts/monitor.py
+
+Why:
+The prior patch mixed the old V4 monitor interface with the new scoring function.
+This fixed pair is compatible with the existing V4:
+- scripts/adzuna.py -> fetch_adzuna_jobs()
+- scripts/official.py -> fetch_official_jobs()
+
+Expected log:
+V4.1.1 raw=...
+V4.1.1 qualified=..., new=..., strong=...
+
+The line `Official [Comairco]: 1 results` only means Comairco's official-site parser found one posting.
+It does NOT mean the whole system found only one job.
+
+
+# Rotating Job Watch v4.1 patch
+
+Replace:
+- scripts/score.py
+- scripts/monitor.py
+- scripts/notify.py
+
+No workflow change is required if v4 already runs `python scripts/monitor.py` and then `python scripts/notify.py`.
+
+Changes:
+- Sales-first filtering
+- Excludes Millwright/Journeyman/Mechanic/Technician noise unless title is explicitly sales/commercial
+- Better duplicate detection
+- Filters obvious wrong-province mappings in descriptions
+- Fit category: strong >=7, match >=5
+- Telegram alert sends only newly detected qualified jobs
+
+Telegram GitHub repository secrets:
+- TELEGRAM_BOT_TOKEN
+- TELEGRAM_CHAT_ID
+
+
 # Rotating Job Watch v4 patch
 
 Upgrade the EXISTING `rotating-job-watch` repository. Do not create a new repository.
