@@ -23,7 +23,7 @@ NON_SALES_TITLE = [
 def norm(s):
     return re.sub(r"\s+", " ", (s or "").lower()).strip()
 
-def score_job(job):
+def score_job(job, config=None):
     title=norm(job.get("title"))
     text=norm(" ".join([job.get("title",""),job.get("description",""),job.get("company","")]))
     sales_hits=[k for k in SALES_TITLE if k in title]
