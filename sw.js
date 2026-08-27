@@ -1,0 +1,1 @@
+const C='rjw-v3';self.addEventListener('install',e=>e.waitUntil(caches.open(C).then(c=>c.addAll(['./','./index.html','./styles.css','./app.js','./targets.json']))));self.addEventListener('fetch',e=>{if(e.request.url.includes('jobs.json'))return;e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request)))});

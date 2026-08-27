@@ -1,0 +1,8 @@
+{
+  "name": "Rotating Job Watch",
+  "short_name": "Job Watch",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f6f8",
+  "theme_color": "#111827"
+}

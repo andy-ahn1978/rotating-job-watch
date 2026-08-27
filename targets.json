@@ -1,0 +1,289 @@
+[
+  {
+    "id": "atlas-copco",
+    "name": "Atlas Copco Compressors Canada",
+    "region": "Ontario",
+    "fit": 10,
+    "applications": 1,
+    "careers_url": "https://www.atlascopco.com/en-ca/jobs/job-overview",
+    "linkedin_url": "https://www.linkedin.com/jobs/search/?keywords=Atlas%20Copco%20technical%20sales&location=Ontario%2C%20Canada",
+    "indeed_url": "https://ca.indeed.com/jobs?q=Atlas+Copco+technical+sales&l=Ontario",
+    "keywords": [
+      "technical sales",
+      "sales representative",
+      "account manager",
+      "service sales",
+      "aftermarket",
+      "compressor",
+      "high pressure"
+    ]
+  },
+  {
+    "id": "ingersoll-rand",
+    "name": "Ingersoll Rand",
+    "region": "Ontario / Canada",
+    "fit": 9.5,
+    "applications": 3,
+    "careers_url": "https://careers.irco.com/",
+    "linkedin_url": "https://www.linkedin.com/jobs/search/?keywords=Ingersoll%20Rand%20sales&location=Ontario%2C%20Canada",
+    "indeed_url": "https://ca.indeed.com/jobs?q=Ingersoll+Rand+sales&l=Ontario",
+    "keywords": [
+      "area sales",
+      "regional sales",
+      "technical sales",
+      "account manager",
+      "pump",
+      "compressor",
+      "aftermarket",
+      "service"
+    ]
+  },
+  {
+    "id": "sulzer",
+    "name": "Sulzer",
+    "region": "Ontario / Canada",
+    "fit": 10,
+    "applications": 1,
+    "careers_url": "https://jobs.sulzer.com/",
+    "linkedin_url": "https://www.linkedin.com/jobs/search/?keywords=Sulzer%20sales&location=Ontario%2C%20Canada",
+    "indeed_url": "https://ca.indeed.com/jobs?q=Sulzer+sales&l=Ontario",
+    "keywords": [
+      "retrofit",
+      "sales",
+      "account manager",
+      "service",
+      "pump",
+      "rotating",
+      "aftermarket"
+    ]
+  },
+  {
+    "id": "ksb",
+    "name": "KSB Canada",
+    "region": "Ontario / Canada",
+    "fit": 8.5,
+    "applications": 0,
+    "careers_url": "https://www.ksb.com/en-ca/about-ksb/career",
+    "linkedin_url": "https://www.linkedin.com/jobs/search/?keywords=KSB%20Canada%20sales&location=Ontario%2C%20Canada",
+    "indeed_url": "https://ca.indeed.com/jobs?q=KSB+Canada+sales&l=Ontario",
+    "keywords": [
+      "sales",
+      "application engineer",
+      "technical support",
+      "service",
+      "pump",
+      "account manager"
+    ]
+  },
+  {
+    "id": "comairco",
+    "name": "Comairco",
+    "region": "Ontario",
+    "fit": 9,
+    "applications": 1,
+    "careers_url": "https://comairco.com/careers/",
+    "linkedin_url": "https://www.linkedin.com/jobs/search/?keywords=Comairco%20sales&location=Ontario%2C%20Canada",
+    "indeed_url": "https://ca.indeed.com/jobs?q=Comairco+sales&l=Ontario",
+    "keywords": [
+      "aftermarket sales",
+      "account manager",
+      "service agreement",
+      "compressor",
+      "service sales"
+    ]
+  },
+  {
+    "id": "john-brooks",
+    "name": "John Brooks Company",
+    "region": "Ontario",
+    "fit": 8.5,
+    "applications": 1,
+    "careers_url": "https://www.johnbrooks.ca/join-our-team",
+    "linkedin_url": "https://www.linkedin.com/jobs/search/?keywords=John%20Brooks%20technical%20sales&location=Ontario%2C%20Canada",
+    "indeed_url": "https://ca.indeed.com/jobs?q=John+Brooks+technical+sales&l=Ontario",
+    "keywords": [
+      "technical sales",
+      "sales representative",
+      "account manager",
+      "pump",
+      "valve",
+      "service"
+    ]
+  },
+  {
+    "id": "dxp-natpro",
+    "name": "DXP / NATPRO",
+    "region": "Ontario / Canada",
+    "fit": 10,
+    "applications": 0,
+    "careers_url": "https://www.dxpe.com/about-us/careers/",
+    "linkedin_url": "https://www.linkedin.com/jobs/search/?keywords=DXP%20NATPRO%20sales&location=Ontario%2C%20Canada",
+    "indeed_url": "https://ca.indeed.com/jobs?q=DXP+NATPRO+sales&l=Ontario",
+    "keywords": [
+      "sales",
+      "account manager",
+      "pump",
+      "compressor",
+      "rotating equipment",
+      "service",
+      "business development"
+    ]
+  },
+  {
+    "id": "avt",
+    "name": "AVT Reliability Canada",
+    "region": "Sarnia / Toronto",
+    "fit": 10,
+    "applications": 0,
+    "careers_url": "https://avtreliability.ca/",
+    "linkedin_url": "https://www.linkedin.com/jobs/search/?keywords=AVT%20Reliability&location=Ontario%2C%20Canada",
+    "indeed_url": "https://ca.indeed.com/jobs?q=AVT+Reliability&l=Ontario",
+    "keywords": [
+      "reliability",
+      "condition monitoring",
+      "vibration",
+      "sales",
+      "account manager"
+    ]
+  },
+  {
+    "id": "pneuair",
+    "name": "PneuAir",
+    "region": "Stoney Creek / Southern Ontario",
+    "fit": 9,
+    "applications": 0,
+    "careers_url": "https://pneuair.com/",
+    "linkedin_url": "https://www.linkedin.com/jobs/search/?keywords=PneuAir&location=Ontario%2C%20Canada",
+    "indeed_url": "https://ca.indeed.com/jobs?q=PneuAir&l=Ontario",
+    "keywords": [
+      "sales",
+      "service",
+      "compressor",
+      "blower",
+      "account"
+    ]
+  },
+  {
+    "id": "blowvac",
+    "name": "Blowvac Systems",
+    "region": "Mississauga",
+    "fit": 9,
+    "applications": 0,
+    "careers_url": "https://blowvacsystems.com/",
+    "linkedin_url": "https://www.linkedin.com/jobs/search/?keywords=Blowvac%20Systems&location=Ontario%2C%20Canada",
+    "indeed_url": "https://ca.indeed.com/jobs?q=Blowvac+Systems&l=Ontario",
+    "keywords": [
+      "sales",
+      "service",
+      "compressor",
+      "blower",
+      "vacuum",
+      "pump"
+    ]
+  },
+  {
+    "id": "red-systems",
+    "name": "RED Systems",
+    "region": "Mississauga / GTA",
+    "fit": 9,
+    "applications": 0,
+    "careers_url": "https://redsystems.ca/",
+    "linkedin_url": "https://www.linkedin.com/jobs/search/?keywords=RED%20Systems%20Ontario%20sales&location=Ontario%2C%20Canada",
+    "indeed_url": "https://ca.indeed.com/jobs?q=RED+Systems+sales&l=Ontario",
+    "keywords": [
+      "sales",
+      "reliability",
+      "pump",
+      "vibration",
+      "service",
+      "account"
+    ]
+  },
+  {
+    "id": "trade-mark",
+    "name": "Trade-Mark Industrial",
+    "region": "Cambridge / KW",
+    "fit": 8.5,
+    "applications": 0,
+    "careers_url": "https://tmi.ca/",
+    "linkedin_url": "https://www.linkedin.com/jobs/search/?keywords=Trade-Mark%20Industrial%20sales&location=Ontario%2C%20Canada",
+    "indeed_url": "https://ca.indeed.com/jobs?q=Trade-Mark+Industrial+sales&l=Ontario",
+    "keywords": [
+      "sales",
+      "reliability",
+      "vibration",
+      "alignment",
+      "pump",
+      "service"
+    ]
+  },
+  {
+    "id": "emnor",
+    "name": "Emnor Mechanical",
+    "region": "Hamilton",
+    "fit": 8.5,
+    "applications": 0,
+    "careers_url": "https://www.emnor.com/",
+    "linkedin_url": "https://www.linkedin.com/jobs/search/?keywords=Emnor%20Mechanical&location=Ontario%2C%20Canada",
+    "indeed_url": "https://ca.indeed.com/jobs?q=Emnor+Mechanical&l=Ontario",
+    "keywords": [
+      "sales",
+      "business development",
+      "pump",
+      "rotating",
+      "service"
+    ]
+  },
+  {
+    "id": "precision-concepts",
+    "name": "Precision Concepts",
+    "region": "Sarnia",
+    "fit": 9,
+    "applications": 0,
+    "careers_url": "https://precongrp.com/",
+    "linkedin_url": "https://www.linkedin.com/jobs/search/?keywords=Precision%20Concepts%20Sarnia&location=Ontario%2C%20Canada",
+    "indeed_url": "https://ca.indeed.com/jobs?q=Precision+Concepts+Sarnia&l=Ontario",
+    "keywords": [
+      "sales",
+      "rotating",
+      "service",
+      "alignment",
+      "business development"
+    ]
+  },
+  {
+    "id": "ips",
+    "name": "IPS Industrial Pump Sales & Service",
+    "region": "Sudbury",
+    "fit": 8.5,
+    "applications": 0,
+    "careers_url": "https://ipspump.ca/",
+    "linkedin_url": "https://www.linkedin.com/jobs/search/?keywords=IPS%20Industrial%20Pump%20Sudbury&location=Ontario%2C%20Canada",
+    "indeed_url": "https://ca.indeed.com/jobs?q=IPS+Industrial+Pump+Sudbury&l=Ontario",
+    "keywords": [
+      "sales",
+      "pump",
+      "product support",
+      "reliability",
+      "service"
+    ]
+  },
+  {
+    "id": "turbinepros",
+    "name": "TurbinePROs R.E. Services",
+    "region": "Ontario / Canada",
+    "fit": 9,
+    "applications": 0,
+    "careers_url": "https://turbinepros.com/",
+    "linkedin_url": "https://www.linkedin.com/jobs/search/?keywords=TurbinePROs&location=Ontario%2C%20Canada",
+    "indeed_url": "https://ca.indeed.com/jobs?q=TurbinePROs&l=Ontario",
+    "keywords": [
+      "sales",
+      "service",
+      "turbine",
+      "compressor",
+      "pump",
+      "business development"
+    ]
+  }
+]
