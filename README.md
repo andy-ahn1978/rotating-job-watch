@@ -1,3 +1,50 @@
+# Career Job Watch V5 - Career Hub UI Patch
+
+This patch upgrades only the web UI and application tracker. It does NOT change the working
+Adzuna monitor, scoring, Telegram alert, workflow schedule, or the 85-company target scan.
+
+## Replace
+- index.html
+- app.js
+- styles.css
+
+## Add
+- profile.json
+- applications_seed.json
+
+## Do NOT replace
+- targets.json
+- jobs.json
+- new_jobs.json
+- seen_jobs.json
+- search_config.json
+- scripts/*
+- .github/workflows/job-watch.yml
+
+## New features
+- 5 summary counters: New Jobs / Current Jobs / Targets / Applications / Interview Pipeline
+- Job card "Mark Applied" button
+- 85-company view with discovered-job counts, equipment/category data and application count
+- Application dashboard with status tracking
+- Statuses: Applied, Screening, Assessment, Interview, Final Interview, Offer, Rejected, No Response, Withdrawn
+- Manual application entry
+- Export/import application JSON backup
+- My Profile tab with professional history, equipment background, education and certifications
+- Mobile responsive navigation
+- Personal contact information intentionally excluded because GitHub Pages/repository is public
+
+## Important about application data
+`applications_seed.json` contains initial historical records.
+Changes made in the website are stored in browser localStorage.
+
+That means phone and PC edits do NOT automatically sync with each other.
+Use "Export application data" and "Import data" to copy your updated application data between devices.
+
+## Install
+Upload/replace the five files listed above, commit them to main, then refresh GitHub Pages.
+No GitHub Action run is needed for this UI-only patch.
+
+
 # V4.1.1 compatibility fix
 
 Replace BOTH files together:
