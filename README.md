@@ -1,3 +1,26 @@
+# V5 Fixed UI patch
+
+Replace these four files in the repository root:
+- index.html
+- app.js
+- styles.css
+- sw.js
+
+Keep these existing files:
+- profile.json
+- applications_seed.json
+
+Do not change scripts, workflow, targets.json, jobs.json, seen_jobs.json or new_jobs.json with this patch.
+
+After commit:
+1. Wait for GitHub Pages deployment.
+2. Open the site.
+3. Press Ctrl+F5 once.
+4. If needed, close the tab and reopen it.
+
+This sw.js deletes the old rjw-v3/V4 caches and uses fresh JSON data.
+
+
 # Career Job Watch V5 - Career Hub UI Patch
 
 This patch upgrades only the web UI and application tracker. It does NOT change the working
