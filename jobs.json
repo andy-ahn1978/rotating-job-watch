@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-27T21:29:45.009253+00:00",
+  "last_checked": "2026-08-27T22:22:13.059859+00:00",
   "jobs": [
     {
       "external_id": "5785918357",
@@ -23,10 +23,63 @@
       ],
       "negative_keywords": [],
       "target_company": true,
-      "target_fit": 8.5,
+      "target_fit": 9.2,
       "key": "Adzuna:5785918357",
       "first_seen": "2026-08-27T21:29:45.009253+00:00",
-      "is_new": true
+      "is_new": false
+    },
+    {
+      "external_id": "5854253838",
+      "company": "KSB",
+      "title": "Senior Technical Sales Support",
+      "location": "Mississauga, Peel region",
+      "description": "KSB is a leading supplier of pumps, valves and related service. Our reliable, high-efficiency products are used in applications wherever fluids need to be transported or shut off, covering everything from building services,industry and water transport to waste water treatment, power plant processes and mining. Founded in 1871 in Frankenthal, Germany, the company has a presence on all continents with its own sales and marketing organisations and manufacturing facilities. Around the globe, more t…",
+      "url": "https://www.adzuna.ca/details/5854253838?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-08-24T04:28:38Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "rotating equipment",
+      "score": 6.4,
+      "matched_keywords": [
+        "technical sales",
+        "pump",
+        "valve",
+        "mining",
+        "manufacturing"
+      ],
+      "negative_keywords": [],
+      "target_company": true,
+      "target_fit": 9.2,
+      "key": "Adzuna:5854253838",
+      "first_seen": "2026-08-27T21:05:01.271622+00:00",
+      "is_new": false
+    },
+    {
+      "external_id": "5539679612",
+      "company": "John Brooks Company",
+      "title": "Technical Sales Representative",
+      "location": "Toronto, Ontario",
+      "description": "Division: Pump Location: Ontario Territory: GTA, with alternative monthly trips to Timmins and surrounding areas WHAT DO WE DO? We create solutions for the people who keep our world flowing. For over 80 years, John Brooks Company has been solving fluid handling challenges for customers in various industries/markets across Canada by providing a diverse selection of engineered products and innovative system designs, focusing on customized solutions consisting of filtration, pump, spray, and valve…",
+      "url": "https://www.adzuna.ca/details/5539679612?utm_medium=api&utm_source=6ca94df0",
+      "created": "2025-12-12T12:39:54Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "pump sales",
+      "score": 6.2,
+      "matched_keywords": [
+        "technical sales",
+        "sales representative",
+        "pump",
+        "valve"
+      ],
+      "negative_keywords": [],
+      "target_company": true,
+      "target_fit": 9.2,
+      "key": "Adzuna:5539679612",
+      "first_seen": "2026-08-27T21:05:01.271622+00:00",
+      "is_new": false
     },
     {
       "external_id": "5807478382",
@@ -53,59 +106,6 @@
       "target_fit": null,
       "key": "Adzuna:5807478382",
       "first_seen": "2026-08-27T21:29:45.009253+00:00",
-      "is_new": true
-    },
-    {
-      "external_id": "5854253838",
-      "company": "KSB",
-      "title": "Senior Technical Sales Support",
-      "location": "Mississauga, Peel region",
-      "description": "KSB is a leading supplier of pumps, valves and related service. Our reliable, high-efficiency products are used in applications wherever fluids need to be transported or shut off, covering everything from building services,industry and water transport to waste water treatment, power plant processes and mining. Founded in 1871 in Frankenthal, Germany, the company has a presence on all continents with its own sales and marketing organisations and manufacturing facilities. Around the globe, more t…",
-      "url": "https://www.adzuna.ca/details/5854253838?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-08-24T04:28:38Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "rotating equipment",
-      "score": 6.4,
-      "matched_keywords": [
-        "technical sales",
-        "pump",
-        "valve",
-        "mining",
-        "manufacturing"
-      ],
-      "negative_keywords": [],
-      "target_company": true,
-      "target_fit": 8.5,
-      "key": "Adzuna:5854253838",
-      "first_seen": "2026-08-27T21:05:01.271622+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5539679612",
-      "company": "John Brooks Company",
-      "title": "Technical Sales Representative",
-      "location": "Toronto, Ontario",
-      "description": "Division: Pump Location: Ontario Territory: GTA, with alternative monthly trips to Timmins and surrounding areas WHAT DO WE DO? We create solutions for the people who keep our world flowing. For over 80 years, John Brooks Company has been solving fluid handling challenges for customers in various industries/markets across Canada by providing a diverse selection of engineered products and innovative system designs, focusing on customized solutions consisting of filtration, pump, spray, and valve…",
-      "url": "https://www.adzuna.ca/details/5539679612?utm_medium=api&utm_source=6ca94df0",
-      "created": "2025-12-12T12:39:54Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "pump sales",
-      "score": 6.2,
-      "matched_keywords": [
-        "technical sales",
-        "sales representative",
-        "pump",
-        "valve"
-      ],
-      "negative_keywords": [],
-      "target_company": true,
-      "target_fit": 8.5,
-      "key": "Adzuna:5539679612",
-      "first_seen": "2026-08-27T21:05:01.271622+00:00",
       "is_new": false
     },
     {
