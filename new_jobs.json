@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "external_id": "5785918357",
+    "company": "KSB",
+    "title": "Area Sales Manager - Mining - Ontario, Manitoba and Saskatchewan",
+    "location": "Mississauga, Peel region",
+    "description": "KSB is a leading supplier of pumps, valves and related service. Our reliable, high-efficiency products are used in applications wherever fluids need to be transported or shut off, covering everything from building services,industry and water transport to waste water treatment, power plant processes and mining. Founded in 1871 in Frankenthal, Germany, the company has a presence on all continents with its own sales and marketing organisations and manufacturing facilities. Around the globe, more t…",
+    "url": "https://www.adzuna.ca/details/5785918357?utm_medium=api&utm_source=6ca94df0",
+    "created": "2026-07-02T16:59:29Z",
+    "salary_min": 115000,
+    "salary_max": 125000,
+    "source": "Adzuna",
+    "search_query": "pump sales",
+    "score": 6.4,
+    "matched_keywords": [
+      "sales manager",
+      "pump",
+      "valve",
+      "mining",
+      "manufacturing"
+    ],
+    "negative_keywords": [],
+    "target_company": true,
+    "target_fit": 8.5,
+    "key": "Adzuna:5785918357",
+    "first_seen": "2026-08-27T21:29:45.009253+00:00",
+    "is_new": true
+  },
+  {
+    "external_id": "5807478382",
+    "company": "Venters Recruits",
+    "title": "Inside/Outside Sales Representative",
+    "location": "Concord, York region",
+    "description": "Inside/Outside Sales Representative – Industrial Equipment Agitators • Pumps • Valves – Serving Pharmaceutical, Chemical, Oil & Gas & More About Us We are a leading manufacturer’s representative agency specializing in high-quality agitators, pumps, and valves. Our trusted partners and product lines serve a diverse range of industries, including pharmaceutical, chemical processing, oil & gas, food & beverage, and more. We pride ourselves on delivering technical expertise, outstanding service, an…",
+    "url": "https://www.adzuna.ca/details/5807478382?utm_medium=api&utm_source=6ca94df0",
+    "created": "2026-07-19T17:43:27Z",
+    "salary_min": null,
+    "salary_max": null,
+    "source": "Adzuna",
+    "search_query": "pump sales",
+    "score": 5.6,
+    "matched_keywords": [
+      "sales representative",
+      "outside sales",
+      "pump",
+      "valve",
+      "industrial"
+    ],
+    "negative_keywords": [],
+    "target_company": false,
+    "target_fit": null,
+    "key": "Adzuna:5807478382",
+    "first_seen": "2026-08-27T21:29:45.009253+00:00",
+    "is_new": true
+  }
+]
