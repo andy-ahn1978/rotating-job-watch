@@ -1,4 +1,2979 @@
 {
-  "last_checked": null,
-  "jobs": []
+  "last_checked": "2026-08-27T20:18:30.304616+00:00",
+  "jobs": [
+    {
+      "id": "72bf11c955b29b0ffa6c",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "AVT Reliability Canada",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "8120ea87def83ea8227d",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Home",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "67221f63a8635e683d86",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Services",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/services/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "edce7b1b804abde37a83",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Asset Integrity",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/asset-integrity/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "001133a0bd2f37d15cb5",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Balancing",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/balancing/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "6621d07dc83203e01006",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Pipework Vibration Assessment",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/pipework-vibration-assessment/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability",
+        "vibration"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "fd240cd952ad88453f20",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Operating Deflection Shape Analysis",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/operating-deflection-shape-analysis/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "0774fee146b12ef517f0",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Motion Amplification",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/motion-amplification/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "f2d0e2bbb7463f124b5c",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Structural Integrity Monitoring",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/structural-integrity-monitoring/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "e1b0b116f7b019f45d92",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Asset Reliability",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/asset-reliability/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "e5acc90cd3355c1bd98a",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Reliability Engineering",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/reliability-engineering/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "d67bcbfbce1b9f025d86",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Troubleshooting Services",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/troubleshooting-services/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "53259c016a5c831862fb",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Shaft Alignment",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/shaft-alignment/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "2abfec10f3af8f1ad1f5",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Remote Diagnostics Service Centre",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/remote-diagnostics-service-centre/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "422c34dacc43324e479a",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Asset Monitoring",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/condition-monitoring/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "b2e94354908a241ddfcf",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Condition Monitoring",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/condition-monitoring/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "condition monitoring",
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "5cceb3bbcd0548fd4a44",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Vibration Analysis",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/vibration-analysis/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability",
+        "vibration"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "44c2f42d5fafa3a2aed6",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Fluid Oil Analysis",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/fluid-oil-analysis/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "e8231e65a6deda96ea2c",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Thermal Imaging Inspections",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/thermal-imaging-infrared-inspections/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "d68030c3f53b2870d9f6",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Energy and Performance Assessments",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/energy-and-performance-assessments/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "b6209118dee71294fa84",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Products",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "6f518b152f57c78de916",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Machine Sentry® Next Generation Software",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/machine-sentry-next-generation-software/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "2abb9219913dd174b28c",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Machine Sentry App",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/machine-sentry-app/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "74a9a61c7a35815b0fd2",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Machine Sentry® Fixed MSF-2",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/machine-sentry-fixed-msf-2/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "7dd8008ed5a7f7d61d61",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Machine Sentry® Mobile MSM2",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/machine-sentry-mobile-msm2/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "be11ba2016a9de515520",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Machine Sentry® Gateway",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/machine-sentry-gateway/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "03fc8b013566c03c35a4",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Machine Sentry® Online MSO",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/machine-sentry-online-mso/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "c52711a1f0b37fb78557",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Reliability Kit – Machine Sentry®",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/reliability-kit-machine-sentry/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "b6d0753bd9237216ae74",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Easy-Brace®",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/easy-brace/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "2ca20ea76e2b1ab4b79f",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Dynamic Vibration Absorber",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/dynamic-vibration-absorber/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability",
+        "vibration"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "585d7f30ca1534669d24",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Viscoelastic Dampers",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/viscoelastic-dampers/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "a59a0e0c85c49f3fbe82",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Bearing Isolation & Protection",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/bearing-isolation-protection/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "a38c3b21c677b02869a7",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Case Studies",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/case-studies/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "73f0c4cd2a9398e088d0",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "About Us",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/about-us/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "b57173303f5cc30b427e",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Contact Us",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/contact-us/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "2a30919a5b19f413b6f7",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Machine Sentry Software",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca//machine-sentry-software/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "66b2d0e707ac722e9333",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Machine Sentry Fixed",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca//machine-sentry-fixed-msf-2/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "47b9af5569a25c3ccee9",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Machine Sentry® Mobile",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca//machine-sentry-mobile-msm2/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "4385647545a8216aa78d",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Machine Sentry Gateway",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca//machine-sentry-gateway/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "a0b9d7e632b5392c7cdb",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Machine Sentry Online",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca//machine-sentry-online-mso/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "f97afb73019beaaefe37",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Bearing Protection",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca//bearing-isolation-protection/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "c053a1a52469b5631a84",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Pipework Solutions",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca//pipework-anti-vibration-products/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability",
+        "vibration"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "9e60fd7fa741992b5060",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Easy-Brace®",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca//easy-brace/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "6b94e9dd8596dbef8e7f",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Privacy Policy",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/?page_id=187",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "9c09801b9ff32174190a",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Terms & Conditions",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/terms-conditions-2/",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "4aebc157b24e9fabcc8e",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "info@avtreliability.ca",
+      "location": "Sarnia / Toronto",
+      "url": "mailto:info@avtreliability.ca",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "b54083d23a6e9f0d4c76",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Proud Member of the AVT Reliability Group",
+      "location": "Sarnia / Toronto",
+      "url": "https://avtreliability.ca/avt-reliability-the-group//",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "f6556345dd1905cf9195",
+      "company_id": "avt",
+      "company": "AVT Reliability Canada",
+      "title": "Email",
+      "location": "Sarnia / Toronto",
+      "url": "mailto:info@avtreliability.ca",
+      "careers_url": "https://avtreliability.ca/",
+      "fit": 10,
+      "matched_keywords": [
+        "reliability"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "973f609730438a500fa6",
+      "company_id": "atlas-copco",
+      "company": "Atlas Copco Compressors Canada",
+      "title": "Air compressor products, parts and service",
+      "location": "Ontario",
+      "url": "https://www.atlascopco.com/en-ca/jobs/job-overview",
+      "careers_url": "https://www.atlascopco.com/en-ca/jobs/job-overview",
+      "fit": 10,
+      "matched_keywords": [
+        "compressor"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "c1085787963fedbd955b",
+      "company_id": "atlas-copco",
+      "company": "Atlas Copco Compressors Canada",
+      "title": "Service and parts",
+      "location": "Ontario",
+      "url": "https://www.atlascopco.com/en-ca/compressors/service",
+      "careers_url": "https://www.atlascopco.com/en-ca/jobs/job-overview",
+      "fit": 10,
+      "matched_keywords": [
+        "compressor"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "45febeb721e8452e5a64",
+      "company_id": "atlas-copco",
+      "company": "Atlas Copco Compressors Canada",
+      "title": "Air compressor parts",
+      "location": "Ontario",
+      "url": "https://www.atlascopco.com/en-ca/compressors/service/parts",
+      "careers_url": "https://www.atlascopco.com/en-ca/jobs/job-overview",
+      "fit": 10,
+      "matched_keywords": [
+        "compressor"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "eb72b2cc154046a4c601",
+      "company_id": "atlas-copco",
+      "company": "Atlas Copco Compressors Canada",
+      "title": "Air compressor service plan",
+      "location": "Ontario",
+      "url": "https://www.atlascopco.com/en-ca/compressors/service/plans",
+      "careers_url": "https://www.atlascopco.com/en-ca/jobs/job-overview",
+      "fit": 10,
+      "matched_keywords": [
+        "compressor"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "3b6e04129ed2bcf1ffba",
+      "company_id": "atlas-copco",
+      "company": "Atlas Copco Compressors Canada",
+      "title": "Compressed air efficiency",
+      "location": "Ontario",
+      "url": "https://www.atlascopco.com/en-ca/compressors/service/efficiency",
+      "careers_url": "https://www.atlascopco.com/en-ca/jobs/job-overview",
+      "fit": 10,
+      "matched_keywords": [
+        "compressor"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "a6f16b7ebb89b028c32d",
+      "company_id": "atlas-copco",
+      "company": "Atlas Copco Compressors Canada",
+      "title": "Product training",
+      "location": "Ontario",
+      "url": "https://www.atlascopco.com/en-ca/compressors/service/air-compressor-training",
+      "careers_url": "https://www.atlascopco.com/en-ca/jobs/job-overview",
+      "fit": 10,
+      "matched_keywords": [
+        "compressor"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "45c87ad389ac4c8589b5",
+      "company_id": "atlas-copco",
+      "company": "Atlas Copco Compressors Canada",
+      "title": "Service for turbomachinery",
+      "location": "Ontario",
+      "url": "https://www.atlascopco.com/en-ca/compressors/service/aftermarket-turbomachinery",
+      "careers_url": "https://www.atlascopco.com/en-ca/jobs/job-overview",
+      "fit": 10,
+      "matched_keywords": [
+        "aftermarket",
+        "compressor"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "38caac2089cd469bdb4d",
+      "company_id": "atlas-copco",
+      "company": "Atlas Copco Compressors Canada",
+      "title": "Vacuum pumps and abatement",
+      "location": "Ontario",
+      "url": "https://www.atlascopco.com/en-ca/jobs/job-overview",
+      "careers_url": "https://www.atlascopco.com/en-ca/jobs/job-overview",
+      "fit": 10,
+      "matched_keywords": [
+        "pump"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "0e87ca19cc049a8aded7",
+      "company_id": "atlas-copco",
+      "company": "Atlas Copco Compressors Canada",
+      "title": "Vacuum pump service",
+      "location": "Ontario",
+      "url": "https://www.atlascopco.com/en-ca/vacuum-solutions/vacuum-pump-service",
+      "careers_url": "https://www.atlascopco.com/en-ca/jobs/job-overview",
+      "fit": 10,
+      "matched_keywords": [
+        "pump"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "d226bb692deb514ad7ff",
+      "company_id": "atlas-copco",
+      "company": "Atlas Copco Compressors Canada",
+      "title": "Atlas Copco Consultancy Services",
+      "location": "Ontario",
+      "url": "https://www.atlascopco.com/en-ca/vacuum-solutions/vacuum-pump-service/atlascopco-consultancy-services",
+      "careers_url": "https://www.atlascopco.com/en-ca/jobs/job-overview",
+      "fit": 10,
+      "matched_keywords": [
+        "pump"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "b57ff9f6b07a3012bad2",
+      "company_id": "atlas-copco",
+      "company": "Atlas Copco Compressors Canada",
+      "title": "Health and Safety forms",
+      "location": "Ontario",
+      "url": "https://www.atlascopco.com/en-ca/vacuum-solutions/vacuum-pump-service/health-and-safety-forms",
+      "careers_url": "https://www.atlascopco.com/en-ca/jobs/job-overview",
+      "fit": 10,
+      "matched_keywords": [
+        "pump"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "67c439c43040258c49e2",
+      "company_id": "atlas-copco",
+      "company": "Atlas Copco Compressors Canada",
+      "title": "HealthCheck PROᵀᴹ service",
+      "location": "Ontario",
+      "url": "https://www.atlascopco.com/en-ca/vacuum-solutions/vacuum-pump-service/health-check-pro-service",
+      "careers_url": "https://www.atlascopco.com/en-ca/jobs/job-overview",
+      "fit": 10,
+      "matched_keywords": [
+        "pump"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "86475e8267061f2c573f",
+      "company_id": "atlas-copco",
+      "company": "Atlas Copco Compressors Canada",
+      "title": "Remote Connectivity -GENIUS Instant Insights™",
+      "location": "Ontario",
+      "url": "https://www.atlascopco.com/en-ca/vacuum-solutions/vacuum-pump-service/vacuum-pump-remote-connectivity-and-monitoring",
+      "careers_url": "https://www.atlascopco.com/en-ca/jobs/job-overview",
+      "fit": 10,
+      "matched_keywords": [
+        "pump"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "dae5c0ad828b5cb02578",
+      "company_id": "atlas-copco",
+      "company": "Atlas Copco Compressors Canada",
+      "title": "Vacuum pump Oil",
+      "location": "Ontario",
+      "url": "https://www.atlascopco.com/en-ca/vacuum-solutions/vacuum-pump-service/vacuum-pump-oil",
+      "careers_url": "https://www.atlascopco.com/en-ca/jobs/job-overview",
+      "fit": 10,
+      "matched_keywords": [
+        "pump"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "9a8ff68762c9b8710e62",
+      "company_id": "atlas-copco",
+      "company": "Atlas Copco Compressors Canada",
+      "title": "Vacuum pump parts and kits",
+      "location": "Ontario",
+      "url": "https://www.atlascopco.com/en-ca/vacuum-solutions/vacuum-pump-service/vacuum-pump-parts",
+      "careers_url": "https://www.atlascopco.com/en-ca/jobs/job-overview",
+      "fit": 10,
+      "matched_keywords": [
+        "pump"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "fc64e13bfeade5a39981",
+      "company_id": "atlas-copco",
+      "company": "Atlas Copco Compressors Canada",
+      "title": "Vacuum pump Repair and Rebuild",
+      "location": "Ontario",
+      "url": "https://www.atlascopco.com/en-ca/vacuum-solutions/vacuum-pump-service/vacuum-pump-repair",
+      "careers_url": "https://www.atlascopco.com/en-ca/jobs/job-overview",
+      "fit": 10,
+      "matched_keywords": [
+        "pump"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "68cf16aa997da1d6127f",
+      "company_id": "atlas-copco",
+      "company": "Atlas Copco Compressors Canada",
+      "title": "Vacuum Pump ServicePlan™ offerings",
+      "location": "Ontario",
+      "url": "https://www.atlascopco.com/en-ca/vacuum-solutions/vacuum-pump-service/vacuum-pump-service-contracts",
+      "careers_url": "https://www.atlascopco.com/en-ca/jobs/job-overview",
+      "fit": 10,
+      "matched_keywords": [
+        "pump"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "3c86bd1681bb082fc92a",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Remanufacturing",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/pump-solutions/remanufacturing/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "75f57fc446db9acd42d9",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Service Expertise",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "6dad2ea3727c9ee9438b",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Pumping Solutions",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/innovative-process-solutions/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "ab31e3e2372b74a03d29",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Pumping",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/pump-solutions/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "0560a520182a043c9465",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Local Service & Repair",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/pump-solutions/north-american-repair-network/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "ae5842683745a42f3df1",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "In House Testing",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/pump-solutions/in-house-testing/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "0a7e23a6977cb37030da",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "One-off Foundry Solutions",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/pump-solutions/one-off-foundry-solutions/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "8a548dd10eabaec9fe7d",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Local Inventories",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/pump-solutions/local-inventories/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "293944ffed2f140bb9b8",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Training Programs",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/pump-solutions/training-programs/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "2539d143f721a217e442",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Engineering Upgrades",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/pump-solutions/engineering-upgrades/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "79592e16311665ed9dd2",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Systems Design/Troubleshooting",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/pump-solutions/systems-design-troubleshooting/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "6daff0f4f275c3967fd0",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Speed",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/pump-solutions/speed/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "be07cf4acdf7bd01fb0a",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Engineered Systems",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/pump-solutions/special-fabrications/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "fe2bd7d63ee1234877d9",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Supply Chain Services",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/supplychainservices/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "11a482f753c552553037",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Smart Solutions",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/supplychainservices/smart-solutions/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "59d100831544aad0b0d8",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Integrated Supply Chain Management",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/supplychainservices/integrated-supply-chain-management/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "f61f996fdf69f3e8c599",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Complete Storeroom Management",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/supplychainservices/smartsource-storeroom-management/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "01967a2c9107762baa76",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "MRO Analytics & Data Enhancement",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/supplychainservices/mro-analytics-data-enhancement/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "98474ba99d10a5292a69",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Procurement Management",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/supplychainservices/procurement-management/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "8c18b66196fdcf6255d6",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Safety Services",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/safety-services/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "bd863eb8bbec6f120828",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Safety Solutions",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/safety-services/#safetysolutions",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "1cd03a8821b7a73a7d8c",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Expertise",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/safety-services/#expertise",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "33db39a986490a6ab461",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Confined Space Rescue",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/confined-space-rescue/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "68f67c0a99bc381cbb8d",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Technology",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/technology/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "1dfe8fd6c67e482a5068",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "B2B Web Solutions",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/technology/smartbuy-web-mro-procurement-solutions/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "c1f3c1e49bda4ed493b7",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "CMMS Software - SmartChase",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/supplychainservices/smartcmms-chase/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "e6a2f4685404bdf78f9b",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Vending and Scanning",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/technology/vending-scanning/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "a9a8d05473e206b9b4b7",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Virtual Storeroom Management",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/technology/smartcrib/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "0aafc8d893692128e112",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Pump Solutions",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/pump-solutions/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "df8af9968cccb9fd6b58",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "Metal Working Services",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/product-divisions/metal-working/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "656ae693717e3a1ade8b",
+      "company_id": "dxp-natpro",
+      "company": "DXP / NATPRO",
+      "title": "CMMS Software – SmartChase",
+      "location": "Ontario / Canada",
+      "url": "https://www.dxpe.com/services/supplychainservices/smartcmms-chase/",
+      "careers_url": "https://www.dxpe.com/about-us/careers/",
+      "fit": 10,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "20dae08a67c1bd70c3a7",
+      "company_id": "blowvac",
+      "company": "Blowvac Systems",
+      "title": "SERVICES",
+      "location": "Mississauga",
+      "url": "https://blowvacsystems.com/blowvac-systems-canada/services",
+      "careers_url": "https://blowvacsystems.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "873d27517812fc2be490",
+      "company_id": "blowvac",
+      "company": "Blowvac Systems",
+      "title": "REQUEST A SERVICE",
+      "location": "Mississauga",
+      "url": "https://blowvacsystems.com/blowvac-systems-canada/request-service/Homepage",
+      "careers_url": "https://blowvacsystems.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "1ae79b99fed492afe267",
+      "company_id": "blowvac",
+      "company": "Blowvac Systems",
+      "title": "View packages",
+      "location": "Mississauga",
+      "url": "https://blowvacsystems.com/blowvac-systems-canada/services",
+      "careers_url": "https://blowvacsystems.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "80d7bf0a12eff246aead",
+      "company_id": "blowvac",
+      "company": "Blowvac Systems",
+      "title": "Web design services by Web Solutions Desk",
+      "location": "Mississauga",
+      "url": "https://websolutionsdesk.com",
+      "careers_url": "https://blowvacsystems.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "c24df628acbbe8f5ec3c",
+      "company_id": "comairco",
+      "company": "Comairco",
+      "title": "Service, Maintenance & Compressor Rebuild",
+      "location": "Ontario",
+      "url": "https://comairco.com/technical-services/technical-service-repair-and-updating/",
+      "careers_url": "https://comairco.com/careers/",
+      "fit": 9,
+      "matched_keywords": [
+        "compressor"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "6ae74194d6d32e6b136b",
+      "company_id": "comairco",
+      "company": "Comairco",
+      "title": "See the detailed job offer",
+      "location": "Ontario",
+      "url": "https://comairco.com/careers/aftermarket-sales-representative/",
+      "careers_url": "https://comairco.com/careers/",
+      "fit": 9,
+      "matched_keywords": [
+        "aftermarket"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "9862b93b969ccb33350a",
+      "company_id": "pneuair",
+      "company": "PneuAir",
+      "title": "Services",
+      "location": "Stoney Creek / Southern Ontario",
+      "url": "https://pneuair.com/services/",
+      "careers_url": "https://pneuair.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "70032e5573eb33203fc5",
+      "company_id": "pneuair",
+      "company": "PneuAir",
+      "title": "24 Hour Emergency Service",
+      "location": "Stoney Creek / Southern Ontario",
+      "url": "https://pneuair.com/",
+      "careers_url": "https://pneuair.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "e330b9ad17383c3bc02e",
+      "company_id": "precision-concepts",
+      "company": "Precision Concepts",
+      "title": "Services",
+      "location": "Sarnia",
+      "url": "https://precongrp.com/",
+      "careers_url": "https://precongrp.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "1f38bc8f9a2596aed801",
+      "company_id": "precision-concepts",
+      "company": "Precision Concepts",
+      "title": "Alignment Services",
+      "location": "Sarnia",
+      "url": "https://precongrp.com/services/alignment.aspx",
+      "careers_url": "https://precongrp.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "alignment",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "a11afc4a02151ac676c9",
+      "company_id": "precision-concepts",
+      "company": "Precision Concepts",
+      "title": "Turbine, Compressor and Generator",
+      "location": "Sarnia",
+      "url": "https://precongrp.com/services/turbine-compressor-generator.aspx",
+      "careers_url": "https://precongrp.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "compressor",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "8d47e6c3b61d157a3b96",
+      "company_id": "precision-concepts",
+      "company": "Precision Concepts",
+      "title": "Centrifugal and Reciprocating Machinery",
+      "location": "Sarnia",
+      "url": "https://precongrp.com/services/centrifugal-reciprocating-machinery.aspx",
+      "careers_url": "https://precongrp.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "deb428ca66c80614c35e",
+      "company_id": "precision-concepts",
+      "company": "Precision Concepts",
+      "title": "Pumps, Gearboxes, Fans, Blowers and Auxiliary Equipment",
+      "location": "Sarnia",
+      "url": "https://precongrp.com/services/pumps-gearboxes-fans-blowers-aux-equipment.aspx",
+      "careers_url": "https://precongrp.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "blower",
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "c90eb46abc6779bf9cd8",
+      "company_id": "precision-concepts",
+      "company": "Precision Concepts",
+      "title": "Equipment Installation",
+      "location": "Sarnia",
+      "url": "https://precongrp.com/services/equipment-installation.aspx",
+      "careers_url": "https://precongrp.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "fa55f0b3d917a0096942",
+      "company_id": "precision-concepts",
+      "company": "Precision Concepts",
+      "title": "Turnaround and Shutdown",
+      "location": "Sarnia",
+      "url": "https://precongrp.com/services/turnaround-shutdowns.aspx",
+      "careers_url": "https://precongrp.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "3331362ed8d4ac571f98",
+      "company_id": "precision-concepts",
+      "company": "Precision Concepts",
+      "title": "Maintenance and Repairs",
+      "location": "Sarnia",
+      "url": "https://precongrp.com/services/maintenance-repairs.aspx",
+      "careers_url": "https://precongrp.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "92fafa5aaebf4520a696",
+      "company_id": "precision-concepts",
+      "company": "Precision Concepts",
+      "title": "24-hour Machine Shop",
+      "location": "Sarnia",
+      "url": "https://precongrp.com/services/machine-shop.aspx",
+      "careers_url": "https://precongrp.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "3e36ab5be633607a793c",
+      "company_id": "precision-concepts",
+      "company": "Precision Concepts",
+      "title": "Our Services",
+      "location": "Sarnia",
+      "url": "https://precongrp.com/#services",
+      "careers_url": "https://precongrp.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "1194ced41034b7a8e0cd",
+      "company_id": "precision-concepts",
+      "company": "Precision Concepts",
+      "title": "ALIGNMENT SERVICES The fact that machinery moves during operation is established and well documented.",
+      "location": "Sarnia",
+      "url": "https://precongrp.com/services/alignment.aspx",
+      "careers_url": "https://precongrp.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "alignment",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "249f99c8708b8f8f4bea",
+      "company_id": "precision-concepts",
+      "company": "Precision Concepts",
+      "title": "TURBINE, COMPRESSOR & GENERATOR Precision Concepts recognizes that power generation equipment is the key component to many of our client’s daily operations.",
+      "location": "Sarnia",
+      "url": "https://precongrp.com/services/turbine-compressor-generator.aspx",
+      "careers_url": "https://precongrp.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "compressor",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "bc2b0c7c952667a115f7",
+      "company_id": "precision-concepts",
+      "company": "Precision Concepts",
+      "title": "CENTRIFUGAL & RECIPROCATING MACHINERY Precision Concepts offers a depth of experience when it comes to your centrifugal & reciprocating machinery.",
+      "location": "Sarnia",
+      "url": "https://precongrp.com/services/centrifugal-reciprocating-machinery.aspx",
+      "careers_url": "https://precongrp.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "6cb8c46d1108eb75670e",
+      "company_id": "precision-concepts",
+      "company": "Precision Concepts",
+      "title": "Pumps, Gearboxes, Fans, Blowers & Auxiliary Equipment Our team of professionals are committed to working with each client to discover cost-effective solutions to ensure all plant equipment is well-maintained and in top working condition.",
+      "location": "Sarnia",
+      "url": "https://precongrp.com/services/pumps-gearboxes-fans-blowers-aux-equipment.aspx",
+      "careers_url": "https://precongrp.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "blower",
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "5178844e55498534615a",
+      "company_id": "precision-concepts",
+      "company": "Precision Concepts",
+      "title": "Equipment INSTALLATION Installing today's sophisticated industrial machinery is an art in itself.",
+      "location": "Sarnia",
+      "url": "https://precongrp.com/services/equipment-installation.aspx",
+      "careers_url": "https://precongrp.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "2f49a0ca4629a4518013",
+      "company_id": "precision-concepts",
+      "company": "Precision Concepts",
+      "title": "TURNAROUND & SHUTDOWNS Precision Concepts has a successful history of supporting clients with their turnarounds, outages and shutdown events.",
+      "location": "Sarnia",
+      "url": "https://precongrp.com/services/turnaround-shutdowns.aspx",
+      "careers_url": "https://precongrp.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "8fbc2c6c16ddb37f6c73",
+      "company_id": "precision-concepts",
+      "company": "Precision Concepts",
+      "title": "Maintenance & Repair Precision Concepts has a variety of maintenance solutions available to meet all of your needs and requirements.",
+      "location": "Sarnia",
+      "url": "https://precongrp.com/services/maintenance-repairs.aspx",
+      "careers_url": "https://precongrp.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "26740b404e9ee32b7e44",
+      "company_id": "precision-concepts",
+      "company": "Precision Concepts",
+      "title": "24 Hour Machine Shop Today's competitive environment has forced us to respond to challenges and opportunities more rapidly than ever before.",
+      "location": "Sarnia",
+      "url": "https://precongrp.com/services/machine-shop.aspx",
+      "careers_url": "https://precongrp.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "8aaf12232cd8c878ef4a",
+      "company_id": "red-systems",
+      "company": "RED Systems",
+      "title": "Services ▼",
+      "location": "Mississauga / GTA",
+      "url": "https://redsystems.ca/pump-repair.html",
+      "careers_url": "https://redsystems.ca/",
+      "fit": 9,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "4315f56f5508ee347761",
+      "company_id": "red-systems",
+      "company": "RED Systems",
+      "title": "Equipment",
+      "location": "Mississauga / GTA",
+      "url": "https://redsystems.ca/equipment-new-sales.html",
+      "careers_url": "https://redsystems.ca/",
+      "fit": 9,
+      "matched_keywords": [
+        "sales"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "bfe882fa132759428460",
+      "company_id": "red-systems",
+      "company": "RED Systems",
+      "title": "Service Areas",
+      "location": "Mississauga / GTA",
+      "url": "https://redsystems.ca/service-areas.html",
+      "careers_url": "https://redsystems.ca/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "01586d453476c02957a0",
+      "company_id": "red-systems",
+      "company": "RED Systems",
+      "title": "Equipment & New Sales",
+      "location": "Mississauga / GTA",
+      "url": "https://redsystems.ca/equipment-new-sales.html",
+      "careers_url": "https://redsystems.ca/",
+      "fit": 9,
+      "matched_keywords": [
+        "sales"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "9bf11c2f7e4171c4cc18",
+      "company_id": "red-systems",
+      "company": "RED Systems",
+      "title": "Field Service",
+      "location": "Mississauga / GTA",
+      "url": "https://redsystems.ca/field-service.html",
+      "careers_url": "https://redsystems.ca/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "a059b99ad2b4a4c2329d",
+      "company_id": "red-systems",
+      "company": "RED Systems",
+      "title": "Mechanical Services",
+      "location": "Mississauga / GTA",
+      "url": "https://redsystems.ca/mechanical-services.html",
+      "careers_url": "https://redsystems.ca/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "181ec74d153af6da8689",
+      "company_id": "red-systems",
+      "company": "RED Systems",
+      "title": "Pump Rebuild Service",
+      "location": "Mississauga / GTA",
+      "url": "https://redsystems.ca/pump-rebuild-service.html",
+      "careers_url": "https://redsystems.ca/",
+      "fit": 9,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "7da03892ba88df7ddcc1",
+      "company_id": "red-systems",
+      "company": "RED Systems",
+      "title": "Our Services",
+      "location": "Mississauga / GTA",
+      "url": "https://redsystems.ca/pump-repair.html",
+      "careers_url": "https://redsystems.ca/",
+      "fit": 9,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "2a7747d7bccbb67f1d5b",
+      "company_id": "red-systems",
+      "company": "RED Systems",
+      "title": "Call Sales (289) 327-3242",
+      "location": "Mississauga / GTA",
+      "url": "tel:2893273242",
+      "careers_url": "https://redsystems.ca/",
+      "fit": 9,
+      "matched_keywords": [
+        "sales"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "02c533f163b99c536dd9",
+      "company_id": "red-systems",
+      "company": "RED Systems",
+      "title": "View Equipment →",
+      "location": "Mississauga / GTA",
+      "url": "https://redsystems.ca/equipment-new-sales.html",
+      "careers_url": "https://redsystems.ca/",
+      "fit": 9,
+      "matched_keywords": [
+        "sales"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "1ae600fec56d5cff42e0",
+      "company_id": "red-systems",
+      "company": "RED Systems",
+      "title": "View Services →",
+      "location": "Mississauga / GTA",
+      "url": "https://redsystems.ca/pump-repair.html",
+      "careers_url": "https://redsystems.ca/",
+      "fit": 9,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "300d445e0a1887a41008",
+      "company_id": "red-systems",
+      "company": "RED Systems",
+      "title": "View Field Service →",
+      "location": "Mississauga / GTA",
+      "url": "https://redsystems.ca/field-service.html",
+      "careers_url": "https://redsystems.ca/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "6a4d2b91b5de7b02fdb4",
+      "company_id": "red-systems",
+      "company": "RED Systems",
+      "title": "View All Equipment",
+      "location": "Mississauga / GTA",
+      "url": "https://redsystems.ca/equipment-new-sales.html",
+      "careers_url": "https://redsystems.ca/",
+      "fit": 9,
+      "matched_keywords": [
+        "sales"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "614af21d0814c5f2ceee",
+      "company_id": "red-systems",
+      "company": "RED Systems",
+      "title": "01 Centrifugal Pump Repair Seal, bearing, impeller, and wear ring service for end suction, ANSI, split case, and inline centrifugal pumps.",
+      "location": "Mississauga / GTA",
+      "url": "https://redsystems.ca/centrifugal-pump-repair.html",
+      "careers_url": "https://redsystems.ca/",
+      "fit": 9,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "e24bea13008c1dc830fe",
+      "company_id": "red-systems",
+      "company": "RED Systems",
+      "title": "03 Pump Rebuild Service Complete teardown, component inspection, parts replacement, and reassembly to OEM specification.",
+      "location": "Mississauga / GTA",
+      "url": "https://redsystems.ca/pump-rebuild-service.html",
+      "careers_url": "https://redsystems.ca/",
+      "fit": 9,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "db71466a9520af434240",
+      "company_id": "red-systems",
+      "company": "RED Systems",
+      "title": "All Service Capabilities",
+      "location": "Mississauga / GTA",
+      "url": "https://redsystems.ca/pump-repair.html",
+      "careers_url": "https://redsystems.ca/",
+      "fit": 9,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "de622ea3526cc5de877c",
+      "company_id": "red-systems",
+      "company": "RED Systems",
+      "title": "All Service Areas →",
+      "location": "Mississauga / GTA",
+      "url": "https://redsystems.ca/service-areas.html",
+      "careers_url": "https://redsystems.ca/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "77096be388255970e436",
+      "company_id": "red-systems",
+      "company": "RED Systems",
+      "title": "Request Service",
+      "location": "Mississauga / GTA",
+      "url": "https://redsystems.ca/request-a-quote.html",
+      "careers_url": "https://redsystems.ca/",
+      "fit": 9,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "8256789d6ae6b9a44f91",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Services",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "c401b929a85f9d8e697d",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Hydro Turbine",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/hydro-turbine-services",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "466e663b26b1b36ba81b",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Gas Turbine",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/gas-turbine",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "c3e1fa336236c94ba354",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Steam Turbine",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/steam-turbine",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "b211a44796b7df5f13c3",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Process Plants",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/process-plants",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "af5f7276452d3fa15c25",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Field Service Expertise",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/about/field-service-expertise",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "7c8cfda4ea81ebad4e93",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "US Hydro & Specialty Services",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/contact/us-hydro-specialty-services",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "bc54443e6cf5f8701d29",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "LEARN MORE",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "767ac3c4c47db61865a8",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "LEARN MORE",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/process-plants",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "5ef104912693d7f90570",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Services - Power Generation",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "1805f4ae5ff2e7e0e0c8",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Hydro Turbine Services",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/hydro-turbine-services",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "bc05948b1843ec685a2b",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "In-Place Machining & Welding",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/hydro-turbine-services/in-place-machining-welding",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "171b743e7d3ddc23ec98",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Inspections",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/hydro-turbine-services/inspections",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "a3d6347d7b78d7724a0f",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Maintenance",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/hydro-turbine-services/maintenance",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "ebf4684d25d2da09365f",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Modernizations",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/hydro-turbine-services/modernizations",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "b2803fdcaa1f5dc920ab",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "New Installs",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/hydro-turbine-services/new-installs-hydro",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "0c20164142eb0459da3f",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Repairs",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/hydro-turbine-services/repairs-hydro-turbines",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "a7cac2d2ccb9c421a6e0",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Balance of Plant",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/hydro-turbine-services/balance-of-plant-hydro",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "d95986fcf64585ca4777",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Gas Turbine Services",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/gas-turbine-services",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "4168b5beda8f8b5ad175",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Inspections",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/gas-turbine/inspections-gas",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "57d0592941a09261992e",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Maintenance",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/gas-turbine/maintenance",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "885bd5b7cb83ee84354a",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "New Installs",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/gas-turbine/new-installs",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "d74b58ae2bf847f54f35",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Parts & Repairs",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/gas-turbine/parts-repairs",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "4152f0613f8069757552",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Balance of Plant",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/gas-turbine/balance-of-plant-gas",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "65e105069456531bc64c",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Technical Field Advisor",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/gas-turbine/technical-field-advisor-gas",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "5b57c91f2785020df35f",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Steam Turbine Services",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/steam-turbine",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "13a2c212f7adb5b5f167",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Inspections",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/steam-turbine/inspections",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "6786bc5d8c8b531763cc",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Maintenance",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/steam-turbine/maintenance",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "e35f8e40bcab648d87a6",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Parts",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/steam-turbine/parts",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "f315aac78852ed2baa77",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Repairs",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/steam-turbine/repairs",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "71fd91ee976926bfebda",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Balance of Plant",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/steam-turbine/balance-of-plant",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "374ccf5650666866e672",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Technical Field Advisor",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/steam-turbine/technical-field-advisor",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "ccc68e29929558429cf4",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Field Services",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/about/field-service-expertise",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "3567b5ed0b6fd20c08c2",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Services - Process Plants",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/process-plants",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "2b57a2a4757cb357b781",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Alignment",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/process-plants/alignment-process",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "1861d98645fa4d387ce2",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "New Installs",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/process-plants/new-installs",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "6b0c4f5e0e7bd33445d8",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Repairs",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/process-plants/repairs-process",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "a15c08edfec8ba112d2a",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Preventative / Predictive Maintenance",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/process-plants/preventative-predictive-maintenance",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "20847b5427be168a53fd",
+      "company_id": "turbinepros",
+      "company": "TurbinePROs R.E. Services",
+      "title": "Turnarounds",
+      "location": "Ontario / Canada",
+      "url": "https://turbinepros.com/services/process-plants/turnarounds",
+      "careers_url": "https://turbinepros.com/",
+      "fit": 9,
+      "matched_keywords": [
+        "service",
+        "turbine"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "038bf4547a988fbcb2cf",
+      "company_id": "emnor",
+      "company": "Emnor Mechanical",
+      "title": "Reverse Engineering",
+      "location": "Hamilton",
+      "url": "https://www.emnor.com/reverse-engineering-pump-parts",
+      "careers_url": "https://www.emnor.com/",
+      "fit": 8.5,
+      "matched_keywords": [
+        "pump"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "a5e7001aecfd6e7a0409",
+      "company_id": "emnor",
+      "company": "Emnor Mechanical",
+      "title": "Pump Repair",
+      "location": "Hamilton",
+      "url": "https://www.emnor.com/industrial-pump-repair-service",
+      "careers_url": "https://www.emnor.com/",
+      "fit": 8.5,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "1bd8619bc9ae152881ce",
+      "company_id": "emnor",
+      "company": "Emnor Mechanical",
+      "title": "Learn More",
+      "location": "Hamilton",
+      "url": "https://www.emnor.com/reverse-engineering-pump-parts",
+      "careers_url": "https://www.emnor.com/",
+      "fit": 8.5,
+      "matched_keywords": [
+        "pump"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "b5f046c5c5bdd7181947",
+      "company_id": "emnor",
+      "company": "Emnor Mechanical",
+      "title": "Learn More",
+      "location": "Hamilton",
+      "url": "https://www.emnor.com/industrial-pump-repair-service",
+      "careers_url": "https://www.emnor.com/",
+      "fit": 8.5,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "b35a9da33ce0fe62100c",
+      "company_id": "emnor",
+      "company": "Emnor Mechanical",
+      "title": "repair industrial pumps",
+      "location": "Hamilton",
+      "url": "https://www.emnor.com/industrial-pump-repair-service",
+      "careers_url": "https://www.emnor.com/",
+      "fit": 8.5,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "422824229a680be3e86e",
+      "company_id": "emnor",
+      "company": "Emnor Mechanical",
+      "title": "Pump Repair",
+      "location": "Hamilton",
+      "url": "http://www.emnor.com/industrial-pump-repair-service",
+      "careers_url": "https://www.emnor.com/",
+      "fit": 8.5,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "0d4fb91adb64fc4050ff",
+      "company_id": "ips",
+      "company": "IPS Industrial Pump Sales & Service",
+      "title": "Service & Repair",
+      "location": "Sudbury",
+      "url": "https://ipspump.ca/service-repair",
+      "careers_url": "https://ipspump.ca/",
+      "fit": 8.5,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "a87574fdc32f992eb21a",
+      "company_id": "ips",
+      "company": "IPS Industrial Pump Sales & Service",
+      "title": "View",
+      "location": "Sudbury",
+      "url": "https://ipspump.ca/service-repair",
+      "careers_url": "https://ipspump.ca/",
+      "fit": 8.5,
+      "matched_keywords": [
+        "pump",
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "dfac1c370210226fe8d9",
+      "company_id": "john-brooks",
+      "company": "John Brooks Company",
+      "title": "Accessibility Standards",
+      "location": "Ontario",
+      "url": "https://www.johnbrooks.ca/accessibility-standards-for-customer-service-policy",
+      "careers_url": "https://www.johnbrooks.ca/join-our-team",
+      "fit": 8.5,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "f7d7631db106adc2b93a",
+      "company_id": "john-brooks",
+      "company": "John Brooks Company",
+      "title": "Parts, Service & Repairs",
+      "location": "Ontario",
+      "url": "javascript:;",
+      "careers_url": "https://www.johnbrooks.ca/join-our-team",
+      "fit": 8.5,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "8fd5e95ee0289b5cc27a",
+      "company_id": "john-brooks",
+      "company": "John Brooks Company",
+      "title": "Service",
+      "location": "Ontario",
+      "url": "https://www.johnbrooks.ca/products/services",
+      "careers_url": "https://www.johnbrooks.ca/join-our-team",
+      "fit": 8.5,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "bb18edd4489346dc1b7d",
+      "company_id": "john-brooks",
+      "company": "John Brooks Company",
+      "title": "Read More about our Policy.",
+      "location": "Ontario",
+      "url": "https://www.johnbrooks.ca/accessibility-standards-for-customer-service-policy",
+      "careers_url": "https://www.johnbrooks.ca/join-our-team",
+      "fit": 8.5,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "f65234e6851b8931c882",
+      "company_id": "ksb",
+      "company": "KSB Canada",
+      "title": "Services",
+      "location": "Ontario / Canada",
+      "url": "https://www.ksb.com/en-ca/supremeserv",
+      "careers_url": "https://www.ksb.com/en-ca/about-ksb/career",
+      "fit": 8.5,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    },
+    {
+      "id": "9bbe1f506fb2b00fc084",
+      "company_id": "ksb",
+      "company": "KSB Canada",
+      "title": "Building Services",
+      "location": "Ontario / Canada",
+      "url": "https://www.ksb.com/en-ca/solutions/building-services",
+      "careers_url": "https://www.ksb.com/en-ca/about-ksb/career",
+      "fit": 8.5,
+      "matched_keywords": [
+        "service"
+      ],
+      "first_seen": "2026-08-27T20:18:30.304616+00:00",
+      "is_new": false
+    }
+  ]
 }
