@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-27T21:05:01.271622+00:00",
+  "last_checked": "2026-08-27T21:10:31.928924+00:00",
   "jobs": [
     {
       "external_id": "5539679612",
@@ -24,7 +24,7 @@
       "target_fit": 8.5,
       "key": "Adzuna:5539679612",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "external_id": "5854253838",
@@ -49,7 +49,7 @@
       "target_fit": 8.5,
       "key": "Adzuna:5854253838",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "external_id": "5832067424",
@@ -73,7 +73,7 @@
       "target_fit": 10,
       "key": "Adzuna:5832067424",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "external_id": "5855304700",
@@ -98,7 +98,7 @@
       "target_fit": null,
       "key": "Adzuna:5855304700",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "external_id": "5855293220",
@@ -123,7 +123,7 @@
       "target_fit": null,
       "key": "Adzuna:5855293220",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "external_id": "5830360007",
@@ -147,7 +147,7 @@
       "target_fit": null,
       "key": "Adzuna:5830360007",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "external_id": "5856194567",
@@ -172,7 +172,7 @@
       "target_fit": null,
       "key": "Adzuna:5856194567",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "external_id": "5856194554",
@@ -197,7 +197,7 @@
       "target_fit": null,
       "key": "Adzuna:5856194554",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "external_id": "5841500215",
@@ -223,7 +223,7 @@
       "target_fit": null,
       "key": "Adzuna:5841500215",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "external_id": "5844366084",
@@ -249,7 +249,7 @@
       "target_fit": null,
       "key": "Adzuna:5844366084",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "external_id": "5850939889",
@@ -274,7 +274,7 @@
       "target_fit": null,
       "key": "Adzuna:5850939889",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "external_id": "5854349771",
@@ -298,7 +298,7 @@
       "target_fit": null,
       "key": "Adzuna:5854349771",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "external_id": "5838170955",
@@ -323,7 +323,7 @@
       "target_fit": null,
       "key": "Adzuna:5838170955",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "external_id": "5858171616",
@@ -348,7 +348,7 @@
       "target_fit": null,
       "key": "Adzuna:5858171616",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
-      "is_new": true
+      "is_new": false
     }
   ]
 }
