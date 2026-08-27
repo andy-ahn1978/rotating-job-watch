@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "id": "e02deee47b8910b7e529",
+    "company_id": "comairco",
+    "company": "Comairco",
+    "title": "Aftermarket Sales Representative",
+    "location": "Toronto",
+    "url": "https://comairco.com/careers/aftermarket-sales-representative/",
+    "careers_url": "https://comairco.com/careers/",
+    "source": "Official",
+    "fit": 9,
+    "matched_keywords": [
+      "aftermarket sales",
+      "sales representative"
+    ],
+    "first_seen": "2026-08-27T20:35:38.316445+00:00",
+    "is_new": true
+  }
+]
