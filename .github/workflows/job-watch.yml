@@ -1,4 +1,4 @@
-name: Job Watch V3
+name: Job Watch V4
 
 on:
   schedule:
@@ -15,14 +15,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
       - run: pip install -r requirements.txt
 
-      - name: Check official career pages
+      - name: Search Adzuna and official sources
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
         run: python scripts/monitor.py
 
       - name: Send alerts
@@ -39,6 +40,6 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add jobs.json seen_jobs.json new_jobs.json
           if ! git diff --cached --quiet; then
-            git commit -m "Update monitored jobs"
+            git commit -m "Update V4 monitored jobs"
             git push
           fi
