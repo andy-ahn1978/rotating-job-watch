@@ -16,3 +16,6 @@ nav button{border:1px solid var(--line);background:var(--card);border-radius:10p
 .empty{text-align:center;color:var(--muted);padding:36px 8px}.notice{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px;font-size:13px;margin-bottom:10px}
 .source-row{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
 @media(min-width:620px){.toolbar{grid-template-columns:2fr 1fr}}
+
+.badge.strong{background:#ecfdf5;color:#166534;border-color:#bbf7d0}
+.badge.target{background:#fff7ed;color:#9a3412;border-color:#fed7aa}
