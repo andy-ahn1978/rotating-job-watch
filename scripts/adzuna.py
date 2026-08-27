@@ -1,7 +1,6 @@
 import os
 import re
 import time
-import math
 import requests
 from pathlib import Path
 
@@ -21,25 +20,20 @@ def _norm_company(value):
     return re.sub(r"\s+", " ", value).strip()
 
 
-def _company_matches(result_company, target_name):
-    a = _norm_company(result_company)
-    b = _norm_company(target_name)
-
-    if not a or not b:
+def _company_matches(result_company, target):
+    actual = _norm_company(result_company)
+    if not actual:
         return False
 
-    if a == b or a in b or b in a:
-        return True
+    aliases = [target.get("name", "")]
+    aliases.extend(re.split(r"[|/]", target.get("name", "")))
+    aliases.extend(target.get("aliases", []))
 
-    # Handle names such as "DXP | NATPRO", while avoiding very short/generic tokens.
-    target_parts = [
-        p.strip()
-        for p in re.split(r"[|/]", target_name or "")
-        if len(_norm_company(p.strip())) >= 4
-    ]
-    for part in target_parts:
-        p = _norm_company(part)
-        if p and (p == a or p in a or a in p):
+    for alias in aliases:
+        candidate = _norm_company(alias)
+        if len(candidate) < 4:
+            continue
+        if actual == candidate or actual in candidate or candidate in actual:
             return True
 
     return False
@@ -47,13 +41,13 @@ def _company_matches(result_company, target_name):
 
 def _make_job(x, where, search_query, search_type="keyword", target=None):
     company = (x.get("company") or {}).get("display_name") or "Unknown company"
-    loc = (x.get("location") or {}).get("display_name") or where
+    location = (x.get("location") or {}).get("display_name") or where
 
     return {
         "external_id": str(x.get("id") or ""),
         "company": company,
         "title": x.get("title") or "",
-        "location": loc,
+        "location": location,
         "description": x.get("description") or "",
         "url": x.get("redirect_url") or "",
         "created": x.get("created"),
@@ -78,46 +72,28 @@ def _request_jobs(app_id, app_key, country, where, query, results_per_page):
     }
 
     url = f"{BASE}/{country}/search/1"
-    r = requests.get(
+    response = requests.get(
         url,
         params=params,
         timeout=30,
         headers={"Accept": "application/json"},
     )
-    r.raise_for_status()
-    return r.json()
+    response.raise_for_status()
+    return response.json()
 
 
 def _load_targets():
+    import json
+
     path = ROOT / "targets.json"
     if not path.exists():
         return []
+
     try:
-        import json
         return json.loads(path.read_text(encoding="utf-8"))
-    except Exception as e:
-        print(f"Targets ERROR: {e}")
+    except Exception as exc:
+        print(f"Targets ERROR: {exc}")
         return []
-
-
-def _target_batch(targets, batch_size):
-    """
-    Rotate target-company searches by 12-hour UTC slots.
-    No cursor/state file is required, so GitHub Actions can remain unchanged.
-    """
-    targets = [t for t in targets if t.get("monitor", True) and t.get("name")]
-    if not targets:
-        return [], 0, 0
-
-    batch_size = max(1, min(int(batch_size), len(targets)))
-    batch_count = math.ceil(len(targets) / batch_size)
-
-    slot = int(time.time() // (12 * 60 * 60))
-    batch_index = slot % batch_count
-
-    start = batch_index * batch_size
-    end = min(start + batch_size, len(targets))
-    return targets[start:end], batch_index + 1, batch_count
 
 
 def fetch_adzuna_jobs(config):
@@ -131,14 +107,16 @@ def fetch_adzuna_jobs(config):
     country = config.get("country", "ca")
     where = config.get("where", "Ontario")
     results_per_page = int(config.get("results_per_page", 50))
+    target_results_per_company = int(config.get("target_results_per_company", 20))
 
-    # Keep safely below Adzuna's default 25 hits/minute limit.
+    # Default Adzuna rate limit is commonly 25 requests/minute.
+    # 2.6 sec spacing keeps this run below that level.
     request_delay = float(config.get("adzuna_request_delay_seconds", 2.6))
 
     rows = []
     last_request_at = 0.0
 
-    def run_query(query, result_limit, search_type="keyword", target=None):
+    def run_query(query, result_limit):
         nonlocal last_request_at
 
         elapsed = time.time() - last_request_at
@@ -155,27 +133,21 @@ def fetch_adzuna_jobs(config):
                 result_limit,
             )
             last_request_at = time.time()
-        except Exception as e:
+            return data.get("results", [])
+        except Exception as exc:
             last_request_at = time.time()
-            label = target.get("name") if target else query
-            print(f"Adzuna ERROR [{label}]: {e}")
+            print(f"Adzuna ERROR [{query}]: {exc}")
             return []
 
-        results = data.get("results", [])
-        return results
+    # 1. Broad Ontario keyword searches.
+    queries = config.get("queries", [])
+    for query in queries:
+        results = run_query(query, results_per_page)
 
-    # 1) Broad keyword search across Ontario.
-    for query in config.get("queries", []):
-        results = run_query(
-            query,
-            results_per_page,
-            search_type="keyword",
-        )
-
-        for x in results:
+        for item in results:
             rows.append(
                 _make_job(
-                    x,
+                    item,
                     where,
                     query,
                     search_type="keyword",
@@ -184,43 +156,32 @@ def fetch_adzuna_jobs(config):
 
         print(f"Adzuna keyword [{query}]: {len(results)} results")
 
-    # 2) Direct target-company search.
-    targets = _load_targets()
-    target_batch_size = int(config.get("target_batch_size", 35))
-    target_results_per_company = int(config.get("target_results_per_company", 20))
+    # 2. Search EVERY monitored target company once per workflow run.
+    targets = [
+        target for target in _load_targets()
+        if target.get("monitor", True) and target.get("name")
+    ]
 
-    selected, batch_no, batch_count = _target_batch(targets, target_batch_size)
+    print(f"Adzuna target-company scan: {len(targets)} targets")
 
-    if selected:
-        print(
-            f"Adzuna target-company batch {batch_no}/{batch_count}: "
-            f"{len(selected)} of {len([t for t in targets if t.get('monitor', True)])} targets"
-        )
+    matched_target_ads = 0
 
-    for target in selected:
-        target_name = target.get("name", "").strip()
-        if not target_name:
-            continue
-
-        results = run_query(
-            target_name,
-            target_results_per_company,
-            search_type="target_company",
-            target=target,
-        )
+    for number, target in enumerate(targets, start=1):
+        target_name = target["name"].strip()
+        results = run_query(target_name, target_results_per_company)
 
         matched = 0
-        for x in results:
-            result_company = (x.get("company") or {}).get("display_name") or ""
+        for item in results:
+            employer = (item.get("company") or {}).get("display_name") or ""
 
-            # Company-name searches can match a company mentioned only in the ad text.
-            # Keep only ads whose employer actually matches the target.
-            if not _company_matches(result_company, target_name):
+            # Adzuna's "what" field may find a company mentioned only in ad text.
+            # Only keep results where the actual listed employer matches our target.
+            if not _company_matches(employer, target):
                 continue
 
             rows.append(
                 _make_job(
-                    x,
+                    item,
                     where,
                     target_name,
                     search_type="target_company",
@@ -228,10 +189,17 @@ def fetch_adzuna_jobs(config):
                 )
             )
             matched += 1
+            matched_target_ads += 1
 
         print(
-            f"Adzuna target [{target_name}]: "
+            f"Adzuna target [{number}/{len(targets)}] [{target_name}]: "
             f"{matched} employer-matched / {len(results)} search results"
         )
+
+    print(
+        f"Adzuna scan complete: "
+        f"{len(queries)} keyword queries + {len(targets)} target companies; "
+        f"{matched_target_ads} target-company ads matched"
+    )
 
     return rows
