@@ -4,251 +4,172 @@ import re
 import hashlib
 from pathlib import Path
 from datetime import datetime, timezone
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
-TARGETS = json.loads((ROOT / "targets.json").read_text())
-SEEN_PATH = ROOT / "seen_jobs.json"
-JOBS_PATH = ROOT / "jobs.json"
+TARGETS = json.loads((ROOT/"targets.json").read_text())
+JOBS_PATH = ROOT/"jobs.json"
+SEEN_PATH = ROOT/"seen_jobs.json"
 
-seen = json.loads(SEEN_PATH.read_text()) if SEEN_PATH.exists() else {
-    "initialized": False,
-    "ids": []
-}
-seen_ids = set(seen.get("ids", []))
-initialized = bool(seen.get("initialized", False))
-
-ROLE_KEYWORDS = [
-    "technical sales",
-    "sales representative",
-    "sales engineer",
-    "account manager",
-    "territory sales",
-    "territory manager",
-    "aftermarket sales",
-    "aftermarket",
-    "business development",
-    "product support",
-    "service sales",
-    "reliability",
-    "condition monitoring",
-    "rotating equipment",
-    "compressor",
-    "pump",
-    "blower",
-    "retrofit",
-    "sales specialist",
-    "account executive",
+ROLE_WORDS = [
+    "sales","account","manager","representative","engineer","specialist",
+    "business development","territory","aftermarket","reliability",
+    "condition monitoring","product support","advisor"
 ]
 
-GENERIC_TITLES = {
-    "home", "services", "service", "products", "product", "about", "about us",
-    "contact", "contact us", "careers", "career", "jobs", "job opportunities",
-    "learn more", "read more", "view", "view more", "request service",
-    "parts", "equipment", "solutions", "industries", "privacy policy",
-    "terms & conditions", "terms and conditions", "accessibility standards",
-}
+ONTARIO_TERMS = [
+    "ontario","toronto","mississauga","burlington","hamilton","stoney creek",
+    "sarnia","cambridge","kitchener","guelph","sudbury","oakville","london",
+    "windsor","niagara","brampton","etobicoke","all locations"
+]
 
-def norm(s):
-    return re.sub(r"\s+", " ", s or "").strip()
+def norm(x):
+    return re.sub(r"\s+"," ",x or "").strip()
 
-def make_id(company_id, title, url):
-    raw = f"{company_id}|{title.lower()}|{url}"
-    return hashlib.sha1(raw.encode()).hexdigest()[:20]
+def jid(cid,title,url):
+    return hashlib.sha1(f"{cid}|{title.lower()}|{url}".encode()).hexdigest()[:20]
 
-def is_bad_scheme(url):
-    return url.startswith(("mailto:", "tel:", "javascript:", "#"))
+def fetch(url):
+    r=requests.get(url,headers={"User-Agent":"Mozilla/5.0 RotatingJobWatch/3.2"},timeout=30)
+    r.raise_for_status()
+    return r.text
 
-def clean_url(base, href):
-    if not href:
-        return None
-    url = urljoin(base, href)
-    if is_bad_scheme(url):
-        return None
-    return url
+def role_relevant(title,target):
+    t=title.lower()
+    target_words=target.get("keywords",[])
+    matched=sorted({k for k in target_words if k.lower() in t})
+    strong=any(w in t for w in ROLE_WORDS)
+    return strong,matched
 
-def extract_links(html, base):
-    soup = BeautifulSoup(html, "html.parser")
-    links = []
-    for a in soup.find_all("a", href=True):
-        title = norm(a.get_text(" ", strip=True))
-        url = clean_url(base, a.get("href"))
-        if not url or not title:
+def ontario_relevant(location):
+    l=(location or "").lower()
+    return any(x in l for x in ONTARIO_TERMS)
+
+def parse_comairco(target):
+    html=fetch(target["careers_url"])
+    soup=BeautifulSoup(html,"html.parser")
+    jobs=[]
+    seen_urls=set()
+
+    # Actual job detail links on Comairco are under /careers/<job-slug>/
+    for a in soup.find_all("a",href=True):
+        url=urljoin(target["careers_url"],a["href"])
+        path=url.lower().split("comairco.com",1)[-1].split("?",1)[0].rstrip("/")
+        if not path.startswith("/careers/") or path=="/careers":
             continue
-        links.append((title, url))
-    return links
+        if url in seen_urls:
+            continue
 
-def title_looks_like_job(title):
-    t = title.lower().strip()
-    if t in GENERIC_TITLES:
-        return False
-    if len(t) < 5:
-        return False
-    strong = [
-        "sales", "account manager", "manager", "specialist", "engineer",
-        "representative", "business development", "advisor", "coordinator",
-        "technician", "supervisor", "director", "leader"
-    ]
-    return any(k in t for k in strong)
+        # Find the containing block to recover title/location.
+        block=a
+        for _ in range(5):
+            if block.parent is None: break
+            block=block.parent
+            text=norm(block.get_text(" ",strip=True))
+            if len(text)>20:
+                break
+        text=norm(block.get_text(" ",strip=True))
+        # Prefer heading text in the same block.
+        heading=block.find(["h2","h3","h4","h5","strong"])
+        title=norm(heading.get_text(" ",strip=True)) if heading else norm(a.get_text(" ",strip=True))
+        if title.lower() in {"see the detailed job offer","learn more","view"} or len(title)<4:
+            # infer first meaningful line before the link label
+            chunks=[norm(x) for x in re.split(r"\s{2,}|\|",text) if norm(x)]
+            title=next((x for x in chunks if any(w in x.lower() for w in ROLE_WORDS)), title)
 
-def matched_keywords(title, target):
-    blob = title.lower()
-    kws = ROLE_KEYWORDS + target.get("keywords", [])
-    return sorted({k for k in kws if k in blob})
+        strong,matched=role_relevant(title,target)
+        if not strong:
+            continue
 
-def url_is_job_detail(target, url, title):
-    cid = target["id"]
-    u = url.lower()
+        location="Ontario"
+        for term in ONTARIO_TERMS:
+            if term in text.lower():
+                location=term.title()
+                break
 
-    if cid == "atlas-copco":
-        return "/jobs/" in u and (
-            "/job-detail/" in u
-            or "job-detail" in u
-        ) and title_looks_like_job(title)
+        # Exclude clearly non-Ontario locations unless "All locations".
+        non_on=["saskatoon","alberta","quebec","laval","dartmouth","nova scotia","new brunswick",
+                "boston","new york","syracuse","nashua","leominster","massachusetts"]
+        if any(x in text.lower() for x in non_on) and "all locations" not in text.lower():
+            continue
 
-    if cid == "ingersoll-rand":
-        return (
-            "careers.irco.com" in u
-            and any(x in u for x in ["/job/", "/jobdetail/", "/job-detail/", "/jobs/"])
-            and title_looks_like_job(title)
-        )
+        seen_urls.add(url)
+        jobs.append({
+            "id":jid(target["id"],title,url),
+            "company_id":target["id"],
+            "company":target["name"],
+            "title":title,
+            "location":location,
+            "url":url,
+            "careers_url":target["careers_url"],
+            "source":"Official",
+            "fit":target["fit"],
+            "matched_keywords":matched
+        })
+    return jobs
 
-    if cid == "sulzer":
-        return (
-            "jobs.sulzer.com" in u
-            and any(x in u for x in ["/job/", "/jobdetail/", "/job-detail/"])
-            and title_looks_like_job(title)
-        )
-
-    if cid == "ksb":
-        return (
-            any(x in u for x in ["jobs.ksb.com", "/career/job", "/career/jobs", "/job/"])
-            and title_looks_like_job(title)
-        )
-
-    if cid == "comairco":
-        p = urlparse(u).path.rstrip("/")
-        return (
-            p.startswith("/careers/")
-            and p != "/careers"
-            and title_looks_like_job(title)
-        )
-
-    if cid == "john-brooks":
-        return (
-            any(x in u for x in ["/career-opportunities/", "/careers/", "/jobs/", "/job/"])
-            and "join-our-team" not in u
-            and title_looks_like_job(title)
-        )
-
-    if cid == "dxp-natpro":
-        return (
-            any(x in u for x in ["/job/", "/jobs/", "/careers/job", "/career/job"])
-            and title_looks_like_job(title)
-        )
-
-    if cid in {
-        "avt", "pneuair", "blowvac", "red-systems", "trade-mark",
-        "emnor", "precision-concepts", "ips", "turbinepros"
-    }:
-        return (
-            any(x in u for x in ["/careers/", "/career/", "/jobs/", "/job/"])
-            and title_looks_like_job(title)
-        )
-
-    return (
-        any(x in u for x in ["/careers/", "/career/", "/jobs/", "/job/"])
-        and title_looks_like_job(title)
-    )
+def parse_generic_job_urls(target):
+    # Conservative fallback only for targets explicitly marked direct later.
+    html=fetch(target["careers_url"])
+    soup=BeautifulSoup(html,"html.parser")
+    jobs=[]
+    for a in soup.find_all("a",href=True):
+        title=norm(a.get_text(" ",strip=True))
+        url=urljoin(target["careers_url"],a["href"])
+        u=url.lower()
+        if not any(p in u for p in ["/job-detail/","/job/","/jobs/","/careers/"]):
+            continue
+        if u.rstrip("/")==target["careers_url"].lower().rstrip("/"):
+            continue
+        strong,matched=role_relevant(title,target)
+        if not strong:
+            continue
+        jobs.append({
+            "id":jid(target["id"],title,url),"company_id":target["id"],"company":target["name"],
+            "title":title,"location":target["region"],"url":url,"careers_url":target["careers_url"],
+            "source":"Official","fit":target["fit"],"matched_keywords":matched
+        })
+    unique={j["id"]:j for j in jobs}
+    return list(unique.values())
 
 def check_target(target):
-    url = target["careers_url"]
-
+    if target.get("monitor_mode")!="direct":
+        print(f"{target['name']}: external-only")
+        return []
     try:
-        r = requests.get(
-            url,
-            headers={"User-Agent": "Mozilla/5.0 RotatingJobWatch/3.1"},
-            timeout=25
-        )
-        r.raise_for_status()
+        if target["id"]=="comairco":
+            jobs=parse_comairco(target)
+        else:
+            jobs=parse_generic_job_urls(target)
+        print(f"{target['name']}: {len(jobs)} validated jobs")
+        return jobs
     except Exception as e:
-        print("ERROR", target["name"], e)
+        print(f"{target['name']}: ERROR {e}")
         return []
 
-    results = {}
-    for title, link in extract_links(r.text, url):
-        if not url_is_job_detail(target, link, title):
-            continue
+old=json.loads(JOBS_PATH.read_text()) if JOBS_PATH.exists() else {"jobs":[]}
+old_first={j["id"]:j.get("first_seen") for j in old.get("jobs",[])}
+seen=json.loads(SEEN_PATH.read_text()) if SEEN_PATH.exists() else {"initialized":False,"ids":[]}
+seen_ids=set(seen.get("ids",[]))
+initialized=bool(seen.get("initialized",False))
+now=datetime.now(timezone.utc).isoformat()
 
-        matched = matched_keywords(title, target)
-        if not matched:
-            continue
+jobs=[]
+for t in TARGETS:
+    jobs.extend(check_target(t))
 
-        jid = make_id(target["id"], title, link)
-        results[jid] = {
-            "id": jid,
-            "company_id": target["id"],
-            "company": target["name"],
-            "title": title,
-            "location": target["region"],
-            "url": link,
-            "careers_url": target["careers_url"],
-            "fit": target["fit"],
-            "matched_keywords": matched[:6],
-        }
+for j in jobs:
+    j["first_seen"]=old_first.get(j["id"]) or now
+    j["is_new"]=initialized and j["id"] not in seen_ids
 
-    return list(results.values())
+jobs=sorted(jobs,key=lambda j:(not j["is_new"],-j["fit"],j["company"],j["title"]))
+JOBS_PATH.write_text(json.dumps({"last_checked":now,"jobs":jobs},indent=2,ensure_ascii=False))
 
-old_payload = json.loads(JOBS_PATH.read_text()) if JOBS_PATH.exists() else {"jobs": []}
-old_first_seen = {
-    j["id"]: j.get("first_seen")
-    for j in old_payload.get("jobs", [])
-}
+all_ids={j["id"] for j in jobs}
+SEEN_PATH.write_text(json.dumps({"initialized":True,"ids":sorted(seen_ids|all_ids)},indent=2))
+(ROOT/"new_jobs.json").write_text(json.dumps([j for j in jobs if j["is_new"]],indent=2,ensure_ascii=False))
 
-now = datetime.now(timezone.utc).isoformat()
-all_jobs = []
-
-for target in TARGETS:
-    found = check_target(target)
-    print(f"{target['name']}: {len(found)} job candidates")
-    all_jobs.extend(found)
-
-for job in all_jobs:
-    job["first_seen"] = old_first_seen.get(job["id"]) or now
-    job["is_new"] = initialized and job["id"] not in seen_ids
-
-all_jobs = sorted(
-    all_jobs,
-    key=lambda x: (
-        not x["is_new"],
-        -x["fit"],
-        x["company"],
-        x["title"]
-    )
-)
-
-payload = {
-    "last_checked": now,
-    "jobs": all_jobs
-}
-JOBS_PATH.write_text(json.dumps(payload, indent=2, ensure_ascii=False))
-
-all_ids = {j["id"] for j in all_jobs}
-SEEN_PATH.write_text(json.dumps({
-    "initialized": True,
-    "ids": sorted(seen_ids | all_ids)
-}, indent=2))
-
-new_jobs = [j for j in all_jobs if j["is_new"]]
-(ROOT / "new_jobs.json").write_text(
-    json.dumps(new_jobs, indent=2, ensure_ascii=False)
-)
-
-print(
-    f"Checked {len(TARGETS)} targets; "
-    f"{len(all_jobs)} validated job links; "
-    f"{len(new_jobs)} new."
-)
+print(f"Checked {len(TARGETS)} targets; {len(jobs)} validated official jobs; {sum(j['is_new'] for j in jobs)} new.")
