@@ -60,7 +60,8 @@ dedup={}
 for job in raw:
     if not job.get("title") or not job.get("url"):
         continue
-    score,positive,negative=score_job(job,CONFIG)
+    score_result=score_job(job, CONFIG)
+    score,positive,negative=score_result[:3]
     if score < float(CONFIG.get("minimum_score",5)):
         continue
 
