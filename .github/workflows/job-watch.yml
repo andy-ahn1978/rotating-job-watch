@@ -1,4 +1,4 @@
-name: Job Watch V4
+name: Job Watch V6
 
 on:
   workflow_dispatch:
