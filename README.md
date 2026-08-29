@@ -1,3 +1,29 @@
+V6 Learning UI patch
+
+Replace these repository-root files:
+- index.html
+- app.js
+- styles.css
+- profile.json
+- targets.json
+- sw.js
+
+Keep your existing jobs.json, search_config.json, scripts/, workflow files and applications_seed.json.
+
+New:
+- 120 target companies
+- Job Fit and Company Fit shown separately
+- Canadian Experience A+ to F classification from job text
+- Employment classification; explicit contract/temporary/part-time/intern/co-op/seasonal/casual hidden by default
+- Not a Match + reason, stored locally as future ML training data
+- Hidden Jobs tab with Restore
+- Learning-data export (hidden decisions + applications)
+- Education/University removed from My Profile
+
+Important:
+This V6 patch deliberately does NOT replace the working backend scanner. Employment and Canadian-experience classification currently happen in the browser UI. This avoids risking the proven target-company scan. A later backend patch can use the collected rules/data for Telegram filtering and ML.
+
+
 # V5 Fixed UI patch
 
 Replace these four files in the repository root:
