@@ -1064,5 +1064,461 @@
     ],
     "scope": "Ontario",
     "monitor": true
+  },
+  {
+    "id": "canex-technologies",
+    "name": "Canex Technologies",
+    "fit": 9.4,
+    "category": "Pump / Compressor Distributor & Service",
+    "equipment": [
+      "pump",
+      "compressor",
+      "repair",
+      "service"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "pumps-plus",
+    "name": "Pumps Plus",
+    "fit": 9.4,
+    "category": "Rotating Equipment Sales & Service",
+    "equipment": [
+      "pump",
+      "rotating equipment",
+      "repair",
+      "rebuild"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "quad-industrial-group",
+    "name": "Quad Industrial Group",
+    "fit": 9.3,
+    "category": "Reliability / Condition Monitoring",
+    "equipment": [
+      "vibration",
+      "condition monitoring",
+      "lubrication"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "vibelube",
+    "name": "VibeLube",
+    "fit": 9.2,
+    "category": "Reliability / Condition Monitoring",
+    "equipment": [
+      "vibration",
+      "condition monitoring",
+      "balancing"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "canada-predictive-maintenance",
+    "name": "Canada Predictive Maintenance",
+    "fit": 9.2,
+    "category": "Reliability / Condition Monitoring",
+    "equipment": [
+      "vibration",
+      "balancing",
+      "alignment",
+      "thermography"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "fantactics-dynamic-balancing",
+    "name": "FanTactics Dynamic Balancing",
+    "fit": 9.0,
+    "category": "Rotating Equipment Reliability Service",
+    "equipment": [
+      "balancing",
+      "vibration",
+      "fan",
+      "rotor"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "gratec-limited",
+    "name": "Gratec Limited",
+    "fit": 9.0,
+    "category": "Rotating Equipment Service",
+    "equipment": [
+      "mixer",
+      "rotating equipment",
+      "service"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "rudi-kovacko-associates",
+    "name": "Rudi Kovacko & Associates",
+    "fit": 9.3,
+    "category": "Pump Distributor / Rotating Service",
+    "equipment": [
+      "pump",
+      "gearbox",
+      "fan",
+      "blower"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "matcom-industrial",
+    "name": "Matcom Industrial",
+    "fit": 8.2,
+    "category": "Industrial Mechanical Service",
+    "equipment": [
+      "pump",
+      "repair",
+      "millwright"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "alliance-technical-group-canada",
+    "name": "Alliance Technical Group Canada",
+    "fit": 8.0,
+    "category": "Industrial Field Service / Environmental",
+    "equipment": [
+      "field service",
+      "emissions",
+      "CEMS"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "airmax-compressor-services",
+    "name": "Airmax Compressor Services",
+    "fit": 9.3,
+    "category": "Compressor Distributor & Service",
+    "equipment": [
+      "compressor",
+      "service"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "wajax",
+    "name": "Wajax",
+    "fit": 8.9,
+    "category": "Rotating Equipment / Industrial Service",
+    "equipment": [
+      "motor",
+      "pump",
+      "rotating equipment"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "delom-services",
+    "name": "Delom Services",
+    "fit": 9.0,
+    "category": "Rotating Equipment Reliability Service",
+    "equipment": [
+      "motor",
+      "generator",
+      "vibration",
+      "alignment"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "vibes-corp",
+    "name": "VIBES Corp",
+    "fit": 9.1,
+    "category": "Rotating Equipment Reliability Service",
+    "equipment": [
+      "vibration",
+      "balancing",
+      "alignment"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "hydro-inc",
+    "name": "Hydro Inc.",
+    "fit": 8.8,
+    "category": "Pump Aftermarket / Service",
+    "equipment": [
+      "pump",
+      "repair",
+      "reliability"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "hayward-gordon",
+    "name": "Hayward Gordon",
+    "fit": 8.8,
+    "category": "Pump / Mixer OEM",
+    "equipment": [
+      "pump",
+      "mixer"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "alfa-laval",
+    "name": "Alfa Laval",
+    "fit": 8.0,
+    "category": "Process / Rotating Equipment",
+    "equipment": [
+      "pump",
+      "separator",
+      "process equipment"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "gea-canada",
+    "name": "GEA Canada",
+    "fit": 7.8,
+    "category": "Process / Rotating Equipment",
+    "equipment": [
+      "compressor",
+      "pump",
+      "process equipment"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "burckhardt-compression",
+    "name": "Burckhardt Compression",
+    "fit": 9.8,
+    "category": "Reciprocating Compressor OEM & Service",
+    "equipment": [
+      "reciprocating compressor",
+      "aftermarket",
+      "service"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "hoerbiger-canada",
+    "name": "HOERBIGER Canada",
+    "fit": 10.0,
+    "category": "Compressor Components / Service",
+    "equipment": [
+      "compressor valve",
+      "packing",
+      "rings"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "cook-compression",
+    "name": "Cook Compression",
+    "fit": 9.8,
+    "category": "Reciprocating Compressor Aftermarket",
+    "equipment": [
+      "reciprocating compressor",
+      "valve",
+      "packing"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "cpi-compression",
+    "name": "CPI Compression",
+    "fit": 10.0,
+    "category": "Reciprocating Compressor Aftermarket",
+    "equipment": [
+      "reciprocating compressor",
+      "valve",
+      "packing",
+      "lubrication"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "baker-hughes",
+    "name": "Baker Hughes",
+    "fit": 8.9,
+    "category": "Turbomachinery / Industrial Service",
+    "equipment": [
+      "compressor",
+      "turbine",
+      "condition monitoring"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "siemens-energy",
+    "name": "Siemens Energy",
+    "fit": 8.8,
+    "category": "Turbomachinery / Service",
+    "equipment": [
+      "compressor",
+      "turbine",
+      "service"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "man-energy-solutions-canada",
+    "name": "MAN Energy Solutions Canada",
+    "fit": 9.0,
+    "category": "Compressor / Turbomachinery",
+    "equipment": [
+      "compressor",
+      "turbomachinery",
+      "service"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "elliott-group",
+    "name": "Elliott Group",
+    "fit": 9.1,
+    "category": "Turbomachinery OEM & Service",
+    "equipment": [
+      "compressor",
+      "turbine",
+      "service"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "dresser-rand",
+    "name": "Dresser-Rand",
+    "fit": 9.0,
+    "category": "Turbomachinery / Service",
+    "equipment": [
+      "compressor",
+      "turbine",
+      "service"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "voith-canada",
+    "name": "Voith Canada",
+    "fit": 8.0,
+    "category": "Industrial Drive / Rotating Equipment",
+    "equipment": [
+      "drive",
+      "rotating equipment"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "flender",
+    "name": "Flender",
+    "fit": 8.3,
+    "category": "Gearbox / Drive Systems",
+    "equipment": [
+      "gearbox",
+      "coupling"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "sew-eurodrive-canada",
+    "name": "SEW-EURODRIVE Canada",
+    "fit": 8.1,
+    "category": "Drive Systems / Service",
+    "equipment": [
+      "gearbox",
+      "motor",
+      "drive"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "dodge-industrial-canada",
+    "name": "Dodge Industrial Canada",
+    "fit": 8.2,
+    "category": "Bearings / Couplings / Drives",
+    "equipment": [
+      "bearing",
+      "coupling",
+      "gearbox"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "regal-rexnord-canada",
+    "name": "Regal Rexnord Canada",
+    "fit": 8.2,
+    "category": "Motors / Bearings / Drives",
+    "equipment": [
+      "motor",
+      "bearing",
+      "coupling"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "eriks-canada",
+    "name": "ERIKS Canada",
+    "fit": 8.2,
+    "category": "Industrial Components / Service",
+    "equipment": [
+      "seal",
+      "industrial service"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "gates-canada",
+    "name": "Gates Canada",
+    "fit": 7.8,
+    "category": "Power Transmission",
+    "equipment": [
+      "belt",
+      "power transmission"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "itt-pro-services",
+    "name": "ITT PRO Services",
+    "fit": 9.2,
+    "category": "Rotating Equipment Aftermarket Service",
+    "equipment": [
+      "pump",
+      "rotating equipment",
+      "repair"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
   }
 ]

@@ -100,3 +100,10 @@ nav button.active{background:var(--accent);color:white;border-color:var(--accent
   .timeline-head{display:block}
   .period{margin-top:5px}
 }
+
+.badge.company-fit{font-weight:700}
+.badge.employment.good{border-color:#86efac}
+.badge.employment.warning,.badge.warning{border-color:#fca5a5}
+.badge.canada-Aplus,.badge.canada-A{font-weight:700}
+.badge.canada-E,.badge.canada-F{border-color:#fca5a5;font-weight:700}
+.btn.not-match{border-color:#d1d5db}

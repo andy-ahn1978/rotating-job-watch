@@ -1,8 +1,10 @@
 let targets=[],payload={last_checked:null,jobs:[]},config={},profile={},seedApplications=[],view='new';
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
 
-const APPKEY='career-job-watch.v5.applications';
+const APPKEY='career-job-watch.v6.applications';
 const STATUS=['Applied','Screening','Assessment','Interview','Final Interview','Offer','Rejected','No Response','Withdrawn'];
+const HIDDENKEY='career-job-watch.v6.hiddenJobs';
+const REASONS=['Wrong occupation','Contract / Temporary','Part-time','Too junior','Too senior','Canadian experience required','Wrong industry','Wrong location','Compensation too low','Other'];
 
 let jobSearchPreset='';
 
@@ -128,8 +130,90 @@ function activePipeline(a){
   return ['Screening','Assessment','Interview','Final Interview'].includes(a.status);
 }
 
+
+function hiddenJobs(){
+  try{const x=JSON.parse(localStorage.getItem(HIDDENKEY));return Array.isArray(x)?x:[];}catch(e){return[]}
+}
+function saveHidden(x){localStorage.setItem(HIDDENKEY,JSON.stringify(x))}
+function jobId(j){return String(j.key||j.external_id||j.url||[j.company,j.title,j.location].join('|'))}
+function isHidden(j){return hiddenJobs().some(x=>x.job_id===jobId(j))}
+function hideJob(j){
+  const reason=prompt('Why is this not a match?\n\n'+REASONS.map((x,i)=>`${i+1}. ${x}`).join('\n')+'\n\nEnter number or short reason:','1');
+  if(reason===null)return;
+  let label=reason.trim();
+  const n=Number(label);
+  if(Number.isInteger(n)&&n>=1&&n<=REASONS.length)label=REASONS[n-1];
+  if(!label)label='Other';
+  const rows=hiddenJobs().filter(x=>x.job_id!==jobId(j));
+  rows.push({
+    job_id:jobId(j), company:j.company||'', title:j.title||'', location:j.location||'',
+    url:j.url||'', reason:label, hidden_date:today(),
+    features:learningFeatures(j)
+  });
+  saveHidden(rows); render();
+}
+function restoreHidden(id){saveHidden(hiddenJobs().filter(x=>x.job_id!==id));render()}
+
+function targetForCompany(company){
+  return targets.find(t=>targetMatchesCompany(t,company||''))||null;
+}
+function companyFit(j){
+  const t=targetForCompany(j.company);
+  return t?Number(t.fit||0):0;
+}
+function employmentInfo(j){
+  const ct=String(j.contract_time||'').toLowerCase();
+  const typ=String(j.contract_type||'').toLowerCase();
+  const text=[j.title,j.description,j.contract_time,j.contract_type].join(' ').toLowerCase();
+  const bad=[
+    [/\bpart[- ]time\b/,'Part-time'],
+    [/\btemporary\b|\btemp position\b/,'Temporary'],
+    [/\bintern(ship)?\b/,'Internship'],
+    [/\bco[- ]?op\b/,'Co-op'],
+    [/\bseasonal\b/,'Seasonal'],
+    [/\bcasual\b/,'Casual'],
+    [/\bfixed[- ]term\b/,'Fixed-term'],
+    [/\b\d+\s*[- ]?(month|months|year|years)\s+contract\b/,'Contract'],
+    [/\bcontract (role|position|employment|term)\b/,'Contract']
+  ];
+  if(ct==='part_time')return {grade:'NO',label:'Part-time',eligible:false};
+  if(typ==='contract')return {grade:'NO',label:'Contract',eligible:false};
+  for(const [rx,label] of bad)if(rx.test(text))return {grade:'NO',label,eligible:false};
+  const full=ct==='full_time'||/\bfull[- ]time\b/.test(text);
+  const perm=typ==='permanent'||/\bpermanent\b/.test(text);
+  if(full&&perm)return {grade:'BEST',label:'Full-time · Permanent',eligible:true};
+  if(full)return {grade:'OK',label:'Full-time',eligible:true};
+  if(perm)return {grade:'OK',label:'Permanent',eligible:true};
+  return {grade:'?',label:'Employment not stated',eligible:true};
+}
+function canadaExpInfo(j){
+  const text=[j.title,j.description].join(' ').toLowerCase();
+  if(/\b(no canadian experience required|canadian experience (is )?not required|experience in canada (is )?not required)\b/.test(text))
+    return {grade:'A+',label:'Canadian exp. not required'};
+  if(/\b\d+\+?\s*(years?|yrs?)\s+(of )?(canadian|canada|in canada).{0,35}(required|must|mandatory)|\b(required|must have|mandatory).{0,35}\d+\+?\s*(years?|yrs?).{0,20}(canadian|canada)\b/.test(text))
+    return {grade:'F',label:'Years of Canadian exp. required'};
+  if(/\b(canadian experience|experience in canada|canadian market experience).{0,30}(required|must have|mandatory)\b|\b(required|must have|mandatory).{0,30}(canadian experience|experience in canada)\b/.test(text))
+    return {grade:'E',label:'Canadian exp. required'};
+  if(/\b(canadian experience|canadian market experience).{0,25}strongly preferred\b|\bstrongly preferred.{0,25}(canadian experience|canadian market experience)\b/.test(text))
+    return {grade:'D',label:'Canadian exp. strongly preferred'};
+  if(/\b(canadian market|canada market).{0,30}(knowledge|familiarity|understanding).{0,30}(preferred|asset|nice to have)\b/.test(text))
+    return {grade:'C',label:'Canadian market familiarity preferred'};
+  if(/\b(canadian experience|experience in canada|canadian market experience).{0,30}(preferred|asset|nice to have)\b/.test(text))
+    return {grade:'B',label:'Canadian exp. preferred'};
+  return {grade:'A',label:'Canadian exp. not mentioned'};
+}
+function learningFeatures(j){
+  const e=employmentInfo(j),c=canadaExpInfo(j);
+  return {
+    job_fit:Number(j.score||0), company_fit:companyFit(j),
+    canada_experience:c.grade, employment:e.label,
+    target_company:!!j.target_company, source:j.source||'',
+    matched_keywords:j.matched_keywords||[]
+  };
+}
+
 function render(){
-  const jobs=payload.jobs||[];
+  const jobs=(payload.jobs||[]).filter(j=>!isHidden(j));
   const newJobs=jobs.filter(j=>j.is_new);
   const apps=allApps();
   $('#newCount').textContent=newJobs.length;
@@ -143,6 +227,7 @@ function render(){
   if(view==='all')jobView(jobs,false);
   if(view==='companies')companyView();
   if(view==='applications')applicationsView();
+  if(view==='hidden')hiddenView();
   if(view==='profile')profileView();
 }
 
@@ -156,6 +241,11 @@ function jobView(jobs,newOnly){
       <select id="targetFilter" class="select">
         <option value="">All companies</option><option value="target">Target companies only</option>
       </select>
+      <select id="employmentFilter" class="select">
+        <option value="eligible">Hide explicit contract / part-time</option>
+        <option value="">Show all employment types</option>
+        <option value="best">Full-time + Permanent stated</option>
+      </select>
     </div>
     <div id="jobList"></div>`;
 
@@ -168,10 +258,13 @@ function jobView(jobs,newOnly){
     const q=$('#search').value.toLowerCase();
     const src=$('#sourceFilter').value;
     const target=$('#targetFilter').value;
+    const emp=$('#employmentFilter').value;
     const arr=jobs
       .filter(j=>[j.title,j.company,j.location,(j.matched_keywords||[]).join(' ')].join(' ').toLowerCase().includes(q))
       .filter(j=>!src||j.source===src)
-      .filter(j=>target!=='target'||j.target_company);
+      .filter(j=>target!=='target'||j.target_company)
+      .filter(j=>!isHidden(j))
+      .filter(j=>emp==='' || (emp==='eligible'&&employmentInfo(j).eligible) || (emp==='best'&&employmentInfo(j).grade==='BEST'));
 
     $('#jobList').innerHTML=arr.length?arr.map(j=>{
       const strong=Number(j.score)>=Number(config.strong_match_score||8);
@@ -190,7 +283,10 @@ function jobView(jobs,newOnly){
         </div>
         <div class="meta">${esc(j.location||'')} · ${esc(j.source||'')} ${salary?'· '+esc(salary):''}</div>
         <div class="badges">
-          <span class="badge fit">Fit ${esc(j.score)}/10</span>
+          <span class="badge fit">Job Fit ${esc(j.score)}/10</span>
+          ${companyFit(j)?`<span class="badge company-fit">Company Fit ${esc(companyFit(j))}/10</span>`:''}
+          <span class="badge employment ${employmentInfo(j).eligible?'good':'warning'}">${esc(employmentInfo(j).label)}</span>
+          <span class="badge canada canada-${esc(canadaExpInfo(j).grade).replace('+','plus')}">Canada Exp ${esc(canadaExpInfo(j).grade)} · ${esc(canadaExpInfo(j).label.replace('Canadian exp. ','').replace('Canadian market ',''))}</span>
           ${strong?'<span class="badge strong">Strong match</span>':''}
           ${j.target_company?'<span class="badge target">Target company</span>':''}
           ${(j.matched_keywords||[]).slice(0,5).map(k=>`<span class="badge">${esc(k)}</span>`).join('')}
@@ -200,6 +296,7 @@ function jobView(jobs,newOnly){
           ${applied
             ? `<button class="btn applied-btn" disabled>Applied ${dateOnly(applied.date)}</button>`
             : `<button class="btn apply-btn" data-apply="${esc(j.key||j.external_id||'')}">Mark Applied</button>`}
+          <button class="btn not-match" data-hide="${esc(jobId(j))}">Not a Match</button>
           <a class="btn linkedin" href="https://www.linkedin.com/jobs/search/?keywords=${encodeURIComponent(j.company+' '+j.title)}&location=Ontario%2C%20Canada" target="_blank" rel="noopener">LinkedIn</a>
           <a class="btn indeed" href="https://ca.indeed.com/jobs?q=${encodeURIComponent(j.company+' '+j.title)}&l=Ontario" target="_blank" rel="noopener">Indeed</a>
         </div>
@@ -211,10 +308,15 @@ function jobView(jobs,newOnly){
       const j=jobs.find(x=>(x.key||x.external_id||'')===id);
       if(j)markApplied(j);
     });
+    $$('[data-hide]').forEach(b=>b.onclick=()=>{
+      const j=jobs.find(x=>jobId(x)===b.dataset.hide);
+      if(j)hideJob(j);
+    });
   };
   $('#search').oninput=paint;
   $('#sourceFilter').onchange=paint;
   $('#targetFilter').onchange=paint;
+  $('#employmentFilter').onchange=paint;
   paint();
 }
 
@@ -435,6 +537,44 @@ function applicationsView(){
   paint();
 }
 
+
+function hiddenView(){
+  const rows=hiddenJobs().sort((a,b)=>(b.hidden_date||'').localeCompare(a.hidden_date||''));
+  $('#content').innerHTML=`
+    <section class="panel">
+      <h3>Hidden Jobs / Learning Data</h3>
+      <p class="meta">Not a Match decisions are kept as training data. Restore a job at any time.</p>
+      <div class="data-actions">
+        <button id="exportLearning" class="btn">Export learning data</button>
+        <button id="clearHidden" class="btn danger">Clear hidden jobs</button>
+      </div>
+    </section>
+    <div id="hiddenList">${rows.length?rows.map(x=>`
+      <article class="card">
+        <div class="top"><div><div class="title">${esc(x.title)}</div><div class="company">${esc(x.company)}</div></div>
+        <span class="badge warning">${esc(x.reason)}</span></div>
+        <div class="meta">${esc(x.location||'')} · Hidden ${esc(dateOnly(x.hidden_date))}</div>
+        <div class="badges">
+          <span class="badge fit">Job Fit ${esc(x.features?.job_fit||0)}/10</span>
+          ${x.features?.company_fit?`<span class="badge company-fit">Company Fit ${esc(x.features.company_fit)}/10</span>`:''}
+          <span class="badge">Canada Exp ${esc(x.features?.canada_experience||'A')}</span>
+        </div>
+        <div class="actions">
+          ${x.url?`<a class="btn primary" href="${esc(x.url)}" target="_blank" rel="noopener">Open Job</a>`:''}
+          <button class="btn" data-restore="${esc(x.job_id)}">Restore</button>
+        </div>
+      </article>`).join(''):'<div class="empty">No hidden jobs yet.</div>'}</div>`;
+  $$('[data-restore]').forEach(b=>b.onclick=()=>restoreHidden(b.dataset.restore));
+  $('#clearHidden').onclick=()=>{if(confirm('Restore all hidden jobs and clear learning records?')){saveHidden([]);render();}};
+  $('#exportLearning').onclick=()=>{
+    const data={exported:today(),hidden_jobs:hiddenJobs(),applications:allApps()};
+    const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
+    const a=document.createElement('a');a.href=URL.createObjectURL(blob);
+    a.download='career_job_watch_learning_'+today()+'.json';a.click();
+    setTimeout(()=>URL.revokeObjectURL(a.href),500);
+  };
+}
+
 function profileView(){
   const exp=(profile.experience||[]).map(x=>`
     <article class="timeline-item">
@@ -479,10 +619,6 @@ function profileView(){
     </section>
 
     <section class="profile-grid">
-      <div class="profile-panel">
-        <h3>Education</h3>
-        <ul>${(profile.education||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
-      </div>
       <div class="profile-panel">
         <h3>Certifications</h3>
         <ul>${(profile.certifications||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
