@@ -241,6 +241,15 @@ function jobTimestamp(j){
   const n=Date.parse(raw);
   return Number.isFinite(n)?n:0;
 }
+function fitBand(score){
+  const n=Number(score||0);
+  if(n>=9) return 'fit-excellent';
+  if(n>=8) return 'fit-strong';
+  if(n>=7) return 'fit-good';
+  if(n>=6) return 'fit-moderate';
+  if(n>=5) return 'fit-weak';
+  return 'fit-poor';
+}
 function jobView(jobs,newOnly){
   $('#content').innerHTML=`
     <div class="view-head">
@@ -327,8 +336,8 @@ function jobView(jobs,newOnly){
         </div>
         <div class="meta">${esc(j.location||'')} · ${esc(j.source||'')} ${salary?'· '+esc(salary):''}</div>
         <div class="badges">
-          <span class="badge fit">Job Fit ${esc(j.score)}/10</span>
-          ${companyFit(j)?`<span class="badge company-fit">Company Fit ${esc(companyFit(j))}/10</span>`:''}
+          <span class="badge fit-score ${fitBand(j.score)}">Job Fit ${esc(j.score)}/10</span>
+          ${companyFit(j)?`<span class="badge fit-score ${fitBand(companyFit(j))}">Company Fit ${esc(companyFit(j))}/10</span>`:''}
           <span class="badge employment ${employmentInfo(j).eligible?'good':'warning'}">${esc(employmentInfo(j).label)}</span>
           <span class="badge canada canada-${esc(canadaExpInfo(j).grade).replace('+','plus')}">Canada Exp ${esc(canadaExpInfo(j).grade)} · ${esc(canadaExpInfo(j).label.replace('Canadian exp. ','').replace('Canadian market ',''))}</span>
           ${strong?'<span class="badge strong">Strong match</span>':''}
@@ -623,8 +632,8 @@ function hiddenView(){
         <span class="badge warning">${esc(x.reason)}</span></div>
         <div class="meta">${esc(x.location||'')} · Hidden ${esc(dateOnly(x.hidden_date))}</div>
         <div class="badges">
-          <span class="badge fit">Job Fit ${esc(x.features?.job_fit||0)}/10</span>
-          ${x.features?.company_fit?`<span class="badge company-fit">Company Fit ${esc(x.features.company_fit)}/10</span>`:''}
+          <span class="badge fit-score ${fitBand(x.features?.job_fit||0)}">Job Fit ${esc(x.features?.job_fit||0)}/10</span>
+          ${x.features?.company_fit?`<span class="badge fit-score ${fitBand(x.features.company_fit)}">Company Fit ${esc(x.features.company_fit)}/10</span>`:''}
           <span class="badge">Canada Exp ${esc(x.features?.canada_experience||'A')}</span>
         </div>
         <div class="actions">

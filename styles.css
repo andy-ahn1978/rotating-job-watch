@@ -311,3 +311,41 @@ nav.primary-nav .nav-icon{font-size:14px!important}
   }
   .status-strip{grid-template-columns:repeat(5,minmax(58px,1fr))!important;overflow-x:auto!important}
 }
+
+
+/* Fit score semantic colors */
+.badge.fit-score{
+  font-weight:750;
+  border-width:1px;
+  border-style:solid;
+}
+.badge.fit-excellent{
+  background:#dcfce7;
+  color:#166534;
+  border-color:#86efac;
+}
+.badge.fit-strong{
+  background:#ecfdf5;
+  color:#047857;
+  border-color:#a7f3d0;
+}
+.badge.fit-good{
+  background:#eff6ff;
+  color:#1d4ed8;
+  border-color:#bfdbfe;
+}
+.badge.fit-moderate{
+  background:#fffbeb;
+  color:#a16207;
+  border-color:#fde68a;
+}
+.badge.fit-weak{
+  background:#fff7ed;
+  color:#c2410c;
+  border-color:#fed7aa;
+}
+.badge.fit-poor{
+  background:#fef2f2;
+  color:#b91c1c;
+  border-color:#fecaca;
+}
