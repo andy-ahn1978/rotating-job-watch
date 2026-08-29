@@ -1,8 +1,21 @@
 [
   {
+    "id": "cook-compression",
+    "name": "Cook Compression",
+    "fit": 9.7,
+    "category": "Reciprocating Compressor Aftermarket",
+    "equipment": [
+      "reciprocating compressor",
+      "valve",
+      "packing"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
     "id": "cpi-compression",
     "name": "CPI Compression",
-    "fit": 10.0,
+    "fit": 9.7,
     "category": "Reciprocating Compressor Aftermarket",
     "equipment": [
       "reciprocating compressor",
@@ -14,22 +27,9 @@
     "monitor": true
   },
   {
-    "id": "hoerbiger-canada",
-    "name": "HOERBIGER Canada",
-    "fit": 10.0,
-    "category": "Compressor Components / Service",
-    "equipment": [
-      "compressor valve",
-      "packing",
-      "rings"
-    ],
-    "scope": "Ontario / Canada roles relevant to Ontario",
-    "monitor": true
-  },
-  {
     "id": "burckhardt-compression",
     "name": "Burckhardt Compression",
-    "fit": 9.8,
+    "fit": 9.6,
     "category": "Reciprocating Compressor OEM & Service",
     "equipment": [
       "reciprocating compressor",
@@ -40,22 +40,9 @@
     "monitor": true
   },
   {
-    "id": "cook-compression",
-    "name": "Cook Compression",
-    "fit": 9.8,
-    "category": "Reciprocating Compressor Aftermarket",
-    "equipment": [
-      "reciprocating compressor",
-      "valve",
-      "packing"
-    ],
-    "scope": "Ontario / Canada roles relevant to Ontario",
-    "monitor": true
-  },
-  {
     "id": "hd-compression",
     "name": "HD Compression Inc.",
-    "fit": 9.6,
+    "fit": 9.4,
     "category": "Compressor Distributor & Aftermarket Service",
     "equipment": [
       "compressor",
@@ -68,87 +55,46 @@
     "monitor": true
   },
   {
-    "id": "atlas-copco",
-    "name": "Atlas Copco",
-    "fit": 9.5,
-    "category": "OEM + Service",
-    "equipment": [
-      "compressor",
-      "vacuum",
-      "blower",
-      "pump"
-    ],
-    "scope": "Canada / Ontario",
-    "monitor": true
-  },
-  {
-    "id": "howden",
-    "name": "Howden",
-    "fit": 9.5,
-    "category": "OEM + Service",
-    "equipment": [
-      "compressor",
-      "blower",
-      "fan",
-      "turbomachinery"
-    ],
-    "scope": "Canada / Ontario",
-    "monitor": true
-  },
-  {
-    "id": "ingersoll-rand",
-    "name": "Ingersoll Rand",
-    "fit": 9.5,
-    "category": "OEM + Service",
-    "equipment": [
-      "compressor",
-      "blower",
-      "vacuum",
-      "pump"
-    ],
-    "scope": "Canada / Ontario",
-    "monitor": true
-  },
-  {
-    "id": "sulzer",
-    "name": "Sulzer",
-    "fit": 9.5,
-    "category": "OEM + Service",
-    "equipment": [
-      "pump",
-      "compressor",
-      "turbomachinery",
-      "rotating equipment"
-    ],
-    "scope": "Canada / Ontario",
-    "monitor": true
-  },
-  {
-    "id": "canex-technologies",
-    "name": "Canex Technologies",
+    "id": "kent-compressor-inc",
+    "name": "Kent Compressor Inc.",
     "fit": 9.4,
-    "category": "Pump / Compressor Distributor & Service",
+    "category": "Compressed Air Sales & Service",
     "equipment": [
-      "pump",
       "compressor",
-      "repair",
+      "compressed air",
+      "rental",
       "service"
     ],
-    "scope": "Ontario / Canada roles relevant to Ontario",
+    "scope": "Tecumseh / Windsor, Ontario",
     "monitor": true
   },
   {
-    "id": "pumps-plus",
-    "name": "Pumps Plus",
+    "id": "sandrin-services",
+    "name": "Sandrin Services Inc.",
     "fit": 9.4,
-    "category": "Rotating Equipment Sales & Service",
+    "category": "Rotating Equipment Overhaul & Field Service",
     "equipment": [
+      "compressor",
+      "blower",
       "pump",
-      "rotating equipment",
-      "repair",
-      "rebuild"
+      "gearbox",
+      "motor",
+      "balancing"
     ],
-    "scope": "Ontario / Canada roles relevant to Ontario",
+    "scope": "Sarnia, Ontario",
+    "monitor": true
+  },
+  {
+    "id": "aerzen",
+    "name": "AERZEN",
+    "fit": 9.3,
+    "category": "OEM + Service",
+    "equipment": [
+      "blower",
+      "compressor",
+      "turbo blower"
+    ],
+    "scope": "Canada / Ontario",
     "monitor": true
   },
   {
@@ -167,29 +113,152 @@
     "monitor": true
   },
   {
-    "id": "airmax-compressor-services",
-    "name": "Airmax Compressor Services",
+    "id": "atlas-copco",
+    "name": "Atlas Copco",
     "fit": 9.3,
-    "category": "Compressor Distributor & Service",
+    "category": "OEM + Service",
     "equipment": [
       "compressor",
+      "vacuum",
+      "blower",
+      "pump"
+    ],
+    "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "centrair-air-systems",
+    "name": "Centrair Air Systems & Supplies",
+    "fit": 9.3,
+    "category": "Compressed Air Sales & Service",
+    "equipment": [
+      "compressor",
+      "parts",
+      "preventive maintenance",
+      "repair"
+    ],
+    "scope": "Barrie, Ontario",
+    "monitor": true
+  },
+  {
+    "id": "chart-industries",
+    "name": "Chart Industries",
+    "fit": 9.3,
+    "category": "OEM + Service",
+    "equipment": [
+      "compressor",
+      "blower",
+      "fan",
+      "cryogenic rotating equipment"
+    ],
+    "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "elliott-group",
+    "name": "Elliott Group",
+    "fit": 9.3,
+    "category": "Turbomachinery OEM & Service",
+    "equipment": [
+      "compressor",
+      "turbine",
       "service"
     ],
     "scope": "Ontario / Canada roles relevant to Ontario",
     "monitor": true
   },
   {
-    "id": "dxp-natpro",
-    "name": "DXP | NATPRO",
+    "id": "gardner-denver",
+    "name": "Gardner Denver",
     "fit": 9.3,
-    "category": "Distributor + Service",
+    "category": "OEM + Service",
     "equipment": [
-      "pump",
       "compressor",
       "blower",
-      "rotating equipment"
+      "vacuum"
     ],
     "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "hoerbiger-canada",
+    "name": "HOERBIGER Canada",
+    "fit": 9.3,
+    "category": "Compressor Components / Service",
+    "equipment": [
+      "compressor valve",
+      "packing",
+      "rings"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "howden",
+    "name": "Howden",
+    "fit": 9.3,
+    "category": "OEM + Service",
+    "equipment": [
+      "compressor",
+      "blower",
+      "fan",
+      "turbomachinery"
+    ],
+    "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "ingersoll-rand",
+    "name": "Ingersoll Rand",
+    "fit": 9.3,
+    "category": "OEM + Service",
+    "equipment": [
+      "compressor",
+      "blower",
+      "vacuum",
+      "pump"
+    ],
+    "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "kaeser-compressors",
+    "name": "Kaeser Compressors",
+    "fit": 9.3,
+    "category": "OEM + Service",
+    "equipment": [
+      "compressor",
+      "blower",
+      "vacuum"
+    ],
+    "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "london-compressed-air",
+    "name": "London Compressed Air Inc.",
+    "fit": 9.3,
+    "category": "Compressed Air Sales & Service",
+    "equipment": [
+      "reciprocating compressor",
+      "rotary screw compressor",
+      "parts",
+      "field service"
+    ],
+    "scope": "London, Ontario",
+    "monitor": true
+  },
+  {
+    "id": "man-energy-solutions-canada",
+    "name": "MAN Energy Solutions Canada",
+    "fit": 9.3,
+    "category": "Compressor / Turbomachinery",
+    "equipment": [
+      "compressor",
+      "turbomachinery",
+      "service"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
     "monitor": true
   },
   {
@@ -207,30 +276,83 @@
     "monitor": true
   },
   {
-    "id": "quad-industrial-group",
-    "name": "Quad Industrial Group",
+    "id": "sulzer",
+    "name": "Sulzer",
     "fit": 9.3,
-    "category": "Reliability / Condition Monitoring",
+    "category": "OEM + Service",
     "equipment": [
-      "vibration",
-      "condition monitoring",
-      "lubrication"
+      "pump",
+      "compressor",
+      "turbomachinery",
+      "rotating equipment"
+    ],
+    "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "air-comppower",
+    "name": "Air CompPower",
+    "fit": 9.2,
+    "category": "Distributor + Service",
+    "equipment": [
+      "compressor",
+      "blower",
+      "vacuum pump"
+    ],
+    "scope": "Scarborough / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "aircom-technologies",
+    "name": "Aircom Technologies",
+    "fit": 9.2,
+    "category": "Distributor + Service",
+    "equipment": [
+      "compressor",
+      "blower",
+      "fan",
+      "vacuum"
+    ],
+    "scope": "Ontario territory / Eastern Canada",
+    "monitor": true
+  },
+  {
+    "id": "airmax-compressor-services",
+    "name": "Airmax Compressor Services",
+    "fit": 9.2,
+    "category": "Compressor Distributor & Service",
+    "equipment": [
+      "compressor",
+      "service"
     ],
     "scope": "Ontario / Canada roles relevant to Ontario",
     "monitor": true
   },
   {
-    "id": "rudi-kovacko-associates",
-    "name": "Rudi Kovacko & Associates",
-    "fit": 9.3,
-    "category": "Pump Distributor / Rotating Service",
+    "id": "baker-hughes",
+    "name": "Baker Hughes",
+    "fit": 9.2,
+    "category": "Turbomachinery / Industrial Service",
     "equipment": [
-      "pump",
-      "gearbox",
-      "fan",
-      "blower"
+      "compressor",
+      "turbine",
+      "condition monitoring"
     ],
     "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "barton-air-compressors",
+    "name": "Barton Air Compressors",
+    "fit": 9.2,
+    "category": "Distributor + Service",
+    "equipment": [
+      "compressor",
+      "vacuum pump",
+      "blower",
+      "pump"
+    ],
+    "scope": "Hamilton / Southern Ontario",
     "monitor": true
   },
   {
@@ -248,31 +370,94 @@
     "monitor": true
   },
   {
-    "id": "canada-predictive-maintenance",
-    "name": "Canada Predictive Maintenance",
+    "id": "canex-technologies",
+    "name": "Canex Technologies",
     "fit": 9.2,
-    "category": "Reliability / Condition Monitoring",
+    "category": "Pump / Compressor Distributor & Service",
     "equipment": [
-      "vibration",
-      "balancing",
-      "alignment",
-      "thermography"
+      "pump",
+      "compressor",
+      "repair",
+      "service"
     ],
     "scope": "Ontario / Canada roles relevant to Ontario",
     "monitor": true
   },
   {
-    "id": "flowserve",
-    "name": "Flowserve",
+    "id": "comairco",
+    "name": "Comairco",
     "fit": 9.2,
-    "category": "OEM + Service",
+    "category": "Distributor + Service",
+    "equipment": [
+      "compressor",
+      "air treatment"
+    ],
+    "scope": "Multiple Ontario branches",
+    "monitor": true
+  },
+  {
+    "id": "compressor-engineering-group",
+    "name": "Compressor Engineering Group",
+    "fit": 9.2,
+    "category": "Distributor + Service",
+    "equipment": [
+      "compressor",
+      "vacuum pump",
+      "blower",
+      "gas generator"
+    ],
+    "scope": "London / Southwestern Ontario",
+    "monitor": true
+  },
+  {
+    "id": "comprevac",
+    "name": "CompreVac",
+    "fit": 9.2,
+    "category": "Distributor + Service",
+    "equipment": [
+      "compressor",
+      "vacuum pump"
+    ],
+    "scope": "Mississauga, Ontario",
+    "monitor": true
+  },
+  {
+    "id": "dresser-rand",
+    "name": "Dresser-Rand",
+    "fit": 9.2,
+    "category": "Turbomachinery / Service",
+    "equipment": [
+      "compressor",
+      "turbine",
+      "service"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "dxp-natpro",
+    "name": "DXP | NATPRO",
+    "fit": 9.2,
+    "category": "Distributor + Service",
     "equipment": [
       "pump",
-      "seal",
-      "valve",
+      "compressor",
+      "blower",
       "rotating equipment"
     ],
     "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "dynamic-air-compressor",
+    "name": "Dynamic Air Compressor",
+    "fit": 9.2,
+    "category": "Distributor + Service",
+    "equipment": [
+      "compressor",
+      "air treatment"
+    ],
+    "scope": "GTA / Southern Ontario",
     "monitor": true
   },
   {
@@ -289,28 +474,16 @@
     "monitor": true
   },
   {
-    "id": "john-brooks",
-    "name": "John Brooks Company",
+    "id": "kent-compressor",
+    "name": "Kent Compressor",
     "fit": 9.2,
     "category": "Distributor + Service",
     "equipment": [
-      "pump",
-      "spray",
-      "process equipment"
+      "compressor",
+      "blower",
+      "vacuum"
     ],
-    "scope": "Ontario / Canada",
-    "monitor": true
-  },
-  {
-    "id": "ksb",
-    "name": "KSB",
-    "fit": 9.2,
-    "category": "OEM + Service",
-    "equipment": [
-      "pump",
-      "valve"
-    ],
-    "scope": "Ontario / Canada",
+    "scope": "Windsor / Southwestern Ontario",
     "monitor": true
   },
   {
@@ -328,16 +501,98 @@
     "monitor": true
   },
   {
-    "id": "vibelube",
-    "name": "VibeLube",
+    "id": "ontario-compressor-supplies",
+    "name": "Ontario Compressor Supplies",
     "fit": 9.2,
-    "category": "Reliability / Condition Monitoring",
+    "category": "Distributor + Service",
     "equipment": [
-      "vibration",
-      "condition monitoring",
-      "balancing"
+      "compressor"
+    ],
+    "scope": "Ontario",
+    "monitor": true
+  },
+  {
+    "id": "pneuair",
+    "name": "PneuAir",
+    "fit": 9.2,
+    "category": "Distributor + Service",
+    "equipment": [
+      "compressor",
+      "blower",
+      "air treatment"
+    ],
+    "scope": "Stoney Creek / Southern Ontario",
+    "monitor": true
+  },
+  {
+    "id": "reapair",
+    "name": "ReapAir Compressor Services",
+    "fit": 9.2,
+    "category": "Distributor + Service",
+    "equipment": [
+      "compressor"
+    ],
+    "scope": "Burlington / Southern Ontario",
+    "monitor": true
+  },
+  {
+    "id": "siemens-energy",
+    "name": "Siemens Energy",
+    "fit": 9.2,
+    "category": "Turbomachinery / Service",
+    "equipment": [
+      "compressor",
+      "turbine",
+      "service"
     ],
     "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "sigma-compressor",
+    "name": "Sigma Compressor",
+    "fit": 9.2,
+    "category": "Distributor + Service",
+    "equipment": [
+      "compressor",
+      "vacuum pump"
+    ],
+    "scope": "Brantford / Southern Ontario",
+    "monitor": true
+  },
+  {
+    "id": "trident-compressed-air",
+    "name": "Trident Compressed Air",
+    "fit": 9.2,
+    "category": "Distributor + Service",
+    "equipment": [
+      "compressor"
+    ],
+    "scope": "Southwestern Ontario",
+    "monitor": true
+  },
+  {
+    "id": "valley-compressor",
+    "name": "Valley Compressor",
+    "fit": 9.2,
+    "category": "Distributor + Service",
+    "equipment": [
+      "compressor"
+    ],
+    "scope": "Eastern Ontario",
+    "monitor": true
+  },
+  {
+    "id": "westron-rotating-solutions",
+    "name": "Westron Rotating Solutions Canada",
+    "fit": 9.2,
+    "category": "Service + OEM group",
+    "equipment": [
+      "compressor",
+      "blower",
+      "vacuum pump"
+    ],
+    "scope": "Stoney Creek, Ontario",
     "monitor": true
   },
   {
@@ -355,29 +610,31 @@
     "monitor": true
   },
   {
-    "id": "elliott-group",
-    "name": "Elliott Group",
+    "id": "hydro-inc",
+    "name": "Hydro Inc.",
     "fit": 9.1,
-    "category": "Turbomachinery OEM & Service",
+    "category": "Pump Aftermarket / Service",
     "equipment": [
-      "compressor",
-      "turbine",
-      "service"
+      "pump",
+      "repair",
+      "reliability"
     ],
     "scope": "Ontario / Canada roles relevant to Ontario",
     "monitor": true
   },
   {
-    "id": "vibes-corp",
-    "name": "VIBES Corp",
+    "id": "power-mine-supply",
+    "name": "Power & Mine Supply",
     "fit": 9.1,
-    "category": "Rotating Equipment Reliability Service",
+    "category": "Rotating Equipment / Mining Service",
     "equipment": [
+      "pump",
+      "mechanical seal",
       "vibration",
-      "balancing",
-      "alignment"
+      "laser alignment",
+      "field repair"
     ],
-    "scope": "Ontario / Canada roles relevant to Ontario",
+    "scope": "Thunder Bay, Ontario",
     "monitor": true
   },
   {
@@ -395,281 +652,126 @@
     "monitor": true
   },
   {
-    "id": "aerzen",
-    "name": "AERZEN",
+    "id": "alfa-laval",
+    "name": "Alfa Laval",
+    "fit": 9.0,
+    "category": "Process / Rotating Equipment",
+    "equipment": [
+      "pump",
+      "separator",
+      "process equipment"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "blackmer",
+    "name": "Blackmer",
+    "fit": 9.0,
+    "category": "OEM",
+    "equipment": [
+      "pump",
+      "compressor"
+    ],
+    "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "busch-vacuum",
+    "name": "Busch Vacuum Solutions",
     "fit": 9.0,
     "category": "OEM + Service",
     "equipment": [
-      "blower",
+      "vacuum pump",
+      "blower"
+    ],
+    "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "compair",
+    "name": "CompAir",
+    "fit": 9.0,
+    "category": "OEM",
+    "equipment": [
+      "compressor"
+    ],
+    "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "gea-canada",
+    "name": "GEA Canada",
+    "fit": 9.0,
+    "category": "Process / Rotating Equipment",
+    "equipment": [
       "compressor",
+      "pump",
+      "process equipment"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "hitachi-global-air-power",
+    "name": "Hitachi Global Air Power",
+    "fit": 9.0,
+    "category": "OEM",
+    "equipment": [
+      "compressor"
+    ],
+    "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "hoffman-lamson",
+    "name": "Hoffman & Lamson",
+    "fit": 9.0,
+    "category": "OEM + Service",
+    "equipment": [
+      "centrifugal blower",
       "turbo blower"
     ],
     "scope": "Canada / Ontario",
     "monitor": true
   },
   {
-    "id": "avt-reliability",
-    "name": "AVT Reliability Canada",
+    "id": "jet-fluid-systems",
+    "name": "JET Fluid Systems",
     "fit": 9.0,
-    "category": "Reliability + Condition Monitoring",
-    "equipment": [
-      "vibration",
-      "condition monitoring",
-      "alignment",
-      "rotating equipment"
-    ],
-    "scope": "Toronto and Sarnia, Ontario",
-    "monitor": true
-  },
-  {
-    "id": "chart-industries",
-    "name": "Chart Industries",
-    "fit": 9.0,
-    "category": "OEM + Service",
-    "equipment": [
-      "compressor",
-      "blower",
-      "fan",
-      "cryogenic rotating equipment"
-    ],
-    "scope": "Canada / Ontario",
-    "monitor": true
-  },
-  {
-    "id": "comairco",
-    "name": "Comairco",
-    "fit": 9.0,
-    "category": "Distributor + Service",
-    "equipment": [
-      "compressor",
-      "air treatment"
-    ],
-    "scope": "Multiple Ontario branches",
-    "monitor": true
-  },
-  {
-    "id": "compressor-engineering-group",
-    "name": "Compressor Engineering Group",
-    "fit": 9.0,
-    "category": "Distributor + Service",
-    "equipment": [
-      "compressor",
-      "vacuum pump",
-      "blower",
-      "gas generator"
-    ],
-    "scope": "London / Southwestern Ontario",
-    "monitor": true
-  },
-  {
-    "id": "comprevac",
-    "name": "CompreVac",
-    "fit": 9.0,
-    "category": "Distributor + Service",
-    "equipment": [
-      "compressor",
-      "vacuum pump"
-    ],
-    "scope": "Mississauga, Ontario",
-    "monitor": true
-  },
-  {
-    "id": "delom-services",
-    "name": "Delom Services",
-    "fit": 9.0,
-    "category": "Rotating Equipment Reliability Service",
-    "equipment": [
-      "motor",
-      "generator",
-      "vibration",
-      "alignment"
-    ],
-    "scope": "Ontario / Canada roles relevant to Ontario",
-    "monitor": true
-  },
-  {
-    "id": "dresser-rand",
-    "name": "Dresser-Rand",
-    "fit": 9.0,
-    "category": "Turbomachinery / Service",
-    "equipment": [
-      "compressor",
-      "turbine",
-      "service"
-    ],
-    "scope": "Ontario / Canada roles relevant to Ontario",
-    "monitor": true
-  },
-  {
-    "id": "emnor-mechanical",
-    "name": "Emnor Mechanical",
-    "fit": 9.0,
-    "category": "Service + Repair",
+    "category": "Industrial Pump Sales & Service",
     "equipment": [
       "pump",
-      "rotating equipment",
-      "reverse engineering"
+      "field service",
+      "industrial fluid systems"
     ],
-    "scope": "Hamilton, Ontario",
+    "scope": "Kitchener, Ontario",
     "monitor": true
   },
   {
-    "id": "fan-dynamics",
-    "name": "Fan Dynamics",
+    "id": "promech-flow-technologies",
+    "name": "Promech Flow Technologies",
     "fit": 9.0,
-    "category": "Fan Service + Reliability",
-    "equipment": [
-      "industrial fan",
-      "pump",
-      "vibration analysis",
-      "rotating equipment"
-    ],
-    "scope": "Cambridge / Southern Ontario",
-    "monitor": true
-  },
-  {
-    "id": "fantactics-dynamic-balancing",
-    "name": "FanTactics Dynamic Balancing",
-    "fit": 9.0,
-    "category": "Rotating Equipment Reliability Service",
-    "equipment": [
-      "balancing",
-      "vibration",
-      "fan",
-      "rotor"
-    ],
-    "scope": "Ontario / Canada roles relevant to Ontario",
-    "monitor": true
-  },
-  {
-    "id": "gardner-denver",
-    "name": "Gardner Denver",
-    "fit": 9.0,
-    "category": "OEM + Service",
-    "equipment": [
-      "compressor",
-      "blower",
-      "vacuum"
-    ],
-    "scope": "Canada / Ontario",
-    "monitor": true
-  },
-  {
-    "id": "gratec-limited",
-    "name": "Gratec Limited",
-    "fit": 9.0,
-    "category": "Rotating Equipment Service",
-    "equipment": [
-      "mixer",
-      "rotating equipment",
-      "service"
-    ],
-    "scope": "Ontario / Canada roles relevant to Ontario",
-    "monitor": true
-  },
-  {
-    "id": "industrial-pump-repair-canada",
-    "name": "Industrial Pump Repair Canada",
-    "fit": 9.0,
-    "category": "Service + Repair",
+    "category": "Pump / Reliability / Technical Service",
     "equipment": [
       "pump",
-      "blower",
-      "vacuum pump",
       "mechanical seal",
-      "gearbox"
-    ],
-    "scope": "Stoney Creek, Ontario",
-    "monitor": true
-  },
-  {
-    "id": "ips",
-    "name": "Integrated Power Services",
-    "fit": 9.0,
-    "category": "Service + Repair",
-    "equipment": [
-      "motor",
-      "generator",
-      "pump",
-      "rotating equipment"
-    ],
-    "scope": "Canada / Ontario",
-    "monitor": true
-  },
-  {
-    "id": "itt-goulds-pumps",
-    "name": "ITT Goulds Pumps",
-    "fit": 9.0,
-    "category": "OEM + Service",
-    "equipment": [
-      "pump"
-    ],
-    "scope": "Canada / Ontario",
-    "monitor": true
-  },
-  {
-    "id": "kaeser-compressors",
-    "name": "Kaeser Compressors",
-    "fit": 9.0,
-    "category": "OEM + Service",
-    "equipment": [
-      "compressor",
-      "blower",
-      "vacuum"
-    ],
-    "scope": "Canada / Ontario",
-    "monitor": true
-  },
-  {
-    "id": "man-energy-solutions-canada",
-    "name": "MAN Energy Solutions Canada",
-    "fit": 9.0,
-    "category": "Compressor / Turbomachinery",
-    "equipment": [
-      "compressor",
-      "turbomachinery",
-      "service"
-    ],
-    "scope": "Ontario / Canada roles relevant to Ontario",
-    "monitor": true
-  },
-  {
-    "id": "pneuair",
-    "name": "PneuAir",
-    "fit": 9.0,
-    "category": "Distributor + Service",
-    "equipment": [
-      "compressor",
-      "blower",
-      "air treatment"
-    ],
-    "scope": "Stoney Creek / Southern Ontario",
-    "monitor": true
-  },
-  {
-    "id": "pump-tech",
-    "name": "Pump Tech",
-    "fit": 9.0,
-    "category": "Distributor + Service",
-    "equipment": [
-      "pump"
-    ],
-    "scope": "Mississauga, Ontario",
-    "monitor": true
-  },
-  {
-    "id": "red-systems",
-    "name": "RED Systems",
-    "fit": 9.0,
-    "category": "Distributor + Service",
-    "equipment": [
-      "pump",
-      "motor",
-      "seal",
       "coupling",
-      "rotating equipment"
+      "predictive maintenance",
+      "root cause analysis"
     ],
-    "scope": "Mississauga / Southern Ontario",
+    "scope": "Ottawa, Ontario",
+    "monitor": true
+  },
+  {
+    "id": "quincy-compressor",
+    "name": "Quincy Compressor",
+    "fit": 9.0,
+    "category": "OEM",
+    "equipment": [
+      "compressor"
+    ],
+    "scope": "Canada / Ontario",
     "monitor": true
   },
   {
@@ -702,83 +804,152 @@
     "monitor": true
   },
   {
-    "id": "westron-rotating-solutions",
-    "name": "Westron Rotating Solutions Canada",
+    "id": "sullair",
+    "name": "Sullair",
     "fit": 9.0,
-    "category": "Service + OEM group",
+    "category": "OEM",
     "equipment": [
-      "compressor",
-      "blower",
-      "vacuum pump"
-    ],
-    "scope": "Stoney Creek, Ontario",
-    "monitor": true
-  },
-  {
-    "id": "aesseal",
-    "name": "AESSEAL",
-    "fit": 8.9,
-    "category": "OEM + Service",
-    "equipment": [
-      "mechanical seal",
-      "seal support system",
-      "reliability"
+      "compressor"
     ],
     "scope": "Canada / Ontario",
     "monitor": true
   },
   {
-    "id": "air-comppower",
-    "name": "Air CompPower",
+    "id": "applied-industrial-technologies",
+    "name": "Applied Industrial Technologies",
     "fit": 8.9,
     "category": "Distributor + Service",
     "equipment": [
-      "compressor",
-      "blower",
-      "vacuum pump"
+      "bearing",
+      "pump",
+      "motor",
+      "power transmission",
+      "industrial service"
     ],
-    "scope": "Scarborough / Ontario",
+    "scope": "Ontario / Canada",
     "monitor": true
   },
   {
-    "id": "baker-hughes",
-    "name": "Baker Hughes",
+    "id": "ced-compressed-air",
+    "name": "CED Compressed Air",
     "fit": 8.9,
-    "category": "Turbomachinery / Industrial Service",
+    "category": "Service + Reliability",
     "equipment": [
       "compressor",
-      "turbine",
-      "condition monitoring"
+      "rotating equipment",
+      "vibration"
     ],
-    "scope": "Ontario / Canada roles relevant to Ontario",
+    "scope": "Ontario",
     "monitor": true
   },
   {
-    "id": "barton-air-compressors",
-    "name": "Barton Air Compressors",
+    "id": "dv-systems",
+    "name": "DV Systems",
     "fit": 8.9,
-    "category": "Distributor + Service",
+    "category": "OEM",
     "equipment": [
-      "compressor",
-      "vacuum pump",
-      "blower",
-      "pump"
+      "compressor"
     ],
-    "scope": "Hamilton / Southern Ontario",
+    "scope": "Ontario / Canada",
     "monitor": true
   },
   {
-    "id": "john-crane",
-    "name": "John Crane",
+    "id": "elgi",
+    "name": "ELGi",
+    "fit": 8.9,
+    "category": "OEM",
+    "equipment": [
+      "compressor"
+    ],
+    "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "flowserve",
+    "name": "Flowserve",
     "fit": 8.9,
     "category": "OEM + Service",
     "equipment": [
-      "mechanical seal",
-      "coupling",
-      "filtration",
+      "pump",
+      "seal",
+      "valve",
       "rotating equipment"
     ],
     "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "fs-curtis",
+    "name": "FS-Curtis",
+    "fit": 8.9,
+    "category": "OEM",
+    "equipment": [
+      "compressor"
+    ],
+    "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "itt-goulds-pumps",
+    "name": "ITT Goulds Pumps",
+    "fit": 8.9,
+    "category": "OEM + Service",
+    "equipment": [
+      "pump"
+    ],
+    "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "ksb",
+    "name": "KSB",
+    "fit": 8.9,
+    "category": "OEM + Service",
+    "equipment": [
+      "pump",
+      "valve"
+    ],
+    "scope": "Ontario / Canada",
+    "monitor": true
+  },
+  {
+    "id": "motion-canada",
+    "name": "Motion Canada",
+    "fit": 8.9,
+    "category": "Distributor + Service",
+    "equipment": [
+      "bearing",
+      "seal",
+      "motor",
+      "pump",
+      "power transmission"
+    ],
+    "scope": "Ontario / Canada",
+    "monitor": true
+  },
+  {
+    "id": "ro-flo-compressors",
+    "name": "Ro-Flo Compressors",
+    "fit": 8.9,
+    "category": "OEM",
+    "equipment": [
+      "compressor"
+    ],
+    "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "rudi-kovacko-associates",
+    "name": "Rudi Kovacko & Associates",
+    "fit": 8.9,
+    "category": "Pump Distributor / Rotating Service",
+    "equipment": [
+      "pump",
+      "gearbox",
+      "fan",
+      "blower"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
     "monitor": true
   },
   {
@@ -797,30 +968,41 @@
     "monitor": true
   },
   {
-    "id": "wajax",
-    "name": "Wajax",
+    "id": "trans-west-process-solutions",
+    "name": "Trans-West Process Solutions",
     "fit": 8.9,
-    "category": "Rotating Equipment / Industrial Service",
+    "category": "Process Equipment Technical Sales",
     "equipment": [
-      "motor",
       "pump",
-      "rotating equipment"
+      "valve",
+      "instrumentation",
+      "process equipment"
     ],
-    "scope": "Ontario / Canada roles relevant to Ontario",
+    "scope": "Thunder Bay, Ontario",
     "monitor": true
   },
   {
-    "id": "aircom-technologies",
-    "name": "Aircom Technologies",
+    "id": "xylem",
+    "name": "Xylem",
+    "fit": 8.9,
+    "category": "OEM + Service",
+    "equipment": [
+      "pump",
+      "water systems"
+    ],
+    "scope": "Ontario / Canada",
+    "monitor": true
+  },
+  {
+    "id": "alpha-industrial-mining",
+    "name": "Alpha Industrial Mining Supplies",
     "fit": 8.8,
     "category": "Distributor + Service",
     "equipment": [
-      "compressor",
-      "blower",
-      "fan",
-      "vacuum"
+      "pump",
+      "mining equipment"
     ],
-    "scope": "Ontario territory / Eastern Canada",
+    "scope": "Lively / Northern Ontario",
     "monitor": true
   },
   {
@@ -839,22 +1021,10 @@
     "monitor": true
   },
   {
-    "id": "armstrong-fluid-technology",
-    "name": "Armstrong Fluid Technology",
+    "id": "becker-pumps",
+    "name": "Becker Pumps",
     "fit": 8.8,
     "category": "OEM",
-    "equipment": [
-      "pump",
-      "fluid systems"
-    ],
-    "scope": "Toronto, Ontario",
-    "monitor": true
-  },
-  {
-    "id": "busch-vacuum",
-    "name": "Busch Vacuum Solutions",
-    "fit": 8.8,
-    "category": "OEM + Service",
     "equipment": [
       "vacuum pump",
       "blower"
@@ -863,75 +1033,41 @@
     "monitor": true
   },
   {
-    "id": "ced-compressed-air",
-    "name": "CED Compressed Air",
-    "fit": 8.8,
-    "category": "Service + Reliability",
-    "equipment": [
-      "compressor",
-      "rotating equipment",
-      "vibration"
-    ],
-    "scope": "Ontario",
-    "monitor": true
-  },
-  {
-    "id": "grundfos",
-    "name": "Grundfos",
+    "id": "elmo-rietschle",
+    "name": "Elmo Rietschle",
     "fit": 8.8,
     "category": "OEM",
     "equipment": [
-      "pump"
+      "vacuum pump",
+      "blower"
     ],
     "scope": "Canada / Ontario",
     "monitor": true
   },
   {
-    "id": "hayward-gordon",
-    "name": "Hayward Gordon",
-    "fit": 8.8,
-    "category": "Pump / Mixer OEM",
-    "equipment": [
-      "pump",
-      "mixer"
-    ],
-    "scope": "Ontario / Canada roles relevant to Ontario",
-    "monitor": true
-  },
-  {
-    "id": "hitachi-global-air-power",
-    "name": "Hitachi Global Air Power",
+    "id": "hibon",
+    "name": "Hibon",
     "fit": 8.8,
     "category": "OEM",
     "equipment": [
-      "compressor"
+      "blower",
+      "vacuum"
     ],
     "scope": "Canada / Ontario",
     "monitor": true
   },
   {
-    "id": "hoffman-lamson",
-    "name": "Hoffman & Lamson",
+    "id": "ips",
+    "name": "Integrated Power Services",
     "fit": 8.8,
-    "category": "OEM + Service",
+    "category": "Service + Repair",
     "equipment": [
-      "centrifugal blower",
-      "turbo blower"
-    ],
-    "scope": "Canada / Ontario",
-    "monitor": true
-  },
-  {
-    "id": "hydro-inc",
-    "name": "Hydro Inc.",
-    "fit": 8.8,
-    "category": "Pump Aftermarket / Service",
-    "equipment": [
+      "motor",
+      "generator",
       "pump",
-      "repair",
-      "reliability"
+      "rotating equipment"
     ],
-    "scope": "Ontario / Canada roles relevant to Ontario",
+    "scope": "Canada / Ontario",
     "monitor": true
   },
   {
@@ -946,110 +1082,100 @@
     "monitor": true
   },
   {
-    "id": "kent-compressor",
-    "name": "Kent Compressor",
+    "id": "john-brooks",
+    "name": "John Brooks Company",
     "fit": 8.8,
     "category": "Distributor + Service",
     "equipment": [
-      "compressor",
-      "blower",
-      "vacuum"
+      "pump",
+      "spray",
+      "process equipment"
     ],
-    "scope": "Windsor / Southwestern Ontario",
+    "scope": "Ontario / Canada",
     "monitor": true
   },
   {
-    "id": "ontario-compressor-supplies",
-    "name": "Ontario Compressor Supplies",
+    "id": "metropolitan-pump",
+    "name": "Metropolitan Pump",
     "fit": 8.8,
     "category": "Distributor + Service",
     "equipment": [
-      "compressor"
+      "pump"
     ],
-    "scope": "Ontario",
+    "scope": "Cambridge, Ontario",
     "monitor": true
   },
   {
-    "id": "quincy-compressor",
-    "name": "Quincy Compressor",
-    "fit": 8.8,
-    "category": "OEM",
-    "equipment": [
-      "compressor"
-    ],
-    "scope": "Canada / Ontario",
-    "monitor": true
-  },
-  {
-    "id": "reapair",
-    "name": "ReapAir Compressor Services",
+    "id": "murray-hydronics",
+    "name": "Murray Hydronics",
     "fit": 8.8,
     "category": "Distributor + Service",
     "equipment": [
-      "compressor"
+      "pump"
     ],
-    "scope": "Burlington / Southern Ontario",
+    "scope": "Hamilton / Southern Ontario",
     "monitor": true
   },
   {
-    "id": "siemens-energy",
-    "name": "Siemens Energy",
-    "fit": 8.8,
-    "category": "Turbomachinery / Service",
-    "equipment": [
-      "compressor",
-      "turbine",
-      "service"
-    ],
-    "scope": "Ontario / Canada roles relevant to Ontario",
-    "monitor": true
-  },
-  {
-    "id": "sigma-compressor",
-    "name": "Sigma Compressor",
+    "id": "pump-tech",
+    "name": "Pump Tech",
     "fit": 8.8,
     "category": "Distributor + Service",
     "equipment": [
-      "compressor",
-      "vacuum pump"
+      "pump"
     ],
-    "scope": "Brantford / Southern Ontario",
+    "scope": "Mississauga, Ontario",
     "monitor": true
   },
   {
-    "id": "sullair",
-    "name": "Sullair",
-    "fit": 8.8,
-    "category": "OEM",
-    "equipment": [
-      "compressor"
-    ],
-    "scope": "Canada / Ontario",
-    "monitor": true
-  },
-  {
-    "id": "trident-compressed-air",
-    "name": "Trident Compressed Air",
+    "id": "red-systems",
+    "name": "RED Systems",
     "fit": 8.8,
     "category": "Distributor + Service",
     "equipment": [
-      "compressor"
-    ],
-    "scope": "Southwestern Ontario",
-    "monitor": true
-  },
-  {
-    "id": "turbinepros",
-    "name": "TurbinePROs",
-    "fit": 8.8,
-    "category": "Field Service",
-    "equipment": [
-      "steam turbine",
-      "gas turbine",
-      "generator",
+      "pump",
+      "motor",
+      "seal",
+      "coupling",
       "rotating equipment"
     ],
+    "scope": "Mississauga / Southern Ontario",
+    "monitor": true
+  },
+  {
+    "id": "robinson-fans",
+    "name": "Robinson Fans",
+    "fit": 8.8,
+    "category": "OEM",
+    "equipment": [
+      "industrial fan",
+      "blower"
+    ],
     "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "spencer-turbine",
+    "name": "Spencer Turbine",
+    "fit": 8.8,
+    "category": "OEM",
+    "equipment": [
+      "centrifugal blower",
+      "vacuum"
+    ],
+    "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "new-york-blower",
+    "name": "The New York Blower Company",
+    "fit": 8.8,
+    "category": "OEM",
+    "equipment": [
+      "industrial fan",
+      "blower"
+    ],
+    "scope": "Ontario representative network",
     "monitor": true
   },
   {
@@ -1065,37 +1191,41 @@
     "monitor": true
   },
   {
-    "id": "xylem",
-    "name": "Xylem",
-    "fit": 8.8,
+    "id": "chesterton",
+    "name": "A.W. Chesterton",
+    "fit": 8.7,
     "category": "OEM + Service",
     "equipment": [
-      "pump",
-      "water systems"
-    ],
-    "scope": "Ontario / Canada",
-    "monitor": true
-  },
-  {
-    "id": "centrair",
-    "name": "Centrair Air Systems & Supplies",
-    "fit": 8.7,
-    "category": "Distributor + Service",
-    "equipment": [
-      "compressor"
-    ],
-    "scope": "Barrie / Central Ontario",
-    "monitor": true
-  },
-  {
-    "id": "compair",
-    "name": "CompAir",
-    "fit": 8.7,
-    "category": "OEM",
-    "equipment": [
-      "compressor"
+      "mechanical seal",
+      "industrial sealing",
+      "reliability"
     ],
     "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "aesseal",
+    "name": "AESSEAL",
+    "fit": 8.7,
+    "category": "OEM + Service",
+    "equipment": [
+      "mechanical seal",
+      "seal support system",
+      "reliability"
+    ],
+    "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "canyon-air-products",
+    "name": "Canyon Air Products",
+    "fit": 8.7,
+    "category": "Manufacturer Representative",
+    "equipment": [
+      "industrial fan",
+      "blower"
+    ],
+    "scope": "Ontario",
     "monitor": true
   },
   {
@@ -1114,15 +1244,18 @@
     "monitor": true
   },
   {
-    "id": "elmo-rietschle",
-    "name": "Elmo Rietschle",
+    "id": "industrial-pump-repair-canada",
+    "name": "Industrial Pump Repair Canada",
     "fit": 8.7,
-    "category": "OEM",
+    "category": "Service + Repair",
     "equipment": [
+      "pump",
+      "blower",
       "vacuum pump",
-      "blower"
+      "mechanical seal",
+      "gearbox"
     ],
-    "scope": "Canada / Ontario",
+    "scope": "Stoney Creek, Ontario",
     "monitor": true
   },
   {
@@ -1140,16 +1273,31 @@
     "monitor": true
   },
   {
-    "id": "lakeside-process-controls",
-    "name": "Lakeside Process Controls",
+    "id": "john-crane",
+    "name": "John Crane",
     "fit": 8.7,
-    "category": "Reliability + Automation",
+    "category": "OEM + Service",
     "equipment": [
-      "condition monitoring",
-      "vibration",
-      "asset reliability"
+      "mechanical seal",
+      "coupling",
+      "filtration",
+      "rotating equipment"
     ],
-    "scope": "Ontario",
+    "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "london-pump-supply",
+    "name": "London Pump Supply",
+    "fit": 8.7,
+    "category": "Industrial Pump Sales & Service",
+    "equipment": [
+      "pump",
+      "repair",
+      "technical sizing",
+      "field service"
+    ],
+    "scope": "London, Ontario",
     "monitor": true
   },
   {
@@ -1170,131 +1318,71 @@
     "monitor": true
   },
   {
-    "id": "ro-flo-compressors",
-    "name": "Ro-Flo Compressors",
+    "id": "pneumatics-pro",
+    "name": "Pneumatics-pro",
     "fit": 8.7,
-    "category": "OEM",
-    "equipment": [
-      "compressor"
-    ],
-    "scope": "Canada / Ontario",
-    "monitor": true
-  },
-  {
-    "id": "spx-flow",
-    "name": "SPX FLOW",
-    "fit": 8.7,
-    "category": "OEM",
-    "equipment": [
-      "pump",
-      "process equipment"
-    ],
-    "scope": "Canada / Ontario",
-    "monitor": true
-  },
-  {
-    "id": "new-york-blower",
-    "name": "The New York Blower Company",
-    "fit": 8.7,
-    "category": "OEM",
-    "equipment": [
-      "industrial fan",
-      "blower"
-    ],
-    "scope": "Ontario representative network",
-    "monitor": true
-  },
-  {
-    "id": "valley-compressor",
-    "name": "Valley Compressor",
-    "fit": 8.7,
-    "category": "Distributor + Service",
-    "equipment": [
-      "compressor"
-    ],
-    "scope": "Eastern Ontario",
-    "monitor": true
-  },
-  {
-    "id": "viking-pump",
-    "name": "Viking Pump",
-    "fit": 8.7,
-    "category": "OEM",
-    "equipment": [
-      "positive displacement pump"
-    ],
-    "scope": "Canada / Ontario",
-    "monitor": true
-  },
-  {
-    "id": "chesterton",
-    "name": "A.W. Chesterton",
-    "fit": 8.6,
-    "category": "OEM + Service",
-    "equipment": [
-      "mechanical seal",
-      "industrial sealing",
-      "reliability"
-    ],
-    "scope": "Canada / Ontario",
-    "monitor": true
-  },
-  {
-    "id": "alpha-industrial-mining",
-    "name": "Alpha Industrial Mining Supplies",
-    "fit": 8.6,
-    "category": "Distributor + Service",
-    "equipment": [
-      "pump",
-      "mining equipment"
-    ],
-    "scope": "Lively / Northern Ontario",
-    "monitor": true
-  },
-  {
-    "id": "blackmer",
-    "name": "Blackmer",
-    "fit": 8.6,
-    "category": "OEM",
-    "equipment": [
-      "pump",
-      "compressor"
-    ],
-    "scope": "Canada / Ontario",
-    "monitor": true
-  },
-  {
-    "id": "dv-systems",
-    "name": "DV Systems",
-    "fit": 8.6,
-    "category": "OEM",
-    "equipment": [
-      "compressor"
-    ],
-    "scope": "Ontario / Canada",
-    "monitor": true
-  },
-  {
-    "id": "hibon",
-    "name": "Hibon",
-    "fit": 8.6,
-    "category": "OEM",
+    "category": "Service + Repair",
     "equipment": [
       "blower",
-      "vacuum"
+      "fan",
+      "vacuum",
+      "rotating equipment"
     ],
     "scope": "Canada / Ontario",
     "monitor": true
   },
   {
-    "id": "metropolitan-pump",
-    "name": "Metropolitan Pump",
-    "fit": 8.6,
-    "category": "Distributor + Service",
+    "id": "pumps-plus",
+    "name": "Pumps Plus",
+    "fit": 8.7,
+    "category": "Rotating Equipment Sales & Service",
     "equipment": [
-      "pump"
+      "pump",
+      "rotating equipment",
+      "repair",
+      "rebuild"
     ],
-    "scope": "Cambridge, Ontario",
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "alliance-technical-group-canada",
+    "name": "Alliance Technical Group Canada",
+    "fit": 8.6,
+    "category": "Industrial Field Service / Environmental",
+    "equipment": [
+      "field service",
+      "emissions",
+      "CEMS"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "emnor-mechanical",
+    "name": "Emnor Mechanical",
+    "fit": 8.6,
+    "category": "Service + Repair",
+    "equipment": [
+      "pump",
+      "rotating equipment",
+      "reverse engineering"
+    ],
+    "scope": "Hamilton, Ontario",
+    "monitor": true
+  },
+  {
+    "id": "fan-dynamics",
+    "name": "Fan Dynamics",
+    "fit": 8.6,
+    "category": "Fan Service + Reliability",
+    "equipment": [
+      "industrial fan",
+      "pump",
+      "vibration analysis",
+      "rotating equipment"
+    ],
+    "scope": "Cambridge / Southern Ontario",
     "monitor": true
   },
   {
@@ -1311,53 +1399,68 @@
     "monitor": true
   },
   {
-    "id": "pneumatics-pro",
-    "name": "Pneumatics-pro",
+    "id": "voith-canada",
+    "name": "Voith Canada",
     "fit": 8.6,
-    "category": "Service + Repair",
+    "category": "Industrial Drive / Rotating Equipment",
     "equipment": [
-      "blower",
-      "fan",
-      "vacuum",
+      "drive",
       "rotating equipment"
     ],
-    "scope": "Canada / Ontario",
+    "scope": "Ontario / Canada roles relevant to Ontario",
     "monitor": true
   },
   {
-    "id": "trade-mark-industrial",
-    "name": "Trade-Mark Industrial",
+    "id": "wajax",
+    "name": "Wajax",
     "fit": 8.6,
-    "category": "Industrial Service",
+    "category": "Rotating Equipment / Industrial Service",
     "equipment": [
       "motor",
-      "rotating equipment",
-      "mechanical service"
+      "pump",
+      "rotating equipment"
     ],
-    "scope": "Ontario",
+    "scope": "Ontario / Canada roles relevant to Ontario",
     "monitor": true
   },
   {
-    "id": "dynamic-air-compressor",
-    "name": "Dynamic Air Compressor",
-    "fit": 8.5,
-    "category": "Distributor + Service",
-    "equipment": [
-      "compressor",
-      "air treatment"
-    ],
-    "scope": "GTA / Southern Ontario",
-    "monitor": true
-  },
-  {
-    "id": "elgi",
-    "name": "ELGi",
+    "id": "armstrong-fluid-technology",
+    "name": "Armstrong Fluid Technology",
     "fit": 8.5,
     "category": "OEM",
     "equipment": [
-      "compressor"
+      "pump",
+      "fluid systems"
     ],
-    "scope": "Canada / Ontario",
+    "scope": "Toronto, Ontario",
+    "monitor": true
+  },
+  {
+    "id": "avt-reliability",
+    "name": "AVT Reliability Canada",
+    "fit": 8.5,
+    "category": "Reliability + Condition Monitoring",
+    "equipment": [
+      "vibration",
+      "condition monitoring",
+      "alignment",
+      "rotating equipment"
+    ],
+    "scope": "Toronto and Sarnia, Ontario",
+    "monitor": true
+  },
+  {
+    "id": "delom-services",
+    "name": "Delom Services",
+    "fit": 8.5,
+    "category": "Rotating Equipment Reliability Service",
+    "equipment": [
+      "motor",
+      "generator",
+      "vibration",
+      "alignment"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
     "monitor": true
   },
   {
@@ -1377,6 +1480,42 @@
     "monitor": true
   },
   {
+    "id": "grundfos",
+    "name": "Grundfos",
+    "fit": 8.5,
+    "category": "OEM",
+    "equipment": [
+      "pump"
+    ],
+    "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "hayward-gordon",
+    "name": "Hayward Gordon",
+    "fit": 8.5,
+    "category": "Pump / Mixer OEM",
+    "equipment": [
+      "pump",
+      "mixer"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "lakeside-process-controls",
+    "name": "Lakeside Process Controls",
+    "fit": 8.5,
+    "category": "Reliability + Automation",
+    "equipment": [
+      "condition monitoring",
+      "vibration",
+      "asset reliability"
+    ],
+    "scope": "Ontario",
+    "monitor": true
+  },
+  {
     "id": "netzsch-pumps",
     "name": "NETZSCH Pumps",
     "fit": 8.5,
@@ -1388,13 +1527,26 @@
     "monitor": true
   },
   {
-    "id": "robinson-fans",
-    "name": "Robinson Fans",
+    "id": "pentair",
+    "name": "Pentair",
     "fit": 8.5,
     "category": "OEM",
     "equipment": [
-      "industrial fan",
-      "blower"
+      "pump",
+      "fluid handling"
+    ],
+    "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "schaeffler",
+    "name": "Schaeffler",
+    "fit": 8.5,
+    "category": "OEM + Reliability",
+    "equipment": [
+      "bearing",
+      "condition monitoring",
+      "rotating equipment"
     ],
     "scope": "Canada / Ontario",
     "monitor": true
@@ -1425,13 +1577,66 @@
     "monitor": true
   },
   {
-    "id": "spencer-turbine",
-    "name": "Spencer Turbine",
+    "id": "spx-flow",
+    "name": "SPX FLOW",
     "fit": 8.5,
     "category": "OEM",
     "equipment": [
-      "centrifugal blower",
-      "vacuum"
+      "pump",
+      "process equipment"
+    ],
+    "scope": "Canada / Ontario",
+    "monitor": true
+  },
+  {
+    "id": "tobin-everedy",
+    "name": "Tobin Everedy",
+    "fit": 8.5,
+    "category": "Industrial Pump / Rotating Equipment Sales & Service",
+    "equipment": [
+      "pump",
+      "motor",
+      "blower",
+      "fan",
+      "mechanical seal",
+      "repair"
+    ],
+    "scope": "Ottawa, Ontario",
+    "monitor": true
+  },
+  {
+    "id": "toromont-cat",
+    "name": "Toromont Cat",
+    "fit": 8.5,
+    "category": "OEM Dealer + Service",
+    "equipment": [
+      "engine",
+      "power systems",
+      "industrial rotating equipment"
+    ],
+    "scope": "Ontario",
+    "monitor": true
+  },
+  {
+    "id": "vibes-corp",
+    "name": "VIBES Corp",
+    "fit": 8.5,
+    "category": "Rotating Equipment Reliability Service",
+    "equipment": [
+      "vibration",
+      "balancing",
+      "alignment"
+    ],
+    "scope": "Ontario / Canada roles relevant to Ontario",
+    "monitor": true
+  },
+  {
+    "id": "viking-pump",
+    "name": "Viking Pump",
+    "fit": 8.5,
+    "category": "OEM",
+    "equipment": [
+      "positive displacement pump"
     ],
     "scope": "Canada / Ontario",
     "monitor": true
