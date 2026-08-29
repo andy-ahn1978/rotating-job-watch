@@ -1,73 +1,333 @@
 [
   {
-    "id": "ir-rsm-2026",
-    "company": "Ingersoll Rand",
-    "title": "Regional Sales Manager - Canada",
-    "date": "2026-08-01",
+    "id": "polyfab-2026",
+    "company": "PolyFab Industrial Services",
+    "title": "Technical Sales Representative / Business Development",
+    "date": "2026-08-27",
     "status": "Rejected",
-    "source": "Career site",
+    "source": "Job posting",
     "url": "",
-    "notes": "AI Virtual Recruiter completed."
+    "notes": "Kitchener, Ontario. Application/resume viewed, later rejected."
   },
   {
-    "id": "ir-pd-pumps-2026",
-    "company": "Ingersoll Rand",
-    "title": "Area Sales Manager - PD Pumps Canada",
-    "date": "2026-07-31",
-    "status": "Rejected",
-    "source": "Career site",
+    "id": "bray-2026",
+    "company": "Bray",
+    "title": "Outside Sales Representative",
+    "date": "2026-08-26",
+    "status": "Applied",
+    "source": "Job posting",
     "url": "",
-    "notes": "AI Virtual Recruiter completed."
+    "notes": ""
   },
   {
-    "id": "atlas-hp-2026",
-    "company": "Atlas Copco",
-    "title": "Technical Sales Representative - High Pressure",
-    "date": "2026-08-05",
-    "status": "Rejected",
-    "source": "Career site",
+    "id": "madsen-2026",
+    "company": "Madsen",
+    "title": "Industrial Sales / Aftermarket Role",
+    "date": "2026-08-26",
+    "status": "Applied",
+    "source": "Job posting",
     "url": "",
-    "notes": "HR phone screen completed; follow-up sent."
+    "notes": "Resume and LinkedIn were viewed."
   },
   {
-    "id": "epiroc-2026",
-    "company": "Epiroc",
-    "title": "Product Support Specialist - Drilling",
-    "date": "2026-07-01",
-    "status": "Rejected",
+    "id": "comairco-2026",
+    "company": "Comairco",
+    "title": "Aftermarket Sales Representative",
+    "date": "2026-08-26",
+    "status": "Applied",
+    "source": "Career site",
+    "url": "",
+    "notes": "Greater Toronto Area."
+  },
+  {
+    "id": "alliance-technical-group-2026",
+    "company": "Alliance Technical Group",
+    "title": "Business Development Manager - Canada",
+    "date": "2026-08-26",
+    "status": "Applied",
+    "source": "Career site",
+    "url": "",
+    "notes": "Industrial emissions / field-service business development."
+  },
+  {
+    "id": "master-068",
+    "company": "Bray International",
+    "title": "Outside Sales Representative - Southwestern Ontario",
+    "date": "2026-08-26",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-069",
+    "company": "Bray International",
+    "title": "Outside Sales Representative - Eastern Ontario",
+    "date": "2026-08-26",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "clauger-2026",
+    "company": "Clauger",
+    "title": "Sales Representative",
+    "date": "2026-08-25",
+    "status": "Applied",
     "source": "Career site",
     "url": "",
     "notes": ""
   },
   {
-    "id": "carmeuse-2026",
-    "company": "Carmeuse",
-    "title": "Sales Role - Beachville",
-    "date": "2026-08-04",
+    "id": "john-brooks-2026",
+    "company": "John Brooks Company",
+    "title": "Technical Sales Representative",
+    "date": "2026-08-25",
     "status": "Applied",
-    "source": "Career site",
+    "source": "LinkedIn",
     "url": "",
-    "notes": "Beachville, Ontario."
+    "notes": ""
+  },
+  {
+    "id": "master-065",
+    "company": "Epiroc",
+    "title": "Technical Sales Representative",
+    "date": "2026-08-25",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-066",
+    "company": "Hoskin Group",
+    "title": "Inside Sales Representative",
+    "date": "2026-08-25",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-067",
+    "company": "Grainger",
+    "title": "Role unspecified",
+    "date": "2026-08-25",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
   },
   {
     "id": "airstream-2026",
     "company": "AirStream Systems",
     "title": "Technical Sales Specialist",
-    "date": "2026-08-09",
+    "date": "2026-08-24",
     "status": "Applied",
     "source": "Job posting",
     "url": "",
     "notes": "Waterloo, Ontario."
   },
   {
-    "id": "berendsen-2026",
-    "company": "Berendsen Fluid Power",
-    "title": "Field Sales Representative",
-    "date": "2026-08-09",
+    "id": "master-062",
+    "company": "CaptiveAire",
+    "title": "Technical Sales and Field Service Engineer",
+    "date": "2026-08-24",
     "status": "Applied",
-    "source": "Job posting",
+    "source": "Recovered from My career project history",
     "url": "",
-    "notes": "Oakville, Ontario."
+    "notes": ""
+  },
+  {
+    "id": "master-063",
+    "company": "Westech",
+    "title": "Role unspecified",
+    "date": "2026-08-24",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-064",
+    "company": "Hoskin Group",
+    "title": "Technical Sales Representative",
+    "date": "2026-08-24",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-070",
+    "company": "Walmart Canada",
+    "title": "Overnight Associate",
+    "date": "2026-08-23",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-071",
+    "company": "Walmart Canada",
+    "title": "Stock Unloader Associate",
+    "date": "2026-08-23",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-072",
+    "company": "Walmart Canada",
+    "title": "OMNI Customer Fulfillment Associate",
+    "date": "2026-08-23",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-073",
+    "company": "Walmart Canada",
+    "title": "General Merchandise Associate",
+    "date": "2026-08-23",
+    "status": "Offer",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-059",
+    "company": "Cooper Equipment Rentals",
+    "title": "Outside Sales / Rental Representative",
+    "date": "2026-08-21",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-060",
+    "company": "Endress+Hauser Canada",
+    "title": "Product Manager, Optical Analysis and Gas Measurement",
+    "date": "2026-08-21",
+    "status": "Rejected",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-061",
+    "company": "Endress+Hauser Canada",
+    "title": "Industry Manager, Mining, Minerals & Metals",
+    "date": "2026-08-21",
+    "status": "Rejected",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-058",
+    "company": "Flex-Pression Ltd.",
+    "title": "Technical Inside Sales Representative",
+    "date": "2026-08-20",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-056",
+    "company": "Burckhardt Compression",
+    "title": "Manager of Sales",
+    "date": "2026-08-19",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-057",
+    "company": "ALTA",
+    "title": "Account Manager",
+    "date": "2026-08-19",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "liebherr-2026",
+    "company": "Liebherr",
+    "title": "Sales Role",
+    "date": "2026-08-18",
+    "status": "Applied",
+    "source": "Career site",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-053",
+    "company": "HYDAC Corporation",
+    "title": "Area Sales Manager",
+    "date": "2026-08-18",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-054",
+    "company": "Adescor",
+    "title": "Regional Sales Representative",
+    "date": "2026-08-18",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-055",
+    "company": "TCAT / Toromont Industries",
+    "title": "Role unspecified",
+    "date": "2026-08-18",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-052",
+    "company": "Lubrico Warranty Inc.",
+    "title": "Territory Account Manager - Southern Region",
+    "date": "2026-08-13",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "unverferth-2026",
+    "company": "Unverferth Manufacturing",
+    "title": "Agricultural Territory Manager",
+    "date": "2026-08-11",
+    "status": "Rejected",
+    "source": "Indeed",
+    "url": "",
+    "notes": "Application viewed then rejected."
+  },
+  {
+    "id": "lennox-2026",
+    "company": "Lennox",
+    "title": "Commercial Territory Manager",
+    "date": "2026-08-11",
+    "status": "Applied",
+    "source": "Career site",
+    "url": "",
+    "notes": "Brampton, Ontario."
   },
   {
     "id": "sulzer-2026",
@@ -120,94 +380,184 @@
     "notes": "Richmond Hill, Ontario."
   },
   {
-    "id": "unverferth-2026",
-    "company": "Unverferth Manufacturing",
-    "title": "Agricultural Territory Manager",
-    "date": "2026-08-11",
+    "id": "elite-valve-2026",
+    "company": "Elite Valve Canada",
+    "title": "Technical Sales",
+    "date": "2026-08-10",
+    "status": "Applied",
+    "source": "Email / Indeed",
+    "url": "",
+    "notes": "Email application followed by Indeed application."
+  },
+  {
+    "id": "berendsen-2026",
+    "company": "Berendsen Fluid Power",
+    "title": "Field Sales Representative",
+    "date": "2026-08-09",
+    "status": "Applied",
+    "source": "Job posting",
+    "url": "",
+    "notes": "Oakville, Ontario."
+  },
+  {
+    "id": "atlas-hp-2026",
+    "company": "Atlas Copco",
+    "title": "Technical Sales Representative - High Pressure",
+    "date": "2026-08-05",
     "status": "Rejected",
-    "source": "Indeed",
+    "source": "Career site",
     "url": "",
-    "notes": "Application viewed then rejected."
+    "notes": "HR phone screen completed; follow-up sent."
   },
   {
-    "id": "lennox-2026",
-    "company": "Lennox",
-    "title": "Commercial Territory Manager",
-    "date": "2026-08-11",
+    "id": "carmeuse-2026",
+    "company": "Carmeuse",
+    "title": "Sales Role - Beachville",
+    "date": "2026-08-04",
     "status": "Applied",
     "source": "Career site",
     "url": "",
-    "notes": "Brampton, Ontario."
+    "notes": "Beachville, Ontario."
   },
   {
-    "id": "liebherr-2026",
-    "company": "Liebherr",
-    "title": "Sales Role",
-    "date": "2026-08-18",
+    "id": "master-051",
+    "company": "CORE Industrial Gases",
+    "title": "Senior Sales Representative",
+    "date": "2026-08-04",
     "status": "Applied",
-    "source": "Career site",
+    "source": "Recovered from My career project history",
     "url": "",
     "notes": ""
   },
   {
-    "id": "clauger-2026",
-    "company": "Clauger",
-    "title": "Sales Representative",
-    "date": "2026-08-25",
-    "status": "Applied",
+    "id": "ir-rsm-2026",
+    "company": "Ingersoll Rand",
+    "title": "Regional Sales Manager - Canada",
+    "date": "2026-08-01",
+    "status": "Rejected",
     "source": "Career site",
+    "url": "",
+    "notes": "AI Virtual Recruiter completed."
+  },
+  {
+    "id": "ir-pd-pumps-2026",
+    "company": "Ingersoll Rand",
+    "title": "Area Sales Manager - PD Pumps Canada",
+    "date": "2026-07-31",
+    "status": "Rejected",
+    "source": "Career site",
+    "url": "",
+    "notes": "AI Virtual Recruiter completed."
+  },
+  {
+    "id": "master-048",
+    "company": "WESCO",
+    "title": "Representative - Outside Sales",
+    "date": "2026-07-30",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
     "url": "",
     "notes": ""
   },
   {
-    "id": "john-brooks-2026",
-    "company": "John Brooks Company",
+    "id": "master-049",
+    "company": "Amada Canada Ltd.",
+    "title": "Technical Outside Sales Rep - Western Ontario",
+    "date": "2026-07-30",
+    "status": "Rejected",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-050",
+    "company": "Non Destructive Testing Products Ltd",
     "title": "Technical Sales Representative",
-    "date": "2026-08-25",
+    "date": "2026-07-30",
     "status": "Applied",
-    "source": "LinkedIn",
+    "source": "Recovered from My career project history",
     "url": "",
     "notes": ""
   },
   {
-    "id": "bray-2026",
-    "company": "Bray",
-    "title": "Outside Sales Representative",
-    "date": "2026-08-26",
+    "id": "master-047",
+    "company": "Stanley Black & Decker",
+    "title": "Branch Manager",
+    "date": "2026-07-26",
     "status": "Applied",
-    "source": "Job posting",
+    "source": "Recovered from My career project history",
     "url": "",
     "notes": ""
   },
   {
-    "id": "madsen-2026",
-    "company": "Madsen",
-    "title": "Industrial Sales / Aftermarket Role",
-    "date": "2026-08-26",
+    "id": "master-046",
+    "company": "igus",
+    "title": "Territory Sales Manager",
+    "date": "2026-07-24",
     "status": "Applied",
-    "source": "Job posting",
+    "source": "Recovered from My career project history",
     "url": "",
-    "notes": "Resume and LinkedIn were viewed."
+    "notes": ""
   },
   {
-    "id": "comairco-2026",
-    "company": "Comairco",
-    "title": "Aftermarket Sales Representative",
-    "date": "2026-08-26",
+    "id": "master-045",
+    "company": "Canadian Bearings Ltd.",
+    "title": "Technical Sales Representative",
+    "date": "2026-07-15",
     "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "industrial-matrix-2026",
+    "company": "Industrial Matrix",
+    "title": "Field Technician",
+    "date": "2026-07-09",
+    "status": "Interview",
+    "source": "Job posting",
+    "url": "",
+    "notes": "Interview time slot accepted."
+  },
+  {
+    "id": "epiroc-2026",
+    "company": "Epiroc",
+    "title": "Product Support Specialist - Drilling",
+    "date": "2026-07-01",
+    "status": "Rejected",
     "source": "Career site",
     "url": "",
-    "notes": "Greater Toronto Area."
+    "notes": ""
   },
   {
-    "id": "polyfab-2026",
-    "company": "PolyFab Industrial Services",
-    "title": "Technical Sales Representative / Business Development",
-    "date": "2026-08-27",
-    "status": "Rejected",
-    "source": "Job posting",
+    "id": "master-041",
+    "company": "ABB",
+    "title": "Service Sales Specialist - North Ontario",
+    "date": "2026-06-23",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
     "url": "",
-    "notes": "Kitchener, Ontario. Application/resume viewed, later rejected."
+    "notes": ""
+  },
+  {
+    "id": "master-040",
+    "company": "Wolseley Canada",
+    "title": "Outside Sales Representative - Industrial",
+    "date": "2026-06-21",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-037",
+    "company": "Hammond Power Solutions",
+    "title": "Regional Sales Manager",
+    "date": "2026-02-19",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
   },
   {
     "id": "waygate-2026",
@@ -220,16 +570,6 @@
     "notes": "Eastern Canada."
   },
   {
-    "id": "elite-valve-2026",
-    "company": "Elite Valve Canada",
-    "title": "Technical Sales",
-    "date": "2026-08-09",
-    "status": "Applied",
-    "source": "Email / Indeed",
-    "url": "",
-    "notes": "Email application followed by Indeed application."
-  },
-  {
     "id": "united-rentals-kitchener-2026",
     "company": "United Rentals",
     "title": "Outside Sales Representative - Kitchener",
@@ -238,16 +578,6 @@
     "source": "Career site",
     "url": "",
     "notes": "Work-style assessment completed."
-  },
-  {
-    "id": "industrial-matrix-2026",
-    "company": "Industrial Matrix",
-    "title": "Field Technician",
-    "date": "",
-    "status": "Interview",
-    "source": "Job posting",
-    "url": "",
-    "notes": "Interview time slot accepted."
   },
   {
     "id": "caterpillar-2026",
@@ -268,46 +598,6 @@
     "source": "Job posting",
     "url": "",
     "notes": ""
-  },
-  {
-    "id": "alliance-technical-group-2026",
-    "company": "Alliance Technical Group",
-    "title": "Business Development Manager - Canada",
-    "date": "2026-08-26",
-    "status": "Applied",
-    "source": "Career site",
-    "url": "",
-    "notes": "Industrial emissions / field-service business development."
-  },
-  {
-    "id": "endress-contact-sales-2026",
-    "company": "Endress+Hauser",
-    "title": "Contact Sales Representative",
-    "date": "2026-08-21",
-    "status": "Rejected",
-    "source": "Career site",
-    "url": "",
-    "notes": ""
-  },
-  {
-    "id": "endress-industry-manager-2026",
-    "company": "Endress+Hauser",
-    "title": "Industry Manager - Mining, Minerals & Metals",
-    "date": "2026-08-21",
-    "status": "Rejected",
-    "source": "Career site",
-    "url": "",
-    "notes": "Separate Endress+Hauser application; exact application date may be approximate."
-  },
-  {
-    "id": "stanley-black-decker-2026",
-    "company": "Stanley Black & Decker",
-    "title": "Industrial Sales Role",
-    "date": "",
-    "status": "Applied",
-    "source": "Career site",
-    "url": "",
-    "notes": "Exact role title not preserved in current project summary."
   },
   {
     "id": "bucket-shop-2026",
@@ -350,13 +640,53 @@
     "notes": "Exact role title not preserved in current project summary."
   },
   {
-    "id": "walmart-gm-2026",
-    "company": "Walmart Canada",
-    "title": "GM Associate - Fixed Term",
-    "date": "2026-08-23",
-    "status": "Offer",
-    "source": "Career site",
+    "id": "master-038",
+    "company": "3M",
+    "title": "Abrasives Sales Specialist - Northern & Eastern, ON",
+    "date": "",
+    "status": "Rejected",
+    "source": "Recovered from My career project history",
     "url": "",
-    "notes": "Plan B / fixed-term role; offer/employment documents received."
+    "notes": ""
+  },
+  {
+    "id": "master-039",
+    "company": "Samuel Son & Co.",
+    "title": "Representative, Outside Sales",
+    "date": "",
+    "status": "Rejected",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-042",
+    "company": "Atlas Copco",
+    "title": "Technical Sales Representative - Industrial Air / Technical Air",
+    "date": "",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-043",
+    "company": "Atlas Copco",
+    "title": "Northern Ontario Territory Sales",
+    "date": "",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
+  },
+  {
+    "id": "master-044",
+    "company": "Atlas Copco",
+    "title": "Capital Equipment Sales",
+    "date": "",
+    "status": "Applied",
+    "source": "Recovered from My career project history",
+    "url": "",
+    "notes": ""
   }
 ]
