@@ -1,4 +1,4 @@
-let targets=[],payload={last_checked:null,jobs:[]},config={},profile={},seedApplications=[],view='new';
+let targets=[],payload={last_checked:null,jobs:[]},config={},profile={},seedApplications=[],view='jobs',jobMode='new';
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
 
 const APPKEY='career-job-watch.v6.applications';
@@ -30,11 +30,16 @@ async function init(){
 }
 
 function bindNav(){
-  $$('nav button').forEach(b=>b.onclick=()=>{
+  $$('.primary-nav button').forEach(b=>b.onclick=()=>{
     view=b.dataset.view;
-    $$('nav button').forEach(x=>x.classList.toggle('active',x===b));
+    $$('.primary-nav button').forEach(x=>x.classList.toggle('active',x===b));
     render();
   });
+}
+function setPrimaryView(next){
+  view=next;
+  $$('.primary-nav button').forEach(x=>x.classList.toggle('active',x.dataset.view===next));
+  render();
 }
 
 function esc(s=''){
@@ -223,30 +228,59 @@ function render(){
   $('#interviewCount').textContent=apps.filter(activePipeline).length;
   $('#lastChecked').textContent=fmt(payload.last_checked);
 
-  if(view==='new')jobView(newJobs,true);
-  if(view==='all')jobView(jobs,false);
+  if(view==='jobs')jobView(jobMode==='new'?newJobs:jobs,jobMode==='new');
   if(view==='companies')companyView();
   if(view==='applications')applicationsView();
+  if(view==='more')moreView();
   if(view==='hidden')hiddenView();
   if(view==='profile')profileView();
 }
 
+function jobTimestamp(j){
+  const raw=j.created||j.created_at||j.posted_at||j.date||j.first_seen||j.discovered_at||'';
+  const n=Date.parse(raw);
+  return Number.isFinite(n)?n:0;
+}
 function jobView(jobs,newOnly){
   $('#content').innerHTML=`
-    <div class="toolbar jobs-toolbar">
-      <input id="search" class="input" placeholder="Search jobs, companies, cities">
-      <select id="sourceFilter" class="select">
-        <option value="">All sources</option><option>Official</option><option>Adzuna</option>
-      </select>
-      <select id="targetFilter" class="select">
-        <option value="">All companies</option><option value="target">Target companies only</option>
-      </select>
-      <select id="employmentFilter" class="select">
-        <option value="eligible">Hide explicit contract / part-time</option>
-        <option value="">Show all employment types</option>
-        <option value="best">Full-time + Permanent stated</option>
+    <div class="view-head">
+      <div class="segmented">
+        <button class="${jobMode==='new'?'active':''}" data-jobmode="new">New Jobs</button>
+        <button class="${jobMode==='all'?'active':''}" data-jobmode="all">All Jobs</button>
+      </div>
+      <select id="sortJobs" class="select sort-select" aria-label="Sort jobs">
+        <option value="job-desc">Job Fit: High → Low</option>
+        <option value="job-asc">Job Fit: Low → High</option>
+        <option value="company-desc">Company Fit: High → Low</option>
+        <option value="company-asc">Company Fit: Low → High</option>
+        <option value="newest">Newest first</option>
       </select>
     </div>
+    <div class="job-search-row">
+      <input id="search" class="input" placeholder="Search jobs, companies, cities">
+    </div>
+    <details class="filter-panel">
+      <summary>Filters</summary>
+      <div class="filter-grid">
+        <label><span>Source</span>
+          <select id="sourceFilter" class="select">
+            <option value="">All sources</option><option>Official</option><option>Adzuna</option>
+          </select>
+        </label>
+        <label><span>Company</span>
+          <select id="targetFilter" class="select">
+            <option value="">All companies</option><option value="target">Target companies only</option>
+          </select>
+        </label>
+        <label><span>Employment</span>
+          <select id="employmentFilter" class="select">
+            <option value="eligible" selected>Exclude contract / part-time</option>
+            <option value="">Show all employment types</option>
+            <option value="best">Only stated Full-time + Permanent</option>
+          </select>
+        </label>
+      </div>
+    </details>
     <div id="jobList"></div>`;
 
   if(jobSearchPreset){
@@ -259,12 +293,22 @@ function jobView(jobs,newOnly){
     const src=$('#sourceFilter').value;
     const target=$('#targetFilter').value;
     const emp=$('#employmentFilter').value;
+    const sort=$('#sortJobs').value;
     const arr=jobs
       .filter(j=>[j.title,j.company,j.location,(j.matched_keywords||[]).join(' ')].join(' ').toLowerCase().includes(q))
       .filter(j=>!src||j.source===src)
       .filter(j=>target!=='target'||j.target_company)
       .filter(j=>!isHidden(j))
-      .filter(j=>emp==='' || (emp==='eligible'&&employmentInfo(j).eligible) || (emp==='best'&&employmentInfo(j).grade==='BEST'));
+      .filter(j=>emp==='' || (emp==='eligible'&&employmentInfo(j).eligible) || (emp==='best'&&employmentInfo(j).grade==='BEST'))
+      .sort((a,b)=>{
+        const ja=Number(a.score||0), jb=Number(b.score||0);
+        const ca=companyFit(a), cb=companyFit(b);
+        if(sort==='job-asc') return (ja-jb)||(cb-ca);
+        if(sort==='company-desc') return (cb-ca)||(jb-ja);
+        if(sort==='company-asc') return (ca-cb)||(jb-ja);
+        if(sort==='newest') return jobTimestamp(b)-jobTimestamp(a);
+        return (jb-ja)||(cb-ca);
+      });
 
     $('#jobList').innerHTML=arr.length?arr.map(j=>{
       const strong=Number(j.score)>=Number(config.strong_match_score||8);
@@ -313,10 +357,15 @@ function jobView(jobs,newOnly){
       if(j)hideJob(j);
     });
   };
+  $$('[data-jobmode]').forEach(b=>b.onclick=()=>{
+    jobMode=b.dataset.jobmode;
+    render();
+  });
   $('#search').oninput=paint;
   $('#sourceFilter').onchange=paint;
   $('#targetFilter').onchange=paint;
   $('#employmentFilter').onchange=paint;
+  $('#sortJobs').onchange=paint;
   paint();
 }
 
@@ -388,14 +437,11 @@ function companyView(){
     }).join(''):'<div class="empty">No target companies match this filter.</div>';
 
     $$('[data-viewjobs]').forEach(b=>b.onclick=()=>{
-      view='all'; jobSearchPreset=b.dataset.viewjobs;
-      $$('nav button').forEach(x=>x.classList.toggle('active',x.dataset.view==='all'));
-      render();
+      jobMode='all'; jobSearchPreset=b.dataset.viewjobs;
+      setPrimaryView('jobs');
     });
     $$('[data-addcompany]').forEach(b=>b.onclick=()=>{
-      view='applications';
-      $$('nav button').forEach(x=>x.classList.toggle('active',x.dataset.view==='applications'));
-      render();
+      setPrimaryView('applications');
       setTimeout(()=>{
         const c=$('#newCompany'); if(c){c.value=b.dataset.addcompany; $('#newTitle').focus();}
       },0);
@@ -538,9 +584,31 @@ function applicationsView(){
 }
 
 
+
+function moreView(){
+  $('#content').innerHTML=`
+    <section class="more-grid">
+      <button class="more-card" data-more="hidden">
+        <span class="more-symbol">⊘</span>
+        <span><b>Hidden Jobs</b><small>${hiddenJobs().length} hidden · training data</small></span>
+        <span class="chevron">›</span>
+      </button>
+      <button class="more-card" data-more="profile">
+        <span class="more-symbol">◎</span>
+        <span><b>My Profile</b><small>Career background & target roles</small></span>
+        <span class="chevron">›</span>
+      </button>
+    </section>`;
+  $$('[data-more]').forEach(b=>b.onclick=()=>{
+    view=b.dataset.more;
+    render();
+  });
+}
+
 function hiddenView(){
   const rows=hiddenJobs().sort((a,b)=>(b.hidden_date||'').localeCompare(a.hidden_date||''));
   $('#content').innerHTML=`
+    <button class="back-link" id="backMore">‹ More</button>
     <section class="panel">
       <h3>Hidden Jobs / Learning Data</h3>
       <p class="meta">Not a Match decisions are kept as training data. Restore a job at any time.</p>
@@ -564,6 +632,7 @@ function hiddenView(){
           <button class="btn" data-restore="${esc(x.job_id)}">Restore</button>
         </div>
       </article>`).join(''):'<div class="empty">No hidden jobs yet.</div>'}</div>`;
+  $('#backMore').onclick=()=>setPrimaryView('more');
   $$('[data-restore]').forEach(b=>b.onclick=()=>restoreHidden(b.dataset.restore));
   $('#clearHidden').onclick=()=>{if(confirm('Restore all hidden jobs and clear learning records?')){saveHidden([]);render();}};
   $('#exportLearning').onclick=()=>{
@@ -586,6 +655,7 @@ function profileView(){
     </article>`).join('');
 
   $('#content').innerHTML=`
+    <button class="back-link" id="backMore">‹ More</button>
     <section class="profile-hero">
       <div class="eyebrow">CAREER PROFILE</div>
       <h2>${esc(profile.name||'Career Profile')}</h2>
@@ -625,6 +695,7 @@ function profileView(){
       </div>
     </section>
     <div class="notice privacy-note">This public profile intentionally excludes phone number, email address, immigration documents, and other private information.</div>`;
+  $('#backMore').onclick=()=>setPrimaryView('more');
 }
 
 init();

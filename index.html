@@ -10,32 +10,33 @@
 </head>
 <body>
 <main class="app">
-  <header>
+  <header class="app-header">
     <div>
-      <h1>Career Job Watch</h1>
-      <p>Ontario rotating equipment & technical sales career hub</p>
+      <div class="brand-row">
+        <h1>Career Job Watch</h1>
+        <span id="liveBadge" class="live">...</span>
+      </div>
+      <p>Ontario rotating equipment & technical sales</p>
     </div>
-    <span id="liveBadge" class="live">...</span>
   </header>
 
-  <nav>
-    <button class="active" data-view="new">New Jobs</button>
-    <button data-view="all">All Jobs</button>
-    <button data-view="companies">Companies</button>
-    <button data-view="applications">Applications</button>
-    <button data-view="hidden">Hidden Jobs</button>
-    <button data-view="profile">My Profile</button>
-  </nav>
-
-  <section class="summary">
-    <div><b id="newCount">0</b><span>New jobs</span></div>
-    <div><b id="jobCount">0</b><span>Current jobs</span></div>
-    <div><b id="companyCount">0</b><span>Targets</span></div>
-    <div><b id="applicationCount">0</b><span>Applications</span></div>
-    <div><b id="interviewCount">0</b><span>Interview pipeline</span></div>
+  <section class="status-strip" aria-label="Dashboard summary">
+    <div><span>New</span><b id="newCount">0</b></div>
+    <div><span>Jobs</span><b id="jobCount">0</b></div>
+    <div><span>Targets</span><b id="companyCount">0</b></div>
+    <div><span>Applied</span><b id="applicationCount">0</b></div>
+    <div><span>Pipeline</span><b id="interviewCount">0</b></div>
   </section>
 
-  <div class="last-check">Last checked: <span id="lastChecked">Not yet</span></div>
+  <div class="last-check">Last checked <span id="lastChecked">Not yet</span></div>
+
+  <nav class="primary-nav" aria-label="Main navigation">
+    <button class="active" data-view="jobs"><span class="nav-icon">⌕</span><span>Jobs</span></button>
+    <button data-view="companies"><span class="nav-icon">▦</span><span>Companies</span></button>
+    <button data-view="applications"><span class="nav-icon">✓</span><span>Applications</span></button>
+    <button data-view="more"><span class="nav-icon">•••</span><span>More</span></button>
+  </nav>
+
   <section id="content"></section>
 </main>
 
