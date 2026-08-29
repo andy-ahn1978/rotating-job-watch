@@ -1520,5 +1520,20 @@
     ],
     "scope": "Ontario / Canada roles relevant to Ontario",
     "monitor": true
-  }
+  },
+  {
+  "id": "hd-compression",
+  "name": "HD Compression Inc.",
+  "fit": 9.6,
+  "category": "Compressor Distributor & Aftermarket Service",
+  "equipment": [
+    "compressor",
+    "compressed air",
+    "parts",
+    "repair",
+    "service"
+  ],
+  "scope": "Ontario / Canada roles relevant to Ontario",
+  "monitor": true
+}
 ]
