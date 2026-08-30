@@ -35,7 +35,13 @@
     "refinery": 1.0,
     "petrochemical": 1.0,
     "power generation": 1.0,
-    "mining": 1.0
+    "mining": 1.0,
+    "mechanical seal": 1.5,
+    "packing ring": 1.5,
+    "rider ring": 2.0,
+    "compressor valve": 2.0,
+    "ptfe": 0.5,
+    "predictive maintenance": 1.5
   },
   "negative_terms": {
     "retail": -2.5,
@@ -47,8 +53,12 @@
     "saas": -2.0,
     "pharmaceutical": -2.0,
     "car dealership": -3.0,
-    "automotive sales consultant": -3.0
+    "automotive sales consultant": -3.0,
+    "windows and doors": -4.0,
+    "building materials": -3.0,
+    "truck parts": -3.0
   },
   "minimum_score": 5.0,
+  "target_minimum_score": 3.0,
   "strong_match_score": 8.0
 }
