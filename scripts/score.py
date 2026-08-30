@@ -1,4 +1,6 @@
 import re
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 
 # V6.3.2 Job Fit
 # Weighting:
@@ -35,7 +37,6 @@ ROLE_TERMS = {
     "inside sales": 0.70,
 }
 
-# Direct experience / closest product families.
 EQUIPMENT_DIRECT = {
     "rotating equipment": 1.00,
     "rotating machinery": 1.00,
@@ -60,7 +61,6 @@ EQUIPMENT_DIRECT = {
     "fan": 0.78,
 }
 
-# Strongly transferable rotating-equipment / reliability products.
 EQUIPMENT_STRONG = {
     "pump": 0.82,
     "pumps": 0.82,
@@ -83,7 +83,6 @@ EQUIPMENT_STRONG = {
     "peek": 0.60,
 }
 
-# Adjacent industrial equipment; useful, but not enough for a high score alone.
 EQUIPMENT_ADJACENT = {
     "hydraulic": 0.55,
     "pneumatic": 0.55,
@@ -153,12 +152,54 @@ TITLE_PENALTIES = {
 def norm(s):
     return re.sub(r"\s+", " ", (s or "").lower()).strip()
 
+def build_job_text(job):
+    return " ".join([
+        job.get("title", ""),
+        job.get("description", ""),
+        job.get("company", ""),
+        job.get("target_category", ""),
+        " ".join(job.get("target_equipment", []) or []),
+    ])
+
+def build_tfidf_scores(jobs, profile):
+    refs = [
+        profile.get("career", ""),
+        profile.get("target_roles", ""),
+        profile.get("technical_domain", ""),
+    ]
+    job_docs = [build_job_text(job) for job in jobs]
+    docs = refs + job_docs
+
+    vectorizer = TfidfVectorizer(
+        stop_words="english",
+        ngram_range=(1, 2),
+        sublinear_tf=True,
+        min_df=1,
+    )
+    matrix = vectorizer.fit_transform(docs)
+
+    ref_matrix = matrix[:3]
+    job_matrix = matrix[3:]
+    sims = cosine_similarity(job_matrix, ref_matrix)
+
+    results = []
+    for row in sims:
+        career_sim = float(row[0])
+        role_sim = float(row[1])
+        technical_sim = float(row[2])
+        combined = (0.50 * career_sim) + (0.25 * role_sim) + (0.25 * technical_sim)
+        results.append({
+            "career": round(career_sim, 4),
+            "role": round(role_sim, 4),
+            "technical": round(technical_sim, 4),
+            "combined": round(combined, 4),
+        })
+    return results
+
 def best_match(text, table):
     hits = [(k, v) for k, v in table.items() if k in text]
     if not hits:
         return 0.0, []
-    # Strongest matching term determines the base. Additional distinct terms
-    # add a small corroboration bonus without allowing keyword stuffing.
     hits.sort(key=lambda x: x[1], reverse=True)
     best = hits[0][1]
     bonus = min(0.08, 0.02 * max(0, len(hits) - 1))
@@ -169,8 +210,6 @@ def equipment_fit(text):
     strong, sh = best_match(text, EQUIPMENT_STRONG)
     adjacent, ah = best_match(text, EQUIPMENT_ADJACENT)
 
-    # Direct product experience dominates. Strong/adjacent matches can lift a
-    # direct match slightly, but cannot overpower it.
     if direct > 0:
         value = min(1.0, direct + 0.08 * strong + 0.03 * adjacent)
     elif strong > 0:
@@ -184,8 +223,6 @@ def role_fit(title):
     return best_match(title, ROLE_TERMS)
 
 def tfidf_fit(sim):
-    # Short job ads vs long career profiles naturally produce low cosine values.
-    # Calibrate each axis before combining.
     career = min(1.0, float(sim.get("career", 0.0)) / 0.08)
     role = min(1.0, float(sim.get("role", 0.0)) / 0.10)
     technical = min(1.0, float(sim.get("technical", 0.0)) / 0.10)
@@ -203,7 +240,6 @@ def company_fit(job):
     fit = job.get("target_fit")
     if not isinstance(fit, (int, float)):
         return 0.50
-    # Convert Company Fit 8.0-10.0 into a 0-1 contribution.
     return max(0.20, min(1.0, (fit - 7.5) / 2.5))
 
 def score_job(job, config=None):
@@ -217,13 +253,7 @@ def score_job(job, config=None):
     if any(k in title for k in NON_SALES_TITLE) and not role_hits:
         return 1.0, [], ["non-sales-title"], "excluded"
 
-    text = norm(" ".join([
-        job.get("title", ""),
-        job.get("description", ""),
-        job.get("company", ""),
-        job.get("target_category", ""),
-        " ".join(job.get("target_equipment", []) or []),
-    ]))
+    text = norm(build_job_text(job))
 
     equipment_value, equipment_hits = equipment_fit(text)
     tfidf_value = tfidf_fit(job.get("_tfidf", {}) or {})
@@ -231,7 +261,6 @@ def score_job(job, config=None):
     industry_value, industry_hits = industry_fit(text)
     company_value = company_fit(job)
 
-    # Weighted 10-point score.
     score = (
         5.0 * equipment_value +
         2.0 * role_value +
@@ -241,8 +270,6 @@ def score_job(job, config=None):
         0.3 * company_value
     )
 
-    # Without a target commercial role, relevant equipment alone should not
-    # create a high Job Fit.
     if role_value == 0:
         score = min(score, 5.4)
 
