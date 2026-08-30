@@ -1666,5 +1666,20 @@
     ],
     "scope": "Ontario / Canada roles relevant to Ontario",
     "monitor": true
+  },
+  {
+  "id": "compressor-science",
+  "name": "Compressor Science",
+  "fit": 9.5,
+  "category": "Compressor Technical Sales & Service",
+  "equipment": [
+    "compressor",
+    "reciprocating compressor",
+    "compressed air",
+    "aftermarket",
+    "service"
+    ],
+    "scope": "Southern Ontario",
+    "monitor": true
   }
 ]
