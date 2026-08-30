@@ -2,22 +2,17 @@ import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-# V6.4
-# Step 1: Calculate a 0-10 rule-based Base Job Fit.
-# Step 2: Use TF-IDF only as a confidence/relevance multiplier.
+# V6.5
+# Final Job Fit =
+#   (Offering Fit 5.0 * TF-IDF multiplier)
+#   + Role Fit 2.0
+#   + Responsibilities Fit 1.2
+#   + Industry / Customer Fit 1.0
+#   + Company Fit 0.8
 #
-# Base score weights:
-#   Equipment / Product Fit     50% = 5.0
-#   Target Role Fit             20% = 2.0
-#   Responsibilities Fit        12% = 1.2
-#   Industry / Customer Fit     10% = 1.0
-#   Company Fit influence        8% = 0.8
-#
-# TF-IDF is NOT part of the 10-point base score.
-# Final Job Fit = Base Job Fit * TF-IDF multiplier.
-#
-# General multiplier floor: 0.50
-# Target company + direct equipment match floor: 0.80
+# Offering = equipment + product + industrial technical service.
+# TF-IDF only refines the 50% Offering component. It no longer reduces
+# Role, Responsibilities, Industry, or Company Fit.
 
 ROLE_TERMS = {
     "technical sales representative": 1.00,
@@ -43,9 +38,7 @@ ROLE_TERMS = {
     "inside sales": 0.72,
 }
 
-# Direct product experience. One of these is enough to establish a very high
-# equipment score; multiple terms add only a small corroboration bonus.
-EQUIPMENT_DIRECT = {
+OFFERING_DIRECT_EQUIPMENT = {
     "rotating equipment": 1.00,
     "rotating machinery": 1.00,
     "reciprocating compressor": 1.00,
@@ -69,8 +62,7 @@ EQUIPMENT_DIRECT = {
     "fan": 0.80,
 }
 
-# Strongly transferable rotating/reliability product families.
-EQUIPMENT_STRONG = {
+OFFERING_STRONG_EQUIPMENT = {
     "vacuum pump": 0.90,
     "pump": 0.86,
     "pumps": 0.86,
@@ -92,8 +84,7 @@ EQUIPMENT_STRONG = {
     "peek": 0.62,
 }
 
-# Adjacent industrial products.
-EQUIPMENT_ADJACENT = {
+OFFERING_ADJACENT_EQUIPMENT = {
     "fluid handling": 0.66,
     "process equipment": 0.65,
     "industrial machinery": 0.63,
@@ -102,6 +93,33 @@ EQUIPMENT_ADJACENT = {
     "pneumatic": 0.58,
     "mro": 0.58,
 }
+
+# Services are offerings only when the job/company text also contains
+# industrial/technical context. Generic "service" alone never qualifies.
+OFFERING_DIRECT_SERVICE = {
+    "aftermarket service": 0.98,
+    "retrofit service": 0.98,
+    "reliability service": 0.94,
+    "condition monitoring": 0.92,
+    "predictive maintenance": 0.90,
+    "field service": 0.86,
+    "maintenance service": 0.86,
+    "industrial service": 0.84,
+    "technical service": 0.84,
+    "equipment service": 0.84,
+    "inspection": 0.78,
+    "diagnostic": 0.82,
+    "emissions monitoring": 0.84,
+    "environmental monitoring": 0.76,
+}
+
+SERVICE_CONTEXT = (
+    "industrial", "equipment", "machinery", "mechanical", "plant",
+    "manufacturing", "maintenance", "engineering", "technical",
+    "compressor", "pump", "blower", "hydraulic", "pneumatic",
+    "reliability", "emission", "emissions", "instrumentation",
+    "refinery", "petrochemical", "power generation", "mining",
+)
 
 RESPONSIBILITY_TERMS = {
     "aftermarket": 1.00,
@@ -187,10 +205,7 @@ def build_tfidf_scores(jobs, profile):
         min_df=1,
     )
     matrix = vectorizer.fit_transform(docs)
-
-    ref_matrix = matrix[:3]
-    job_matrix = matrix[3:]
-    sims = cosine_similarity(job_matrix, ref_matrix)
+    sims = cosine_similarity(matrix[3:], matrix[:3])
 
     results = []
     for row in sims:
@@ -198,11 +213,12 @@ def build_tfidf_scores(jobs, profile):
         role_sim = float(row[1])
         technical_sim = float(row[2])
 
-        # Used only to choose the final multiplier.
+        # Combined similarity is deliberately weighted toward technical/career
+        # similarity because it is used only to refine Offering Fit.
         combined = (
-            0.45 * career_sim +
-            0.25 * role_sim +
-            0.30 * technical_sim
+            0.40 * career_sim +
+            0.15 * role_sim +
+            0.45 * technical_sim
         )
         results.append({
             "career": round(career_sim, 4),
@@ -216,25 +232,31 @@ def best_match(text, table):
     hits = [(k, v) for k, v in table.items() if k in text]
     if not hits:
         return 0.0, []
-
     hits.sort(key=lambda x: x[1], reverse=True)
     best = hits[0][1]
-
-    # Additional matching terms confirm the match but do not inflate it heavily.
     bonus = min(0.08, 0.02 * max(0, len(hits) - 1))
     return min(1.0, best + bonus), [k for k, _ in hits]
 
-def equipment_fit(text):
-    direct, direct_hits = best_match(text, EQUIPMENT_DIRECT)
-    strong, strong_hits = best_match(text, EQUIPMENT_STRONG)
-    adjacent, adjacent_hits = best_match(text, EQUIPMENT_ADJACENT)
+def offering_fit(text):
+    direct, direct_hits = best_match(text, OFFERING_DIRECT_EQUIPMENT)
+    strong, strong_hits = best_match(text, OFFERING_STRONG_EQUIPMENT)
+    adjacent, adjacent_hits = best_match(text, OFFERING_ADJACENT_EQUIPMENT)
+
+    service_context = any(term in text for term in SERVICE_CONTEXT)
+    service, service_hits = best_match(text, OFFERING_DIRECT_SERVICE)
+    if not service_context:
+        service, service_hits = 0.0, []
 
     if direct > 0:
-        value = min(1.0, direct + 0.06 * strong + 0.02 * adjacent)
+        value = min(1.0, direct + 0.05 * strong + 0.04 * service + 0.02 * adjacent)
         level = "direct"
     elif strong > 0:
-        value = min(0.92, strong + 0.04 * adjacent)
+        value = min(0.94, strong + 0.06 * service + 0.03 * adjacent)
         level = "strong"
+    elif service > 0:
+        # Industrial technical service is a legitimate offering in its own right.
+        value = min(0.90, service + 0.03 * adjacent)
+        level = "service"
     elif adjacent > 0:
         value = min(0.68, adjacent)
         level = "adjacent"
@@ -242,7 +264,9 @@ def equipment_fit(text):
         value = 0.0
         level = "none"
 
-    hits = list(dict.fromkeys(direct_hits + strong_hits + adjacent_hits))
+    hits = list(dict.fromkeys(
+        direct_hits + strong_hits + service_hits + adjacent_hits
+    ))
     return value, hits, level
 
 def role_fit(title):
@@ -257,18 +281,14 @@ def industry_fit(text):
 def company_fit(job):
     if not job.get("target_company"):
         return 0.0
-
     fit = job.get("target_fit")
     if not isinstance(fit, (int, float)):
         return 0.50
-
-    # Company Fit 7.5 -> 0.20, 8.5 -> 0.40, 9.0 -> 0.60, 10 -> 1.00
     return max(0.20, min(1.0, (fit - 7.0) / 3.0))
 
-def tfidf_multiplier(sim, target_company=False, equipment_level="none"):
+def tfidf_multiplier(sim, target_company=False, offering_level="none"):
     combined = float((sim or {}).get("combined", 0.0))
 
-    # TF-IDF acts as a weight/confidence factor only.
     if combined >= 0.12:
         multiplier = 1.00
     elif combined >= 0.09:
@@ -282,9 +302,8 @@ def tfidf_multiplier(sim, target_company=False, equipment_level="none"):
     else:
         multiplier = 0.50
 
-    # A short/truncated JD from a known target company should not destroy an
-    # otherwise direct product match.
-    if target_company and equipment_level == "direct":
+    # Protect known target-company offerings from sparse/truncated job text.
+    if target_company and offering_level in ("direct", "strong", "service"):
         multiplier = max(multiplier, 0.80)
 
     return multiplier
@@ -301,53 +320,51 @@ def score_job(job, config=None):
         return 1.0, [], ["non-sales-title"], "excluded"
 
     text = norm(build_job_text(job))
-
-    equipment_value, equipment_hits, equipment_level = equipment_fit(text)
+    offering_value, offering_hits, offering_level = offering_fit(text)
     responsibility_value, responsibility_hits = responsibilities_fit(text)
     industry_value, industry_hits = industry_fit(text)
     company_value = company_fit(job)
 
-    # Rule-based Base Job Fit, 0-10.
-    base_score = (
-        5.0 * equipment_value +
+    sim = job.get("_tfidf", {}) or {}
+    multiplier = tfidf_multiplier(
+        sim,
+        target_company=bool(job.get("target_company")),
+        offering_level=offering_level,
+    )
+
+    offering_raw = 5.0 * offering_value
+    offering_adjusted = offering_raw * multiplier
+
+    # Only Offering Fit is multiplied by TF-IDF.
+    final_score = (
+        offering_adjusted +
         2.0 * role_value +
         1.2 * responsibility_value +
         1.0 * industry_value +
         0.8 * company_value
     )
 
-    # Equipment relevance remains the primary gate.
-    if equipment_level == "none":
-        base_score = min(base_score, 5.0)
-
-    # A non-commercial title cannot become a high Job Fit just because the
-    # employer is a compressor/pump company.
-    if role_value == 0:
-        base_score = min(base_score, 5.4)
-
     negatives = []
     for term, penalty in TITLE_PENALTIES.items():
         if term in title:
-            base_score -= penalty
+            final_score -= penalty
             negatives.append(term)
 
-    base_score = max(0.0, min(10.0, base_score))
+    # Safety gates stay independent of TF-IDF.
+    if offering_level == "none":
+        final_score = min(final_score, 5.4)
+    if role_value == 0:
+        final_score = min(final_score, 5.4)
 
-    sim = job.get("_tfidf", {}) or {}
-    multiplier = tfidf_multiplier(
-        sim,
-        target_company=bool(job.get("target_company")),
-        equipment_level=equipment_level,
-    )
-
-    final_score = round(max(0.0, min(10.0, base_score * multiplier)), 1)
+    final_score = round(max(0.0, min(10.0, final_score)), 1)
 
     matched = list(dict.fromkeys(
-        role_hits + equipment_hits + responsibility_hits + industry_hits
+        role_hits + offering_hits + responsibility_hits + industry_hits
     ))
     matched += [
-        f"Base {base_score:.1f}",
+        f"Offering {offering_raw:.1f}/5",
         f"TF-IDF x{multiplier:.2f}",
+        f"Offering adjusted {offering_adjusted:.1f}/5",
         f"TF-IDF career {sim.get('career', 0):.2f}",
         f"TF-IDF role {sim.get('role', 0):.2f}",
         f"TF-IDF technical {sim.get('technical', 0):.2f}",
