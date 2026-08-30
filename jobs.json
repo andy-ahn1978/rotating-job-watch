@@ -17,15 +17,16 @@
       "searched_target": null,
       "target_company": true,
       "target_fit": 8.6,
-      "score": 3.5,
+      "score": 3.1,
       "matched_keywords": [
         "business development",
         "field service",
         "industrial",
+        "Base 4.1",
+        "TF-IDF x0.75",
         "TF-IDF career 0.03",
         "TF-IDF role 0.06",
-        "TF-IDF technical 0.03",
-        "target company"
+        "TF-IDF technical 0.03"
       ],
       "negative_keywords": [],
       "key": "Adzuna:5858060444",
@@ -37,7 +38,7 @@
         "emissions",
         "CEMS"
       ],
-      "tfidf_similarity": 0.0371
+      "tfidf_similarity": 0.0372
     },
     {
       "external_id": "5832067424",
@@ -55,7 +56,7 @@
       "searched_target": null,
       "target_company": true,
       "target_fit": 9.3,
-      "score": 8.9,
+      "score": 7.9,
       "matched_keywords": [
         "retrofit specialist",
         "rotating equipment",
@@ -64,7 +65,7 @@
         "pump",
         "retrofit",
         "upgrade",
-        "TF-IDF career 0.05"
+        "Base 8.8"
       ],
       "negative_keywords": [],
       "key": "Adzuna:5832067424",
@@ -77,46 +78,7 @@
         "turbomachinery",
         "rotating equipment"
       ],
-      "tfidf_similarity": 0.0621
-    },
-    {
-      "external_id": "5819864909",
-      "company": "Wajax",
-      "title": "Technical Sales Representative- Hydraulics, Industrial Components",
-      "location": "Etobicoke, Toronto",
-      "description": "The Opportunity Accountable/responsible for growing industry revenues within Top industry account portfolios and drive the acquisition of new large accounts ($60K - $500K). Lead the sales strategy and plan, including customer target accounts, prospecting, sales lead follow-up and maintaining a strong relationship with existing customers. Retain, grow business relationships with Top accounts by proactively identifying opportunities and presenting innovative solutions, and overcoming obstacles wi…",
-      "url": "https://www.adzuna.ca/details/5819864909?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-07-29T11:14:57Z",
-      "salary_min": 65000,
-      "salary_max": 80000,
-      "source": "Adzuna",
-      "search_query": "Wajax",
-      "search_type": "target_company",
-      "searched_target": "Wajax",
-      "target_company": true,
-      "target_fit": 8.6,
-      "score": 8.7,
-      "matched_keywords": [
-        "technical sales representative",
-        "technical sales",
-        "sales representative",
-        "rotating equipment",
-        "pump",
-        "hydraulic",
-        "prospecting",
-        "industrial"
-      ],
-      "negative_keywords": [],
-      "key": "Adzuna:5819864909",
-      "first_seen": "2026-08-29T21:14:00.393028+00:00",
-      "is_new": false,
-      "target_category": "Rotating Equipment / Industrial Service",
-      "target_equipment": [
-        "motor",
-        "pump",
-        "rotating equipment"
-      ],
-      "tfidf_similarity": 0.0401
+      "tfidf_similarity": 0.0627
     },
     {
       "external_id": "5822414351",
@@ -134,7 +96,7 @@
       "searched_target": "Wajax",
       "target_company": true,
       "target_fit": 8.6,
-      "score": 8.7,
+      "score": 7.7,
       "matched_keywords": [
         "technical sales representative",
         "technical sales",
@@ -143,7 +105,7 @@
         "pump",
         "prospecting",
         "industrial",
-        "TF-IDF career 0.04"
+        "Base 9.1"
       ],
       "negative_keywords": [],
       "key": "Adzuna:5822414351",
@@ -155,7 +117,7 @@
         "pump",
         "rotating equipment"
       ],
-      "tfidf_similarity": 0.0406
+      "tfidf_similarity": 0.0402
     },
     {
       "external_id": "5796193572",
@@ -173,7 +135,7 @@
       "searched_target": "Wajax",
       "target_company": true,
       "target_fit": 8.6,
-      "score": 8.6,
+      "score": 7.3,
       "matched_keywords": [
         "technical sales representative",
         "technical sales",
@@ -194,7 +156,46 @@
         "pump",
         "rotating equipment"
       ],
-      "tfidf_similarity": 0.0389
+      "tfidf_similarity": 0.0384
+    },
+    {
+      "external_id": "5819864909",
+      "company": "Wajax",
+      "title": "Technical Sales Representative- Hydraulics, Industrial Components",
+      "location": "Etobicoke, Toronto",
+      "description": "The Opportunity Accountable/responsible for growing industry revenues within Top industry account portfolios and drive the acquisition of new large accounts ($60K - $500K). Lead the sales strategy and plan, including customer target accounts, prospecting, sales lead follow-up and maintaining a strong relationship with existing customers. Retain, grow business relationships with Top accounts by proactively identifying opportunities and presenting innovative solutions, and overcoming obstacles wi…",
+      "url": "https://www.adzuna.ca/details/5819864909?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-07-29T11:14:57Z",
+      "salary_min": 65000,
+      "salary_max": 80000,
+      "source": "Adzuna",
+      "search_query": "Wajax",
+      "search_type": "target_company",
+      "searched_target": "Wajax",
+      "target_company": true,
+      "target_fit": 8.6,
+      "score": 7.3,
+      "matched_keywords": [
+        "technical sales representative",
+        "technical sales",
+        "sales representative",
+        "rotating equipment",
+        "pump",
+        "hydraulic",
+        "prospecting",
+        "industrial"
+      ],
+      "negative_keywords": [],
+      "key": "Adzuna:5819864909",
+      "first_seen": "2026-08-29T21:14:00.393028+00:00",
+      "is_new": false,
+      "target_category": "Rotating Equipment / Industrial Service",
+      "target_equipment": [
+        "motor",
+        "pump",
+        "rotating equipment"
+      ],
+      "tfidf_similarity": 0.0397
     },
     {
       "external_id": "5850940784",
@@ -212,16 +213,16 @@
       "searched_target": "Air Solutions Canada",
       "target_company": true,
       "target_fit": 9.3,
-      "score": 8.3,
+      "score": 7.1,
       "matched_keywords": [
         "technical sales",
         "compressor",
         "compressed air",
         "blower",
         "industrial",
-        "TF-IDF career 0.03",
-        "TF-IDF role 0.06",
-        "TF-IDF technical 0.07"
+        "Base 8.3",
+        "TF-IDF x0.85",
+        "TF-IDF career 0.03"
       ],
       "negative_keywords": [],
       "key": "Adzuna:5850940784",
@@ -235,7 +236,7 @@
         "service",
         "air audit"
       ],
-      "tfidf_similarity": 0.047
+      "tfidf_similarity": 0.0492
     },
     {
       "external_id": "5811389304",
@@ -253,16 +254,16 @@
       "searched_target": "Wajax",
       "target_company": true,
       "target_fit": 8.6,
-      "score": 8.0,
+      "score": 6.8,
       "matched_keywords": [
         "regional sales",
         "sales manager",
         "rotating equipment",
         "pump",
         "industrial",
-        "TF-IDF career 0.03",
-        "TF-IDF role 0.09",
-        "TF-IDF technical 0.03"
+        "Base 8.0",
+        "TF-IDF x0.85",
+        "TF-IDF career 0.03"
       ],
       "negative_keywords": [],
       "key": "Adzuna:5811389304",
@@ -274,7 +275,7 @@
         "pump",
         "rotating equipment"
       ],
-      "tfidf_similarity": 0.0412
+      "tfidf_similarity": 0.0413
     },
     {
       "external_id": "5840028585",
@@ -292,16 +293,16 @@
       "searched_target": "Wajax",
       "target_company": true,
       "target_fit": 8.6,
-      "score": 7.9,
+      "score": 6.5,
       "matched_keywords": [
         "outside sales",
         "sales representative",
         "rotating equipment",
         "pump",
         "industrial",
-        "TF-IDF career 0.02",
-        "TF-IDF role 0.08",
-        "TF-IDF technical 0.02"
+        "Base 8.1",
+        "TF-IDF x0.80",
+        "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
       "key": "Adzuna:5840028585",
@@ -313,46 +314,7 @@
         "pump",
         "rotating equipment"
       ],
-      "tfidf_similarity": 0.0351
-    },
-    {
-      "external_id": "5822414347",
-      "company": "Wajax",
-      "title": "Inside Sales Representative- Hydraulic and Pneumatics",
-      "location": "Timmins, Cochrane region",
-      "description": "The Opportunity Obtaining and up-selling parts and service orders, creating customer satisfaction and adding value to the customer’s buying experience. Provide consistently elevated levels of customer service to customers and accounts, reaching business targets through excellent telephone sales and communication skills. The Role â Develop and maintain confidential client information utilizing Wajax’s CRM software. â Manages Customer Satisfaction with all existing customers by delivering the…",
-      "url": "https://www.adzuna.ca/details/5822414347?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-07-31T10:57:02Z",
-      "salary_min": 60000,
-      "salary_max": 75000,
-      "source": "Adzuna",
-      "search_query": "Wajax",
-      "search_type": "target_company",
-      "searched_target": "Wajax",
-      "target_company": true,
-      "target_fit": 8.6,
-      "score": 7.8,
-      "matched_keywords": [
-        "sales representative",
-        "inside sales",
-        "rotating equipment",
-        "pump",
-        "hydraulic",
-        "pneumatic",
-        "industrial",
-        "TF-IDF career 0.04"
-      ],
-      "negative_keywords": [],
-      "key": "Adzuna:5822414347",
-      "first_seen": "2026-08-29T21:14:00.393028+00:00",
-      "is_new": false,
-      "target_category": "Rotating Equipment / Industrial Service",
-      "target_equipment": [
-        "motor",
-        "pump",
-        "rotating equipment"
-      ],
-      "tfidf_similarity": 0.0328
+      "tfidf_similarity": 0.0354
     },
     {
       "external_id": "5797353403",
@@ -370,16 +332,16 @@
       "searched_target": "Wajax",
       "target_company": true,
       "target_fit": 8.6,
-      "score": 7.8,
+      "score": 6.4,
       "matched_keywords": [
         "account manager",
         "rotating equipment",
         "pump",
         "industrial",
+        "Base 8.0",
+        "TF-IDF x0.80",
         "TF-IDF career 0.02",
-        "TF-IDF role 0.06",
-        "TF-IDF technical 0.03",
-        "target company"
+        "TF-IDF role 0.06"
       ],
       "negative_keywords": [],
       "key": "Adzuna:5797353403",
@@ -391,7 +353,202 @@
         "pump",
         "rotating equipment"
       ],
-      "tfidf_similarity": 0.0313
+      "tfidf_similarity": 0.0315
+    },
+    {
+      "external_id": "5847961425",
+      "company": "Toromont Cat",
+      "title": "Inside Sales Representative (ISR)",
+      "location": "Katimavik-Hazeldean, Ottawa",
+      "description": "Toromont Cat is looking for an Inside Sales Representative (ISR) to be the key point of contact between the business and our customers. The Inside Sales Representative (ISR) is the single point of contact between the Dealer and the Customer as a vital source of support, building positive relationships with both internal and external customers to achieve both individual and company goals in the assigned region. Pay Type Full Time, Permanent Compensation $62.000.00 The listed base salary is just …",
+      "url": "https://www.adzuna.ca/details/5847961425?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-08-19T04:38:54Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Toromont Cat",
+      "search_type": "target_company",
+      "searched_target": "Toromont Cat",
+      "target_company": true,
+      "target_fit": 8.5,
+      "score": 6.3,
+      "matched_keywords": [
+        "sales representative",
+        "inside sales",
+        "rotating equipment",
+        "industrial",
+        "Base 7.9",
+        "TF-IDF x0.80",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.04"
+      ],
+      "negative_keywords": [],
+      "key": "Adzuna:5847961425",
+      "first_seen": "2026-08-27T22:38:48.369499+00:00",
+      "is_new": false,
+      "target_category": "OEM Dealer + Service",
+      "target_equipment": [
+        "engine",
+        "power systems",
+        "industrial rotating equipment"
+      ],
+      "tfidf_similarity": 0.0223
+    },
+    {
+      "external_id": "5856558805",
+      "company": "Toromont Cat",
+      "title": "Machine Sales Representative (MSR)",
+      "location": "Concord, York region",
+      "description": "Toromont Cat is seeking an experienced and motivated Machine Sales Representative to support business development and strengthen customer relationships across the Capital region. Based out of Concord, this role requires a solid background in heavy construction and/or equipment sales and a proven ability to build longâterm customer partnerships in a competitive market. Pay Type Full Time, Permanent Compensation $105,000 - $115,000 The listed target compensation includes commissions and other v…",
+      "url": "https://www.adzuna.ca/details/5856558805?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-08-26T04:22:26Z",
+      "salary_min": 105000,
+      "salary_max": 115000,
+      "source": "Adzuna",
+      "search_query": "Toromont Cat",
+      "search_type": "target_company",
+      "searched_target": "Toromont Cat",
+      "target_company": true,
+      "target_fit": 8.5,
+      "score": 6.3,
+      "matched_keywords": [
+        "sales representative",
+        "rotating equipment",
+        "industrial",
+        "Base 7.8",
+        "TF-IDF x0.80",
+        "TF-IDF career 0.04",
+        "TF-IDF role 0.05",
+        "TF-IDF technical 0.01"
+      ],
+      "negative_keywords": [],
+      "key": "Adzuna:5856558805",
+      "first_seen": "2026-08-27T22:38:48.369499+00:00",
+      "is_new": false,
+      "target_category": "OEM Dealer + Service",
+      "target_equipment": [
+        "engine",
+        "power systems",
+        "industrial rotating equipment"
+      ],
+      "tfidf_similarity": 0.0328
+    },
+    {
+      "external_id": "5822414347",
+      "company": "Wajax",
+      "title": "Inside Sales Representative- Hydraulic and Pneumatics",
+      "location": "Timmins, Cochrane region",
+      "description": "The Opportunity Obtaining and up-selling parts and service orders, creating customer satisfaction and adding value to the customer’s buying experience. Provide consistently elevated levels of customer service to customers and accounts, reaching business targets through excellent telephone sales and communication skills. The Role â Develop and maintain confidential client information utilizing Wajax’s CRM software. â Manages Customer Satisfaction with all existing customers by delivering the…",
+      "url": "https://www.adzuna.ca/details/5822414347?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-07-31T10:57:02Z",
+      "salary_min": 60000,
+      "salary_max": 75000,
+      "source": "Adzuna",
+      "search_query": "Wajax",
+      "search_type": "target_company",
+      "searched_target": "Wajax",
+      "target_company": true,
+      "target_fit": 8.6,
+      "score": 6.3,
+      "matched_keywords": [
+        "sales representative",
+        "inside sales",
+        "rotating equipment",
+        "pump",
+        "hydraulic",
+        "pneumatic",
+        "industrial",
+        "Base 7.9"
+      ],
+      "negative_keywords": [],
+      "key": "Adzuna:5822414347",
+      "first_seen": "2026-08-29T21:14:00.393028+00:00",
+      "is_new": false,
+      "target_category": "Rotating Equipment / Industrial Service",
+      "target_equipment": [
+        "motor",
+        "pump",
+        "rotating equipment"
+      ],
+      "tfidf_similarity": 0.0324
+    },
+    {
+      "external_id": "5807503501",
+      "company": "Wajax",
+      "title": "Sales Representative- Heavy Equipment",
+      "location": "Etobicoke, Toronto",
+      "description": "The Opportunity Plays an integral role in the retail sales process. Responsible for the efficient processing of high volume product sales orders from point of order reception to product delivery.Ensures all sales orders meet and/or exceed customer expectations. The Role Works closely with sales representatives and/or production team to review product sales and customer requirements; plans for the overall timely processing of sales orders including product purchase, management of product deliver…",
+      "url": "https://www.adzuna.ca/details/5807503501?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-07-19T18:00:43Z",
+      "salary_min": 40000,
+      "salary_max": 50000,
+      "source": "Adzuna",
+      "search_query": "Wajax",
+      "search_type": "target_company",
+      "searched_target": "Wajax",
+      "target_company": true,
+      "target_fit": 8.6,
+      "score": 6.3,
+      "matched_keywords": [
+        "sales representative",
+        "rotating equipment",
+        "pump",
+        "industrial",
+        "Base 7.9",
+        "TF-IDF x0.80",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.06"
+      ],
+      "negative_keywords": [],
+      "key": "Adzuna:5807503501",
+      "first_seen": "2026-08-29T21:14:00.393028+00:00",
+      "is_new": false,
+      "target_category": "Rotating Equipment / Industrial Service",
+      "target_equipment": [
+        "motor",
+        "pump",
+        "rotating equipment"
+      ],
+      "tfidf_similarity": 0.0321
+    },
+    {
+      "external_id": "5778234474",
+      "company": "Wajax",
+      "title": "Sales Representative- Heavy Equipment",
+      "location": "Gloucester, Ottawa region",
+      "description": "The Opportunity Plays an integral role in the retail sales process. Responsible for the efficient processing of high volume product sales orders from point of order reception to product delivery. Ensures all sales orders meet and/or exceed customer expectations. The Role Works closely with sales representatives and/or production team to review product sales and customer requirements; plans for the overall timely processing of sales orders including product purchase, management of product delive…",
+      "url": "https://www.adzuna.ca/details/5778234474?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-06-26T17:12:28Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Wajax",
+      "search_type": "target_company",
+      "searched_target": "Wajax",
+      "target_company": true,
+      "target_fit": 8.6,
+      "score": 6.3,
+      "matched_keywords": [
+        "sales representative",
+        "rotating equipment",
+        "pump",
+        "industrial",
+        "Base 7.9",
+        "TF-IDF x0.80",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.06"
+      ],
+      "negative_keywords": [],
+      "key": "Adzuna:5778234474",
+      "first_seen": "2026-08-29T21:14:00.393028+00:00",
+      "is_new": false,
+      "target_category": "Rotating Equipment / Industrial Service",
+      "target_equipment": [
+        "motor",
+        "pump",
+        "rotating equipment"
+      ],
+      "tfidf_similarity": 0.0321
     },
     {
       "external_id": "5539679612",
@@ -409,7 +566,7 @@
       "searched_target": null,
       "target_company": true,
       "target_fit": 8.8,
-      "score": 7.7,
+      "score": 6.1,
       "matched_keywords": [
         "technical sales representative",
         "technical sales",
@@ -448,7 +605,7 @@
       "searched_target": "John Brooks Company",
       "target_company": true,
       "target_fit": 8.8,
-      "score": 7.7,
+      "score": 6.1,
       "matched_keywords": [
         "technical sales representative",
         "technical sales",
@@ -469,162 +626,7 @@
         "spray",
         "process equipment"
       ],
-      "tfidf_similarity": 0.0368
-    },
-    {
-      "external_id": "5856558805",
-      "company": "Toromont Cat",
-      "title": "Machine Sales Representative (MSR)",
-      "location": "Concord, York region",
-      "description": "Toromont Cat is seeking an experienced and motivated Machine Sales Representative to support business development and strengthen customer relationships across the Capital region. Based out of Concord, this role requires a solid background in heavy construction and/or equipment sales and a proven ability to build longâterm customer partnerships in a competitive market. Pay Type Full Time, Permanent Compensation $105,000 - $115,000 The listed target compensation includes commissions and other v…",
-      "url": "https://www.adzuna.ca/details/5856558805?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-08-26T04:22:26Z",
-      "salary_min": 105000,
-      "salary_max": 115000,
-      "source": "Adzuna",
-      "search_query": "Toromont Cat",
-      "search_type": "target_company",
-      "searched_target": "Toromont Cat",
-      "target_company": true,
-      "target_fit": 8.5,
-      "score": 7.7,
-      "matched_keywords": [
-        "sales representative",
-        "rotating equipment",
-        "industrial",
-        "TF-IDF career 0.04",
-        "TF-IDF role 0.05",
-        "TF-IDF technical 0.01",
-        "target company"
-      ],
-      "negative_keywords": [],
-      "key": "Adzuna:5856558805",
-      "first_seen": "2026-08-27T22:38:48.369499+00:00",
-      "is_new": false,
-      "target_category": "OEM Dealer + Service",
-      "target_equipment": [
-        "engine",
-        "power systems",
-        "industrial rotating equipment"
-      ],
-      "tfidf_similarity": 0.0339
-    },
-    {
-      "external_id": "5807503501",
-      "company": "Wajax",
-      "title": "Sales Representative- Heavy Equipment",
-      "location": "Etobicoke, Toronto",
-      "description": "The Opportunity Plays an integral role in the retail sales process. Responsible for the efficient processing of high volume product sales orders from point of order reception to product delivery.Ensures all sales orders meet and/or exceed customer expectations. The Role Works closely with sales representatives and/or production team to review product sales and customer requirements; plans for the overall timely processing of sales orders including product purchase, management of product deliver…",
-      "url": "https://www.adzuna.ca/details/5807503501?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-07-19T18:00:43Z",
-      "salary_min": 40000,
-      "salary_max": 50000,
-      "source": "Adzuna",
-      "search_query": "Wajax",
-      "search_type": "target_company",
-      "searched_target": "Wajax",
-      "target_company": true,
-      "target_fit": 8.6,
-      "score": 7.7,
-      "matched_keywords": [
-        "sales representative",
-        "rotating equipment",
-        "pump",
-        "industrial",
-        "TF-IDF career 0.02",
-        "TF-IDF role 0.06",
-        "TF-IDF technical 0.03",
-        "target company"
-      ],
-      "negative_keywords": [],
-      "key": "Adzuna:5807503501",
-      "first_seen": "2026-08-29T21:14:00.393028+00:00",
-      "is_new": false,
-      "target_category": "Rotating Equipment / Industrial Service",
-      "target_equipment": [
-        "motor",
-        "pump",
-        "rotating equipment"
-      ],
-      "tfidf_similarity": 0.0316
-    },
-    {
-      "external_id": "5778234474",
-      "company": "Wajax",
-      "title": "Sales Representative- Heavy Equipment",
-      "location": "Gloucester, Ottawa region",
-      "description": "The Opportunity Plays an integral role in the retail sales process. Responsible for the efficient processing of high volume product sales orders from point of order reception to product delivery. Ensures all sales orders meet and/or exceed customer expectations. The Role Works closely with sales representatives and/or production team to review product sales and customer requirements; plans for the overall timely processing of sales orders including product purchase, management of product delive…",
-      "url": "https://www.adzuna.ca/details/5778234474?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-06-26T17:12:28Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Wajax",
-      "search_type": "target_company",
-      "searched_target": "Wajax",
-      "target_company": true,
-      "target_fit": 8.6,
-      "score": 7.7,
-      "matched_keywords": [
-        "sales representative",
-        "rotating equipment",
-        "pump",
-        "industrial",
-        "TF-IDF career 0.02",
-        "TF-IDF role 0.06",
-        "TF-IDF technical 0.03",
-        "target company"
-      ],
-      "negative_keywords": [],
-      "key": "Adzuna:5778234474",
-      "first_seen": "2026-08-29T21:14:00.393028+00:00",
-      "is_new": false,
-      "target_category": "Rotating Equipment / Industrial Service",
-      "target_equipment": [
-        "motor",
-        "pump",
-        "rotating equipment"
-      ],
-      "tfidf_similarity": 0.0316
-    },
-    {
-      "external_id": "5847961425",
-      "company": "Toromont Cat",
-      "title": "Inside Sales Representative (ISR)",
-      "location": "Katimavik-Hazeldean, Ottawa",
-      "description": "Toromont Cat is looking for an Inside Sales Representative (ISR) to be the key point of contact between the business and our customers. The Inside Sales Representative (ISR) is the single point of contact between the Dealer and the Customer as a vital source of support, building positive relationships with both internal and external customers to achieve both individual and company goals in the assigned region. Pay Type Full Time, Permanent Compensation $62.000.00 The listed base salary is just …",
-      "url": "https://www.adzuna.ca/details/5847961425?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-08-19T04:38:54Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Toromont Cat",
-      "search_type": "target_company",
-      "searched_target": "Toromont Cat",
-      "target_company": true,
-      "target_fit": 8.5,
-      "score": 7.6,
-      "matched_keywords": [
-        "sales representative",
-        "inside sales",
-        "rotating equipment",
-        "industrial",
-        "TF-IDF career 0.02",
-        "TF-IDF role 0.04",
-        "TF-IDF technical 0.01",
-        "target company"
-      ],
-      "negative_keywords": [],
-      "key": "Adzuna:5847961425",
-      "first_seen": "2026-08-27T22:38:48.369499+00:00",
-      "is_new": false,
-      "target_category": "OEM Dealer + Service",
-      "target_equipment": [
-        "engine",
-        "power systems",
-        "industrial rotating equipment"
-      ],
-      "tfidf_similarity": 0.0225
+      "tfidf_similarity": 0.0371
     },
     {
       "external_id": "5854585118",
@@ -642,16 +644,16 @@
       "searched_target": "Hydro Inc.",
       "target_company": true,
       "target_fit": 9.1,
-      "score": 6.8,
+      "score": 5.6,
       "matched_keywords": [
         "business development",
         "pump",
         "reliability",
         "aftermarket",
+        "Base 7.4",
+        "TF-IDF x0.75",
         "TF-IDF career 0.03",
-        "TF-IDF role 0.03",
-        "TF-IDF technical 0.02",
-        "target company"
+        "TF-IDF role 0.03"
       ],
       "negative_keywords": [
         "coordinator"
@@ -665,7 +667,87 @@
         "repair",
         "reliability"
       ],
-      "tfidf_similarity": 0.0277
+      "tfidf_similarity": 0.0275
+    },
+    {
+      "external_id": "5850761438",
+      "company": "Armstrong Fluid Technology",
+      "title": "Technical Sales Coordinator - Consulting Engineer",
+      "location": "Scarborough, Toronto",
+      "description": "Title: Technical Sales Coordinator - Consulting Engineer Reports to: National Manager, Consulting Engineers Imagine working at the forefront of innovation in fluid-flow technology, with over 1,400 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engine…",
+      "url": "https://www.adzuna.ca/details/5850761438?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-08-21T04:30:25Z",
+      "salary_min": 60000,
+      "salary_max": 70000,
+      "source": "Adzuna",
+      "search_query": "Armstrong Fluid Technology",
+      "search_type": "target_company",
+      "searched_target": "Armstrong Fluid Technology",
+      "target_company": true,
+      "target_fit": 8.5,
+      "score": 5.2,
+      "matched_keywords": [
+        "technical sales",
+        "pump",
+        "manufacturing",
+        "Base 6.9",
+        "TF-IDF x0.75",
+        "TF-IDF career 0.01",
+        "TF-IDF role 0.05",
+        "TF-IDF technical 0.00"
+      ],
+      "negative_keywords": [
+        "coordinator"
+      ],
+      "key": "Adzuna:5850761438",
+      "first_seen": "2026-08-27T22:28:29.077170+00:00",
+      "is_new": false,
+      "target_category": "OEM",
+      "target_equipment": [
+        "pump",
+        "fluid systems"
+      ],
+      "tfidf_similarity": 0.0202
+    },
+    {
+      "external_id": "5849570107",
+      "company": "Armstrong Fluid Technology",
+      "title": "Technical Sales Coordinator - Consulting Engineer",
+      "location": "Toronto, Ontario",
+      "description": "Job Description Job Description Title: Technical Sales Coordinator - Consulting Engineer Reports to: National Manager, Consulting Engineers Imagine working at the forefront of innovation in fluid-flow technology, with over 1,400 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driv…",
+      "url": "https://www.adzuna.ca/details/5849570107?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-08-20T07:51:05Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Armstrong Fluid Technology",
+      "search_type": "target_company",
+      "searched_target": "Armstrong Fluid Technology",
+      "target_company": true,
+      "target_fit": 8.5,
+      "score": 5.2,
+      "matched_keywords": [
+        "technical sales",
+        "pump",
+        "manufacturing",
+        "Base 6.9",
+        "TF-IDF x0.75",
+        "TF-IDF career 0.01",
+        "TF-IDF role 0.05",
+        "TF-IDF technical 0.00"
+      ],
+      "negative_keywords": [
+        "coordinator"
+      ],
+      "key": "Adzuna:5849570107",
+      "first_seen": "2026-08-30T20:18:28.727672+00:00",
+      "is_new": false,
+      "target_category": "OEM",
+      "target_equipment": [
+        "pump",
+        "fluid systems"
+      ],
+      "tfidf_similarity": 0.0201
     },
     {
       "external_id": "5822089738",
@@ -683,10 +765,12 @@
       "searched_target": "Xylem",
       "target_company": true,
       "target_fit": 8.9,
-      "score": 6.5,
+      "score": 3.4,
       "matched_keywords": [
         "sales engineer",
         "pump",
+        "Base 6.8",
+        "TF-IDF x0.50",
         "TF-IDF career 0.01",
         "TF-IDF role 0.05",
         "TF-IDF technical 0.00",
@@ -701,7 +785,7 @@
         "pump",
         "water systems"
       ],
-      "tfidf_similarity": 0.0167
+      "tfidf_similarity": 0.0165
     },
     {
       "external_id": "5823490937",
@@ -719,10 +803,12 @@
       "searched_target": "Xylem",
       "target_company": true,
       "target_fit": 8.9,
-      "score": 6.5,
+      "score": 3.4,
       "matched_keywords": [
         "sales engineer",
         "pump",
+        "Base 6.8",
+        "TF-IDF x0.50",
         "TF-IDF career 0.01",
         "TF-IDF role 0.04",
         "TF-IDF technical 0.00",
@@ -737,7 +823,7 @@
         "pump",
         "water systems"
       ],
-      "tfidf_similarity": 0.0149
+      "tfidf_similarity": 0.0148
     },
     {
       "external_id": "5852254044",
@@ -755,10 +841,12 @@
       "searched_target": "Armstrong Fluid Technology",
       "target_company": true,
       "target_fit": 8.5,
-      "score": 6.3,
+      "score": 3.3,
       "matched_keywords": [
         "account manager",
         "pump",
+        "Base 6.5",
+        "TF-IDF x0.50",
         "TF-IDF career 0.00",
         "TF-IDF role 0.07",
         "TF-IDF technical 0.00",
@@ -791,10 +879,12 @@
       "searched_target": "Armstrong Fluid Technology",
       "target_company": true,
       "target_fit": 8.5,
-      "score": 6.3,
+      "score": 3.3,
       "matched_keywords": [
         "account manager",
         "pump",
+        "Base 6.5",
+        "TF-IDF x0.50",
         "TF-IDF career 0.00",
         "TF-IDF role 0.07",
         "TF-IDF technical 0.00",
@@ -812,84 +902,6 @@
       "tfidf_similarity": 0.0184
     },
     {
-      "external_id": "5850761438",
-      "company": "Armstrong Fluid Technology",
-      "title": "Technical Sales Coordinator - Consulting Engineer",
-      "location": "Scarborough, Toronto",
-      "description": "Title: Technical Sales Coordinator - Consulting Engineer Reports to: National Manager, Consulting Engineers Imagine working at the forefront of innovation in fluid-flow technology, with over 1,400 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engine…",
-      "url": "https://www.adzuna.ca/details/5850761438?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-08-21T04:30:25Z",
-      "salary_min": 60000,
-      "salary_max": 70000,
-      "source": "Adzuna",
-      "search_query": "Armstrong Fluid Technology",
-      "search_type": "target_company",
-      "searched_target": "Armstrong Fluid Technology",
-      "target_company": true,
-      "target_fit": 8.5,
-      "score": 6.3,
-      "matched_keywords": [
-        "technical sales",
-        "pump",
-        "manufacturing",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.05",
-        "TF-IDF technical 0.00",
-        "target company"
-      ],
-      "negative_keywords": [
-        "coordinator"
-      ],
-      "key": "Adzuna:5850761438",
-      "first_seen": "2026-08-27T22:28:29.077170+00:00",
-      "is_new": false,
-      "target_category": "OEM",
-      "target_equipment": [
-        "pump",
-        "fluid systems"
-      ],
-      "tfidf_similarity": 0.0208
-    },
-    {
-      "external_id": "5849570107",
-      "company": "Armstrong Fluid Technology",
-      "title": "Technical Sales Coordinator - Consulting Engineer",
-      "location": "Toronto, Ontario",
-      "description": "Job Description Job Description Title: Technical Sales Coordinator - Consulting Engineer Reports to: National Manager, Consulting Engineers Imagine working at the forefront of innovation in fluid-flow technology, with over 1,400 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driv…",
-      "url": "https://www.adzuna.ca/details/5849570107?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-08-20T07:51:05Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Armstrong Fluid Technology",
-      "search_type": "target_company",
-      "searched_target": "Armstrong Fluid Technology",
-      "target_company": true,
-      "target_fit": 8.5,
-      "score": 6.3,
-      "matched_keywords": [
-        "technical sales",
-        "pump",
-        "manufacturing",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.05",
-        "TF-IDF technical 0.00",
-        "target company"
-      ],
-      "negative_keywords": [
-        "coordinator"
-      ],
-      "key": "Adzuna:5849570107",
-      "first_seen": "2026-08-30T20:18:28.727672+00:00",
-      "is_new": false,
-      "target_category": "OEM",
-      "target_equipment": [
-        "pump",
-        "fluid systems"
-      ],
-      "tfidf_similarity": 0.0207
-    },
-    {
       "external_id": "5841467564",
       "company": "Xylem",
       "title": "Sales Manager - Canada",
@@ -905,10 +917,12 @@
       "searched_target": "Xylem",
       "target_company": true,
       "target_fit": 8.9,
-      "score": 6.2,
+      "score": 3.3,
       "matched_keywords": [
         "sales manager",
         "pump",
+        "Base 6.6",
+        "TF-IDF x0.50",
         "TF-IDF career 0.00",
         "TF-IDF role 0.03",
         "TF-IDF technical 0.00",
@@ -941,7 +955,7 @@
       "searched_target": null,
       "target_company": false,
       "target_fit": null,
-      "score": 7.6,
+      "score": 6.3,
       "matched_keywords": [
         "outside sales",
         "sales representative",
@@ -958,77 +972,7 @@
       "is_new": false,
       "target_category": "",
       "target_equipment": [],
-      "tfidf_similarity": 0.0446
-    },
-    {
-      "external_id": "5854253838",
-      "company": "KSB",
-      "title": "Senior Technical Sales Support",
-      "location": "Mississauga, Peel region",
-      "description": "KSB is a leading supplier of pumps, valves and related service. Our reliable, high-efficiency products are used in applications wherever fluids need to be transported or shut off, covering everything from building services,industry and water transport to waste water treatment, power plant processes and mining. Founded in 1871 in Frankenthal, Germany, the company has a presence on all continents with its own sales and marketing organisations and manufacturing facilities. Around the globe, more t…",
-      "url": "https://www.adzuna.ca/details/5854253838?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-08-24T04:28:38Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "rotating equipment",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": false,
-      "target_fit": null,
-      "score": 7.4,
-      "matched_keywords": [
-        "technical sales",
-        "pump",
-        "pumps",
-        "valve",
-        "valves",
-        "mining",
-        "manufacturing",
-        "TF-IDF career 0.04"
-      ],
-      "negative_keywords": [],
-      "key": "Adzuna:5854253838",
-      "first_seen": "2026-08-27T21:05:01.271622+00:00",
-      "is_new": false,
-      "target_category": "",
-      "target_equipment": [],
-      "tfidf_similarity": 0.0309
-    },
-    {
-      "external_id": "5785918357",
-      "company": "KSB",
-      "title": "Area Sales Manager - Mining - Ontario, Manitoba and Saskatchewan",
-      "location": "Mississauga, Peel region",
-      "description": "KSB is a leading supplier of pumps, valves and related service. Our reliable, high-efficiency products are used in applications wherever fluids need to be transported or shut off, covering everything from building services,industry and water transport to waste water treatment, power plant processes and mining. Founded in 1871 in Frankenthal, Germany, the company has a presence on all continents with its own sales and marketing organisations and manufacturing facilities. Around the globe, more t…",
-      "url": "https://www.adzuna.ca/details/5785918357?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-07-02T16:59:29Z",
-      "salary_min": 115000,
-      "salary_max": 125000,
-      "source": "Adzuna",
-      "search_query": "pump sales",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": false,
-      "target_fit": null,
-      "score": 7.3,
-      "matched_keywords": [
-        "area sales",
-        "sales manager",
-        "pump",
-        "pumps",
-        "valve",
-        "valves",
-        "mining",
-        "manufacturing"
-      ],
-      "negative_keywords": [],
-      "key": "Adzuna:5785918357",
-      "first_seen": "2026-08-27T21:29:45.009253+00:00",
-      "is_new": false,
-      "target_category": "",
-      "target_equipment": [],
-      "tfidf_similarity": 0.0336
+      "tfidf_similarity": 0.0435
     },
     {
       "external_id": "5858171616",
@@ -1046,7 +990,7 @@
       "searched_target": null,
       "target_company": false,
       "target_fit": null,
-      "score": 6.6,
+      "score": 5.7,
       "matched_keywords": [
         "outside sales",
         "account manager",
@@ -1063,7 +1007,77 @@
       "is_new": false,
       "target_category": "",
       "target_equipment": [],
-      "tfidf_similarity": 0.0588
+      "tfidf_similarity": 0.057
+    },
+    {
+      "external_id": "5854253838",
+      "company": "KSB",
+      "title": "Senior Technical Sales Support",
+      "location": "Mississauga, Peel region",
+      "description": "KSB is a leading supplier of pumps, valves and related service. Our reliable, high-efficiency products are used in applications wherever fluids need to be transported or shut off, covering everything from building services,industry and water transport to waste water treatment, power plant processes and mining. Founded in 1871 in Frankenthal, Germany, the company has a presence on all continents with its own sales and marketing organisations and manufacturing facilities. Around the globe, more t…",
+      "url": "https://www.adzuna.ca/details/5854253838?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-08-24T04:28:38Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "rotating equipment",
+      "search_type": "keyword",
+      "searched_target": null,
+      "target_company": false,
+      "target_fit": null,
+      "score": 5.7,
+      "matched_keywords": [
+        "technical sales",
+        "pump",
+        "pumps",
+        "valve",
+        "valves",
+        "mining",
+        "manufacturing",
+        "Base 7.6"
+      ],
+      "negative_keywords": [],
+      "key": "Adzuna:5854253838",
+      "first_seen": "2026-08-27T21:05:01.271622+00:00",
+      "is_new": false,
+      "target_category": "",
+      "target_equipment": [],
+      "tfidf_similarity": 0.0292
+    },
+    {
+      "external_id": "5785918357",
+      "company": "KSB",
+      "title": "Area Sales Manager - Mining - Ontario, Manitoba and Saskatchewan",
+      "location": "Mississauga, Peel region",
+      "description": "KSB is a leading supplier of pumps, valves and related service. Our reliable, high-efficiency products are used in applications wherever fluids need to be transported or shut off, covering everything from building services,industry and water transport to waste water treatment, power plant processes and mining. Founded in 1871 in Frankenthal, Germany, the company has a presence on all continents with its own sales and marketing organisations and manufacturing facilities. Around the globe, more t…",
+      "url": "https://www.adzuna.ca/details/5785918357?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-07-02T16:59:29Z",
+      "salary_min": 115000,
+      "salary_max": 125000,
+      "source": "Adzuna",
+      "search_query": "pump sales",
+      "search_type": "keyword",
+      "searched_target": null,
+      "target_company": false,
+      "target_fit": null,
+      "score": 5.6,
+      "matched_keywords": [
+        "area sales",
+        "sales manager",
+        "pump",
+        "pumps",
+        "valve",
+        "valves",
+        "mining",
+        "manufacturing"
+      ],
+      "negative_keywords": [],
+      "key": "Adzuna:5785918357",
+      "first_seen": "2026-08-27T21:29:45.009253+00:00",
+      "is_new": false,
+      "target_category": "",
+      "target_equipment": [],
+      "tfidf_similarity": 0.0323
     }
   ]
 }
