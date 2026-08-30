@@ -7,16 +7,16 @@ from datetime import datetime, timezone
 
 from adzuna import fetch_adzuna_jobs
 from official import fetch_official_jobs
-from score import score_job
+from score import score_job, build_tfidf_scores
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = json.loads((ROOT / "search_config.json").read_text(encoding="utf-8"))
 TARGETS = json.loads((ROOT / "targets.json").read_text(encoding="utf-8"))
+PROFILE = json.loads((ROOT / "career_profile.json").read_text(encoding="utf-8"))
+
 JOBS_PATH = ROOT / "jobs.json"
 SEEN_PATH = ROOT / "seen_jobs.json"
 
-# V6 general-search relevance gate.
-# Target-company jobs bypass this gate and continue to score normally.
 STRONG_TECH = [
     "rotating equipment", "rotating machinery", "industrial machinery",
     "industrial equipment", "process equipment", "turbomachinery",
@@ -24,8 +24,8 @@ STRONG_TECH = [
     "diaphragm compressor", "air compressor", "compressor", "compressed air",
     "blower", "industrial fan", "vacuum pump", "mechanical seal",
     "condition monitoring", "vibration analysis", "predictive maintenance",
-    "asset reliability", "reliability engineering", "pump", "pumps",
-    "hydraulic", "pneumatic", "mro"
+    "asset reliability", "reliability", "pump", "pumps", "hydraulic",
+    "pneumatic", "mro"
 ]
 
 WEAR_PARTS = [
@@ -37,17 +37,8 @@ WEAR_PARTS = [
 
 INDUSTRIAL_CONTEXT = [
     "compressor", "pump", "rotating", "industrial", "machinery", "equipment",
-    "refinery", "petrochemical", "chemical plant", "power generation",
-    "oil and gas", "mining", "process plant", "manufacturing", "maintenance"
-]
-
-# These are used only as an extra safeguard for broad keyword results.
-# A target-company result is never rejected solely because of these words.
-CLEARLY_UNRELATED = [
-    "windows and doors", "window and door", "roofing", "flooring", "lumber",
-    "building materials", "car dealership", "automotive sales",
-    "truck parts", "insurance", "real estate", "restaurant",
-    "food service", "saas", "software sales"
+    "refinery", "petrochemical", "chemical", "power generation",
+    "oil and gas", "mining", "process", "manufacturing", "maintenance"
 ]
 
 def _contains(text, terms):
@@ -60,14 +51,10 @@ def passes_general_gate(job):
         job.get("description") or "",
     ]).lower()
 
-    # Strong industrial/rotating term = pass.
     if _contains(text, STRONG_TECH):
         return True
-
-    # Compressor wear-part language is useful only with industrial context.
     if _contains(text, WEAR_PARTS) and _contains(text, INDUSTRIAL_CONTEXT):
         return True
-
     return False
 
 def canonical_key(job):
@@ -129,11 +116,10 @@ raw = []
 raw.extend(fetch_adzuna_jobs(CONFIG))
 raw.extend(fetch_official_jobs(TARGETS))
 
-dedup = {}
-minimum_score = float(CONFIG.get("minimum_score", 5.0))
-target_minimum_score = float(CONFIG.get("target_minimum_score", 3.0))
+# Add target-company metadata before TF-IDF. This solves short/trimmed JD cases:
+# the model can still see what the target company actually sells/services.
+eligible = []
 gate_rejected = 0
-
 for job in raw:
     if not job.get("title") or not job.get("url"):
         continue
@@ -141,30 +127,41 @@ for job in raw:
     target = target_match(job.get("company"))
     job["target_company"] = bool(target)
     job["target_fit"] = target.get("fit") if target else None
+    job["target_category"] = target.get("category", "") if target else ""
+    job["target_equipment"] = target.get("equipment", []) if target else []
 
-    # V6: broad keyword results must show industrial/rotating relevance.
-    # Known target companies bypass the gate.
     if not target and job.get("search_type") == "keyword":
         if not passes_general_gate(job):
             gate_rejected += 1
             continue
 
+    eligible.append(job)
+
+tfidf_results = build_tfidf_scores(eligible, PROFILE)
+for job, tfidf in zip(eligible, tfidf_results):
+    job["_tfidf"] = tfidf
+
+dedup = {}
+minimum_score = float(CONFIG.get("minimum_score", 5.0))
+target_minimum_score = float(CONFIG.get("target_minimum_score", 3.0))
+
+for job in eligible:
     score_result = score_job(job, CONFIG)
     score, positive, negative = score_result[:3]
 
-    required_score = target_minimum_score if target else minimum_score
+    required_score = target_minimum_score if job.get("target_company") else minimum_score
     if score < required_score:
         continue
 
     job["score"] = score
     job["matched_keywords"] = positive[:8]
     job["negative_keywords"] = negative[:5]
+    job["tfidf_similarity"] = job.get("_tfidf", {}).get("combined", 0.0)
+    job.pop("_tfidf", None)
 
     tkey = title_company_key(job)
     existing = dedup.get(tkey)
-    if not existing:
-        dedup[tkey] = job
-    elif existing.get("source") != "Official" and job.get("source") == "Official":
+    if not existing or (existing.get("source") != "Official" and job.get("source") == "Official"):
         dedup[tkey] = job
 
 jobs = list(dedup.values())
@@ -185,6 +182,7 @@ JOBS_PATH.write_text(
     json.dumps({"last_checked": now, "jobs": jobs}, indent=2, ensure_ascii=False),
     encoding="utf-8",
 )
+
 ids = {j["key"] for j in jobs}
 SEEN_PATH.write_text(
     json.dumps({"initialized": True, "ids": sorted(seen_ids | ids)}, indent=2, ensure_ascii=False),
@@ -198,6 +196,7 @@ new = [j for j in jobs if j["is_new"]]
 
 target_jobs = sum(1 for j in jobs if j.get("target_company"))
 print(
-    f"V6 Target Search: raw={len(raw)}, qualified={len(jobs)}, "
-    f"target_jobs={target_jobs}, gate_rejected={gate_rejected}, new={len(new)}"
+    f"V6.3 TF-IDF Search: raw={len(raw)}, eligible={len(eligible)}, "
+    f"qualified={len(jobs)}, target_jobs={target_jobs}, "
+    f"gate_rejected={gate_rejected}, new={len(new)}"
 )
