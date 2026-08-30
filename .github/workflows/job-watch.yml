@@ -3,9 +3,9 @@ name: Job Watch V6
 on:
   workflow_dispatch:
   schedule:
-    # Once per day at 13:17 UTC.
-    # In Ontario this is 9:17 AM EDT / 8:17 AM EST.
-    - cron: "17 13 * * *"
+    # Once per day at 18:00 UTC.
+    # In Ontario this is 2:00 PM EDT / 1:00 PM EST.
+    - cron: "00 18 * * *"
 
 permissions:
   contents: write
