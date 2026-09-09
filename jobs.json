@@ -1,14 +1,14 @@
 {
-  "last_checked": "2026-09-08T20:30:33.278892+00:00",
+  "last_checked": "2026-09-09T20:12:48.188541+00:00",
   "jobs": [
     {
-      "external_id": "5874058270",
+      "external_id": "5874079746",
       "company": "John Brooks Company",
-      "title": "Application Specialist I",
+      "title": "Bilingual Technical Project Specialist (Industrial Pump Products)",
       "location": "Mississauga, Peel region",
-      "description": "Job Description Job Description WHAT DO WE DO? We create solutions for the people who keep our world flowing. For over 80 years, John Brooks Company has been solving fluid handling challenges for customers in various industries/markets across Canada by providing a diverse selection of engineered products and innovative system designs, focusing on customized solutions consisting of filtration, pump, spray, and valve products. THE ROLE The Application Specialist I provides technical and sales sup…",
-      "url": "https://www.adzuna.ca/details/5874058270?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-07T07:41:20Z",
+      "description": "Job Description Job Description Department: Pump Location/ Territory: Mississauga, ON OR Laval, QC This role is for an existing vacancy. WHAT DO WE DO? We create solutions for the people who keep our world flowing. For over 80 years, John Brooks Company has been solving fluid handling challenges for customers in various industries/markets across Canada by providing a diverse selection of engineered products and innovative system designs, focusing on customized solutions consisting of filtration…",
+      "url": "https://www.adzuna.ca/details/5874079746?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-07T07:55:48Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
@@ -23,50 +23,50 @@
         "spray",
         "process equipment"
       ],
-      "score": 5.1,
+      "score": 5.4,
       "matched_keywords": [
         "pump",
-        "valve",
         "fluid handling",
         "process equipment",
         "distributor",
-        "Offering 4.5/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.6/5"
+        "territory",
+        "industrial",
+        "Offering 4.4/5",
+        "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.034,
-      "key": "Adzuna:5874058270",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
+      "tfidf_similarity": 0.026,
+      "key": "Adzuna:5874079746",
+      "first_seen": "2026-09-09T20:12:48.188541+00:00",
       "is_new": true
     },
     {
-      "external_id": "5874090663",
-      "company": "John Brooks Company",
-      "title": "Pressure Welder",
-      "location": "Cambridge, Waterloo region",
-      "description": "Job Description Job Description MDA Filtration Inc., a division of John Brooks Company Limited, is backed with over 25 years of technical and mechanical experience in pressure vessels and all other facets of filtration. MDA is certified for the manufacture of pressure vessels in accordance with ASME Boiler and Pressure Vessel Code, Section VIII, Division I, and accredited by the American Society of Mechanical Engineers for use of the U and UM stamps, and the current edition of CSA Standard B51,…",
-      "url": "https://www.adzuna.ca/details/5874090663?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-07T08:00:03Z",
+      "external_id": "5876125955",
+      "company": "Hydro One Networks Inc",
+      "title": "AMI Network Analyst",
+      "location": "Mississauga, Peel region",
+      "description": "52054 - Mississauga - Regular Hiring salary range: $3,610.06 - $5,157.24 / Bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service a…",
+      "url": "https://www.adzuna.ca/details/5876125955?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-08T17:13:30Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
-      "search_query": "John Brooks Company",
+      "search_query": "Hydro Inc.",
       "search_type": "target_company",
-      "searched_target": "John Brooks Company",
+      "searched_target": "Hydro Inc.",
       "target_company": true,
-      "target_fit": 8.8,
-      "target_category": "Distributor + Service",
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
       "target_equipment": [
         "pump",
-        "spray",
-        "process equipment"
+        "repair",
+        "reliability"
       ],
-      "score": 5.1,
+      "score": 5.3,
       "matched_keywords": [
         "pump",
-        "process equipment",
-        "distributor",
+        "reliability",
+        "aftermarket",
         "Offering 4.4/5",
         "TF-IDF x0.80",
         "Offering adjusted 3.5/5",
@@ -74,205 +74,331 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0146,
-      "key": "Adzuna:5874090663",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
+      "tfidf_similarity": 0.0145,
+      "key": "Adzuna:5876125955",
+      "first_seen": "2026-09-09T20:12:48.188541+00:00",
       "is_new": true
     },
     {
-      "external_id": "5875568076",
-      "company": "Armstrong Fluid Technology",
-      "title": "FCAW Welder - Afternoon",
-      "location": "Toronto, Ontario",
-      "description": "Job Description Job Description Imagine working at the forefront of innovation in fluid-flow technology, with over 1400 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. As a member of our team, you'll dive …",
-      "url": "https://www.adzuna.ca/details/5875568076?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T08:05:21Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Armstrong Fluid Technology",
-      "search_type": "target_company",
-      "searched_target": "Armstrong Fluid Technology",
-      "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "OEM",
-      "target_equipment": [
-        "pump",
-        "fluid systems"
-      ],
-      "score": 4.6,
-      "matched_keywords": [
-        "pump",
-        "manufacturing",
-        "Offering 4.3/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.4/5",
-        "TF-IDF career 0.00",
-        "TF-IDF role 0.00",
-        "TF-IDF technical 0.00"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0029,
-      "key": "Adzuna:5875568076",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
-      "is_new": true
-    },
-    {
-      "external_id": "5875760812",
-      "company": "GL Inc",
-      "title": "Consumer Opinion Research Participant",
-      "location": "Richmond Hill, York region",
-      "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875760812?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:21Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "reliability",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": true,
-      "target_fit": 9.0,
-      "target_category": "OEM",
-      "target_equipment": [
-        "compressor"
-      ],
-      "score": 4.5,
-      "matched_keywords": [
-        "compressor",
-        "Offering 4.9/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.9/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.01",
-        "target company"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0086,
-      "key": "Adzuna:5875760812",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
-      "is_new": true
-    },
-    {
-      "external_id": "5875760614",
-      "company": "GL Inc",
-      "title": "Consumer Opinion Research Participant",
-      "location": "St. Thomas, Elgin region",
-      "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875760614?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:20Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "reliability",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": true,
-      "target_fit": 9.0,
-      "target_category": "OEM",
-      "target_equipment": [
-        "compressor"
-      ],
-      "score": 4.5,
-      "matched_keywords": [
-        "compressor",
-        "Offering 4.9/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.9/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.01",
-        "target company"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0086,
-      "key": "Adzuna:5875760614",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
-      "is_new": true
-    },
-    {
-      "external_id": "5875761018",
-      "company": "GL Inc",
-      "title": "Consumer Research Associate (Remote)",
-      "location": "St. Catharines, Niagara",
-      "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875761018?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:22Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "reliability",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": true,
-      "target_fit": 9.0,
-      "target_category": "OEM",
-      "target_equipment": [
-        "compressor"
-      ],
-      "score": 4.5,
-      "matched_keywords": [
-        "compressor",
-        "Offering 4.9/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.9/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.01",
-        "target company"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0087,
-      "key": "Adzuna:5875761018",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
-      "is_new": true
-    },
-    {
-      "external_id": "5875760699",
-      "company": "GL Inc",
-      "title": "Consumer Research Associate (Remote)",
-      "location": "Brantford, Brant region",
-      "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875760699?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:21Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "reliability",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": true,
-      "target_fit": 9.0,
-      "target_category": "OEM",
-      "target_equipment": [
-        "compressor"
-      ],
-      "score": 4.5,
-      "matched_keywords": [
-        "compressor",
-        "Offering 4.9/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.9/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.01",
-        "target company"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0087,
-      "key": "Adzuna:5875760699",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
-      "is_new": true
-    },
-    {
-      "external_id": "5875760829",
-      "company": "GL Inc",
-      "title": "Consumer Research Associate (Remote)",
+      "external_id": "5876125956",
+      "company": "Hydro One Networks Inc",
+      "title": "IT Project Manager",
       "location": "Markham, York region",
+      "description": "52037 - Markham - Regular . Hiring salary range: $4,374.92 - $6,249.88 / Bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and…",
+      "url": "https://www.adzuna.ca/details/5876125956?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-08T17:13:30Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Hydro Inc.",
+      "search_type": "target_company",
+      "searched_target": "Hydro Inc.",
+      "target_company": true,
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
+      "target_equipment": [
+        "pump",
+        "repair",
+        "reliability"
+      ],
+      "score": 5.3,
+      "matched_keywords": [
+        "pump",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.02"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0169,
+      "key": "Adzuna:5876125956",
+      "first_seen": "2026-09-09T20:12:48.188541+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5876125954",
+      "company": "Hydro One Networks Inc",
+      "title": "Manager - Project Engineering",
+      "location": "Toronto, Ontario",
+      "description": "52033 - Toronto - Regular Hiring Salary Range : $116,450.00-150,700.00 / year Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and ensu…",
+      "url": "https://www.adzuna.ca/details/5876125954?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-08T17:13:30Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Hydro Inc.",
+      "search_type": "target_company",
+      "searched_target": "Hydro Inc.",
+      "target_company": true,
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
+      "target_equipment": [
+        "pump",
+        "repair",
+        "reliability"
+      ],
+      "score": 5.3,
+      "matched_keywords": [
+        "pump",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.02"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0181,
+      "key": "Adzuna:5876125954",
+      "first_seen": "2026-09-09T20:12:48.188541+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5876125965",
+      "company": "Hydro One Networks Inc",
+      "title": "Manager, Strategic Sourcing & Category Management, Transmission and Materials",
+      "location": "Toronto, Ontario",
+      "description": "52047 - Toronto - Regular Not Applicable/Optional Hiring Salary Range : $116,450.00-150,700.00 / year Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional c…",
+      "url": "https://www.adzuna.ca/details/5876125965?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-08T17:13:30Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Hydro Inc.",
+      "search_type": "target_company",
+      "searched_target": "Hydro Inc.",
+      "target_company": true,
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
+      "target_equipment": [
+        "pump",
+        "repair",
+        "reliability"
+      ],
+      "score": 5.3,
+      "matched_keywords": [
+        "pump",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.01",
+        "TF-IDF role 0.02"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.014,
+      "key": "Adzuna:5876125965",
+      "first_seen": "2026-09-09T20:12:48.188541+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5876125957",
+      "company": "Hydro One Networks Inc",
+      "title": "SAP Fiori Developer",
+      "location": "Toronto, Ontario",
+      "description": "52046 - Toronto - Regular . Hiring salary range: $4,102.00 - $5,860.00 / Bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and…",
+      "url": "https://www.adzuna.ca/details/5876125957?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-08T17:13:30Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Hydro Inc.",
+      "search_type": "target_company",
+      "searched_target": "Hydro Inc.",
+      "target_company": true,
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
+      "target_equipment": [
+        "pump",
+        "repair",
+        "reliability"
+      ],
+      "score": 5.3,
+      "matched_keywords": [
+        "pump",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.01"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0148,
+      "key": "Adzuna:5876125957",
+      "first_seen": "2026-09-09T20:12:48.188541+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5876125959",
+      "company": "Hydro One Networks Inc",
+      "title": "SAP Technical Specialist",
+      "location": "Toronto, Ontario",
+      "description": "52044 - Toronto - Regular . Hiring salary range: $4,102.00 - $5,860.00 / Bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and…",
+      "url": "https://www.adzuna.ca/details/5876125959?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-08T17:13:30Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Hydro Inc.",
+      "search_type": "target_company",
+      "searched_target": "Hydro Inc.",
+      "target_company": true,
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
+      "target_equipment": [
+        "pump",
+        "repair",
+        "reliability"
+      ],
+      "score": 5.3,
+      "matched_keywords": [
+        "pump",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.04"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0201,
+      "key": "Adzuna:5876125959",
+      "first_seen": "2026-09-09T20:12:48.188541+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5876125961",
+      "company": "Hydro One Networks Inc",
+      "title": "Senior Contract Management Buyer",
+      "location": "Toronto, Ontario",
+      "description": "52040 - Toronto - Rotation 18 months Hiring salary range: $4,722.44 - $5,023.89 / bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer se…",
+      "url": "https://www.adzuna.ca/details/5876125961?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-08T17:13:30Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Hydro Inc.",
+      "search_type": "target_company",
+      "searched_target": "Hydro Inc.",
+      "target_company": true,
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
+      "target_equipment": [
+        "pump",
+        "repair",
+        "reliability"
+      ],
+      "score": 5.3,
+      "matched_keywords": [
+        "pump",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.01",
+        "TF-IDF role 0.01"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0127,
+      "key": "Adzuna:5876125961",
+      "first_seen": "2026-09-09T20:12:48.188541+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5876125953",
+      "company": "Hydro One Networks Inc",
+      "title": "Senior Project Analyst",
+      "location": "Markham, York region",
+      "description": "52049 - Markham - Regular . Hiring salary range: $4,102.00 - $5,860.00 / Bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and…",
+      "url": "https://www.adzuna.ca/details/5876125953?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-08T17:13:30Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Hydro Inc.",
+      "search_type": "target_company",
+      "searched_target": "Hydro Inc.",
+      "target_company": true,
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
+      "target_equipment": [
+        "pump",
+        "repair",
+        "reliability"
+      ],
+      "score": 5.3,
+      "matched_keywords": [
+        "pump",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.01"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.015,
+      "key": "Adzuna:5876125953",
+      "first_seen": "2026-09-09T20:12:48.188541+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5876125958",
+      "company": "Hydro One Networks Inc",
+      "title": "Sr IT Security Specialist",
+      "location": "Toronto, Ontario",
+      "description": "52050 - Toronto - Regular . Hiring Salary Range : $80,900.00-115,500.00 / year Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and ens…",
+      "url": "https://www.adzuna.ca/details/5876125958?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-08T17:13:30Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Hydro Inc.",
+      "search_type": "target_company",
+      "searched_target": "Hydro Inc.",
+      "target_company": true,
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
+      "target_equipment": [
+        "pump",
+        "repair",
+        "reliability"
+      ],
+      "score": 5.3,
+      "matched_keywords": [
+        "pump",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.03"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0168,
+      "key": "Adzuna:5876125958",
+      "first_seen": "2026-09-09T20:12:48.188541+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5877361383",
+      "company": "GL Inc",
+      "title": "Consumer Opinion Research Participant",
+      "location": "Amherstburg, Essex region",
       "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875760829?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:21Z",
+      "url": "https://www.adzuna.ca/details/5877361383?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-09T12:29:00Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
@@ -297,56 +423,19 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0087,
-      "key": "Adzuna:5875760829",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
+      "tfidf_similarity": 0.0094,
+      "key": "Adzuna:5877361383",
+      "first_seen": "2026-09-09T20:12:48.188541+00:00",
       "is_new": true
     },
     {
-      "external_id": "5875759806",
+      "external_id": "5877360623",
       "company": "GL Inc",
-      "title": "Consumer Research Associate (Remote)",
-      "location": "Port Colborne, Niagara",
-      "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875759806?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:18Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "reliability",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": true,
-      "target_fit": 9.0,
-      "target_category": "OEM",
-      "target_equipment": [
-        "compressor"
-      ],
-      "score": 4.5,
-      "matched_keywords": [
-        "compressor",
-        "Offering 4.9/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.9/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.01",
-        "target company"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0087,
-      "key": "Adzuna:5875759806",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
-      "is_new": true
-    },
-    {
-      "external_id": "5875761255",
-      "company": "GL Inc",
-      "title": "Consumer Research Panel Member",
+      "title": "Consumer Opinion Research Participant",
       "location": "Woodstock, Oxford region",
       "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875761255?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:23Z",
+      "url": "https://www.adzuna.ca/details/5877360623?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-09T12:28:56Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
@@ -371,19 +460,19 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0087,
-      "key": "Adzuna:5875761255",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
+      "tfidf_similarity": 0.0094,
+      "key": "Adzuna:5877360623",
+      "first_seen": "2026-09-09T20:12:48.188541+00:00",
       "is_new": true
     },
     {
-      "external_id": "5875760504",
+      "external_id": "5877361502",
       "company": "GL Inc",
       "title": "Consumer Research Panel Member",
-      "location": "Cobourg, Northumberland",
+      "location": "Cambridge, Waterloo region",
       "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875760504?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:20Z",
+      "url": "https://www.adzuna.ca/details/5877361502?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-09T12:29:01Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
@@ -408,19 +497,19 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0087,
-      "key": "Adzuna:5875760504",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
+      "tfidf_similarity": 0.0093,
+      "key": "Adzuna:5877361502",
+      "first_seen": "2026-09-09T20:12:48.188541+00:00",
       "is_new": true
     },
     {
-      "external_id": "5875760024",
+      "external_id": "5877361477",
       "company": "GL Inc",
       "title": "Consumer Research Panel Member",
-      "location": "Sudbury region, Ontario",
+      "location": "Fort Erie, Niagara",
       "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875760024?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:18Z",
+      "url": "https://www.adzuna.ca/details/5877361477?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-09T12:29:01Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
@@ -445,19 +534,19 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0087,
-      "key": "Adzuna:5875760024",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
+      "tfidf_similarity": 0.0093,
+      "key": "Adzuna:5877361477",
+      "first_seen": "2026-09-09T20:12:48.188541+00:00",
       "is_new": true
     },
     {
-      "external_id": "5875761126",
+      "external_id": "5877361338",
       "company": "GL Inc",
       "title": "Market Research Participant",
-      "location": "Petawawa, Renfrew region",
+      "location": "Ottawa, Ottawa region",
       "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875761126?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:22Z",
+      "url": "https://www.adzuna.ca/details/5877361338?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-09T12:29:00Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
@@ -482,19 +571,56 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0088,
-      "key": "Adzuna:5875761126",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
+      "tfidf_similarity": 0.0095,
+      "key": "Adzuna:5877361338",
+      "first_seen": "2026-09-09T20:12:48.188541+00:00",
       "is_new": true
     },
     {
-      "external_id": "5875761003",
+      "external_id": "5877360788",
+      "company": "GL Inc",
+      "title": "Market Research Participant",
+      "location": "Cambridge, Waterloo region",
+      "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
+      "url": "https://www.adzuna.ca/details/5877360788?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-09T12:28:57Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "reliability",
+      "search_type": "keyword",
+      "searched_target": null,
+      "target_company": true,
+      "target_fit": 9.0,
+      "target_category": "OEM",
+      "target_equipment": [
+        "compressor"
+      ],
+      "score": 4.5,
+      "matched_keywords": [
+        "compressor",
+        "Offering 4.9/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.9/5",
+        "TF-IDF career 0.01",
+        "TF-IDF role 0.01",
+        "TF-IDF technical 0.01",
+        "target company"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0095,
+      "key": "Adzuna:5877360788",
+      "first_seen": "2026-09-09T20:12:48.188541+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5877361653",
       "company": "GL Inc",
       "title": "Online Consumer Research Participant",
-      "location": "Stratford, Perth region",
+      "location": "Midland, Simcoe region",
       "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875761003?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:22Z",
+      "url": "https://www.adzuna.ca/details/5877361653?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-09T12:29:02Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
@@ -519,167 +645,19 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0087,
-      "key": "Adzuna:5875761003",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
+      "tfidf_similarity": 0.0094,
+      "key": "Adzuna:5877361653",
+      "first_seen": "2026-09-09T20:12:48.188541+00:00",
       "is_new": true
     },
     {
-      "external_id": "5875760910",
-      "company": "GL Inc",
-      "title": "Online Consumer Research Participant",
-      "location": "Pickering, Durham region",
-      "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875760910?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:21Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "reliability",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": true,
-      "target_fit": 9.0,
-      "target_category": "OEM",
-      "target_equipment": [
-        "compressor"
-      ],
-      "score": 4.5,
-      "matched_keywords": [
-        "compressor",
-        "Offering 4.9/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.9/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.01",
-        "target company"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0087,
-      "key": "Adzuna:5875760910",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
-      "is_new": true
-    },
-    {
-      "external_id": "5875759815",
-      "company": "GL Inc",
-      "title": "Online Consumer Research Participant",
-      "location": "Elliot Lake, Algoma",
-      "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875759815?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:18Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "reliability",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": true,
-      "target_fit": 9.0,
-      "target_category": "OEM",
-      "target_equipment": [
-        "compressor"
-      ],
-      "score": 4.5,
-      "matched_keywords": [
-        "compressor",
-        "Offering 4.9/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.9/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.01",
-        "target company"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0087,
-      "key": "Adzuna:5875759815",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
-      "is_new": true
-    },
-    {
-      "external_id": "5875759825",
-      "company": "GL Inc",
-      "title": "Online Consumer Research Participant",
-      "location": "Timmins, Cochrane region",
-      "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875759825?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:18Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "reliability",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": true,
-      "target_fit": 9.0,
-      "target_category": "OEM",
-      "target_equipment": [
-        "compressor"
-      ],
-      "score": 4.5,
-      "matched_keywords": [
-        "compressor",
-        "Offering 4.9/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.9/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.01",
-        "target company"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0087,
-      "key": "Adzuna:5875759825",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
-      "is_new": true
-    },
-    {
-      "external_id": "5875759930",
-      "company": "GL Inc",
-      "title": "Online Consumer Research Participant",
-      "location": "Brockville, Leeds and Grenville",
-      "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875759930?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:18Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "reliability",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": true,
-      "target_fit": 9.0,
-      "target_category": "OEM",
-      "target_equipment": [
-        "compressor"
-      ],
-      "score": 4.5,
-      "matched_keywords": [
-        "compressor",
-        "Offering 4.9/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.9/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.01",
-        "target company"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0087,
-      "key": "Adzuna:5875759930",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
-      "is_new": true
-    },
-    {
-      "external_id": "5875760506",
+      "external_id": "5877360658",
       "company": "GL Inc",
       "title": "Remote Consumer Feedback Participant",
-      "location": "Oakville, Halton",
+      "location": "Chatham-Kent, Ontario",
       "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875760506?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:20Z",
+      "url": "https://www.adzuna.ca/details/5877360658?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-09T12:28:56Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
@@ -704,167 +682,19 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0085,
-      "key": "Adzuna:5875760506",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
+      "tfidf_similarity": 0.0093,
+      "key": "Adzuna:5877360658",
+      "first_seen": "2026-09-09T20:12:48.188541+00:00",
       "is_new": true
     },
     {
-      "external_id": "5875761118",
+      "external_id": "5877361400",
       "company": "GL Inc",
       "title": "Remote Consumer Insights Participant",
-      "location": "Ajax, Durham region",
-      "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875761118?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:22Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "reliability",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": true,
-      "target_fit": 9.0,
-      "target_category": "OEM",
-      "target_equipment": [
-        "compressor"
-      ],
-      "score": 4.5,
-      "matched_keywords": [
-        "compressor",
-        "Offering 4.9/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.9/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.01",
-        "target company"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0086,
-      "key": "Adzuna:5875761118",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
-      "is_new": true
-    },
-    {
-      "external_id": "5875760967",
-      "company": "GL Inc",
-      "title": "Remote Consumer Research Participant",
-      "location": "Kenora region, Ontario",
-      "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875760967?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:21Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "reliability",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": true,
-      "target_fit": 9.0,
-      "target_category": "OEM",
-      "target_equipment": [
-        "compressor"
-      ],
-      "score": 4.5,
-      "matched_keywords": [
-        "compressor",
-        "Offering 4.9/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.9/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.01",
-        "target company"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0087,
-      "key": "Adzuna:5875760967",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
-      "is_new": true
-    },
-    {
-      "external_id": "5875760718",
-      "company": "GL Inc",
-      "title": "Remote Consumer Research Participant",
-      "location": "Newmarket, York region",
-      "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875760718?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:21Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "reliability",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": true,
-      "target_fit": 9.0,
-      "target_category": "OEM",
-      "target_equipment": [
-        "compressor"
-      ],
-      "score": 4.5,
-      "matched_keywords": [
-        "compressor",
-        "Offering 4.9/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.9/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.01",
-        "target company"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0087,
-      "key": "Adzuna:5875760718",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
-      "is_new": true
-    },
-    {
-      "external_id": "5875761248",
-      "company": "GL Inc",
-      "title": "Remote Research Panel Participant",
-      "location": "Thunder Bay, Ontario",
-      "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875761248?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:23Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "reliability",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": true,
-      "target_fit": 9.0,
-      "target_category": "OEM",
-      "target_equipment": [
-        "compressor"
-      ],
-      "score": 4.5,
-      "matched_keywords": [
-        "compressor",
-        "Offering 4.9/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.9/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.01",
-        "target company"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0087,
-      "key": "Adzuna:5875761248",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
-      "is_new": true
-    },
-    {
-      "external_id": "5875761004",
-      "company": "GL Inc",
-      "title": "Remote Research Panel Participant",
       "location": "Vaughan, York region",
       "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875761004?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:22Z",
+      "url": "https://www.adzuna.ca/details/5877361400?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-09T12:29:01Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
@@ -889,19 +719,19 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0087,
-      "key": "Adzuna:5875761004",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
+      "tfidf_similarity": 0.0094,
+      "key": "Adzuna:5877361400",
+      "first_seen": "2026-09-09T20:12:48.188541+00:00",
       "is_new": true
     },
     {
-      "external_id": "5875760769",
+      "external_id": "5877360652",
       "company": "GL Inc",
-      "title": "Remote Research Panel Participant",
-      "location": "Hawkesbury, Prescott and Russell",
+      "title": "Remote Consumer Insights Participant",
+      "location": "Orangeville, Dufferin region",
       "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875760769?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:21Z",
+      "url": "https://www.adzuna.ca/details/5877360652?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-09T12:28:56Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
@@ -926,19 +756,19 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0087,
-      "key": "Adzuna:5875760769",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
+      "tfidf_similarity": 0.0094,
+      "key": "Adzuna:5877360652",
+      "first_seen": "2026-09-09T20:12:48.188541+00:00",
       "is_new": true
     },
     {
-      "external_id": "5875760951",
+      "external_id": "5877360702",
       "company": "GL Inc",
-      "title": "Remote Research Panel Participant",
-      "location": "Orillia, Simcoe region",
+      "title": "Remote Consumer Insights Participant",
+      "location": "Kitchener, Waterloo region",
       "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/details/5875760951?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-08T12:18:21Z",
+      "url": "https://www.adzuna.ca/details/5877360702?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-09T12:28:56Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
@@ -963,9 +793,9 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0087,
-      "key": "Adzuna:5875760951",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
+      "tfidf_similarity": 0.0094,
+      "key": "Adzuna:5877360702",
+      "first_seen": "2026-09-09T20:12:48.188541+00:00",
       "is_new": true
     },
     {
@@ -1003,7 +833,7 @@
         "Offering 5.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0619,
+      "tfidf_similarity": 0.0628,
       "key": "Adzuna:5832067424",
       "first_seen": "2026-08-27T22:28:29.077170+00:00",
       "is_new": false
@@ -1131,7 +961,7 @@
       "title": "Technical Sales Executive",
       "location": "Dundas, Hamilton region",
       "description": "Job Description Job Description We are seeking a motivated Technical Sales Executive to promote and sell our technical products and services to commercial and industrial clients. The successful candidate will develop strong client relationships, provide technical product expertise, and drive revenue growth through strategic sales initiatives. Responsibilities Estimate costs of installing equipment Estimate or quote prices, credit or contract terms, trade-in allowances, warranties and delivery d…",
-      "url": "https://www.adzuna.ca/land/ad/5823798988?se=9tg_QsSr8RG3WNj7uUI8Mw&utm_medium=api&utm_source=6ca94df0&v=644B88100074A2762C89CFF2F29FE406DAB311D1",
+      "url": "https://www.adzuna.ca/land/ad/5823798988?se=0E2T8Yqs8RG0WNzIgcMWvQ&utm_medium=api&utm_source=6ca94df0&v=644B88100074A2762C89CFF2F29FE406DAB311D1",
       "created": "2026-08-01T06:26:06Z",
       "salary_min": null,
       "salary_max": null,
@@ -1161,7 +991,7 @@
         "Offering adjusted 4.2/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0516,
+      "tfidf_similarity": 0.053,
       "key": "Adzuna:5823798988",
       "first_seen": "2026-09-08T20:30:33.278892+00:00",
       "is_new": false
@@ -1200,7 +1030,7 @@
         "distributor"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0332,
+      "tfidf_similarity": 0.0335,
       "key": "Adzuna:5539679612",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
       "is_new": false
@@ -1239,7 +1069,7 @@
         "distributor"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0365,
+      "tfidf_similarity": 0.0367,
       "key": "Adzuna:5832031995",
       "first_seen": "2026-09-08T20:30:33.278892+00:00",
       "is_new": false
@@ -1278,7 +1108,7 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0324,
+      "tfidf_similarity": 0.0321,
       "key": "Adzuna:5840028585",
       "first_seen": "2026-08-29T21:14:00.393028+00:00",
       "is_new": false
@@ -1317,7 +1147,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.031,
+      "tfidf_similarity": 0.0306,
       "key": "Adzuna:5797353403",
       "first_seen": "2026-09-08T20:30:33.278892+00:00",
       "is_new": false
@@ -1355,7 +1185,7 @@
         "Offering adjusted 3.5/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0207,
+      "tfidf_similarity": 0.0205,
       "key": "Adzuna:5872883963",
       "first_seen": "2026-09-07T20:55:38.794240+00:00",
       "is_new": false
@@ -1433,7 +1263,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0275,
+      "tfidf_similarity": 0.0279,
       "key": "Adzuna:5871693496",
       "first_seen": "2026-09-06T19:46:50.683949+00:00",
       "is_new": false
@@ -1472,7 +1302,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0275,
+      "tfidf_similarity": 0.0279,
       "key": "Adzuna:5871690205",
       "first_seen": "2026-09-05T19:43:39.368477+00:00",
       "is_new": false
@@ -1511,7 +1341,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0275,
+      "tfidf_similarity": 0.0279,
       "key": "Adzuna:5807503501",
       "first_seen": "2026-09-08T20:30:33.278892+00:00",
       "is_new": false
@@ -1549,7 +1379,7 @@
         "TF-IDF role 0.04"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0149,
+      "tfidf_similarity": 0.0142,
       "key": "Adzuna:5866654648",
       "first_seen": "2026-09-02T20:18:35.247098+00:00",
       "is_new": false
@@ -1588,7 +1418,7 @@
         "TF-IDF role 0.07"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.03,
+      "tfidf_similarity": 0.0298,
       "key": "Adzuna:5856558805",
       "first_seen": "2026-08-27T22:38:48.369499+00:00",
       "is_new": false
@@ -1629,47 +1459,9 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0212,
+      "tfidf_similarity": 0.0207,
       "key": "Adzuna:5854585118",
       "first_seen": "2026-08-29T21:14:00.393028+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5871891181",
-      "company": "Armstrong Fluid Technology",
-      "title": "Solution Sales Representative",
-      "location": "Toronto, Ontario",
-      "description": "Job Description Job Description Imagine working at the forefront of innovation in fluid-flow technology, with over 1400 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. As a member of our team, you'll dive …",
-      "url": "https://www.adzuna.ca/details/5871891181?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-05T07:10:54Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "technical sales",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "OEM",
-      "target_equipment": [
-        "pump",
-        "fluid systems"
-      ],
-      "score": 6.3,
-      "matched_keywords": [
-        "sales representative",
-        "pump",
-        "manufacturing",
-        "Offering 4.3/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.4/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.05"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0102,
-      "key": "Adzuna:5871891181",
-      "first_seen": "2026-09-07T20:55:38.794240+00:00",
       "is_new": false
     },
     {
@@ -1705,7 +1497,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0147,
+      "tfidf_similarity": 0.0146,
       "key": "Adzuna:5823490937",
       "first_seen": "2026-08-27T22:28:29.077170+00:00",
       "is_new": false
@@ -1743,7 +1535,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0175,
+      "tfidf_similarity": 0.0173,
       "key": "Adzuna:5822089738",
       "first_seen": "2026-08-27T22:28:29.077170+00:00",
       "is_new": false
@@ -1776,12 +1568,12 @@
         "Offering 4.3/5",
         "TF-IDF x0.80",
         "Offering adjusted 3.4/5",
-        "TF-IDF career 0.01",
+        "TF-IDF career 0.00",
         "TF-IDF role 0.05",
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0118,
+      "tfidf_similarity": 0.0116,
       "key": "Adzuna:5841467564",
       "first_seen": "2026-08-27T22:28:29.077170+00:00",
       "is_new": false
@@ -1821,87 +1613,9 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0296,
+      "tfidf_similarity": 0.03,
       "key": "Adzuna:5750933900",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5756397340",
-      "company": "John Brooks Company",
-      "title": "Bilingual Technical Project Specialist (Industrial Pump Products)",
-      "location": "Mississauga, Peel region",
-      "description": "Department: Pump Location/ Territory: Mississauga, ON OR Laval, QC This role is for an existing vacancy. WHAT DO WE DO? We create solutions for the people who keep our world flowing. For over 80 years, John Brooks Company has been solving fluid handling challenges for customers in various industries/markets across Canada by providing a diverse selection of engineered products and innovative system designs, focusing on customized solutions consisting of filtration, pump, spray, and valve product…",
-      "url": "https://www.adzuna.ca/details/5756397340?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-06-08T12:37:25Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "John Brooks Company",
-      "search_type": "target_company",
-      "searched_target": "John Brooks Company",
-      "target_company": true,
-      "target_fit": 8.8,
-      "target_category": "Distributor + Service",
-      "target_equipment": [
-        "pump",
-        "spray",
-        "process equipment"
-      ],
-      "score": 5.4,
-      "matched_keywords": [
-        "pump",
-        "valve",
-        "fluid handling",
-        "process equipment",
-        "distributor",
-        "territory",
-        "industrial",
-        "Offering 4.5/5"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0303,
-      "key": "Adzuna:5756397340",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5835513292",
-      "company": "John Brooks Company",
-      "title": "Technical Project Specialist (Industrial Filtration Products)",
-      "location": "Mississauga, Peel region",
-      "description": "Job Description Job Description Department: Filtration Location/ Territory: Mississauga, ON OR Laval, QC This role is for an existing vacancy. WHAT DO WE DO? We create solutions for the people who keep our world flowing. For over 80 years, John Brooks Company has been solving fluid handling challenges for customers in various industries/markets across Canada by providing a diverse selection of engineered products and innovative system designs, focusing on customized solutions consisting of filt…",
-      "url": "https://www.adzuna.ca/details/5835513292?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-08-10T06:48:13Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "John Brooks Company",
-      "search_type": "target_company",
-      "searched_target": "John Brooks Company",
-      "target_company": true,
-      "target_fit": 8.8,
-      "target_category": "Distributor + Service",
-      "target_equipment": [
-        "pump",
-        "spray",
-        "process equipment"
-      ],
-      "score": 5.4,
-      "matched_keywords": [
-        "pump",
-        "fluid handling",
-        "process equipment",
-        "distributor",
-        "territory",
-        "industrial",
-        "Offering 4.4/5",
-        "TF-IDF x0.80"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.025,
-      "key": "Adzuna:5835513292",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
       "is_new": false
     },
     {
@@ -1938,7 +1652,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0467,
+      "tfidf_similarity": 0.0456,
       "key": "Adzuna:5870257232",
       "first_seen": "2026-09-04T20:03:20.299429+00:00",
       "is_new": false
@@ -1979,7 +1693,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0258,
+      "tfidf_similarity": 0.0257,
       "key": "Adzuna:5870579116",
       "first_seen": "2026-09-05T19:43:39.368477+00:00",
       "is_new": false
@@ -2020,7 +1734,7 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0166,
+      "tfidf_similarity": 0.0162,
       "key": "Adzuna:5852232080",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -2061,7 +1775,7 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0215,
+      "tfidf_similarity": 0.0216,
       "key": "Adzuna:5862009021",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -2100,7 +1814,7 @@
         "TF-IDF role 0.04"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0251,
+      "tfidf_similarity": 0.0254,
       "key": "Adzuna:5852257359",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -2139,7 +1853,7 @@
         "TF-IDF career 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.02,
+      "tfidf_similarity": 0.0198,
       "key": "Adzuna:5852241336",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -2178,7 +1892,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.029,
+      "tfidf_similarity": 0.0284,
       "key": "Adzuna:5814377854",
       "first_seen": "2026-09-08T20:30:33.278892+00:00",
       "is_new": false
@@ -2217,7 +1931,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0355,
+      "tfidf_similarity": 0.0348,
       "key": "Adzuna:5841502856",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -2256,7 +1970,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0355,
+      "tfidf_similarity": 0.0348,
       "key": "Adzuna:5830604506",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -2295,7 +2009,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0276,
+      "tfidf_similarity": 0.0269,
       "key": "Adzuna:5866717977",
       "first_seen": "2026-09-02T20:18:35.247098+00:00",
       "is_new": false
@@ -2334,7 +2048,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0227,
+      "tfidf_similarity": 0.0235,
       "key": "Adzuna:5866653983",
       "first_seen": "2026-09-04T20:03:20.299429+00:00",
       "is_new": false
@@ -2373,7 +2087,7 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0161,
+      "tfidf_similarity": 0.015,
       "key": "Adzuna:5854585125",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -2412,7 +2126,7 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0193,
+      "tfidf_similarity": 0.0187,
       "key": "Adzuna:5854585123",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -2451,7 +2165,7 @@
         "TF-IDF role 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0196,
+      "tfidf_similarity": 0.0185,
       "key": "Adzuna:5863142017",
       "first_seen": "2026-09-01T20:19:22.376242+00:00",
       "is_new": false
@@ -2490,48 +2204,9 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0175,
+      "tfidf_similarity": 0.0164,
       "key": "Adzuna:5865306425",
       "first_seen": "2026-09-02T20:18:35.247098+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5854585124",
-      "company": "Hydro One Networks Inc",
-      "title": "Manager, Capital Outsourcing (EPC Portfolio) & Strategic Sourcing",
-      "location": "Toronto, Ontario",
-      "description": "52014 - Toronto - Regular Not Applicable/Optional Hiring Salary Range : $116,450.00-150,700.00 / year Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional c…",
-      "url": "https://www.adzuna.ca/details/5854585124?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-08-24T16:55:25Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Hydro Inc.",
-      "search_type": "target_company",
-      "searched_target": "Hydro Inc.",
-      "target_company": true,
-      "target_fit": 9.1,
-      "target_category": "Pump Aftermarket / Service",
-      "target_equipment": [
-        "pump",
-        "repair",
-        "reliability"
-      ],
-      "score": 5.3,
-      "matched_keywords": [
-        "pump",
-        "reliability",
-        "aftermarket",
-        "Offering 4.4/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.5/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.02"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0148,
-      "key": "Adzuna:5854585124",
-      "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
     },
     {
@@ -2568,87 +2243,9 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0186,
+      "tfidf_similarity": 0.0178,
       "key": "Adzuna:5863142015",
       "first_seen": "2026-09-01T20:19:22.376242+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5854585120",
-      "company": "Hydro One Networks Inc",
-      "title": "Manager, Workplace Modernization - Real Estate",
-      "location": "Markham, York region",
-      "description": "52015 - Markham - Regular . Hiring Salary Range : $89,250.00-115,500.00 / year Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and ens…",
-      "url": "https://www.adzuna.ca/details/5854585120?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-08-24T16:55:25Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Hydro Inc.",
-      "search_type": "target_company",
-      "searched_target": "Hydro Inc.",
-      "target_company": true,
-      "target_fit": 9.1,
-      "target_category": "Pump Aftermarket / Service",
-      "target_equipment": [
-        "pump",
-        "repair",
-        "reliability"
-      ],
-      "score": 5.3,
-      "matched_keywords": [
-        "pump",
-        "reliability",
-        "aftermarket",
-        "Offering 4.4/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.5/5",
-        "TF-IDF career 0.02",
-        "TF-IDF role 0.02"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0168,
-      "key": "Adzuna:5854585120",
-      "first_seen": "2026-08-31T22:12:15.867659+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5848716257",
-      "company": "Hydro One Networks Inc",
-      "title": "Programs Process Specialist",
-      "location": "Barrie, Simcoe region",
-      "description": "51508 - Barrie - Regular Hiring salary range: $3,952.00 - $5,646.00 / Bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and en…",
-      "url": "https://www.adzuna.ca/details/5848716257?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-08-19T16:54:08Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Hydro Inc.",
-      "search_type": "target_company",
-      "searched_target": "Hydro Inc.",
-      "target_company": true,
-      "target_fit": 9.1,
-      "target_category": "Pump Aftermarket / Service",
-      "target_equipment": [
-        "pump",
-        "repair",
-        "reliability"
-      ],
-      "score": 5.3,
-      "matched_keywords": [
-        "pump",
-        "reliability",
-        "aftermarket",
-        "Offering 4.4/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.5/5",
-        "TF-IDF career 0.02",
-        "TF-IDF role 0.03"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0185,
-      "key": "Adzuna:5848716257",
-      "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
     },
     {
@@ -2685,7 +2282,7 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0165,
+      "tfidf_similarity": 0.0155,
       "key": "Adzuna:5863142013",
       "first_seen": "2026-09-01T20:19:22.376242+00:00",
       "is_new": false
@@ -2724,7 +2321,7 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0173,
+      "tfidf_similarity": 0.0163,
       "key": "Adzuna:5854585121",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -2759,52 +2356,13 @@
         "Offering 4.4/5",
         "TF-IDF x0.80",
         "Offering adjusted 3.5/5",
-        "TF-IDF career 0.02",
-        "TF-IDF role 0.01"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0142,
-      "key": "Adzuna:5863142011",
-      "first_seen": "2026-09-01T20:19:22.376242+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5854585122",
-      "company": "Hydro One Networks Inc",
-      "title": "Sr Financial Advisor - Fin Plan",
-      "location": "Toronto, Ontario",
-      "description": "52012 - Toronto - Regular Not Applicable/Optional Hiring Salary Range : $89,250.00-115,500.00 / year Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional cu…",
-      "url": "https://www.adzuna.ca/details/5854585122?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-08-24T16:55:25Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Hydro Inc.",
-      "search_type": "target_company",
-      "searched_target": "Hydro Inc.",
-      "target_company": true,
-      "target_fit": 9.1,
-      "target_category": "Pump Aftermarket / Service",
-      "target_equipment": [
-        "pump",
-        "repair",
-        "reliability"
-      ],
-      "score": 5.3,
-      "matched_keywords": [
-        "pump",
-        "reliability",
-        "aftermarket",
-        "Offering 4.4/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.5/5",
         "TF-IDF career 0.01",
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0132,
-      "key": "Adzuna:5854585122",
-      "first_seen": "2026-08-31T22:12:15.867659+00:00",
+      "tfidf_similarity": 0.0134,
+      "key": "Adzuna:5863142011",
+      "first_seen": "2026-09-01T20:19:22.376242+00:00",
       "is_new": false
     },
     {
@@ -2841,7 +2399,7 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.031,
+      "tfidf_similarity": 0.0301,
       "key": "Adzuna:5852239018",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -2881,7 +2439,7 @@
         "TF-IDF role 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0154,
+      "tfidf_similarity": 0.0152,
       "key": "Adzuna:5858306962",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -2921,7 +2479,7 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0396,
+      "tfidf_similarity": 0.0394,
       "key": "Adzuna:5870580481",
       "first_seen": "2026-09-04T20:03:20.299429+00:00",
       "is_new": false
@@ -2961,7 +2519,7 @@
         "TF-IDF role 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0221,
+      "tfidf_similarity": 0.0218,
       "key": "Adzuna:5870262413",
       "first_seen": "2026-09-04T20:03:20.299429+00:00",
       "is_new": false
@@ -3000,7 +2558,7 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0399,
+      "tfidf_similarity": 0.0392,
       "key": "Adzuna:5841505395",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -3039,7 +2597,7 @@
         "Offering adjusted 3.8/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0311,
+      "tfidf_similarity": 0.0305,
       "key": "Adzuna:5870248458",
       "first_seen": "2026-09-04T20:03:20.299429+00:00",
       "is_new": false
@@ -3078,48 +2636,9 @@
         "TF-IDF role 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0251,
+      "tfidf_similarity": 0.0247,
       "key": "Adzuna:5852257835",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5841753634",
-      "company": "John Brooks Company",
-      "title": "Bilingual Customer Concierge (12-15 month contract)",
-      "location": "Mississauga, Peel region",
-      "description": "Job Description Job Description This posting is for an existing vacancy. This is a 12-15 month contract. WHAT DO WE DO? We create solutions for the people who keep our world flowing. For over 80 years, John Brooks Company has been solving fluid handling challenges for customers in various industries/markets across Canada by providing a diverse selection of engineered products and innovative system designs, focusing on customized solutions consisting of filtration, pump, spray, and valve product…",
-      "url": "https://www.adzuna.ca/details/5841753634?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-08-14T07:01:21Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "John Brooks Company",
-      "search_type": "target_company",
-      "searched_target": "John Brooks Company",
-      "target_company": true,
-      "target_fit": 8.8,
-      "target_category": "Distributor + Service",
-      "target_equipment": [
-        "pump",
-        "spray",
-        "process equipment"
-      ],
-      "score": 5.1,
-      "matched_keywords": [
-        "pump",
-        "valve",
-        "fluid handling",
-        "process equipment",
-        "distributor",
-        "Offering 4.5/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.6/5"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0167,
-      "key": "Adzuna:5841753634",
-      "first_seen": "2026-09-08T20:30:33.278892+00:00",
       "is_new": false
     },
     {
@@ -3156,19 +2675,19 @@
         "Offering adjusted 3.5/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0179,
+      "tfidf_similarity": 0.0178,
       "key": "Adzuna:5856731690",
       "first_seen": "2026-09-08T20:30:33.278892+00:00",
       "is_new": false
     },
     {
-      "external_id": "5861020500",
+      "external_id": "5874090663",
       "company": "John Brooks Company",
-      "title": "Technical Support Representative",
-      "location": "Mississauga, Peel region",
-      "description": "Job Description Job Description Department: IT Location/ Territory: Mississauga, ON This role is for an existing vacancy. WHAT DO WE DO? We create solutions for the people who keep our world flowing. For over 80 years, John Brooks Company has been solving fluid handling challenges for customers in various industries/markets across Canada by providing a diverse selection of engineered products and innovative system designs, focusing on customized solutions consisting of filtration, pump, spray, …",
-      "url": "https://www.adzuna.ca/details/5861020500?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-08-29T06:47:59Z",
+      "title": "Pressure Welder",
+      "location": "Cambridge, Waterloo region",
+      "description": "Job Description Job Description MDA Filtration Inc., a division of John Brooks Company Limited, is backed with over 25 years of technical and mechanical experience in pressure vessels and all other facets of filtration. MDA is certified for the manufacture of pressure vessels in accordance with ASME Boiler and Pressure Vessel Code, Section VIII, Division I, and accredited by the American Society of Mechanical Engineers for use of the U and UM stamps, and the current edition of CSA Standard B51,…",
+      "url": "https://www.adzuna.ca/details/5874090663?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-07T08:00:03Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
@@ -3186,17 +2705,17 @@
       "score": 5.1,
       "matched_keywords": [
         "pump",
-        "fluid handling",
         "process equipment",
         "distributor",
-        "territory",
-        "technical support",
         "Offering 4.4/5",
-        "TF-IDF x0.80"
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0252,
-      "key": "Adzuna:5861020500",
+      "tfidf_similarity": 0.0149,
+      "key": "Adzuna:5874090663",
       "first_seen": "2026-09-08T20:30:33.278892+00:00",
       "is_new": false
     },
@@ -3234,7 +2753,7 @@
         "Offering adjusted 3.8/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0369,
+      "tfidf_similarity": 0.036,
       "key": "Adzuna:5847953456",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -3275,7 +2794,7 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0085,
+      "tfidf_similarity": 0.0087,
       "key": "Adzuna:5849569954",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -3311,10 +2830,10 @@
         "Offering adjusted 4.0/5",
         "TF-IDF career 0.02",
         "TF-IDF role 0.01",
-        "TF-IDF technical 0.02"
+        "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0176,
+      "tfidf_similarity": 0.0173,
       "key": "Adzuna:5850773357",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -3353,7 +2872,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0192,
+      "tfidf_similarity": 0.0189,
       "key": "Adzuna:5862010843",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -3392,7 +2911,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.019,
+      "tfidf_similarity": 0.0187,
       "key": "Adzuna:5872893667",
       "first_seen": "2026-09-06T19:46:50.683949+00:00",
       "is_new": false
@@ -3428,10 +2947,10 @@
         "Offering adjusted 4.0/5",
         "TF-IDF career 0.02",
         "TF-IDF role 0.04",
-        "TF-IDF technical 0.02"
+        "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0219,
+      "tfidf_similarity": 0.022,
       "key": "Adzuna:5850767264",
       "first_seen": "2026-09-08T20:30:33.278892+00:00",
       "is_new": false
@@ -3470,7 +2989,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0145,
+      "tfidf_similarity": 0.0141,
       "key": "Adzuna:5852238837",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -3509,7 +3028,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0121,
+      "tfidf_similarity": 0.0117,
       "key": "Adzuna:5870255705",
       "first_seen": "2026-09-04T20:03:20.299429+00:00",
       "is_new": false
@@ -3548,7 +3067,7 @@
         "TF-IDF technical 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0223,
+      "tfidf_similarity": 0.0217,
       "key": "Adzuna:5853472629",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -3587,7 +3106,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0134,
+      "tfidf_similarity": 0.013,
       "key": "Adzuna:5860892899",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -3626,7 +3145,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0148,
+      "tfidf_similarity": 0.0147,
       "key": "Adzuna:5871712157",
       "first_seen": "2026-09-05T19:43:39.368477+00:00",
       "is_new": false
@@ -3665,7 +3184,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0203,
+      "tfidf_similarity": 0.0199,
       "key": "Adzuna:5784381239",
       "first_seen": "2026-09-08T20:30:33.278892+00:00",
       "is_new": false
@@ -3704,7 +3223,7 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0311,
+      "tfidf_similarity": 0.0304,
       "key": "Adzuna:5849397398",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -3743,7 +3262,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0238,
+      "tfidf_similarity": 0.0231,
       "key": "Adzuna:5871691148",
       "first_seen": "2026-09-05T19:43:39.368477+00:00",
       "is_new": false
@@ -3782,7 +3301,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0188,
+      "tfidf_similarity": 0.0184,
       "key": "Adzuna:5812893135",
       "first_seen": "2026-09-08T20:30:33.278892+00:00",
       "is_new": false
@@ -3821,7 +3340,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0181,
+      "tfidf_similarity": 0.0176,
       "key": "Adzuna:5872890057",
       "first_seen": "2026-09-06T19:46:50.683949+00:00",
       "is_new": false
@@ -3860,7 +3379,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0181,
+      "tfidf_similarity": 0.0176,
       "key": "Adzuna:5849390846",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -3897,7 +3416,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0072,
+      "tfidf_similarity": 0.0071,
       "key": "Adzuna:5839864336",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -3935,7 +3454,7 @@
         "TF-IDF role 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0143,
+      "tfidf_similarity": 0.0142,
       "key": "Adzuna:5871961664",
       "first_seen": "2026-09-07T20:55:38.794240+00:00",
       "is_new": false
@@ -3973,9 +3492,47 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0034,
+      "tfidf_similarity": 0.0033,
       "key": "Adzuna:5871956225",
       "first_seen": "2026-09-07T20:55:38.794240+00:00",
+      "is_new": false
+    },
+    {
+      "external_id": "5875568076",
+      "company": "Armstrong Fluid Technology",
+      "title": "FCAW Welder - Afternoon",
+      "location": "Toronto, Ontario",
+      "description": "Job Description Job Description Imagine working at the forefront of innovation in fluid-flow technology, with over 1400 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. As a member of our team, you'll dive …",
+      "url": "https://www.adzuna.ca/details/5875568076?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-08T08:05:21Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Armstrong Fluid Technology",
+      "search_type": "target_company",
+      "searched_target": "Armstrong Fluid Technology",
+      "target_company": true,
+      "target_fit": 8.5,
+      "target_category": "OEM",
+      "target_equipment": [
+        "pump",
+        "fluid systems"
+      ],
+      "score": 4.6,
+      "matched_keywords": [
+        "pump",
+        "manufacturing",
+        "Offering 4.3/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.4/5",
+        "TF-IDF career 0.00",
+        "TF-IDF role 0.00",
+        "TF-IDF technical 0.00"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0028,
+      "key": "Adzuna:5875568076",
+      "first_seen": "2026-09-08T20:30:33.278892+00:00",
       "is_new": false
     },
     {
@@ -4011,7 +3568,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0029,
+      "tfidf_similarity": 0.0028,
       "key": "Adzuna:5871929280",
       "first_seen": "2026-09-07T20:55:38.794240+00:00",
       "is_new": false
@@ -4045,11 +3602,11 @@
         "TF-IDF x0.80",
         "Offering adjusted 3.4/5",
         "TF-IDF career 0.01",
-        "TF-IDF role 0.01",
+        "TF-IDF role 0.02",
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0077,
+      "tfidf_similarity": 0.0078,
       "key": "Adzuna:5862907064",
       "first_seen": "2026-09-01T20:19:22.376242+00:00",
       "is_new": false
@@ -4087,7 +3644,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0033,
+      "tfidf_similarity": 0.0031,
       "key": "Adzuna:5871946849",
       "first_seen": "2026-09-07T20:55:38.794240+00:00",
       "is_new": false
@@ -4125,7 +3682,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0031,
+      "tfidf_similarity": 0.003,
       "key": "Adzuna:5801747761",
       "first_seen": "2026-09-05T19:43:39.368477+00:00",
       "is_new": false
@@ -4163,7 +3720,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.004,
+      "tfidf_similarity": 0.0041,
       "key": "Adzuna:5871941481",
       "first_seen": "2026-09-07T20:55:38.794240+00:00",
       "is_new": false
@@ -4201,7 +3758,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0052,
+      "tfidf_similarity": 0.005,
       "key": "Adzuna:5871934215",
       "first_seen": "2026-09-07T20:55:38.794240+00:00",
       "is_new": false
@@ -4239,7 +3796,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0079,
+      "tfidf_similarity": 0.0076,
       "key": "Adzuna:5871922074",
       "first_seen": "2026-09-07T20:55:38.794240+00:00",
       "is_new": false
@@ -4277,7 +3834,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0065,
+      "tfidf_similarity": 0.0062,
       "key": "Adzuna:5871942089",
       "first_seen": "2026-09-07T20:55:38.794240+00:00",
       "is_new": false
@@ -4315,7 +3872,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0038,
+      "tfidf_similarity": 0.0036,
       "key": "Adzuna:5871937629",
       "first_seen": "2026-09-07T20:55:38.794240+00:00",
       "is_new": false
@@ -4353,7 +3910,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0028,
+      "tfidf_similarity": 0.0027,
       "key": "Adzuna:5871961508",
       "first_seen": "2026-09-07T20:55:38.794240+00:00",
       "is_new": false
@@ -4391,7 +3948,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0073,
+      "tfidf_similarity": 0.007,
       "key": "Adzuna:5871961387",
       "first_seen": "2026-09-07T20:55:38.794240+00:00",
       "is_new": false
@@ -4429,7 +3986,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0028,
+      "tfidf_similarity": 0.0027,
       "key": "Adzuna:5871944016",
       "first_seen": "2026-09-07T20:55:38.794240+00:00",
       "is_new": false
@@ -4467,7 +4024,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0028,
+      "tfidf_similarity": 0.0027,
       "key": "Adzuna:5871946576",
       "first_seen": "2026-09-07T20:55:38.794240+00:00",
       "is_new": false
@@ -4505,7 +4062,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0057,
+      "tfidf_similarity": 0.0056,
       "key": "Adzuna:5871946109",
       "first_seen": "2026-09-07T20:55:38.794240+00:00",
       "is_new": false
@@ -4543,7 +4100,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0038,
+      "tfidf_similarity": 0.0037,
       "key": "Adzuna:5872182747",
       "first_seen": "2026-09-05T19:43:39.368477+00:00",
       "is_new": false
@@ -4581,7 +4138,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0058,
+      "tfidf_similarity": 0.0056,
       "key": "Adzuna:5871947926",
       "first_seen": "2026-09-07T20:55:38.794240+00:00",
       "is_new": false
@@ -4619,7 +4176,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0066,
+      "tfidf_similarity": 0.0064,
       "key": "Adzuna:5871960619",
       "first_seen": "2026-09-07T20:55:38.794240+00:00",
       "is_new": false
@@ -4659,7 +4216,7 @@
         "TF-IDF career 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0232,
+      "tfidf_similarity": 0.0243,
       "key": "Adzuna:5819852413",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -4699,7 +4256,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0111,
+      "tfidf_similarity": 0.0107,
       "key": "Adzuna:5870856944",
       "first_seen": "2026-09-08T20:30:33.278892+00:00",
       "is_new": false
@@ -4739,7 +4296,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0385,
+      "tfidf_similarity": 0.0382,
       "key": "Adzuna:5858156424",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -4778,7 +4335,7 @@
         "TF-IDF role 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0262,
+      "tfidf_similarity": 0.0255,
       "key": "Adzuna:5870278930",
       "first_seen": "2026-09-04T20:03:20.299429+00:00",
       "is_new": false
@@ -4817,7 +4374,7 @@
         "TF-IDF career 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0282,
+      "tfidf_similarity": 0.0274,
       "key": "Adzuna:5796198068",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -4856,7 +4413,7 @@
         "TF-IDF role 0.04"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0319,
+      "tfidf_similarity": 0.0313,
       "key": "Adzuna:5871697476",
       "first_seen": "2026-09-07T20:55:38.794240+00:00",
       "is_new": false
@@ -4898,7 +4455,7 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0367,
+      "tfidf_similarity": 0.0365,
       "key": "Adzuna:5846594934",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -4940,7 +4497,7 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0186,
+      "tfidf_similarity": 0.0183,
       "key": "Adzuna:5841480740",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -4978,7 +4535,7 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0049,
+      "tfidf_similarity": 0.0048,
       "key": "Adzuna:5798580014",
       "first_seen": "2026-09-07T20:55:38.794240+00:00",
       "is_new": false
@@ -5016,7 +4573,7 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0071,
+      "tfidf_similarity": 0.0068,
       "key": "Adzuna:5802365790",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -5054,7 +4611,7 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0071,
+      "tfidf_similarity": 0.0068,
       "key": "Adzuna:5802365786",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -5092,7 +4649,7 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0071,
+      "tfidf_similarity": 0.0068,
       "key": "Adzuna:5802365785",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -5130,7 +4687,7 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0071,
+      "tfidf_similarity": 0.0068,
       "key": "Adzuna:5802365788",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -5168,7 +4725,7 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0055,
+      "tfidf_similarity": 0.0053,
       "key": "Adzuna:5802365789",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -5206,7 +4763,7 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0029,
+      "tfidf_similarity": 0.0027,
       "key": "Adzuna:5841466677",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -5242,12 +4799,12 @@
         "TF-IDF x0.80",
         "Offering adjusted 3.8/5",
         "TF-IDF career 0.04",
-        "TF-IDF role 0.01"
+        "TF-IDF role 0.02"
       ],
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0255,
+      "tfidf_similarity": 0.0248,
       "key": "Adzuna:5841509365",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -5258,7 +4815,7 @@
       "title": "Technical Sales Representative",
       "location": "Burlington, Halton",
       "description": "ReapAir Compressor Services, a division of Inter-Power Group, is located in Burlington, Ontario. Specializing in industrial compressors, components, service, and maintenance, we provide reliable compressed air solutions and peace of mind to our customers across Ontario. We are looking for an experienced and results-driven Senior Technical Sales Representative to join our team and help grow our presence across Southern Ontario. We offer flexibility in territory assignment based on the successful…",
-      "url": "https://www.adzuna.ca/land/ad/5865028420?se=2DwJKcSr8RGifYq7VNE_hg&utm_medium=api&utm_source=6ca94df0&v=808C016BE60D70EC3B7AC593212EC5F7CF288134",
+      "url": "https://www.adzuna.ca/land/ad/5865028420?se=wL5u2Iqs8RGLWNueJPgGLw&utm_medium=api&utm_source=6ca94df0&v=808C016BE60D70EC3B7AC593212EC5F7CF288134",
       "created": "2026-09-01T12:09:06Z",
       "salary_min": null,
       "salary_max": null,
@@ -5282,7 +4839,7 @@
         "industrial"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0514,
+      "tfidf_similarity": 0.0533,
       "key": "Adzuna:5865028420",
       "first_seen": "2026-09-02T20:18:35.247098+00:00",
       "is_new": false
@@ -5317,7 +4874,7 @@
         "chemical"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0408,
+      "tfidf_similarity": 0.0415,
       "key": "Adzuna:5807478382",
       "first_seen": "2026-09-05T19:43:39.368477+00:00",
       "is_new": false
@@ -5352,7 +4909,7 @@
         "Offering 4.6/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0264,
+      "tfidf_similarity": 0.0267,
       "key": "Adzuna:5854253838",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
       "is_new": false
@@ -5422,7 +4979,7 @@
         "TF-IDF career 0.04"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0369,
+      "tfidf_similarity": 0.0361,
       "key": "Adzuna:5860549825",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -5457,7 +5014,7 @@
         "TF-IDF career 0.04"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0378,
+      "tfidf_similarity": 0.037,
       "key": "Adzuna:5860550181",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -5492,7 +5049,7 @@
         "Offering adjusted 4.2/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.048,
+      "tfidf_similarity": 0.0475,
       "key": "Adzuna:5860549815",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -5527,7 +5084,7 @@
         "Offering adjusted 3.4/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0295,
+      "tfidf_similarity": 0.0294,
       "key": "Adzuna:5861031694",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -5562,7 +5119,7 @@
         "Offering 4.3/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.03,
+      "tfidf_similarity": 0.0297,
       "key": "Adzuna:5850939889",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -5597,7 +5154,7 @@
         "TF-IDF x0.75"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.028,
+      "tfidf_similarity": 0.0286,
       "key": "Adzuna:5852385917",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
