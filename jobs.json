@@ -1,164 +1,413 @@
 {
-  "last_checked": "2026-10-04T20:40:27.256127+00:00",
+  "last_checked": "2026-10-05T23:29:32.502418+00:00",
   "jobs": [
     {
-      "external_id": "5911282983",
-      "company": "Toromont Cat",
-      "title": "Key Account Manager, Mining",
-      "location": "Concord, York region",
-      "description": "The Mining Key Account Manager will maintain and enhance the business partnership between Toromont Cat and our major mining customers by providing complete customer service solutions to local mining operations, to help reduce total cost. This role can be done from multiple locations. Pay type: Full time, Permanent Compensation: Commissioned The listed target compensation includes commissions and other variable pay components and reflects expected annual earnings. It represents just one part of …",
-      "url": "https://www.adzuna.ca/details/5911282983?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-04T04:41:37Z",
-      "salary_min": null,
-      "salary_max": null,
+      "external_id": "5912877021",
+      "company": "MS Canada",
+      "title": "Manager, Community (Ontario)",
+      "location": "London, Middlesex",
+      "description": "We're inspired by the vision of a world free of multiple sclerosis (MS). MS is a neurological disease of the central nervous system (brain, spinal cord) and Canada has one of the highest rates of MS in the world. People affected by MS are at the heart of our work and our mission is to connect and empower the MS community to create positive change. We connect the MS community to programs, information, research and to each other while they are on their MS journey. We collaborate with researchers,…",
+      "url": "https://www.adzuna.ca/details/5912877021?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-05T16:03:26Z",
+      "salary_min": 68000,
+      "salary_max": 72000,
       "source": "Adzuna",
-      "search_query": "Toromont Cat",
-      "search_type": "target_company",
-      "searched_target": "Toromont Cat",
+      "search_query": "reliability",
+      "search_type": "keyword",
+      "searched_target": null,
       "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "OEM Dealer + Service",
+      "target_fit": 9.3,
+      "target_category": "Compressed Air Sales & Service",
       "target_equipment": [
-        "engine",
-        "power systems",
-        "industrial rotating equipment"
+        "compressor",
+        "parts",
+        "preventive maintenance",
+        "repair"
       ],
-      "score": 7.2,
+      "score": 5.4,
       "matched_keywords": [
-        "account manager",
-        "rotating equipment",
-        "mining",
-        "industrial",
+        "compressor",
+        "compressed air",
+        "maintenance",
         "Offering 5.0/5",
         "TF-IDF x0.80",
         "Offering adjusted 4.0/5",
-        "TF-IDF career 0.03"
+        "TF-IDF career 0.01",
+        "TF-IDF role 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0291,
-      "key": "Adzuna:5911282983",
-      "first_seen": "2026-10-04T20:40:27.256127+00:00",
+      "tfidf_similarity": 0.0308,
+      "key": "Adzuna:5912877021",
+      "first_seen": "2026-10-05T23:29:32.502418+00:00",
       "is_new": true
     },
     {
-      "external_id": "5911602410",
-      "company": "GL Inc",
-      "title": "Consumer Opinion Research Participant",
-      "location": "Waterloo region, Ontario",
-      "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/land/ad/5911602410?se=xB7o3jPA8RGPxMOBT0w5QQ&utm_medium=api&utm_source=6ca94df0&v=FBC46A4D0DB9ECC1238A2C421EB23A02DC5F7348",
-      "created": "2026-10-04T10:19:40Z",
-      "salary_min": null,
-      "salary_max": null,
+      "external_id": "5912877010",
+      "company": "MS Canada",
+      "title": "Manager, Community (Ontario)",
+      "location": "Windsor, Essex region",
+      "description": "We're inspired by the vision of a world free of multiple sclerosis (MS). MS is a neurological disease of the central nervous system (brain, spinal cord) and Canada has one of the highest rates of MS in the world. People affected by MS are at the heart of our work and our mission is to connect and empower the MS community to create positive change. We connect the MS community to programs, information, research and to each other while they are on their MS journey. We collaborate with researchers,…",
+      "url": "https://www.adzuna.ca/details/5912877010?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-05T16:03:26Z",
+      "salary_min": 68000,
+      "salary_max": 72000,
       "source": "Adzuna",
       "search_query": "reliability",
       "search_type": "keyword",
       "searched_target": null,
       "target_company": true,
-      "target_fit": 9.0,
-      "target_category": "OEM",
+      "target_fit": 9.3,
+      "target_category": "Compressed Air Sales & Service",
       "target_equipment": [
-        "compressor"
+        "compressor",
+        "parts",
+        "preventive maintenance",
+        "repair"
       ],
-      "score": 4.5,
+      "score": 5.4,
       "matched_keywords": [
         "compressor",
-        "Offering 4.9/5",
+        "compressed air",
+        "maintenance",
+        "Offering 5.0/5",
         "TF-IDF x0.80",
-        "Offering adjusted 3.9/5",
+        "Offering adjusted 4.0/5",
         "TF-IDF career 0.01",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.01",
-        "target company"
+        "TF-IDF role 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0091,
-      "key": "Adzuna:5911602410",
-      "first_seen": "2026-10-04T20:40:27.256127+00:00",
+      "tfidf_similarity": 0.0308,
+      "key": "Adzuna:5912877010",
+      "first_seen": "2026-10-05T23:29:32.502418+00:00",
       "is_new": true
     },
     {
-      "external_id": "5911602423",
-      "company": "GL Inc",
-      "title": "Market Research Participant",
-      "location": "Cornwall, Stormont, Dundas and Glengarry",
-      "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. and $45/hr., depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are conside…",
-      "url": "https://www.adzuna.ca/land/ad/5911602423?se=xB7o3jPA8RGPxMOBT0w5QQ&utm_medium=api&utm_source=6ca94df0&v=D523CD72A9B2F5FC0BBE1BB95FCFD3ADE91F57ED",
-      "created": "2026-10-04T10:19:42Z",
-      "salary_min": null,
-      "salary_max": null,
+      "external_id": "5912877022",
+      "company": "MS Canada",
+      "title": "Manager, Community (Ontario)",
+      "location": "Niagara, Ontario",
+      "description": "We're inspired by the vision of a world free of multiple sclerosis (MS). MS is a neurological disease of the central nervous system (brain, spinal cord) and Canada has one of the highest rates of MS in the world. People affected by MS are at the heart of our work and our mission is to connect and empower the MS community to create positive change. We connect the MS community to programs, information, research and to each other while they are on their MS journey. We collaborate with researchers,…",
+      "url": "https://www.adzuna.ca/details/5912877022?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-05T16:03:26Z",
+      "salary_min": 68000,
+      "salary_max": 72000,
       "source": "Adzuna",
       "search_query": "reliability",
       "search_type": "keyword",
       "searched_target": null,
       "target_company": true,
-      "target_fit": 9.0,
-      "target_category": "OEM",
+      "target_fit": 9.3,
+      "target_category": "Compressed Air Sales & Service",
       "target_equipment": [
-        "compressor"
+        "compressor",
+        "parts",
+        "preventive maintenance",
+        "repair"
       ],
-      "score": 4.5,
+      "score": 5.4,
       "matched_keywords": [
         "compressor",
-        "Offering 4.9/5",
+        "compressed air",
+        "maintenance",
+        "Offering 5.0/5",
         "TF-IDF x0.80",
-        "Offering adjusted 3.9/5",
+        "Offering adjusted 4.0/5",
         "TF-IDF career 0.01",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.01",
-        "target company"
+        "TF-IDF role 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0092,
-      "key": "Adzuna:5911602423",
-      "first_seen": "2026-10-04T20:40:27.256127+00:00",
+      "tfidf_similarity": 0.0308,
+      "key": "Adzuna:5912877022",
+      "first_seen": "2026-10-05T23:29:32.502418+00:00",
       "is_new": true
     },
     {
-      "external_id": "5911602461",
-      "company": "GL Inc",
-      "title": "Remote Research Panel Participant",
-      "location": "Thunder Bay, Ontario",
-      "description": "Product Testers are wanted to work from home nationwide in the US to fulfill upcoming contracts with national and international companies. We guarantee 15-25 hours per week with an hourly pay of between $25/hr. depending on the In-Home Usage Test project. No experience required. There is no payment required in order to apply or to work as an In-Home Usage Tester. You don't have to buy products or pay for shipping, everything is paid by our company. In-Home Usage Testers are considered independe…",
-      "url": "https://www.adzuna.ca/land/ad/5911602461?se=xB7o3jPA8RGPxMOBT0w5QQ&utm_medium=api&utm_source=6ca94df0&v=833E25C1162B3306FFBFFC309E4E9B616209ED9C",
-      "created": "2026-10-04T10:19:44Z",
-      "salary_min": null,
-      "salary_max": null,
+      "external_id": "5912877008",
+      "company": "MS Canada",
+      "title": "Manager, Community (Ontario)",
+      "location": "Kingston, Lennox and Addington",
+      "description": "We're inspired by the vision of a world free of multiple sclerosis (MS). MS is a neurological disease of the central nervous system (brain, spinal cord) and Canada has one of the highest rates of MS in the world. People affected by MS are at the heart of our work and our mission is to connect and empower the MS community to create positive change. We connect the MS community to programs, information, research and to each other while they are on their MS journey. We collaborate with researchers,…",
+      "url": "https://www.adzuna.ca/details/5912877008?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-05T16:03:25Z",
+      "salary_min": 68000,
+      "salary_max": 72000,
       "source": "Adzuna",
       "search_query": "reliability",
       "search_type": "keyword",
       "searched_target": null,
       "target_company": true,
-      "target_fit": 9.0,
-      "target_category": "OEM",
+      "target_fit": 9.3,
+      "target_category": "Compressed Air Sales & Service",
       "target_equipment": [
-        "compressor"
+        "compressor",
+        "parts",
+        "preventive maintenance",
+        "repair"
       ],
-      "score": 4.5,
+      "score": 5.4,
       "matched_keywords": [
         "compressor",
-        "Offering 4.9/5",
+        "compressed air",
+        "maintenance",
+        "Offering 5.0/5",
         "TF-IDF x0.80",
-        "Offering adjusted 3.9/5",
+        "Offering adjusted 4.0/5",
         "TF-IDF career 0.01",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.01",
-        "target company"
+        "TF-IDF role 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0092,
-      "key": "Adzuna:5911602461",
-      "first_seen": "2026-10-04T20:40:27.256127+00:00",
+      "tfidf_similarity": 0.0308,
+      "key": "Adzuna:5912877008",
+      "first_seen": "2026-10-05T23:29:32.502418+00:00",
       "is_new": true
     },
     {
-      "external_id": "5909710466",
+      "external_id": "5912876998",
+      "company": "MS Canada",
+      "title": "Manager, Community (Ontario)",
+      "location": "Toronto, Ontario",
+      "description": "We're inspired by the vision of a world free of multiple sclerosis (MS). MS is a neurological disease of the central nervous system (brain, spinal cord) and Canada has one of the highest rates of MS in the world. People affected by MS are at the heart of our work and our mission is to connect and empower the MS community to create positive change. We connect the MS community to programs, information, research and to each other while they are on their MS journey. We collaborate with researchers,…",
+      "url": "https://www.adzuna.ca/details/5912876998?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-05T16:03:25Z",
+      "salary_min": 68000,
+      "salary_max": 72000,
+      "source": "Adzuna",
+      "search_query": "reliability",
+      "search_type": "keyword",
+      "searched_target": null,
+      "target_company": true,
+      "target_fit": 9.3,
+      "target_category": "Compressed Air Sales & Service",
+      "target_equipment": [
+        "compressor",
+        "parts",
+        "preventive maintenance",
+        "repair"
+      ],
+      "score": 5.4,
+      "matched_keywords": [
+        "compressor",
+        "compressed air",
+        "maintenance",
+        "Offering 5.0/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 4.0/5",
+        "TF-IDF career 0.01",
+        "TF-IDF role 0.03"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0308,
+      "key": "Adzuna:5912876998",
+      "first_seen": "2026-10-05T23:29:32.502418+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5911506160",
+      "company": "Porter Engineered Systems - A Division of Pangeo Group",
+      "title": "Maintenance Manager",
+      "location": "Woodbridge, York region",
+      "description": "Job Description Job Description About the role Project North PES is Pangeo's new aluminum die casting and machining plant in Vaughan, Ontario. As Maintenance Manager, you own plant equipment, utilities, and maintenance end to end, from building the equipment asset records to installing and commissioning new machines and keeping them running reliably. This is a hands-on role through start-up and into steady production. You'll lead early technical engagement with equipment suppliers, run installa…",
+      "url": "https://www.adzuna.ca/details/5911506160?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-04T08:15:59Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "RED Systems",
+      "search_type": "target_company",
+      "searched_target": "RED Systems",
+      "target_company": true,
+      "target_fit": 8.8,
+      "target_category": "Distributor + Service",
+      "target_equipment": [
+        "pump",
+        "motor",
+        "seal",
+        "coupling",
+        "rotating equipment"
+      ],
+      "score": 5.4,
+      "matched_keywords": [
+        "rotating equipment",
+        "pump",
+        "distributor",
+        "commissioning",
+        "maintenance",
+        "Offering 5.0/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 4.0/5"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0289,
+      "key": "Adzuna:5911506160",
+      "first_seen": "2026-10-05T23:29:32.502418+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5912751492",
+      "company": "Prime",
+      "title": "Account Executive",
+      "location": "Toronto, Ontario",
+      "description": "This role falls under Client Services - this is NOT an IT position. Responsibilities are heavily focus on administrative, project coordination and requires effective communication skills. Fast-paced agency setting. Accelerating Life-Changing Solutions to Global Healthcare Challenges is the vision that unites us through a shared sense of purpose, whatever the role. It speaks to the significant challenges that exist within global healthcare, and how we, as one team, can help to deliver better sol…",
+      "url": "https://www.adzuna.ca/details/5912751492?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-05T12:58:34Z",
+      "salary_min": 55000,
+      "salary_max": 65000,
+      "source": "Adzuna",
+      "search_query": "reliability",
+      "search_type": "keyword",
+      "searched_target": null,
+      "target_company": true,
+      "target_fit": 9.3,
+      "target_category": "Compressor / Blower / Vacuum Sales & Service",
+      "target_equipment": [
+        "compressor",
+        "blower",
+        "vacuum pump",
+        "preventive maintenance"
+      ],
+      "score": 5.4,
+      "matched_keywords": [
+        "compressor",
+        "blower",
+        "vacuum pump",
+        "pump",
+        "maintenance",
+        "Offering 5.0/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 4.0/5"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0396,
+      "key": "Adzuna:5912751492",
+      "first_seen": "2026-10-05T23:29:32.502418+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5912964477",
+      "company": "Hydro One Networks Inc",
+      "title": "Community Relations Consultant",
+      "location": "Sudbury region, Ontario",
+      "description": "52153 - Sudbury - Regular . Hiring salary range: $4,102.00 - $5,508 / Bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and en…",
+      "url": "https://www.adzuna.ca/details/5912964477?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-05T18:17:19Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Hydro Inc.",
+      "search_type": "target_company",
+      "searched_target": "Hydro Inc.",
+      "target_company": true,
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
+      "target_equipment": [
+        "pump",
+        "repair",
+        "reliability"
+      ],
+      "score": 5.3,
+      "matched_keywords": [
+        "pump",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.01"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0146,
+      "key": "Adzuna:5912964477",
+      "first_seen": "2026-10-05T23:29:32.502418+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5912964469",
+      "company": "Hydro One Networks Inc",
+      "title": "Senior Advisor, Financial Planning & Analysis (FP&A)",
+      "location": "Toronto, Ontario",
+      "description": "52157 - Toronto - Regular Not Applicable/Optional Hiring Salary Range : $89,250.00-115,500.00 / year Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional cu…",
+      "url": "https://www.adzuna.ca/details/5912964469?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-05T18:17:18Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Hydro Inc.",
+      "search_type": "target_company",
+      "searched_target": "Hydro Inc.",
+      "target_company": true,
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
+      "target_equipment": [
+        "pump",
+        "repair",
+        "reliability"
+      ],
+      "score": 5.3,
+      "matched_keywords": [
+        "pump",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.01"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0156,
+      "key": "Adzuna:5912964469",
+      "first_seen": "2026-10-05T23:29:32.502418+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5911490222",
+      "company": "John Crane",
+      "title": "Manufacturing Engineer",
+      "location": "Hamilton, Hamilton region",
+      "description": "Job Description Job Description Company Description John Crane, a business of Smiths Group, is a global leader in mission-critical flow control solutions for energy and process industries that enable efficient and sustainable operations. Our products include mechanical seals and systems, couplings, bearings, filtration systems, and predictive digital monitoring technologies. We have a global network of more than 200 sites in over 50 countries and employ more than 6,000 people worldwide. We part…",
+      "url": "https://www.adzuna.ca/details/5911490222?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-04T08:08:47Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "John Crane",
+      "search_type": "target_company",
+      "searched_target": "John Crane",
+      "target_company": true,
+      "target_fit": 8.7,
+      "target_category": "OEM + Service",
+      "target_equipment": [
+        "mechanical seal",
+        "coupling",
+        "filtration",
+        "rotating equipment"
+      ],
+      "score": 5.2,
+      "matched_keywords": [
+        "rotating equipment",
+        "mechanical seal",
+        "mechanical seals",
+        "bearing",
+        "bearings",
+        "manufacturing",
+        "Offering 5.0/5",
+        "TF-IDF x0.80"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0399,
+      "key": "Adzuna:5911490222",
+      "first_seen": "2026-10-05T23:29:32.502418+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5911275758",
       "company": "Lakeside Process Controls",
-      "title": "Project Manager",
+      "title": "Application Engineering, Intermediate",
       "location": "Mississauga, Peel region",
-      "description": "Your responsibilities may include, but are not limited to: Your responsibilities may include, but are not limited to: Assisting in the definition of project scope and objectives, involving all relevant stakeholders and ensuring technical feasibility Effectively initiating, planning and executing assigned projects of varying scope Managing changes to the project scope, project schedule and project costs using appropriate verification techniques Measuring project performance using appropriate too…",
-      "url": "https://www.adzuna.ca/details/5909710466?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-03T04:38:19Z",
+      "description": "What you will be doing in the role of Application Engineering – Intermediate: Your responsibilities may include, but are not limited to: Working with customers to understand their measurement and instrumentation requirements, including making recommendations on the most suitable flow, pressure, level, temperature, and analytical measurement technologies and products. Providing written quotations and proposals to customers based on equipment or services selected Performing necessary performance …",
+      "url": "https://www.adzuna.ca/details/5911275758?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-04T04:37:32Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
@@ -173,95 +422,179 @@
         "vibration",
         "asset reliability"
       ],
-      "score": 4.2,
+      "score": 5.1,
       "matched_keywords": [
         "condition monitoring",
         "vibration",
         "reliability",
+        "proposal",
+        "quotation",
         "Offering 4.7/5",
         "TF-IDF x0.80",
-        "Offering adjusted 3.8/5",
-        "TF-IDF career 0.04",
-        "TF-IDF role 0.02"
+        "Offering adjusted 3.8/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0289,
-      "key": "Adzuna:5909710466",
-      "first_seen": "2026-10-04T20:40:27.256127+00:00",
+      "tfidf_similarity": 0.0358,
+      "key": "Adzuna:5911275758",
+      "first_seen": "2026-10-05T23:29:32.502418+00:00",
       "is_new": true
     },
     {
-      "external_id": "5909665869",
-      "company": "Grundfos",
-      "title": "Project Engineer",
-      "location": "Brockville, Leeds and Grenville",
-      "description": "Project Engineer Job Description Are you passionate about designing custom water and wastewater treatment solutions that make a real difference for communities and the environment? Then join our mission to pioneer smarter water solutions that reduce energy use and improve lives. As our new Project Engineer , you'll be designing and engineering custom water and wastewater treatment systems that deliver reliable, compliant solutions tailored to each customer's unique requirements. You'll be part …",
-      "url": "https://www.adzuna.ca/details/5909665869?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-03T03:54:07Z",
-      "salary_min": null,
-      "salary_max": null,
+      "external_id": "5911291588",
+      "company": "Toromont Cat",
+      "title": "Apprenticeship Specialist",
+      "location": "Concord, York region",
+      "description": "At Toromont Cat, we are committed to developing the next generation of skilled technicians through structured apprenticeship and technical training programs. The Apprenticeship Specialist plays a critical role in supporting apprentices, leaders, and stakeholders throughout the apprenticeship journey while ensuring compliance with provincial requirements and alignment with business objectives. This role serves as a central resource for apprenticeship administration, program coordination, stakeho…",
+      "url": "https://www.adzuna.ca/details/5911291588?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-04T04:54:39Z",
+      "salary_min": 59025,
+      "salary_max": 73782,
       "source": "Adzuna",
-      "search_query": "Grundfos",
+      "search_query": "Toromont Cat",
       "search_type": "target_company",
-      "searched_target": "Grundfos",
+      "searched_target": "Toromont Cat",
       "target_company": true,
       "target_fit": 8.5,
-      "target_category": "OEM",
+      "target_category": "OEM Dealer + Service",
       "target_equipment": [
-        "pump"
+        "engine",
+        "power systems",
+        "industrial rotating equipment"
       ],
-      "score": 3.8,
+      "score": 5.1,
       "matched_keywords": [
-        "pump",
-        "Offering 4.3/5",
+        "rotating equipment",
+        "alignment",
+        "industrial",
+        "Offering 5.0/5",
         "TF-IDF x0.80",
-        "Offering adjusted 3.4/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.00",
-        "target company"
+        "Offering adjusted 4.0/5",
+        "TF-IDF career 0.03",
+        "TF-IDF role 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0048,
-      "key": "Adzuna:5909665869",
-      "first_seen": "2026-10-04T20:40:27.256127+00:00",
+      "tfidf_similarity": 0.0243,
+      "key": "Adzuna:5911291588",
+      "first_seen": "2026-10-05T23:29:32.502418+00:00",
       "is_new": true
     },
     {
-      "external_id": "5909665850",
-      "company": "Grundfos",
-      "title": "Project Engineer",
-      "location": "Oakville, Halton",
-      "description": "Project Engineer  Apply Now  Start applying with LinkedIn  Please wait Job Description Are you passionate about designing custom water and wastewater treatment solutions that make a real difference for communities and the environment? Then join our mission to pioneer smarter water solutions that reduce energy use and improve lives. As our new Project Engineer , you'll be designing and engineering custom water and wastewater treatment systems that deliver reliable, compliant solutions tailored t…",
-      "url": "https://www.adzuna.ca/details/5909665850?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-03T03:54:06Z",
+      "external_id": "5911285319",
+      "company": "Toromont Cat",
+      "title": "Component Rebuilder L2",
+      "location": "Concord, York region",
+      "description": "Our Components Rebuilder - Level 2 will train with our trusted Component Rebuilders in order to safely and effectively diagnose and repair/rebuild of all engine and power train components in a timely manner while ensuring positive customer relations. *Please note this position will be out of our Reman Concord Location Pay Type Full Time, Permanent Compensation $36.70 The listed wage is just one component of our total rewards package, and eligibility to additional premiums may be available. As a…",
+      "url": "https://www.adzuna.ca/details/5911285319?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-04T04:46:09Z",
+      "salary_min": 76336,
+      "salary_max": 76336,
+      "source": "Adzuna",
+      "search_query": "Toromont Cat",
+      "search_type": "target_company",
+      "searched_target": "Toromont Cat",
+      "target_company": true,
+      "target_fit": 8.5,
+      "target_category": "OEM Dealer + Service",
+      "target_equipment": [
+        "engine",
+        "power systems",
+        "industrial rotating equipment"
+      ],
+      "score": 5.1,
+      "matched_keywords": [
+        "rotating equipment",
+        "industrial",
+        "Offering 5.0/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 4.0/5",
+        "TF-IDF career 0.01",
+        "TF-IDF role 0.00",
+        "TF-IDF technical 0.01"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0106,
+      "key": "Adzuna:5911285319",
+      "first_seen": "2026-10-05T23:29:32.502418+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5912964473",
+      "company": "Hydro One Networks Inc",
+      "title": "Sr Coordinator - Commnty Relations & Cstmr Prgms",
+      "location": "Thunder Bay, Ontario",
+      "description": "52159 - Thunder Bay - Regular Hiring salary range: $4,374.92 - $5,874.88 / Bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service a…",
+      "url": "https://www.adzuna.ca/details/5912964473?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-05T18:17:19Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
-      "search_query": "Grundfos",
+      "search_query": "Hydro Inc.",
       "search_type": "target_company",
-      "searched_target": "Grundfos",
+      "searched_target": "Hydro Inc.",
       "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "OEM",
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
       "target_equipment": [
-        "pump"
+        "pump",
+        "repair",
+        "reliability"
       ],
-      "score": 3.8,
+      "score": 4.7,
       "matched_keywords": [
         "pump",
-        "Offering 4.3/5",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
         "TF-IDF x0.80",
-        "Offering adjusted 3.4/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.00",
-        "target company"
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.01"
+      ],
+      "negative_keywords": [
+        "coordinator"
+      ],
+      "tfidf_similarity": 0.0133,
+      "key": "Adzuna:5912964473",
+      "first_seen": "2026-10-05T23:29:32.502418+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5911357100",
+      "company": "Schaeffler",
+      "title": "Advanced Heat Treat Operator (Segment 1; Aerospace)",
+      "location": "Stratford, Perth region",
+      "description": "Are you looking for a dynamic, team-based company with opportunity for development? If so, look no further! Schaeffler Aerospace Canada Inc. is growing in leaps and bounds and is looking to add to its team of great, full-time employees. Schaeffler is a dynamic global technology company, and its success has been a result of its entrepreneurial spirit and long history of private ownership. Does that sound interesting to you? As a partner to all of the major automobile manufacturers, as well as ke…",
+      "url": "https://www.adzuna.ca/details/5911357100?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-04T06:50:56Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Schaeffler",
+      "search_type": "target_company",
+      "searched_target": "Schaeffler",
+      "target_company": true,
+      "target_fit": 8.5,
+      "target_category": "OEM + Reliability",
+      "target_equipment": [
+        "bearing",
+        "condition monitoring",
+        "rotating equipment"
+      ],
+      "score": 4.4,
+      "matched_keywords": [
+        "rotating equipment",
+        "condition monitoring",
+        "reliability",
+        "bearing",
+        "Offering 5.0/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 4.0/5",
+        "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0041,
-      "key": "Adzuna:5909665850",
-      "first_seen": "2026-10-04T20:40:27.256127+00:00",
+      "tfidf_similarity": 0.0194,
+      "key": "Adzuna:5911357100",
+      "first_seen": "2026-10-05T23:29:32.502418+00:00",
       "is_new": true
     },
     {
@@ -299,7 +632,7 @@
         "Offering 5.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0625,
+      "tfidf_similarity": 0.0618,
       "key": "Adzuna:5832067424",
       "first_seen": "2026-09-14T21:11:51.086403+00:00",
       "is_new": false
@@ -338,7 +671,7 @@
         "industrial service"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0317,
+      "tfidf_similarity": 0.0305,
       "key": "Adzuna:5888933150",
       "first_seen": "2026-09-19T19:47:01.537562+00:00",
       "is_new": false
@@ -379,7 +712,7 @@
         "Offering adjusted 4.2/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0543,
+      "tfidf_similarity": 0.0466,
       "key": "Adzuna:5899625541",
       "first_seen": "2026-10-02T21:36:14.186096+00:00",
       "is_new": false
@@ -417,7 +750,7 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0158,
+      "tfidf_similarity": 0.0154,
       "key": "Adzuna:5885845311",
       "first_seen": "2026-09-16T20:39:21.974790+00:00",
       "is_new": false
@@ -456,7 +789,7 @@
         "distributor"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0338,
+      "tfidf_similarity": 0.0331,
       "key": "Adzuna:5539679612",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
       "is_new": false
@@ -495,9 +828,48 @@
         "distributor"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0369,
+      "tfidf_similarity": 0.0362,
       "key": "Adzuna:5832031995",
       "first_seen": "2026-09-08T20:30:33.278892+00:00",
+      "is_new": false
+    },
+    {
+      "external_id": "5911282983",
+      "company": "Toromont Cat",
+      "title": "Key Account Manager, Mining",
+      "location": "Concord, York region",
+      "description": "The Mining Key Account Manager will maintain and enhance the business partnership between Toromont Cat and our major mining customers by providing complete customer service solutions to local mining operations, to help reduce total cost. This role can be done from multiple locations. Pay type: Full time, Permanent Compensation: Commissioned The listed target compensation includes commissions and other variable pay components and reflects expected annual earnings. It represents just one part of …",
+      "url": "https://www.adzuna.ca/details/5911282983?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-04T04:41:37Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Toromont Cat",
+      "search_type": "target_company",
+      "searched_target": "Toromont Cat",
+      "target_company": true,
+      "target_fit": 8.5,
+      "target_category": "OEM Dealer + Service",
+      "target_equipment": [
+        "engine",
+        "power systems",
+        "industrial rotating equipment"
+      ],
+      "score": 7.2,
+      "matched_keywords": [
+        "account manager",
+        "rotating equipment",
+        "mining",
+        "industrial",
+        "Offering 5.0/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 4.0/5",
+        "TF-IDF career 0.03"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0289,
+      "key": "Adzuna:5911282983",
+      "first_seen": "2026-10-04T20:40:27.256127+00:00",
       "is_new": false
     },
     {
@@ -533,7 +905,7 @@
         "Offering adjusted 3.5/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0218,
+      "tfidf_similarity": 0.0212,
       "key": "Adzuna:5872883963",
       "first_seen": "2026-09-07T20:55:38.794240+00:00",
       "is_new": false
@@ -572,7 +944,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0295,
+      "tfidf_similarity": 0.0284,
       "key": "Adzuna:5871693496",
       "first_seen": "2026-09-06T19:46:50.683949+00:00",
       "is_new": false
@@ -611,7 +983,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0295,
+      "tfidf_similarity": 0.0284,
       "key": "Adzuna:5871690205",
       "first_seen": "2026-09-05T19:43:39.368477+00:00",
       "is_new": false
@@ -622,7 +994,7 @@
       "title": "Sales Representative- Heavy Equipment",
       "location": "Rockton, Hamilton region",
       "description": "The Opportunity Plays an integral role in the retail sales process. Responsible for the efficient processing of high volume product sales orders from point of order reception to product delivery.Ensures all sales orders meet and/or exceed customer expectations. The Role Works closely with sales representatives and/or production team to review product sales and customer requirements; plans for the overall timely processing of sales orders including product purchase, management of product deliver…",
-      "url": "https://www.adzuna.ca/land/ad/5870232550?se=Dmu8oDTA8RGN96JAzfykhw&utm_medium=api&utm_source=6ca94df0&v=0C312C506DD5E1732BA91E2F5533BA6AB0A9D3B9",
+      "url": "https://www.adzuna.ca/land/ad/5870232550?se=hKxrYhXB8RGr5sMVJZBn5Q&utm_medium=api&utm_source=6ca94df0&v=0C312C506DD5E1732BA91E2F5533BA6AB0A9D3B9",
       "created": "2026-09-04T03:53:34Z",
       "salary_min": null,
       "salary_max": null,
@@ -650,7 +1022,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0293,
+      "tfidf_similarity": 0.0282,
       "key": "Adzuna:5870232550",
       "first_seen": "2026-10-04T20:40:27.256127+00:00",
       "is_new": false
@@ -661,7 +1033,7 @@
       "title": "Sales Representative- Heavy Equipment",
       "location": "London, Middlesex",
       "description": "The Opportunity Plays an integral role in the retail sales process. Responsible for the efficient processing of high volume product sales orders from point of order reception to product delivery.Ensures all sales orders meet and/or exceed customer expectations. The Role Works closely with sales representatives and/or production team to review product sales and customer requirements; plans for the overall timely processing of sales orders including product purchase, management of product deliver…",
-      "url": "https://www.adzuna.ca/land/ad/5870232537?se=Dmu8oDTA8RGN96JAzfykhw&utm_medium=api&utm_source=6ca94df0&v=F5EE989016987BCA85EC00EDB3FAC32EC5816C1A",
+      "url": "https://www.adzuna.ca/land/ad/5870232537?se=hKxrYhXB8RGr5sMVJZBn5Q&utm_medium=api&utm_source=6ca94df0&v=F5EE989016987BCA85EC00EDB3FAC32EC5816C1A",
       "created": "2026-09-04T03:53:30Z",
       "salary_min": null,
       "salary_max": null,
@@ -689,7 +1061,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0293,
+      "tfidf_similarity": 0.0282,
       "key": "Adzuna:5870232537",
       "first_seen": "2026-10-04T20:40:27.256127+00:00",
       "is_new": false
@@ -727,48 +1099,9 @@
         "TF-IDF role 0.04"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0134,
+      "tfidf_similarity": 0.013,
       "key": "Adzuna:5866654648",
       "first_seen": "2026-09-02T20:18:35.247098+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5896551453",
-      "company": "Toromont Cat",
-      "title": "Compact Equipment Sales Representative (CESR)",
-      "location": "Stoney Creek, Hamilton region",
-      "description": "Toromont Cat is looking for a Compact Equipment Sales Representative to be the key point of contact between the business and our Compact Equipment customers. He/she will have a passion for sales and a proactive desire to connect with customers, identify opportunities, and deliver equipment solutions that help customers succeed. This is an excellent opportunity for a highly motivated sales professional who thrives in a fast-paced, customer-focused environment and enjoys owning the sales process …",
-      "url": "https://www.adzuna.ca/details/5896551453?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-24T04:50:22Z",
-      "salary_min": 20000,
-      "salary_max": 50000,
-      "source": "Adzuna",
-      "search_query": "Toromont Cat",
-      "search_type": "target_company",
-      "searched_target": "Toromont Cat",
-      "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "OEM Dealer + Service",
-      "target_equipment": [
-        "engine",
-        "power systems",
-        "industrial rotating equipment"
-      ],
-      "score": 6.8,
-      "matched_keywords": [
-        "sales representative",
-        "rotating equipment",
-        "industrial",
-        "Offering 5.0/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 4.0/5",
-        "TF-IDF career 0.03",
-        "TF-IDF role 0.07"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0285,
-      "key": "Adzuna:5896551453",
-      "first_seen": "2026-09-24T20:56:52.563973+00:00",
       "is_new": false
     },
     {
@@ -804,7 +1137,7 @@
         "Offering adjusted 3.4/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0187,
+      "tfidf_similarity": 0.0173,
       "key": "Adzuna:5896527615",
       "first_seen": "2026-09-24T20:56:52.563973+00:00",
       "is_new": false
@@ -842,7 +1175,7 @@
         "Offering adjusted 3.4/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0188,
+      "tfidf_similarity": 0.0174,
       "key": "Adzuna:5895120870",
       "first_seen": "2026-09-24T20:56:52.563973+00:00",
       "is_new": false
@@ -880,7 +1213,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0135,
+      "tfidf_similarity": 0.0134,
       "key": "Adzuna:5823490937",
       "first_seen": "2026-09-25T20:52:56.648349+00:00",
       "is_new": false
@@ -918,7 +1251,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0155,
+      "tfidf_similarity": 0.0157,
       "key": "Adzuna:5822089738",
       "first_seen": "2026-09-25T20:52:56.648349+00:00",
       "is_new": false
@@ -956,7 +1289,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0182,
+      "tfidf_similarity": 0.0174,
       "key": "Adzuna:5891664613",
       "first_seen": "2026-09-21T21:26:01.115158+00:00",
       "is_new": false
@@ -994,7 +1327,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0109,
+      "tfidf_similarity": 0.0107,
       "key": "Adzuna:5841467564",
       "first_seen": "2026-09-25T20:52:56.648349+00:00",
       "is_new": false
@@ -1029,10 +1362,10 @@
         "TF-IDF x0.80",
         "Offering adjusted 3.4/5",
         "TF-IDF career 0.02",
-        "TF-IDF role 0.02"
+        "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0113,
+      "tfidf_similarity": 0.0108,
       "key": "Adzuna:5890559994",
       "first_seen": "2026-09-20T19:59:49.075549+00:00",
       "is_new": false
@@ -1070,7 +1403,7 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0087,
+      "tfidf_similarity": 0.0084,
       "key": "Adzuna:5887373899",
       "first_seen": "2026-09-17T20:45:54.298972+00:00",
       "is_new": false
@@ -1110,7 +1443,7 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0306,
+      "tfidf_similarity": 0.0305,
       "key": "Adzuna:5750933900",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -1149,7 +1482,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0481,
+      "tfidf_similarity": 0.0463,
       "key": "Adzuna:5870257232",
       "first_seen": "2026-09-04T20:03:20.299429+00:00",
       "is_new": false
@@ -1190,7 +1523,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0322,
+      "tfidf_similarity": 0.0316,
       "key": "Adzuna:5900464267",
       "first_seen": "2026-09-27T20:37:24.364514+00:00",
       "is_new": false
@@ -1231,7 +1564,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0118,
+      "tfidf_similarity": 0.0116,
       "key": "Adzuna:5903852316",
       "first_seen": "2026-09-30T21:40:53.526202+00:00",
       "is_new": false
@@ -1272,7 +1605,7 @@
         "TF-IDF career 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0111,
+      "tfidf_similarity": 0.0106,
       "key": "Adzuna:5903857181",
       "first_seen": "2026-10-01T22:08:27.838028+00:00",
       "is_new": false
@@ -1311,7 +1644,7 @@
         "TF-IDF role 0.07"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0189,
+      "tfidf_similarity": 0.019,
       "key": "Adzuna:5899468517",
       "first_seen": "2026-09-27T20:37:24.364514+00:00",
       "is_new": false
@@ -1350,7 +1683,7 @@
         "TF-IDF career 0.04"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0281,
+      "tfidf_similarity": 0.0283,
       "key": "Adzuna:5898071722",
       "first_seen": "2026-09-25T20:52:56.648349+00:00",
       "is_new": false
@@ -1389,7 +1722,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0342,
+      "tfidf_similarity": 0.0328,
       "key": "Adzuna:5880768631",
       "first_seen": "2026-09-13T20:01:11.322716+00:00",
       "is_new": false
@@ -1428,7 +1761,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0287,
+      "tfidf_similarity": 0.0268,
       "key": "Adzuna:5866717977",
       "first_seen": "2026-09-02T20:18:35.247098+00:00",
       "is_new": false
@@ -1467,7 +1800,7 @@
         "Offering 5.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0338,
+      "tfidf_similarity": 0.0341,
       "key": "Adzuna:5878174095",
       "first_seen": "2026-09-11T20:13:52.453269+00:00",
       "is_new": false
@@ -1478,7 +1811,7 @@
       "title": "Material Handling Shop Technician",
       "location": "Kitchener, Waterloo region",
       "description": "The Opportunity Responsible for providing quality workmanship, consistent service, and technical knowledge to the customers. Performs all tasks related to the testing, diagnosing, repair, maintenance, and reconditioning of heavy equipment, transmissions, engines (gasoline and diesel), and engine components in the shop. The Role Inspect and diagnose components and equipment for servicing needs. Communicate with equipment owners for authorization of servicing and repairs as required. Service and …",
-      "url": "https://www.adzuna.ca/land/ad/5865029203?se=Dmu8oDTA8RGN96JAzfykhw&utm_medium=api&utm_source=6ca94df0&v=F3967533F9003D8E17AA53EC87DF8008EE32261A",
+      "url": "https://www.adzuna.ca/land/ad/5865029203?se=hKxrYhXB8RGr5sMVJZBn5Q&utm_medium=api&utm_source=6ca94df0&v=F3967533F9003D8E17AA53EC87DF8008EE32261A",
       "created": "2026-09-01T12:09:25Z",
       "salary_min": null,
       "salary_max": null,
@@ -1506,7 +1839,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0284,
+      "tfidf_similarity": 0.0266,
       "key": "Adzuna:5865029203",
       "first_seen": "2026-10-02T21:36:14.186096+00:00",
       "is_new": false
@@ -1517,7 +1850,7 @@
       "title": "Product Support Representative - Construction/Crane",
       "location": "Kitchener, Waterloo region",
       "description": "The Opportunity Prospect and source new customer opportunities within defined Construction, Forestry and On Highway territory through development of a Strategic Prospecting Plan. Obtains vast knowledge of Wajax’s Product Offerings in order to provide expert knowledge, advice and product solutions for client needs. The Role Manages Customer Satisfaction with Existing Construction, Forestry and Crane Territory Customers. Identifies and resolves issues in a timely manner. Attend to phone inquiries…",
-      "url": "https://www.adzuna.ca/land/ad/5908535212?se=Dmu8oDTA8RGN96JAzfykhw&utm_medium=api&utm_source=6ca94df0&v=A7BEDEC321A01F615706263440D33F8C160724CA",
+      "url": "https://www.adzuna.ca/land/ad/5908535212?se=hKxrYhXB8RGr5sMVJZBn5Q&utm_medium=api&utm_source=6ca94df0&v=A7BEDEC321A01F615706263440D33F8C160724CA",
       "created": "2026-10-02T13:37:02Z",
       "salary_min": null,
       "salary_max": null,
@@ -1545,7 +1878,7 @@
         "Offering 5.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0336,
+      "tfidf_similarity": 0.0339,
       "key": "Adzuna:5908535212",
       "first_seen": "2026-10-02T21:36:14.186096+00:00",
       "is_new": false
@@ -1585,7 +1918,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0286,
+      "tfidf_similarity": 0.0274,
       "key": "Adzuna:5905070555",
       "first_seen": "2026-10-01T22:08:27.838028+00:00",
       "is_new": false
@@ -1624,7 +1957,7 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0129,
+      "tfidf_similarity": 0.0123,
       "key": "Adzuna:5893819343",
       "first_seen": "2026-09-23T20:52:40.453114+00:00",
       "is_new": false
@@ -1663,7 +1996,7 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0148,
+      "tfidf_similarity": 0.0145,
       "key": "Adzuna:5901990228",
       "first_seen": "2026-09-29T21:40:14.946648+00:00",
       "is_new": false
@@ -1702,7 +2035,7 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0148,
+      "tfidf_similarity": 0.0146,
       "key": "Adzuna:5893167774",
       "first_seen": "2026-09-22T20:40:13.609124+00:00",
       "is_new": false
@@ -1741,7 +2074,7 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0148,
+      "tfidf_similarity": 0.0146,
       "key": "Adzuna:5893167765",
       "first_seen": "2026-09-22T20:40:13.609124+00:00",
       "is_new": false
@@ -1780,7 +2113,7 @@
         "TF-IDF career 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0181,
+      "tfidf_similarity": 0.0184,
       "key": "Adzuna:5894334977",
       "first_seen": "2026-09-23T20:52:40.453114+00:00",
       "is_new": false
@@ -1819,7 +2152,7 @@
         "TF-IDF role 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0172,
+      "tfidf_similarity": 0.0169,
       "key": "Adzuna:5906410583",
       "first_seen": "2026-10-02T21:36:14.186096+00:00",
       "is_new": false
@@ -1858,48 +2191,9 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0142,
+      "tfidf_similarity": 0.0139,
       "key": "Adzuna:5901990223",
       "first_seen": "2026-09-29T21:40:14.946648+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5906410579",
-      "company": "Hydro One Networks Inc",
-      "title": "Executive Assistant - Corporate Affairs",
-      "location": "Toronto, Ontario",
-      "description": "52137 - Toronto - Regular . Hiring Salary Range : $60,350.00-78,100.00 / year Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and ensu…",
-      "url": "https://www.adzuna.ca/details/5906410579?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-01T19:21:36Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Hydro Inc.",
-      "search_type": "target_company",
-      "searched_target": "Hydro Inc.",
-      "target_company": true,
-      "target_fit": 9.1,
-      "target_category": "Pump Aftermarket / Service",
-      "target_equipment": [
-        "pump",
-        "repair",
-        "reliability"
-      ],
-      "score": 5.3,
-      "matched_keywords": [
-        "pump",
-        "reliability",
-        "aftermarket",
-        "Offering 4.4/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.5/5",
-        "TF-IDF career 0.02",
-        "TF-IDF role 0.01"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0141,
-      "key": "Adzuna:5906410579",
-      "first_seen": "2026-10-02T21:36:14.186096+00:00",
       "is_new": false
     },
     {
@@ -1936,7 +2230,7 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0157,
+      "tfidf_similarity": 0.0154,
       "key": "Adzuna:5901990224",
       "first_seen": "2026-09-29T21:40:14.946648+00:00",
       "is_new": false
@@ -1975,48 +2269,9 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0172,
+      "tfidf_similarity": 0.0165,
       "key": "Adzuna:5901990230",
       "first_seen": "2026-09-29T21:40:14.946648+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5893167776",
-      "company": "Hydro One Networks Inc",
-      "title": "Senior Manager, Real Estate Strategy & Planning",
-      "location": "Markham, York region",
-      "description": "52112 - Markham - Regular . Hiring Salary Range : $110,500.00-143,000.00 / year Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and en…",
-      "url": "https://www.adzuna.ca/details/5893167776?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-21T17:18:58Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Hydro Inc.",
-      "search_type": "target_company",
-      "searched_target": "Hydro Inc.",
-      "target_company": true,
-      "target_fit": 9.1,
-      "target_category": "Pump Aftermarket / Service",
-      "target_equipment": [
-        "pump",
-        "repair",
-        "reliability"
-      ],
-      "score": 5.3,
-      "matched_keywords": [
-        "pump",
-        "reliability",
-        "aftermarket",
-        "Offering 4.4/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.5/5",
-        "TF-IDF career 0.02",
-        "TF-IDF role 0.02"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0161,
-      "key": "Adzuna:5893167776",
-      "first_seen": "2026-09-22T20:40:13.609124+00:00",
       "is_new": false
     },
     {
@@ -2053,48 +2308,9 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0164,
+      "tfidf_similarity": 0.016,
       "key": "Adzuna:5901990226",
       "first_seen": "2026-09-29T21:40:14.946648+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5893167762",
-      "company": "Hydro One Networks Inc",
-      "title": "University Co-Op Student - Corporate Real Estate - 12 Months - Winter 2027 - Markham",
-      "location": "Markham, York region",
-      "description": "52084 - Markham - Temporary 12 months Hiring salary range: $2,136.59 - $3,301.53 / bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer s…",
-      "url": "https://www.adzuna.ca/details/5893167762?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-21T17:18:58Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Hydro Inc.",
-      "search_type": "target_company",
-      "searched_target": "Hydro Inc.",
-      "target_company": true,
-      "target_fit": 9.1,
-      "target_category": "Pump Aftermarket / Service",
-      "target_equipment": [
-        "pump",
-        "repair",
-        "reliability"
-      ],
-      "score": 5.3,
-      "matched_keywords": [
-        "pump",
-        "reliability",
-        "aftermarket",
-        "Offering 4.4/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.5/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.01"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0128,
-      "key": "Adzuna:5893167762",
-      "first_seen": "2026-09-22T20:40:13.609124+00:00",
       "is_new": false
     },
     {
@@ -2131,7 +2347,7 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0153,
+      "tfidf_similarity": 0.0152,
       "key": "Adzuna:5893167777",
       "first_seen": "2026-09-22T20:40:13.609124+00:00",
       "is_new": false
@@ -2170,7 +2386,7 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.014,
+      "tfidf_similarity": 0.0135,
       "key": "Adzuna:5893167763",
       "first_seen": "2026-09-22T20:40:13.609124+00:00",
       "is_new": false
@@ -2209,7 +2425,7 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0153,
+      "tfidf_similarity": 0.0151,
       "key": "Adzuna:5901990222",
       "first_seen": "2026-09-29T21:40:14.946648+00:00",
       "is_new": false
@@ -2248,48 +2464,9 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0329,
+      "tfidf_similarity": 0.0316,
       "key": "Adzuna:5894951631",
       "first_seen": "2026-09-24T20:56:52.563973+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5870248458",
-      "company": "Lakeside Process Controls",
-      "title": "Application Engineering, Intermediate",
-      "location": "Mississauga, Peel region",
-      "description": "What you will be doing in the role of Application Engineering, Intermediate Provide technical support, solution design, and quotations to customers—focusing specifically on Automation and Control System Solutions. Lead inside-sales–driven opportunities for defined accounts by building relationships, promoting new products/solutions, and identifying growth opportunities. Translate RFQs and customer objectives into fit‑for‑purpose automation solutions, including controls architecture and scope de…",
-      "url": "https://www.adzuna.ca/details/5870248458?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-04T04:21:25Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Lakeside Process Controls",
-      "search_type": "target_company",
-      "searched_target": "Lakeside Process Controls",
-      "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "Reliability + Automation",
-      "target_equipment": [
-        "condition monitoring",
-        "vibration",
-        "asset reliability"
-      ],
-      "score": 5.2,
-      "matched_keywords": [
-        "condition monitoring",
-        "vibration",
-        "reliability",
-        "technical support",
-        "quotation",
-        "Offering 4.7/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.8/5"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0324,
-      "key": "Adzuna:5870248458",
-      "first_seen": "2026-09-04T20:03:20.299429+00:00",
       "is_new": false
     },
     {
@@ -2326,7 +2503,7 @@
         "Offering adjusted 3.6/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0359,
+      "tfidf_similarity": 0.035,
       "key": "Adzuna:5885671318",
       "first_seen": "2026-09-16T20:39:21.974790+00:00",
       "is_new": false
@@ -2365,7 +2542,7 @@
         "Offering adjusted 3.5/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0174,
+      "tfidf_similarity": 0.0173,
       "key": "Adzuna:5898256640",
       "first_seen": "2026-09-27T20:37:24.364514+00:00",
       "is_new": false
@@ -2445,7 +2622,7 @@
         "TF-IDF role 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0086,
+      "tfidf_similarity": 0.0085,
       "key": "Adzuna:5903859106",
       "first_seen": "2026-10-01T22:08:27.838028+00:00",
       "is_new": false
@@ -2484,7 +2661,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0183,
+      "tfidf_similarity": 0.0175,
       "key": "Adzuna:5899432863",
       "first_seen": "2026-09-26T20:23:23.572936+00:00",
       "is_new": false
@@ -2519,11 +2696,11 @@
         "TF-IDF x0.80",
         "Offering adjusted 4.0/5",
         "TF-IDF career 0.01",
-        "TF-IDF role 0.03",
+        "TF-IDF role 0.02",
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0135,
+      "tfidf_similarity": 0.0132,
       "key": "Adzuna:5900459829",
       "first_seen": "2026-09-28T22:46:29.484488+00:00",
       "is_new": false
@@ -2559,10 +2736,10 @@
         "Offering adjusted 4.0/5",
         "TF-IDF career 0.02",
         "TF-IDF role 0.01",
-        "TF-IDF technical 0.02"
+        "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0162,
+      "tfidf_similarity": 0.0153,
       "key": "Adzuna:5899533407",
       "first_seen": "2026-09-26T20:23:23.572936+00:00",
       "is_new": false
@@ -2596,12 +2773,12 @@
         "Offering 5.0/5",
         "TF-IDF x0.80",
         "Offering adjusted 4.0/5",
-        "TF-IDF career 0.01",
+        "TF-IDF career 0.02",
         "TF-IDF role 0.00",
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0111,
+      "tfidf_similarity": 0.0112,
       "key": "Adzuna:5907704338",
       "first_seen": "2026-10-03T20:21:35.344254+00:00",
       "is_new": false
@@ -2635,12 +2812,12 @@
         "Offering 5.0/5",
         "TF-IDF x0.80",
         "Offering adjusted 4.0/5",
-        "TF-IDF career 0.02",
+        "TF-IDF career 0.01",
         "TF-IDF role 0.00",
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0114,
+      "tfidf_similarity": 0.0111,
       "key": "Adzuna:5907695069",
       "first_seen": "2026-10-02T21:36:14.186096+00:00",
       "is_new": false
@@ -2679,7 +2856,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0166,
+      "tfidf_similarity": 0.0167,
       "key": "Adzuna:5903640795",
       "first_seen": "2026-09-30T21:40:53.526202+00:00",
       "is_new": false
@@ -2718,7 +2895,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0155,
+      "tfidf_similarity": 0.0151,
       "key": "Adzuna:5900454012",
       "first_seen": "2026-09-27T20:37:24.364514+00:00",
       "is_new": false
@@ -2757,7 +2934,7 @@
         "TF-IDF technical 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0212,
+      "tfidf_similarity": 0.0208,
       "key": "Adzuna:5902716600",
       "first_seen": "2026-09-29T21:40:14.946648+00:00",
       "is_new": false
@@ -2796,7 +2973,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0119,
+      "tfidf_similarity": 0.0117,
       "key": "Adzuna:5903641754",
       "first_seen": "2026-09-30T21:40:53.526202+00:00",
       "is_new": false
@@ -2835,7 +3012,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0119,
+      "tfidf_similarity": 0.0117,
       "key": "Adzuna:5900436901",
       "first_seen": "2026-09-28T22:46:29.484488+00:00",
       "is_new": false
@@ -2874,48 +3051,9 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.013,
+      "tfidf_similarity": 0.0131,
       "key": "Adzuna:5898064687",
       "first_seen": "2026-09-25T20:52:56.648349+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5896527665",
-      "company": "Toromont Cat",
-      "title": "Shop Technician, Heavy Equipment",
-      "location": "Concord, York region",
-      "description": "Toromont Cat is looking for a Shop Technician, Heavy Equipment to join our team! As the successful candidate, you will be responsible for servicing a particular line of Caterpillar equipment and components in our shop. Your day will include planning, trouble shooting and repairing, as well as, preparing necessary service reports for customers. We are looking for people who are interested in diverse product range. Our ideal candidate is an enthusiastic team player who will focus on safety and cu…",
-      "url": "https://www.adzuna.ca/details/5896527665?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-24T04:43:32Z",
-      "salary_min": 101774,
-      "salary_max": 101774,
-      "source": "Adzuna",
-      "search_query": "Toromont Cat",
-      "search_type": "target_company",
-      "searched_target": "Toromont Cat",
-      "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "OEM Dealer + Service",
-      "target_equipment": [
-        "engine",
-        "power systems",
-        "industrial rotating equipment"
-      ],
-      "score": 5.1,
-      "matched_keywords": [
-        "rotating equipment",
-        "industrial",
-        "Offering 5.0/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 4.0/5",
-        "TF-IDF career 0.02",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.02"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0161,
-      "key": "Adzuna:5896527665",
-      "first_seen": "2026-09-24T20:56:52.563973+00:00",
       "is_new": false
     },
     {
@@ -2952,7 +3090,7 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0304,
+      "tfidf_similarity": 0.03,
       "key": "Adzuna:5903656318",
       "first_seen": "2026-10-02T21:36:14.186096+00:00",
       "is_new": false
@@ -2991,7 +3129,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0179,
+      "tfidf_similarity": 0.0175,
       "key": "Adzuna:5888943171",
       "first_seen": "2026-09-18T20:10:14.237247+00:00",
       "is_new": false
@@ -3030,7 +3168,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.018,
+      "tfidf_similarity": 0.0175,
       "key": "Adzuna:5903644376",
       "first_seen": "2026-09-30T21:40:53.526202+00:00",
       "is_new": false
@@ -3041,7 +3179,7 @@
       "title": "Hydraulic Technician",
       "location": "Cartier, Sudbury region",
       "description": "The Opportunity The Service Technician is primarily responsible for evaluating and diagnosing causes for breakages, repairing hydraulic components. The Role Complete dismantle and inspection of components, as well as complete a comprehensive service report with accurate measurements related to these components. Build, repair, service, and troubleshoot various hydraulic components. Tests rebuild components or systems to acceptable results. Always maintain cleanliness of shop and work area to ens…",
-      "url": "https://www.adzuna.ca/land/ad/5908539172?se=Dmu8oDTA8RGN96JAzfykhw&utm_medium=api&utm_source=6ca94df0&v=9DC5A4AAFE5BFFAAE5327D70CF3FBD541B325E6A",
+      "url": "https://www.adzuna.ca/land/ad/5908539172?se=hKxrYhXB8RGr5sMVJZBn5Q&utm_medium=api&utm_source=6ca94df0&v=9DC5A4AAFE5BFFAAE5327D70CF3FBD541B325E6A",
       "created": "2026-10-02T13:39:45Z",
       "salary_min": null,
       "salary_max": null,
@@ -3069,7 +3207,7 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0302,
+      "tfidf_similarity": 0.0298,
       "key": "Adzuna:5908539172",
       "first_seen": "2026-10-03T20:21:35.344254+00:00",
       "is_new": false
@@ -3080,7 +3218,7 @@
       "title": "Installation Technician",
       "location": "Kitchener, Waterloo region",
       "description": "The Opportunity Responsible for assembly of new or rebuilt crane and/ or utility equipment The Role Responsibilities will vary depending on level attained (A, B, C or D). Responsible for assembly of new or rebuilt crane and or utility equipment sold by Wajax Industries in a safe, efficient and capable manner. Is familiar with all crane and utility equipment the company represents and that he is required to assemble. Responsible to oversee and works closely with other Installers in a mentorship …",
-      "url": "https://www.adzuna.ca/land/ad/5888569928?se=Dmu8oDTA8RGN96JAzfykhw&utm_medium=api&utm_source=6ca94df0&v=82F383A6DDF8F294C37921FE828B15A000BD121F",
+      "url": "https://www.adzuna.ca/land/ad/5888569928?se=hKxrYhXB8RGr5sMVJZBn5Q&utm_medium=api&utm_source=6ca94df0&v=82F383A6DDF8F294C37921FE828B15A000BD121F",
       "created": "2026-09-17T22:29:04Z",
       "salary_min": null,
       "salary_max": null,
@@ -3108,7 +3246,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0178,
+      "tfidf_similarity": 0.0174,
       "key": "Adzuna:5888569928",
       "first_seen": "2026-10-02T21:36:14.186096+00:00",
       "is_new": false
@@ -3119,7 +3257,7 @@
       "title": "Manager, External Financial Reporting- 12-18 Month Contract",
       "location": "Toronto, Ontario",
       "description": "The Opportunity Responsible for preparation of all external financial reports in accordance with International Financial Reporting Standards (‘IFRS’). Responsible for researching complex accounting and reporting issues and leads the preparation of technical accounting topics and policies as required. The Role Lead the preparation of public financial reporting including financial statements and related disclosures such as: Management’s Discussion & Analysis, Management Information Circular, Annu…",
-      "url": "https://www.adzuna.ca/land/ad/5908538214?se=Dmu8oDTA8RGN96JAzfykhw&utm_medium=api&utm_source=6ca94df0&v=6706A269C87B367D49F339747A09F0FCE2563913",
+      "url": "https://www.adzuna.ca/land/ad/5908538214?se=hKxrYhXB8RGr5sMVJZBn5Q&utm_medium=api&utm_source=6ca94df0&v=6706A269C87B367D49F339747A09F0FCE2563913",
       "created": "2026-10-02T13:39:17Z",
       "salary_min": null,
       "salary_max": null,
@@ -3147,7 +3285,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0179,
+      "tfidf_similarity": 0.0174,
       "key": "Adzuna:5908538214",
       "first_seen": "2026-10-03T20:21:35.344254+00:00",
       "is_new": false
@@ -3184,7 +3322,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0091,
+      "tfidf_similarity": 0.009,
       "key": "Adzuna:5879534588",
       "first_seen": "2026-09-11T20:13:52.453269+00:00",
       "is_new": false
@@ -3216,12 +3354,12 @@
         "Offering 4.3/5",
         "TF-IDF x0.80",
         "Offering adjusted 3.4/5",
-        "TF-IDF career 0.02",
+        "TF-IDF career 0.01",
         "TF-IDF role 0.00",
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0086,
+      "tfidf_similarity": 0.0083,
       "key": "Adzuna:5839864336",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -3254,11 +3392,11 @@
         "TF-IDF x0.80",
         "Offering adjusted 3.4/5",
         "TF-IDF career 0.02",
-        "TF-IDF role 0.08",
+        "TF-IDF role 0.07",
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.022,
+      "tfidf_similarity": 0.021,
       "key": "Adzuna:5890297088",
       "first_seen": "2026-09-19T19:47:01.537562+00:00",
       "is_new": false
@@ -3296,7 +3434,7 @@
         "TF-IDF role 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0069,
+      "tfidf_similarity": 0.0067,
       "key": "Adzuna:5907938359",
       "first_seen": "2026-10-02T21:36:14.186096+00:00",
       "is_new": false
@@ -3334,7 +3472,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.006,
+      "tfidf_similarity": 0.0058,
       "key": "Adzuna:5899467901",
       "first_seen": "2026-09-27T20:37:24.364514+00:00",
       "is_new": false
@@ -3372,7 +3510,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0049,
+      "tfidf_similarity": 0.0047,
       "key": "Adzuna:5898259643",
       "first_seen": "2026-09-25T20:52:56.648349+00:00",
       "is_new": false
@@ -3410,7 +3548,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0047,
+      "tfidf_similarity": 0.0046,
       "key": "Adzuna:5896880583",
       "first_seen": "2026-09-25T20:52:56.648349+00:00",
       "is_new": false
@@ -3445,10 +3583,10 @@
         "Offering adjusted 3.4/5",
         "TF-IDF career 0.00",
         "TF-IDF role 0.02",
-        "TF-IDF technical 0.01"
+        "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0069,
+      "tfidf_similarity": 0.0067,
       "key": "Adzuna:5899610343",
       "first_seen": "2026-09-28T22:46:29.484488+00:00",
       "is_new": false
@@ -3524,47 +3662,9 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0063,
+      "tfidf_similarity": 0.006,
       "key": "Adzuna:5903852899",
       "first_seen": "2026-10-01T22:08:27.838028+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5871946849",
-      "company": "Armstrong Fluid Technology",
-      "title": "OEM Engineer (HVAC Modular Performance Systems)",
-      "location": "Toronto, Ontario",
-      "description": "Job Description Job Description Imagine working at the forefront of innovation in fluid-flow technology, with over 1400 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. As a member of our team, you'll dive …",
-      "url": "https://www.adzuna.ca/details/5871946849?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-05T08:01:49Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "pump sales",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "OEM",
-      "target_equipment": [
-        "pump",
-        "fluid systems"
-      ],
-      "score": 4.6,
-      "matched_keywords": [
-        "pump",
-        "manufacturing",
-        "Offering 4.3/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.4/5",
-        "TF-IDF career 0.00",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.00"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0033,
-      "key": "Adzuna:5871946849",
-      "first_seen": "2026-09-14T21:11:51.086403+00:00",
       "is_new": false
     },
     {
@@ -3600,7 +3700,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0033,
+      "tfidf_similarity": 0.0031,
       "key": "Adzuna:5801747761",
       "first_seen": "2026-09-14T21:11:51.086403+00:00",
       "is_new": false
@@ -3638,7 +3738,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0133,
+      "tfidf_similarity": 0.013,
       "key": "Adzuna:5890576221",
       "first_seen": "2026-09-21T21:26:01.115158+00:00",
       "is_new": false
@@ -3676,7 +3776,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0056,
+      "tfidf_similarity": 0.0054,
       "key": "Adzuna:5887363885",
       "first_seen": "2026-09-18T20:10:14.237247+00:00",
       "is_new": false
@@ -3714,7 +3814,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.004,
+      "tfidf_similarity": 0.0039,
       "key": "Adzuna:5899625334",
       "first_seen": "2026-09-27T20:37:24.364514+00:00",
       "is_new": false
@@ -3752,7 +3852,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0055,
+      "tfidf_similarity": 0.0053,
       "key": "Adzuna:5899631114",
       "first_seen": "2026-09-27T20:37:24.364514+00:00",
       "is_new": false
@@ -3790,47 +3890,9 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0093,
+      "tfidf_similarity": 0.009,
       "key": "Adzuna:5892735208",
       "first_seen": "2026-09-22T20:40:13.609124+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5882404090",
-      "company": "Armstrong Fluid Technology",
-      "title": "Test Engineering, Co-op",
-      "location": "Scarborough, Toronto",
-      "description": "Imagine working at the forefront of innovation in fluid-flow technology, with over 1400 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. As a member of our team, you'll dive into an environment that encoura…",
-      "url": "https://www.adzuna.ca/details/5882404090?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-13T04:24:06Z",
-      "salary_min": 41600,
-      "salary_max": 52000,
-      "source": "Adzuna",
-      "search_query": "rotating equipment",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "OEM",
-      "target_equipment": [
-        "pump",
-        "fluid systems"
-      ],
-      "score": 4.6,
-      "matched_keywords": [
-        "pump",
-        "manufacturing",
-        "Offering 4.3/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.4/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.00",
-        "TF-IDF technical 0.00"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0043,
-      "key": "Adzuna:5882404090",
-      "first_seen": "2026-09-14T21:11:51.086403+00:00",
       "is_new": false
     },
     {
@@ -3868,7 +3930,7 @@
         "TF-IDF career 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0195,
+      "tfidf_similarity": 0.0188,
       "key": "Adzuna:5885782992",
       "first_seen": "2026-09-24T20:56:52.563973+00:00",
       "is_new": false
@@ -3905,7 +3967,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.006,
+      "tfidf_similarity": 0.0059,
       "key": "Adzuna:5882341237",
       "first_seen": "2026-09-14T21:11:51.086403+00:00",
       "is_new": false
@@ -3945,19 +4007,19 @@
         "TF-IDF career 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0247,
+      "tfidf_similarity": 0.0245,
       "key": "Adzuna:5819852413",
       "first_seen": "2026-09-14T21:11:51.086403+00:00",
       "is_new": false
     },
     {
-      "external_id": "5879741434",
+      "external_id": "5870856944",
       "company": "Integrated Power Services",
       "title": "Wind Technician - Traveling",
       "location": "Burlington, Halton",
-      "description": "Job Description Job Description Why IPS? If you're searching for a place where you can grow, continue learning, and make a meaningful impact while still having time for the people and moments that matter most, welcome to Integrated Power Services! We believe your value extends far beyond your job title because the best work comes from people who feel supported, challenged, and fulfilled both professionally and personally. Here, you'll find opportunities to develop your career, work alongside ex…",
-      "url": "https://www.adzuna.ca/details/5879741434?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-11T08:37:31Z",
+      "description": "Why IPS? If you're searching for a place where you can grow, continue learning, and make a meaningful impact while still having time for the people and moments that matter most, welcome to Integrated Power Services! We believe your value extends far beyond your job title because the best work comes from people who feel supported, challenged, and fulfilled both professionally and personally. Here, you'll find opportunities to develop your career, work alongside exceptional teammates, and be part…",
+      "url": "https://www.adzuna.ca/details/5870856944?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-09-04T12:55:32Z",
       "salary_min": 97760,
       "salary_max": 118560,
       "source": "Adzuna",
@@ -3985,9 +4047,9 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.011,
-      "key": "Adzuna:5879741434",
-      "first_seen": "2026-09-11T20:13:52.453269+00:00",
+      "tfidf_similarity": 0.0107,
+      "key": "Adzuna:5870856944",
+      "first_seen": "2026-10-05T23:29:32.502418+00:00",
       "is_new": false
     },
     {
@@ -4024,7 +4086,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0191,
+      "tfidf_similarity": 0.0194,
       "key": "Adzuna:5899533494",
       "first_seen": "2026-09-26T20:23:23.572936+00:00",
       "is_new": false
@@ -4063,7 +4125,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0196,
+      "tfidf_similarity": 0.02,
       "key": "Adzuna:5909796717",
       "first_seen": "2026-10-03T20:21:35.344254+00:00",
       "is_new": false
@@ -4102,7 +4164,7 @@
         "TF-IDF role 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.028,
+      "tfidf_similarity": 0.0277,
       "key": "Adzuna:5909719911",
       "first_seen": "2026-10-03T20:21:35.344254+00:00",
       "is_new": false
@@ -4141,9 +4203,48 @@
         "TF-IDF role 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0277,
+      "tfidf_similarity": 0.0273,
       "key": "Adzuna:5870278930",
       "first_seen": "2026-09-04T20:03:20.299429+00:00",
+      "is_new": false
+    },
+    {
+      "external_id": "5909710466",
+      "company": "Lakeside Process Controls",
+      "title": "Project Manager",
+      "location": "Mississauga, Peel region",
+      "description": "Your responsibilities may include, but are not limited to: Your responsibilities may include, but are not limited to: Assisting in the definition of project scope and objectives, involving all relevant stakeholders and ensuring technical feasibility Effectively initiating, planning and executing assigned projects of varying scope Managing changes to the project scope, project schedule and project costs using appropriate verification techniques Measuring project performance using appropriate too…",
+      "url": "https://www.adzuna.ca/details/5909710466?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-03T04:38:19Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Lakeside Process Controls",
+      "search_type": "target_company",
+      "searched_target": "Lakeside Process Controls",
+      "target_company": true,
+      "target_fit": 8.5,
+      "target_category": "Reliability + Automation",
+      "target_equipment": [
+        "condition monitoring",
+        "vibration",
+        "asset reliability"
+      ],
+      "score": 4.2,
+      "matched_keywords": [
+        "condition monitoring",
+        "vibration",
+        "reliability",
+        "Offering 4.7/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.8/5",
+        "TF-IDF career 0.04",
+        "TF-IDF role 0.02"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0281,
+      "key": "Adzuna:5909710466",
+      "first_seen": "2026-10-04T20:40:27.256127+00:00",
       "is_new": false
     },
     {
@@ -4180,7 +4281,7 @@
         "TF-IDF career 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0287,
+      "tfidf_similarity": 0.0278,
       "key": "Adzuna:5796198068",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -4215,11 +4316,11 @@
         "Offering 4.7/5",
         "TF-IDF x0.80",
         "Offering adjusted 3.8/5",
-        "TF-IDF career 0.05",
+        "TF-IDF career 0.04",
         "TF-IDF role 0.04"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0337,
+      "tfidf_similarity": 0.0319,
       "key": "Adzuna:5871697476",
       "first_seen": "2026-09-07T20:55:38.794240+00:00",
       "is_new": false
@@ -4257,7 +4358,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.009,
+      "tfidf_similarity": 0.0091,
       "key": "Adzuna:5775819698",
       "first_seen": "2026-09-25T20:52:56.648349+00:00",
       "is_new": false
@@ -4295,7 +4396,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0166,
+      "tfidf_similarity": 0.0163,
       "key": "Adzuna:5890571661",
       "first_seen": "2026-09-20T19:59:49.075549+00:00",
       "is_new": false
@@ -4337,7 +4438,7 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0371,
+      "tfidf_similarity": 0.0365,
       "key": "Adzuna:5886040411",
       "first_seen": "2026-09-17T20:45:54.298972+00:00",
       "is_new": false
@@ -4375,7 +4476,7 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0059,
+      "tfidf_similarity": 0.006,
       "key": "Adzuna:5887288376",
       "first_seen": "2026-09-25T20:52:56.648349+00:00",
       "is_new": false
@@ -4451,9 +4552,83 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0081,
+      "tfidf_similarity": 0.008,
       "key": "Adzuna:5887676543",
       "first_seen": "2026-09-19T19:47:01.537562+00:00",
+      "is_new": false
+    },
+    {
+      "external_id": "5909665869",
+      "company": "Grundfos",
+      "title": "Project Engineer",
+      "location": "Brockville, Leeds and Grenville",
+      "description": "Project Engineer Job Description Are you passionate about designing custom water and wastewater treatment solutions that make a real difference for communities and the environment? Then join our mission to pioneer smarter water solutions that reduce energy use and improve lives. As our new Project Engineer , you'll be designing and engineering custom water and wastewater treatment systems that deliver reliable, compliant solutions tailored to each customer's unique requirements. You'll be part …",
+      "url": "https://www.adzuna.ca/details/5909665869?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-03T03:54:07Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Grundfos",
+      "search_type": "target_company",
+      "searched_target": "Grundfos",
+      "target_company": true,
+      "target_fit": 8.5,
+      "target_category": "OEM",
+      "target_equipment": [
+        "pump"
+      ],
+      "score": 3.8,
+      "matched_keywords": [
+        "pump",
+        "Offering 4.3/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.4/5",
+        "TF-IDF career 0.01",
+        "TF-IDF role 0.01",
+        "TF-IDF technical 0.00",
+        "target company"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0048,
+      "key": "Adzuna:5909665869",
+      "first_seen": "2026-10-04T20:40:27.256127+00:00",
+      "is_new": false
+    },
+    {
+      "external_id": "5909665850",
+      "company": "Grundfos",
+      "title": "Project Engineer",
+      "location": "Oakville, Halton",
+      "description": "Project Engineer  Apply Now  Start applying with LinkedIn  Please wait Job Description Are you passionate about designing custom water and wastewater treatment solutions that make a real difference for communities and the environment? Then join our mission to pioneer smarter water solutions that reduce energy use and improve lives. As our new Project Engineer , you'll be designing and engineering custom water and wastewater treatment systems that deliver reliable, compliant solutions tailored t…",
+      "url": "https://www.adzuna.ca/details/5909665850?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-03T03:54:06Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Grundfos",
+      "search_type": "target_company",
+      "searched_target": "Grundfos",
+      "target_company": true,
+      "target_fit": 8.5,
+      "target_category": "OEM",
+      "target_equipment": [
+        "pump"
+      ],
+      "score": 3.8,
+      "matched_keywords": [
+        "pump",
+        "Offering 4.3/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.4/5",
+        "TF-IDF career 0.01",
+        "TF-IDF role 0.01",
+        "TF-IDF technical 0.00",
+        "target company"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0041,
+      "key": "Adzuna:5909665850",
+      "first_seen": "2026-10-04T20:40:27.256127+00:00",
       "is_new": false
     },
     {
@@ -4490,7 +4665,7 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0076,
+      "tfidf_similarity": 0.0072,
       "key": "Adzuna:5899384404",
       "first_seen": "2026-09-26T20:23:23.572936+00:00",
       "is_new": false
@@ -4525,7 +4700,7 @@
         "Offering 4.6/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.027,
+      "tfidf_similarity": 0.0262,
       "key": "Adzuna:5854253838",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
       "is_new": false
@@ -4560,7 +4735,7 @@
         "manufacturing"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0274,
+      "tfidf_similarity": 0.0269,
       "key": "Adzuna:5785918357",
       "first_seen": "2026-09-15T20:39:48.087126+00:00",
       "is_new": false
@@ -4595,7 +4770,7 @@
         "Offering 4.3/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0307,
+      "tfidf_similarity": 0.03,
       "key": "Adzuna:5891660522",
       "first_seen": "2026-09-22T20:40:13.609124+00:00",
       "is_new": false
@@ -4630,7 +4805,7 @@
         "TF-IDF x0.75"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0291,
+      "tfidf_similarity": 0.0284,
       "key": "Adzuna:5892736650",
       "first_seen": "2026-09-22T20:40:13.609124+00:00",
       "is_new": false
