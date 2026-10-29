@@ -1,53 +1,131 @@
 {
-  "last_checked": "2026-10-28T22:00:49.844171+00:00",
+  "last_checked": "2026-10-29T22:12:55.948355+00:00",
   "jobs": [
     {
-      "external_id": "5944506241",
-      "company": "John Brooks Company",
-      "title": "Application Specialist I",
-      "location": "Mississauga, Peel region",
-      "description": "Job Description Job Description WHAT DO WE DO? This role is for an existing vacancy. We create solutions for the people who keep our world flowing. For over 80 years, John Brooks Company has been solving fluid handling challenges for customers in various industries/markets across Canada by providing a diverse selection of engineered products and innovative system designs, focusing on customized solutions consisting of filtration, pump, spray, and valve products. THE ROLE The Application Special…",
-      "url": "https://www.adzuna.ca/details/5944506241?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-28T08:01:03Z",
-      "salary_min": null,
-      "salary_max": null,
+      "external_id": "5944360131",
+      "company": "Wajax",
+      "title": "Technical Sales Representative- Bearings, Power Transmission",
+      "location": "Stoney Creek, Hamilton region",
+      "description": "The Opportunity Accountable/responsible for growing industry revenues within Top industry account portfolios and drive the acquisition of new large accounts ($60K - $500K) Lead the sales strategy and plan, including customer target accounts, prospecting, sales lead follow-up and maintaining a strong relationship with existing customers Retain and grow business relationships with Top accounts by proactively identifying opportunities and presenting innovative solutions. The Role Source and prospe…",
+      "url": "https://www.adzuna.ca/details/5944360131?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-28T05:34:58Z",
+      "salary_min": 65000,
+      "salary_max": 75000,
       "source": "Adzuna",
-      "search_query": "technical sales",
-      "search_type": "keyword",
-      "searched_target": null,
+      "search_query": "Wajax",
+      "search_type": "target_company",
+      "searched_target": "Wajax",
       "target_company": true,
-      "target_fit": 8.8,
-      "target_category": "Distributor + Service",
+      "target_fit": 8.6,
+      "target_category": "Rotating Equipment / Industrial Service",
       "target_equipment": [
+        "motor",
         "pump",
-        "spray",
-        "process equipment"
+        "rotating equipment"
       ],
-      "score": 5.1,
+      "score": 8.1,
       "matched_keywords": [
+        "technical sales representative",
+        "technical sales",
+        "sales representative",
+        "rotating equipment",
         "pump",
-        "valve",
-        "fluid handling",
-        "process equipment",
-        "distributor",
-        "Offering 4.5/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.6/5"
+        "bearing",
+        "bearings",
+        "industrial service"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.023,
-      "key": "Adzuna:5944506241",
-      "first_seen": "2026-10-28T22:00:49.844171+00:00",
+      "tfidf_similarity": 0.0332,
+      "key": "Adzuna:5944360131",
+      "first_seen": "2026-10-29T22:12:55.948355+00:00",
       "is_new": true
     },
     {
-      "external_id": "5944338627",
+      "external_id": "5944333193",
+      "company": "Wajax",
+      "title": "Inside Sales Representative- Bearings, Power Transmission",
+      "location": "Timmins, Cochrane region",
+      "description": "The Opportunity We are seeking a results-driven and customer-focused Inside Sales Representative to join our growing team. In this role, you will act as the primary point of contact for inbound inquiries, proactively source new sales opportunities through outbound calls and emails, and guide prospects through the complete sales cycle. You will collaborate closely with external sales teams or account managers to maintain accurate CRM data, upsell products, and consistently achieve targeted reven…",
+      "url": "https://www.adzuna.ca/details/5944333193?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-28T05:07:40Z",
+      "salary_min": 60000,
+      "salary_max": 75000,
+      "source": "Adzuna",
+      "search_query": "Wajax",
+      "search_type": "target_company",
+      "searched_target": "Wajax",
+      "target_company": true,
+      "target_fit": 8.6,
+      "target_category": "Rotating Equipment / Industrial Service",
+      "target_equipment": [
+        "motor",
+        "pump",
+        "rotating equipment"
+      ],
+      "score": 6.9,
+      "matched_keywords": [
+        "sales representative",
+        "inside sales",
+        "rotating equipment",
+        "pump",
+        "bearing",
+        "bearings",
+        "industrial service",
+        "industrial"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0297,
+      "key": "Adzuna:5944333193",
+      "first_seen": "2026-10-29T22:12:55.948355+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5944344373",
       "company": "Toromont Cat",
-      "title": "Shop Technician, Heavy Equipment",
-      "location": "Katimavik-Hazeldean, Ottawa",
-      "description": "We are currently looking to hire a heavy equipment technician to join our team in Ottawa! As the successful candidate, you will be responsible for servicing all types of Caterpillar equipment and components in our shop. Your day will include planning, trouble shooting and repairing, as well as, preparing necessary service reports for customers. We are looking for people who are interested in diverse product range. Our ideal candidate is an enthusiastic team player who will focus on safety and c…",
-      "url": "https://www.adzuna.ca/details/5944338627?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-28T05:15:41Z",
+      "title": "Apprentice Technician - Heavy Equipment",
+      "location": "Concord, York region",
+      "description": "Our Registered Apprentice Heavy Equipment Technicians, when not in school, will continue to learn on the job with our experienced, trusted Technicians gradually progressing to achieve a Licensed Technician opportunity. Pay Type Full Time, Permanent Compensation $34.25 - $44.04 The wage indicated is only one component of our total rewards program, and additional compensation premiums may be awarded where applicable. The listed wage is just one component of our total rewards package, and eligibil…",
+      "url": "https://www.adzuna.ca/details/5944344373?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-28T05:18:11Z",
+      "salary_min": 71240,
+      "salary_max": 91603,
+      "source": "Adzuna",
+      "search_query": "Toromont Cat",
+      "search_type": "target_company",
+      "searched_target": "Toromont Cat",
+      "target_company": true,
+      "target_fit": 8.5,
+      "target_category": "OEM Dealer + Service",
+      "target_equipment": [
+        "engine",
+        "power systems",
+        "industrial rotating equipment"
+      ],
+      "score": 5.1,
+      "matched_keywords": [
+        "rotating equipment",
+        "industrial",
+        "Offering 5.0/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 4.0/5",
+        "TF-IDF career 0.01",
+        "TF-IDF role 0.00",
+        "TF-IDF technical 0.01"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.01,
+      "key": "Adzuna:5944344373",
+      "first_seen": "2026-10-29T22:12:55.948355+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5944357962",
+      "company": "Toromont Cat",
+      "title": "Line Boring Welder/Machinist (Various Schedules Available)",
+      "location": "Lively, Greater Sudbury",
+      "description": "Toromont Cat is looking for a Line Boring Welder/Machinist to join our team! A Welder/Machinist plays an important role in our Service department providing technical expertise to ensure superior customer service in the repair, fabrication of parts and structures in our shop. Must live within drivable proximity to Sudbury as there is no accommodation provided Schedules Available : Shift premiums may apply 7 days on x 7 days off 4 x 10 hours Pay Type Full Time, Permanent Compensation $49.98 The l…",
+      "url": "https://www.adzuna.ca/details/5944357962?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-28T05:30:34Z",
       "salary_min": 103958,
       "salary_max": 103958,
       "source": "Adzuna",
@@ -69,63 +147,24 @@
         "Offering 5.0/5",
         "TF-IDF x0.80",
         "Offering adjusted 4.0/5",
-        "TF-IDF career 0.02",
+        "TF-IDF career 0.01",
         "TF-IDF role 0.01",
-        "TF-IDF technical 0.02"
+        "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0162,
-      "key": "Adzuna:5944338627",
-      "first_seen": "2026-10-28T22:00:49.844171+00:00",
+      "tfidf_similarity": 0.0122,
+      "key": "Adzuna:5944357962",
+      "first_seen": "2026-10-29T22:12:55.948355+00:00",
       "is_new": true
     },
     {
-      "external_id": "5944333788",
-      "company": "Wajax",
-      "title": "Business Administraton Lead",
-      "location": "Copper Cliff, Greater Sudbury",
-      "description": "The opportunity The Business Administration Leader is a key contributor to business planning, budgeting, forecasting, and operational support activities. Working cross-functionally with stakeholders, the role focuses on identifying process improvement opportunities, enhancing operational efficiency, and implementing strategic initiatives that support organizational performance and long-term growth. The role Operations Management: Lead and coordinate daily office operations, administrative proce…",
-      "url": "https://www.adzuna.ca/details/5944333788?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-28T05:08:45Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Wajax",
-      "search_type": "target_company",
-      "searched_target": "Wajax",
-      "target_company": true,
-      "target_fit": 8.6,
-      "target_category": "Rotating Equipment / Industrial Service",
-      "target_equipment": [
-        "motor",
-        "pump",
-        "rotating equipment"
-      ],
-      "score": 5.1,
-      "matched_keywords": [
-        "rotating equipment",
-        "pump",
-        "industrial service",
-        "industrial",
-        "Offering 5.0/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 4.0/5",
-        "TF-IDF career 0.02"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0196,
-      "key": "Adzuna:5944333788",
-      "first_seen": "2026-10-28T22:00:49.844171+00:00",
-      "is_new": true
-    },
-    {
-      "external_id": "5944775034",
-      "company": "Hydroone",
-      "title": "Process Imprvmnt Coordinator",
+      "external_id": "5946003607",
+      "company": "Hydro One Inc.",
+      "title": "Process Improvement Coordinator",
       "location": "Markham, York region",
-      "description": "Select how often (in days) to receive an alert: Process Improvement Coordinator Date: Oct 26, 2026 Location: Markham, ON, CA 52236 - Markham - Rotation 12 months Hiring salary range: $4,102.00 - $5,860.00 / Bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet …",
-      "url": "https://www.adzuna.ca/details/5944775034?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-28T13:23:55Z",
+      "description": "52236 - Markham - Rotation 12 months Hiring salary range: $4,102.00 - $5,860.00 / Bi-weekly 52236 - Markham - Rotation 12 months Hiring salary range: $4,102.00 - $5,860.00 / Bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our custome…",
+      "url": "https://www.adzuna.ca/details/5946003607?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-29T13:49:47Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
@@ -154,19 +193,95 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0133,
-      "key": "Adzuna:5944775034",
-      "first_seen": "2026-10-28T22:00:49.844171+00:00",
+      "tfidf_similarity": 0.0122,
+      "key": "Adzuna:5946003607",
+      "first_seen": "2026-10-29T22:12:55.948355+00:00",
       "is_new": true
     },
     {
-      "external_id": "5942189974",
+      "external_id": "5946008604",
       "company": "Armstrong Fluid Technology",
-      "title": "HR Process Excellence & Ops Specialist",
+      "title": "FP&A Manager, Canada",
       "location": "Toronto, Ontario",
-      "description": "Job Description Job Description Imagine working at the forefront of innovation in fluid-flow technology, with colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. As part of our team, you'll be immersed in an e…",
-      "url": "https://www.adzuna.ca/details/5942189974?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-26T07:52:12Z",
+      "description": "Imagine working at the forefront of innovation in fluid-flow technology, with over 1,400 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. As part of our team, you'll be immersed in an environment that foste…",
+      "url": "https://www.adzuna.ca/details/5946008604?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-29T13:55:53Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "technical sales",
+      "search_type": "keyword",
+      "searched_target": null,
+      "target_company": true,
+      "target_fit": 8.5,
+      "target_category": "OEM",
+      "target_equipment": [
+        "pump",
+        "fluid systems"
+      ],
+      "score": 4.6,
+      "matched_keywords": [
+        "pump",
+        "manufacturing",
+        "Offering 4.3/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.4/5",
+        "TF-IDF career 0.00",
+        "TF-IDF role 0.02",
+        "TF-IDF technical 0.00"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.005,
+      "key": "Adzuna:5946008604",
+      "first_seen": "2026-10-29T22:12:55.948355+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5946007276",
+      "company": "Armstrong Fluid Technology",
+      "title": "Head, Talent, Learning & Performance",
+      "location": "Toronto, Ontario",
+      "description": "Imagine working at the forefront of innovation in fluid-flow technology, with over 1,600 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. This role leads the design, implementation and continuous improvemen…",
+      "url": "https://www.adzuna.ca/details/5946007276?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-29T13:54:26Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Armstrong Fluid Technology",
+      "search_type": "target_company",
+      "searched_target": "Armstrong Fluid Technology",
+      "target_company": true,
+      "target_fit": 8.5,
+      "target_category": "OEM",
+      "target_equipment": [
+        "pump",
+        "fluid systems"
+      ],
+      "score": 4.6,
+      "matched_keywords": [
+        "pump",
+        "manufacturing",
+        "Offering 4.3/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.4/5",
+        "TF-IDF career 0.00",
+        "TF-IDF role 0.00",
+        "TF-IDF technical 0.00"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0026,
+      "key": "Adzuna:5946007276",
+      "first_seen": "2026-10-29T22:12:55.948355+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5946007335",
+      "company": "Armstrong Fluid Technology",
+      "title": "Program Manager - Strategic Marketing",
+      "location": "Toronto, Ontario",
+      "description": "Company Overview: Imagine working at the forefront of innovation in fluid-flow technology, with over 1200 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. As a member of our team, you'll dive into an enviro…",
+      "url": "https://www.adzuna.ca/details/5946007335?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-29T13:54:28Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
@@ -192,9 +307,164 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0067,
-      "key": "Adzuna:5942189974",
-      "first_seen": "2026-10-28T22:00:49.844171+00:00",
+      "tfidf_similarity": 0.0045,
+      "key": "Adzuna:5946007335",
+      "first_seen": "2026-10-29T22:12:55.948355+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5946002613",
+      "company": "Armstrong Fluid Technology",
+      "title": "Regional Marketing Communications Manager (US & LATAM)",
+      "location": "Toronto, Ontario",
+      "description": "Imagine working at the forefront of innovation in fluid-flow technology, with over 1,400 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. As part of our team, you'll be immersed in an environment that foste…",
+      "url": "https://www.adzuna.ca/details/5946002613?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-29T13:48:38Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Armstrong Fluid Technology",
+      "search_type": "target_company",
+      "searched_target": "Armstrong Fluid Technology",
+      "target_company": true,
+      "target_fit": 8.5,
+      "target_category": "OEM",
+      "target_equipment": [
+        "pump",
+        "fluid systems"
+      ],
+      "score": 4.6,
+      "matched_keywords": [
+        "pump",
+        "manufacturing",
+        "Offering 4.3/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.4/5",
+        "TF-IDF career 0.00",
+        "TF-IDF role 0.03",
+        "TF-IDF technical 0.00"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0063,
+      "key": "Adzuna:5946002613",
+      "first_seen": "2026-10-29T22:12:55.948355+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5946007877",
+      "company": "Armstrong Fluid Technology",
+      "title": "Regional Strategic Marketing Manager",
+      "location": "Toronto, Ontario",
+      "description": "Imagine working at the forefront of innovation in fluid-flow technology, with over 1,400 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. As part of our team, you'll be immersed in an environment that foste…",
+      "url": "https://www.adzuna.ca/details/5946007877?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-29T13:55:02Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Armstrong Fluid Technology",
+      "search_type": "target_company",
+      "searched_target": "Armstrong Fluid Technology",
+      "target_company": true,
+      "target_fit": 8.5,
+      "target_category": "OEM",
+      "target_equipment": [
+        "pump",
+        "fluid systems"
+      ],
+      "score": 4.6,
+      "matched_keywords": [
+        "pump",
+        "manufacturing",
+        "Offering 4.3/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.4/5",
+        "TF-IDF career 0.00",
+        "TF-IDF role 0.03",
+        "TF-IDF technical 0.00"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0063,
+      "key": "Adzuna:5946007877",
+      "first_seen": "2026-10-29T22:12:55.948355+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5945872659",
+      "company": "John Brooks Company",
+      "title": "Service Coordinator",
+      "location": "Mississauga, Peel region",
+      "description": "WHAT DO WE DO? We create solutions for the people who keep our world flowing. For over 80 years, John Brooks Company has been solving fluid handling challenges for customers in various industries/markets across Canada by providing a diverse selection of engineered products and innovative system designs, focusing on customized solutions consisting of filtration, pump, spray, and valve products. THE ROLE Reporting to the Service Operations Supervisor, the Service Coordinator manages pump repair, …",
+      "url": "https://www.adzuna.ca/details/5945872659?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-29T11:40:44Z",
+      "salary_min": 60000,
+      "salary_max": 70600,
+      "source": "Adzuna",
+      "search_query": "rotating equipment",
+      "search_type": "keyword",
+      "searched_target": null,
+      "target_company": true,
+      "target_fit": 8.8,
+      "target_category": "Distributor + Service",
+      "target_equipment": [
+        "pump",
+        "spray",
+        "process equipment"
+      ],
+      "score": 4.5,
+      "matched_keywords": [
+        "pump",
+        "valve",
+        "fluid handling",
+        "process equipment",
+        "distributor",
+        "Offering 4.5/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.6/5"
+      ],
+      "negative_keywords": [
+        "coordinator"
+      ],
+      "tfidf_similarity": 0.0221,
+      "key": "Adzuna:5945872659",
+      "first_seen": "2026-10-29T22:12:55.948355+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5944215687",
+      "company": "Xylem",
+      "title": "Customer Support Specialist",
+      "location": "Sudbury region, Ontario",
+      "description": "Hybrid Calgary Saskatoon Winnipeg Nisku Sudbury Full time R51048 Xylem is a Fortune 500 global water solutions company dedicated to advancing sustainable impact and empowering the people who make water work every day. As a leading water technology company with 23,000 employees operating in over 150 countries, Xylem is at the forefront of addressing the world's most critical water challenges. We invite passionate individuals to join our team, dedicated to exceeding customer expectations through …",
+      "url": "https://www.adzuna.ca/details/5944215687?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-28T03:28:55Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Xylem",
+      "search_type": "target_company",
+      "searched_target": "Xylem",
+      "target_company": true,
+      "target_fit": 8.9,
+      "target_category": "OEM + Service",
+      "target_equipment": [
+        "pump",
+        "water systems"
+      ],
+      "score": 3.9,
+      "matched_keywords": [
+        "pump",
+        "Offering 4.3/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.4/5",
+        "TF-IDF career 0.01",
+        "TF-IDF role 0.02",
+        "TF-IDF technical 0.00",
+        "target company"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0072,
+      "key": "Adzuna:5944215687",
+      "first_seen": "2026-10-29T22:12:55.948355+00:00",
       "is_new": true
     },
     {
@@ -232,7 +502,7 @@
         "Offering 5.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0639,
+      "tfidf_similarity": 0.0645,
       "key": "Adzuna:5832067424",
       "first_seen": "2026-09-14T21:11:51.086403+00:00",
       "is_new": false
@@ -248,9 +518,9 @@
       "salary_min": 90000,
       "salary_max": 110000,
       "source": "Adzuna",
-      "search_query": "product support sales",
-      "search_type": "keyword",
-      "searched_target": null,
+      "search_query": "Toromont Cat",
+      "search_type": "target_company",
+      "searched_target": "Toromont Cat",
       "target_company": true,
       "target_fit": 8.5,
       "target_category": "OEM Dealer + Service",
@@ -271,48 +541,9 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0379,
+      "tfidf_similarity": 0.0378,
       "key": "Adzuna:5939031731",
       "first_seen": "2026-10-23T20:49:05.067098+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5888933150",
-      "company": "Wajax",
-      "title": "Technical Sales Representative- Bearings, Power Transmission",
-      "location": "Murillo, Thunder Bay",
-      "description": "The Opportunity Accountable/responsible for growing industry revenues within Top industry account portfolios and drive the acquisition of new large accounts ($60K - $500K) Lead the sales strategy and plan, including customer target accounts, prospecting, sales lead follow-up and maintaining a strong relationship with existing customers Retain and grow business relationships with Top accounts by proactively identifying opportunities and presenting innovative solutions. The Role Source and prospe…",
-      "url": "https://www.adzuna.ca/details/5888933150?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-18T04:25:14Z",
-      "salary_min": 65000,
-      "salary_max": 75000,
-      "source": "Adzuna",
-      "search_query": "Wajax",
-      "search_type": "target_company",
-      "searched_target": "Wajax",
-      "target_company": true,
-      "target_fit": 8.6,
-      "target_category": "Rotating Equipment / Industrial Service",
-      "target_equipment": [
-        "motor",
-        "pump",
-        "rotating equipment"
-      ],
-      "score": 8.1,
-      "matched_keywords": [
-        "technical sales representative",
-        "technical sales",
-        "sales representative",
-        "rotating equipment",
-        "pump",
-        "bearing",
-        "bearings",
-        "industrial service"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0327,
-      "key": "Adzuna:5888933150",
-      "first_seen": "2026-09-19T19:47:01.537562+00:00",
       "is_new": false
     },
     {
@@ -351,7 +582,7 @@
         "Offering adjusted 4.2/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0526,
+      "tfidf_similarity": 0.0535,
       "key": "Adzuna:5925673074",
       "first_seen": "2026-10-25T20:09:39.153489+00:00",
       "is_new": false
@@ -389,49 +620,9 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0144,
+      "tfidf_similarity": 0.0145,
       "key": "Adzuna:5885845311",
       "first_seen": "2026-10-13T22:06:17.511590+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5935402239",
-      "company": "Canadian Industries LTD.",
-      "title": "Territory Manager",
-      "location": "Ontario, Canada",
-      "description": "Job Description Job Description Immediately Hiring! Territory Manager, Remote Ontario Starting Pay: $55,000/year Job Type: Full-Time Vacancy Status: This posting reflects an active, genuine vacancy. Must reside in Ottawa, as you will be travelling within the region. As a Territory Manager for Home Depot Canada stores in the Ottawa/Belleville, ON area, you will establish relationships with Home Depot store staff, and demonstrate your industry expertise to develop sales results for Canadian Indus…",
-      "url": "https://www.adzuna.ca/details/5935402239?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-20T08:00:15Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "product support sales",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": true,
-      "target_fit": 9.3,
-      "target_category": "OEM + Service",
-      "target_equipment": [
-        "compressor",
-        "blower",
-        "fan",
-        "cryogenic rotating equipment"
-      ],
-      "score": 7.5,
-      "matched_keywords": [
-        "territory manager",
-        "rotating equipment",
-        "compressor",
-        "blower",
-        "fan",
-        "territory",
-        "Offering 5.0/5",
-        "TF-IDF x0.80"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0315,
-      "key": "Adzuna:5935402239",
-      "first_seen": "2026-10-21T21:03:04.544340+00:00",
       "is_new": false
     },
     {
@@ -468,7 +659,7 @@
         "distributor"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0344,
+      "tfidf_similarity": 0.0348,
       "key": "Adzuna:5539679612",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
       "is_new": false
@@ -507,7 +698,7 @@
         "distributor"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0383,
+      "tfidf_similarity": 0.0386,
       "key": "Adzuna:5832031995",
       "first_seen": "2026-09-08T20:30:33.278892+00:00",
       "is_new": false
@@ -546,7 +737,7 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.03,
+      "tfidf_similarity": 0.0297,
       "key": "Adzuna:5930275325",
       "first_seen": "2026-10-17T19:52:23.309893+00:00",
       "is_new": false
@@ -585,7 +776,7 @@
         "TF-IDF x0.85"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.046,
+      "tfidf_similarity": 0.0461,
       "key": "Adzuna:5934060262",
       "first_seen": "2026-10-19T21:52:05.573836+00:00",
       "is_new": false
@@ -624,7 +815,7 @@
         "industrial"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0277,
+      "tfidf_similarity": 0.0297,
       "key": "Adzuna:5920333405",
       "first_seen": "2026-10-09T22:01:31.849312+00:00",
       "is_new": false
@@ -662,7 +853,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0125,
+      "tfidf_similarity": 0.0126,
       "key": "Adzuna:5823490937",
       "first_seen": "2026-10-13T22:06:17.511590+00:00",
       "is_new": false
@@ -700,7 +891,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0145,
+      "tfidf_similarity": 0.0146,
       "key": "Adzuna:5822089738",
       "first_seen": "2026-10-13T22:06:17.511590+00:00",
       "is_new": false
@@ -711,7 +902,7 @@
       "title": "Regional Key Account Manager",
       "location": "Toronto, Ontario",
       "description": "Job Description Job Description The Regional Key Account Manager (RKAM) executes Armstrong's global account strategy within a defined geographic region. The role is accountable for driving sales performance, expanding adoption of Armstrong technology, and leading the regional execution of the Armstrong Envelope strategy with OEM partners, and select large end-users, with Data Centers as a priority. Key Accountabilities Execute the Armstrong Envelope Strategy Own regional execution of the Armstr…",
-      "url": "https://www.adzuna.ca/land/ad/5934219370?se=SEwS7xvT8RG00IgB7sGfjA&utm_medium=api&utm_source=6ca94df0&v=BB3401B382C05E3E73EA41D2DA14847F4FE05CC5",
+      "url": "https://www.adzuna.ca/land/ad/5934219370?se=-AxctObT8RGcTPQxVRtcow&utm_medium=api&utm_source=6ca94df0&v=BB3401B382C05E3E73EA41D2DA14847F4FE05CC5",
       "created": "2026-10-19T08:42:33Z",
       "salary_min": null,
       "salary_max": null,
@@ -734,11 +925,11 @@
         "TF-IDF x0.80",
         "Offering adjusted 3.4/5",
         "TF-IDF career 0.00",
-        "TF-IDF role 0.10",
+        "TF-IDF role 0.09",
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0155,
+      "tfidf_similarity": 0.0149,
       "key": "Adzuna:5934219370",
       "first_seen": "2026-10-21T21:03:04.544340+00:00",
       "is_new": false
@@ -775,7 +966,7 @@
         "TF-IDF role 0.15"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0268,
+      "tfidf_similarity": 0.0263,
       "key": "Adzuna:5931826350",
       "first_seen": "2026-10-28T22:00:49.844171+00:00",
       "is_new": false
@@ -928,7 +1119,7 @@
         "TF-IDF role 0.08"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0192,
+      "tfidf_similarity": 0.0193,
       "key": "Adzuna:5936648737",
       "first_seen": "2026-10-21T21:03:04.544340+00:00",
       "is_new": false
@@ -966,7 +1157,7 @@
         "TF-IDF role 0.08"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0193,
+      "tfidf_similarity": 0.0196,
       "key": "Adzuna:5937655079",
       "first_seen": "2026-10-22T20:59:16.363452+00:00",
       "is_new": false
@@ -1005,7 +1196,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0451,
+      "tfidf_similarity": 0.0463,
       "key": "Adzuna:5870257232",
       "first_seen": "2026-10-19T21:52:05.573836+00:00",
       "is_new": false
@@ -1016,7 +1207,7 @@
       "title": "Manual Lathe Machinist",
       "location": "Concord, York region",
       "description": "Job Description Job Description We are currently looking for a Junior Machinist to join our production team. A Junior Machinist will work on manual lathe, milling machines, and grinders. They will perform complex fabrication, shaping, modification and repair work on a variety of electric rotating equipment. This work involves the calculation of dimensions and tolerances, the set-up, adjustment and operation of machine tools. Responsibilities: Set up and operate manual lathe Operate milling mach…",
-      "url": "https://www.adzuna.ca/land/ad/5942211051?se=zNMuExvT8RGGEZv-xSOJ3w&utm_medium=api&utm_source=6ca94df0&v=C7BEFDADF924A02BDDD944D549EBB18835777C91",
+      "url": "https://www.adzuna.ca/details/5942211051?utm_medium=api&utm_source=6ca94df0",
       "created": "2026-10-26T08:32:30Z",
       "salary_min": 45760,
       "salary_max": 58240,
@@ -1087,7 +1278,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0128,
+      "tfidf_similarity": 0.0127,
       "key": "Adzuna:5942158163",
       "first_seen": "2026-10-26T22:06:52.913851+00:00",
       "is_new": false
@@ -1126,7 +1317,7 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.019,
+      "tfidf_similarity": 0.0195,
       "key": "Adzuna:5940249977",
       "first_seen": "2026-10-25T20:09:39.153489+00:00",
       "is_new": false
@@ -1165,7 +1356,7 @@
         "TF-IDF role 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0147,
+      "tfidf_similarity": 0.0144,
       "key": "Adzuna:5941252353",
       "first_seen": "2026-10-25T20:09:39.153489+00:00",
       "is_new": false
@@ -1204,87 +1395,9 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0344,
+      "tfidf_similarity": 0.0341,
       "key": "Adzuna:5940272002",
       "first_seen": "2026-10-24T19:59:15.747114+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5878174095",
-      "company": "Wajax",
-      "title": "Product Support Representative - Construction/Crane",
-      "location": "Williamsburg, Waterloo region",
-      "description": "The Opportunity Prospect and source new customer opportunities within defined Construction, Forestry and On Highway territory through development of a Strategic Prospecting Plan. Obtains vast knowledge of Wajax’s Product Offerings in order to provide expert knowledge, advice and product solutions for client needs. The Role Manages Customer Satisfaction with Existing Construction, Forestry and Crane Territory Customers. Identifies and resolves issues in a timely manner. Attend to phone inquiries…",
-      "url": "https://www.adzuna.ca/details/5878174095?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-10T04:32:40Z",
-      "salary_min": 50000,
-      "salary_max": 50000,
-      "source": "Adzuna",
-      "search_query": "Wajax",
-      "search_type": "target_company",
-      "searched_target": "Wajax",
-      "target_company": true,
-      "target_fit": 8.6,
-      "target_category": "Rotating Equipment / Industrial Service",
-      "target_equipment": [
-        "motor",
-        "pump",
-        "rotating equipment"
-      ],
-      "score": 5.4,
-      "matched_keywords": [
-        "rotating equipment",
-        "pump",
-        "industrial service",
-        "product support",
-        "territory",
-        "prospecting",
-        "industrial",
-        "Offering 5.0/5"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0321,
-      "key": "Adzuna:5878174095",
-      "first_seen": "2026-09-11T20:13:52.453269+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5940258803",
-      "company": "Wajax",
-      "title": "Truck and Coach Shop Technician",
-      "location": "Timmins, Cochrane region",
-      "description": "The Opportunity Responsible for providing quality workmanship, consistent service, and technical knowledge to the customers. Performs all tasks related to the testing, diagnosing, repair, maintenance, and reconditioning of heavy equipment, transmissions, engines (gasoline and diesel), and engine components in the shop. The Role Inspect and diagnose components and equipment for servicing needs. Communicate with equipment owners for authorization of servicing and repairs as required. Service and …",
-      "url": "https://www.adzuna.ca/details/5940258803?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-24T04:54:22Z",
-      "salary_min": 68640,
-      "salary_max": 99840,
-      "source": "Adzuna",
-      "search_query": "Wajax",
-      "search_type": "target_company",
-      "searched_target": "Wajax",
-      "target_company": true,
-      "target_fit": 8.6,
-      "target_category": "Rotating Equipment / Industrial Service",
-      "target_equipment": [
-        "motor",
-        "pump",
-        "rotating equipment"
-      ],
-      "score": 5.4,
-      "matched_keywords": [
-        "rotating equipment",
-        "pump",
-        "industrial service",
-        "maintenance",
-        "industrial",
-        "Offering 5.0/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 4.0/5"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0264,
-      "key": "Adzuna:5940258803",
-      "first_seen": "2026-10-25T20:09:39.153489+00:00",
       "is_new": false
     },
     {
@@ -1322,7 +1435,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0277,
+      "tfidf_similarity": 0.0289,
       "key": "Adzuna:5905070555",
       "first_seen": "2026-10-25T20:09:39.153489+00:00",
       "is_new": false
@@ -1361,7 +1474,7 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0105,
+      "tfidf_similarity": 0.0106,
       "key": "Adzuna:5940717363",
       "first_seen": "2026-10-24T19:59:15.747114+00:00",
       "is_new": false
@@ -1400,7 +1513,7 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0128,
+      "tfidf_similarity": 0.0126,
       "key": "Adzuna:5940716752",
       "first_seen": "2026-10-24T19:59:15.747114+00:00",
       "is_new": false
@@ -1439,7 +1552,7 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0143,
+      "tfidf_similarity": 0.0141,
       "key": "Adzuna:5940717495",
       "first_seen": "2026-10-24T19:59:15.747114+00:00",
       "is_new": false
@@ -1478,7 +1591,7 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.016,
+      "tfidf_similarity": 0.0157,
       "key": "Adzuna:5934614228",
       "first_seen": "2026-10-20T21:00:42.430134+00:00",
       "is_new": false
@@ -1517,7 +1630,7 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0148,
+      "tfidf_similarity": 0.0145,
       "key": "Adzuna:5942779508",
       "first_seen": "2026-10-27T21:37:15.258434+00:00",
       "is_new": false
@@ -1556,7 +1669,7 @@
         "TF-IDF role 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0175,
+      "tfidf_similarity": 0.0172,
       "key": "Adzuna:5934614231",
       "first_seen": "2026-10-20T21:00:42.430134+00:00",
       "is_new": false
@@ -1595,7 +1708,7 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0154,
+      "tfidf_similarity": 0.0153,
       "key": "Adzuna:5934614225",
       "first_seen": "2026-10-20T21:00:42.430134+00:00",
       "is_new": false
@@ -1634,7 +1747,7 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0159,
+      "tfidf_similarity": 0.0158,
       "key": "Adzuna:5934614227",
       "first_seen": "2026-10-20T21:00:42.430134+00:00",
       "is_new": false
@@ -1673,7 +1786,7 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0179,
+      "tfidf_similarity": 0.0177,
       "key": "Adzuna:5942779507",
       "first_seen": "2026-10-27T21:37:15.258434+00:00",
       "is_new": false
@@ -1712,47 +1825,8 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0164,
+      "tfidf_similarity": 0.0162,
       "key": "Adzuna:5934614232",
-      "first_seen": "2026-10-20T21:00:42.430134+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5934614220",
-      "company": "Hydro One Networks Inc",
-      "title": "New Grad Program - Assistant Network Officer - Barrie - June 2027",
-      "location": "Barrie, Simcoe region",
-      "description": "52214 - Barrie - Regular Regular Hiring salary range: $3,610.06 - $5,157.24 / Bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer servic…",
-      "url": "https://www.adzuna.ca/details/5934614220?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-19T18:42:19Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Hydro Inc.",
-      "search_type": "target_company",
-      "searched_target": "Hydro Inc.",
-      "target_company": true,
-      "target_fit": 9.1,
-      "target_category": "Pump Aftermarket / Service",
-      "target_equipment": [
-        "pump",
-        "repair",
-        "reliability"
-      ],
-      "score": 5.3,
-      "matched_keywords": [
-        "pump",
-        "reliability",
-        "aftermarket",
-        "Offering 4.4/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.5/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.01"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0128,
-      "key": "Adzuna:5934614220",
       "first_seen": "2026-10-20T21:00:42.430134+00:00",
       "is_new": false
     },
@@ -1790,7 +1864,7 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0152,
+      "tfidf_similarity": 0.0151,
       "key": "Adzuna:5934614223",
       "first_seen": "2026-10-20T21:00:42.430134+00:00",
       "is_new": false
@@ -1829,7 +1903,7 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0157,
+      "tfidf_similarity": 0.0155,
       "key": "Adzuna:5934614230",
       "first_seen": "2026-10-20T21:00:42.430134+00:00",
       "is_new": false
@@ -1868,7 +1942,7 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0302,
+      "tfidf_similarity": 0.0311,
       "key": "Adzuna:5941253751",
       "first_seen": "2026-10-25T20:09:39.153489+00:00",
       "is_new": false
@@ -1907,7 +1981,7 @@
         "TF-IDF role 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0186,
+      "tfidf_similarity": 0.0183,
       "key": "Adzuna:5942366184",
       "first_seen": "2026-10-26T22:06:52.913851+00:00",
       "is_new": false
@@ -1947,9 +2021,48 @@
         "TF-IDF role 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0139,
+      "tfidf_similarity": 0.0137,
       "key": "Adzuna:5916801301",
       "first_seen": "2026-10-13T22:06:17.511590+00:00",
+      "is_new": false
+    },
+    {
+      "external_id": "5944506241",
+      "company": "John Brooks Company",
+      "title": "Application Specialist I",
+      "location": "Mississauga, Peel region",
+      "description": "Job Description Job Description WHAT DO WE DO? This role is for an existing vacancy. We create solutions for the people who keep our world flowing. For over 80 years, John Brooks Company has been solving fluid handling challenges for customers in various industries/markets across Canada by providing a diverse selection of engineered products and innovative system designs, focusing on customized solutions consisting of filtration, pump, spray, and valve products. THE ROLE The Application Special…",
+      "url": "https://www.adzuna.ca/details/5944506241?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-28T08:01:03Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "John Brooks Company",
+      "search_type": "target_company",
+      "searched_target": "John Brooks Company",
+      "target_company": true,
+      "target_fit": 8.8,
+      "target_category": "Distributor + Service",
+      "target_equipment": [
+        "pump",
+        "spray",
+        "process equipment"
+      ],
+      "score": 5.1,
+      "matched_keywords": [
+        "pump",
+        "valve",
+        "fluid handling",
+        "process equipment",
+        "distributor",
+        "Offering 4.5/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.6/5"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0227,
+      "key": "Adzuna:5944506241",
+      "first_seen": "2026-10-28T22:00:49.844171+00:00",
       "is_new": false
     },
     {
@@ -1986,7 +2099,7 @@
         "Offering adjusted 3.5/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0171,
+      "tfidf_similarity": 0.0173,
       "key": "Adzuna:5941399870",
       "first_seen": "2026-10-26T22:06:52.913851+00:00",
       "is_new": false
@@ -2025,7 +2138,7 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0155,
+      "tfidf_similarity": 0.0153,
       "key": "Adzuna:5916949138",
       "first_seen": "2026-10-08T22:39:59.668545+00:00",
       "is_new": false
@@ -2064,7 +2177,7 @@
         "Offering adjusted 3.8/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0333,
+      "tfidf_similarity": 0.0337,
       "key": "Adzuna:5911275758",
       "first_seen": "2026-10-19T21:52:05.573836+00:00",
       "is_new": false
@@ -2103,48 +2216,9 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0171,
+      "tfidf_similarity": 0.0178,
       "key": "Adzuna:5941265248",
       "first_seen": "2026-10-26T22:06:52.913851+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5937642377",
-      "company": "Toromont Cat",
-      "title": "Parts Counter Person",
-      "location": "Concord, York region",
-      "description": "We are looking for a Parts Counter person to join our team. Your objective will be to actively participate in the support of the warehouse operations through various responsibilities. Pay Type Full Time, Permanent Compensation $49,845.00 to $62,305.00 The listed base salary is just one component of our total rewards package, and performance-based or discretionary bonuses may be available As a Parts Counter person , YOU will experience: Working within one of the safest organizations in the indus…",
-      "url": "https://www.adzuna.ca/details/5937642377?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-22T04:51:22Z",
-      "salary_min": 49845,
-      "salary_max": 62305,
-      "source": "Adzuna",
-      "search_query": "Toromont Cat",
-      "search_type": "target_company",
-      "searched_target": "Toromont Cat",
-      "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "OEM Dealer + Service",
-      "target_equipment": [
-        "engine",
-        "power systems",
-        "industrial rotating equipment"
-      ],
-      "score": 5.1,
-      "matched_keywords": [
-        "rotating equipment",
-        "industrial",
-        "Offering 5.0/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 4.0/5",
-        "TF-IDF career 0.03",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.01"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0164,
-      "key": "Adzuna:5937642377",
-      "first_seen": "2026-10-22T20:59:16.363452+00:00",
       "is_new": false
     },
     {
@@ -2181,7 +2255,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0135,
+      "tfidf_similarity": 0.0136,
       "key": "Adzuna:5941252748",
       "first_seen": "2026-10-25T20:09:39.153489+00:00",
       "is_new": false
@@ -2220,7 +2294,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0175,
+      "tfidf_similarity": 0.0178,
       "key": "Adzuna:5939110481",
       "first_seen": "2026-10-23T20:49:05.067098+00:00",
       "is_new": false
@@ -2259,7 +2333,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0175,
+      "tfidf_similarity": 0.0178,
       "key": "Adzuna:5939036643",
       "first_seen": "2026-10-24T19:59:15.747114+00:00",
       "is_new": false
@@ -2304,6 +2378,45 @@
       "is_new": false
     },
     {
+      "external_id": "5944338627",
+      "company": "Toromont Cat",
+      "title": "Shop Technician, Heavy Equipment",
+      "location": "Katimavik-Hazeldean, Ottawa",
+      "description": "We are currently looking to hire a heavy equipment technician to join our team in Ottawa! As the successful candidate, you will be responsible for servicing all types of Caterpillar equipment and components in our shop. Your day will include planning, trouble shooting and repairing, as well as, preparing necessary service reports for customers. We are looking for people who are interested in diverse product range. Our ideal candidate is an enthusiastic team player who will focus on safety and c…",
+      "url": "https://www.adzuna.ca/details/5944338627?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-28T05:15:41Z",
+      "salary_min": 103958,
+      "salary_max": 103958,
+      "source": "Adzuna",
+      "search_query": "Toromont Cat",
+      "search_type": "target_company",
+      "searched_target": "Toromont Cat",
+      "target_company": true,
+      "target_fit": 8.5,
+      "target_category": "OEM Dealer + Service",
+      "target_equipment": [
+        "engine",
+        "power systems",
+        "industrial rotating equipment"
+      ],
+      "score": 5.1,
+      "matched_keywords": [
+        "rotating equipment",
+        "industrial",
+        "Offering 5.0/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 4.0/5",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.01",
+        "TF-IDF technical 0.02"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0166,
+      "key": "Adzuna:5944338627",
+      "first_seen": "2026-10-28T22:00:49.844171+00:00",
+      "is_new": false
+    },
+    {
       "external_id": "5941261405",
       "company": "Toromont Cat",
       "title": "Shop Technician, Heavy Equipment",
@@ -2334,10 +2447,10 @@
         "Offering adjusted 4.0/5",
         "TF-IDF career 0.02",
         "TF-IDF role 0.01",
-        "TF-IDF technical 0.01"
+        "TF-IDF technical 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0158,
+      "tfidf_similarity": 0.0162,
       "key": "Adzuna:5941261405",
       "first_seen": "2026-10-25T20:09:39.153489+00:00",
       "is_new": false
@@ -2371,12 +2484,12 @@
         "Offering 5.0/5",
         "TF-IDF x0.80",
         "Offering adjusted 4.0/5",
-        "TF-IDF career 0.02",
+        "TF-IDF career 0.03",
         "TF-IDF role 0.03",
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.018,
+      "tfidf_similarity": 0.0187,
       "key": "Adzuna:5939050938",
       "first_seen": "2026-10-23T20:49:05.067098+00:00",
       "is_new": false
@@ -2415,9 +2528,48 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0123,
+      "tfidf_similarity": 0.0121,
       "key": "Adzuna:5937653276",
       "first_seen": "2026-10-23T20:49:05.067098+00:00",
+      "is_new": false
+    },
+    {
+      "external_id": "5944333788",
+      "company": "Wajax",
+      "title": "Business Administraton Lead",
+      "location": "Copper Cliff, Greater Sudbury",
+      "description": "The opportunity The Business Administration Leader is a key contributor to business planning, budgeting, forecasting, and operational support activities. Working cross-functionally with stakeholders, the role focuses on identifying process improvement opportunities, enhancing operational efficiency, and implementing strategic initiatives that support organizational performance and long-term growth. The role Operations Management: Lead and coordinate daily office operations, administrative proce…",
+      "url": "https://www.adzuna.ca/details/5944333788?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-28T05:08:45Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Wajax",
+      "search_type": "target_company",
+      "searched_target": "Wajax",
+      "target_company": true,
+      "target_fit": 8.6,
+      "target_category": "Rotating Equipment / Industrial Service",
+      "target_equipment": [
+        "motor",
+        "pump",
+        "rotating equipment"
+      ],
+      "score": 5.1,
+      "matched_keywords": [
+        "rotating equipment",
+        "pump",
+        "industrial service",
+        "industrial",
+        "Offering 5.0/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 4.0/5",
+        "TF-IDF career 0.02"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0199,
+      "key": "Adzuna:5944333788",
+      "first_seen": "2026-10-28T22:00:49.844171+00:00",
       "is_new": false
     },
     {
@@ -2454,7 +2606,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0184,
+      "tfidf_similarity": 0.019,
       "key": "Adzuna:5931908593",
       "first_seen": "2026-10-18T19:52:26.424457+00:00",
       "is_new": false
@@ -2493,7 +2645,7 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0297,
+      "tfidf_similarity": 0.0298,
       "key": "Adzuna:5920331459",
       "first_seen": "2026-10-09T22:01:31.849312+00:00",
       "is_new": false
@@ -2532,7 +2684,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0167,
+      "tfidf_similarity": 0.0166,
       "key": "Adzuna:5888943171",
       "first_seen": "2026-09-18T20:10:14.237247+00:00",
       "is_new": false
@@ -2610,7 +2762,7 @@
         "TF-IDF career 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0264,
+      "tfidf_similarity": 0.0263,
       "key": "Adzuna:5920328818",
       "first_seen": "2026-10-09T22:01:31.849312+00:00",
       "is_new": false
@@ -2649,7 +2801,7 @@
         "TF-IDF career 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0259,
+      "tfidf_similarity": 0.0258,
       "key": "Adzuna:5931908462",
       "first_seen": "2026-10-17T19:52:23.309893+00:00",
       "is_new": false
@@ -2688,7 +2840,7 @@
         "TF-IDF career 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0155,
+      "tfidf_similarity": 0.0156,
       "key": "Adzuna:5940272761",
       "first_seen": "2026-10-25T20:09:39.153489+00:00",
       "is_new": false
@@ -2725,7 +2877,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0072,
+      "tfidf_similarity": 0.0069,
       "key": "Adzuna:5839864336",
       "first_seen": "2026-10-13T22:06:17.511590+00:00",
       "is_new": false
@@ -2772,6 +2924,47 @@
       "is_new": false
     },
     {
+      "external_id": "5944775034",
+      "company": "Hydroone",
+      "title": "Process Imprvmnt Coordinator",
+      "location": "Markham, York region",
+      "description": "Select how often (in days) to receive an alert: Process Improvement Coordinator Date: Oct 26, 2026 Location: Markham, ON, CA 52236 - Markham - Rotation 12 months Hiring salary range: $4,102.00 - $5,860.00 / Bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet …",
+      "url": "https://www.adzuna.ca/details/5944775034?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-28T13:23:55Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Hydro Inc.",
+      "search_type": "target_company",
+      "searched_target": "Hydro Inc.",
+      "target_company": true,
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
+      "target_equipment": [
+        "pump",
+        "repair",
+        "reliability"
+      ],
+      "score": 4.7,
+      "matched_keywords": [
+        "pump",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.01",
+        "TF-IDF role 0.01"
+      ],
+      "negative_keywords": [
+        "coordinator"
+      ],
+      "tfidf_similarity": 0.0134,
+      "key": "Adzuna:5944775034",
+      "first_seen": "2026-10-28T22:00:49.844171+00:00",
+      "is_new": false
+    },
+    {
       "external_id": "5940714689",
       "company": "Air Canada Ltd.",
       "title": "Chef de produit marketing IA",
@@ -2807,47 +3000,9 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0272,
+      "tfidf_similarity": 0.028,
       "key": "Adzuna:5940714689",
       "first_seen": "2026-10-25T20:09:39.153489+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5930510105",
-      "company": "Armstrong Fluid Technology",
-      "title": "CNC Machinist",
-      "location": "Toronto, Ontario",
-      "description": "Job Description Job Description Imagine working at the forefront of innovation in fluid-flow technology, with over 1400 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. As a member of our team, you'll dive …",
-      "url": "https://www.adzuna.ca/land/ad/5930510105?se=SEwS7xvT8RG00IgB7sGfjA&utm_medium=api&utm_source=6ca94df0&v=71D52B7D61FAC4777152AC42192705CD2E5DB18A",
-      "created": "2026-10-16T07:21:51Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Armstrong Fluid Technology",
-      "search_type": "target_company",
-      "searched_target": "Armstrong Fluid Technology",
-      "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "OEM",
-      "target_equipment": [
-        "pump",
-        "fluid systems"
-      ],
-      "score": 4.6,
-      "matched_keywords": [
-        "pump",
-        "manufacturing",
-        "Offering 4.3/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.4/5",
-        "TF-IDF career 0.00",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.00"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0031,
-      "key": "Adzuna:5930510105",
-      "first_seen": "2026-10-17T19:52:23.309893+00:00",
       "is_new": false
     },
     {
@@ -2883,7 +3038,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0047,
+      "tfidf_similarity": 0.0044,
       "key": "Adzuna:5941437406",
       "first_seen": "2026-10-27T21:37:15.258434+00:00",
       "is_new": false
@@ -2921,19 +3076,19 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.004,
+      "tfidf_similarity": 0.0039,
       "key": "Adzuna:5942232952",
       "first_seen": "2026-10-26T22:06:52.913851+00:00",
       "is_new": false
     },
     {
-      "external_id": "5930541083",
+      "external_id": "5942189974",
       "company": "Armstrong Fluid Technology",
-      "title": "Head, Talent, Learning & Performance",
+      "title": "HR Process Excellence & Ops Specialist",
       "location": "Toronto, Ontario",
-      "description": "Job Description Job Description Imagine working at the forefront of innovation in fluid-flow technology, with over 1,600 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. This role leads the design, implemen…",
-      "url": "https://www.adzuna.ca/details/5930541083?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-16T07:28:18Z",
+      "description": "Job Description Job Description Imagine working at the forefront of innovation in fluid-flow technology, with colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. As part of our team, you'll be immersed in an e…",
+      "url": "https://www.adzuna.ca/details/5942189974?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-26T07:52:12Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
@@ -2955,51 +3110,13 @@
         "TF-IDF x0.80",
         "Offering adjusted 3.4/5",
         "TF-IDF career 0.00",
-        "TF-IDF role 0.00",
+        "TF-IDF role 0.02",
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0029,
-      "key": "Adzuna:5930541083",
-      "first_seen": "2026-10-16T20:16:32.679927+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5930283158",
-      "company": "Armstrong Fluid Technology",
-      "title": "Head, Talent, Learning & Performance",
-      "location": "Scarborough, Toronto",
-      "description": "Imagine working at the forefront of innovation in fluid-flow technology, with over 1,600 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. This role leads the design, implementation and continuous improvemen…",
-      "url": "https://www.adzuna.ca/details/5930283158?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-16T04:50:08Z",
-      "salary_min": 120000,
-      "salary_max": 160000,
-      "source": "Adzuna",
-      "search_query": "Armstrong Fluid Technology",
-      "search_type": "target_company",
-      "searched_target": "Armstrong Fluid Technology",
-      "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "OEM",
-      "target_equipment": [
-        "pump",
-        "fluid systems"
-      ],
-      "score": 4.6,
-      "matched_keywords": [
-        "pump",
-        "manufacturing",
-        "Offering 4.3/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.4/5",
-        "TF-IDF career 0.00",
-        "TF-IDF role 0.00",
-        "TF-IDF technical 0.00"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0028,
-      "key": "Adzuna:5930283158",
-      "first_seen": "2026-10-16T20:16:32.679927+00:00",
+      "tfidf_similarity": 0.0069,
+      "key": "Adzuna:5942189974",
+      "first_seen": "2026-10-28T22:00:49.844171+00:00",
       "is_new": false
     },
     {
@@ -3035,47 +3152,9 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0061,
+      "tfidf_similarity": 0.006,
       "key": "Adzuna:5941257928",
       "first_seen": "2026-10-25T20:09:39.153489+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5930545771",
-      "company": "Armstrong Fluid Technology",
-      "title": "Material Handler",
-      "location": "Toronto, Ontario",
-      "description": "Job Description Job Description Imagine working at the forefront of innovation in fluid-flow technology, with over 1400 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. As a member of our team, you'll dive …",
-      "url": "https://www.adzuna.ca/details/5930545771?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-16T07:29:27Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Armstrong Fluid Technology",
-      "search_type": "target_company",
-      "searched_target": "Armstrong Fluid Technology",
-      "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "OEM",
-      "target_equipment": [
-        "pump",
-        "fluid systems"
-      ],
-      "score": 4.6,
-      "matched_keywords": [
-        "pump",
-        "manufacturing",
-        "Offering 4.3/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.4/5",
-        "TF-IDF career 0.00",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.00"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.003,
-      "key": "Adzuna:5930545771",
-      "first_seen": "2026-10-17T19:52:23.309893+00:00",
       "is_new": false
     },
     {
@@ -3111,7 +3190,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0034,
+      "tfidf_similarity": 0.0032,
       "key": "Adzuna:5912495686",
       "first_seen": "2026-10-06T22:02:05.766221+00:00",
       "is_new": false
@@ -3149,47 +3228,9 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0033,
+      "tfidf_similarity": 0.0032,
       "key": "Adzuna:5801747761",
       "first_seen": "2026-09-14T21:11:51.086403+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5930545372",
-      "company": "Armstrong Fluid Technology",
-      "title": "Offering Specialist - Fire",
-      "location": "Toronto, Ontario",
-      "description": "Job Description Job Description Imagine working at the forefront of innovation in fluid-flow technology, with over 1,400 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. As part of our team, you'll be immer…",
-      "url": "https://www.adzuna.ca/details/5930545372?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-16T07:29:16Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Armstrong Fluid Technology",
-      "search_type": "target_company",
-      "searched_target": "Armstrong Fluid Technology",
-      "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "OEM",
-      "target_equipment": [
-        "pump",
-        "fluid systems"
-      ],
-      "score": 4.6,
-      "matched_keywords": [
-        "pump",
-        "manufacturing",
-        "Offering 4.3/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.4/5",
-        "TF-IDF career 0.00",
-        "TF-IDF role 0.02",
-        "TF-IDF technical 0.00"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0057,
-      "key": "Adzuna:5930545372",
-      "first_seen": "2026-10-17T19:52:23.309893+00:00",
       "is_new": false
     },
     {
@@ -3220,12 +3261,12 @@
         "Offering 4.3/5",
         "TF-IDF x0.80",
         "Offering adjusted 3.4/5",
-        "TF-IDF career 0.01",
+        "TF-IDF career 0.00",
         "TF-IDF role 0.06",
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0125,
+      "tfidf_similarity": 0.0126,
       "key": "Adzuna:5934231991",
       "first_seen": "2026-10-20T21:00:42.430134+00:00",
       "is_new": false
@@ -3269,44 +3310,6 @@
       "is_new": false
     },
     {
-      "external_id": "5937876483",
-      "company": "Armstrong Fluid Technology",
-      "title": "Regional Marketing Communications Manager (US & LATAM)",
-      "location": "Toronto, Ontario",
-      "description": "Job Description Job Description Imagine working at the forefront of innovation in fluid-flow technology, with over 1,400 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. As part of our team, you'll be immer…",
-      "url": "https://www.adzuna.ca/details/5937876483?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-22T07:41:42Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Armstrong Fluid Technology",
-      "search_type": "target_company",
-      "searched_target": "Armstrong Fluid Technology",
-      "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "OEM",
-      "target_equipment": [
-        "pump",
-        "fluid systems"
-      ],
-      "score": 4.6,
-      "matched_keywords": [
-        "pump",
-        "manufacturing",
-        "Offering 4.3/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.4/5",
-        "TF-IDF career 0.00",
-        "TF-IDF role 0.03",
-        "TF-IDF technical 0.00"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0064,
-      "key": "Adzuna:5937876483",
-      "first_seen": "2026-10-22T20:59:16.363452+00:00",
-      "is_new": false
-    },
-    {
       "external_id": "5942186290",
       "company": "Armstrong Fluid Technology",
       "title": "Senior Specialist, Global Talent & Learning",
@@ -3339,7 +3342,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0055,
+      "tfidf_similarity": 0.0057,
       "key": "Adzuna:5942186290",
       "first_seen": "2026-10-27T21:37:15.258434+00:00",
       "is_new": false
@@ -3373,11 +3376,11 @@
         "TF-IDF x0.80",
         "Offering adjusted 3.4/5",
         "TF-IDF career 0.01",
-        "TF-IDF role 0.01",
+        "TF-IDF role 0.00",
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0042,
+      "tfidf_similarity": 0.0041,
       "key": "Adzuna:5923235729",
       "first_seen": "2026-10-12T23:57:59.058629+00:00",
       "is_new": false
@@ -3417,7 +3420,7 @@
         "TF-IDF career 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0189,
+      "tfidf_similarity": 0.0196,
       "key": "Adzuna:5885782992",
       "first_seen": "2026-10-25T20:09:39.153489+00:00",
       "is_new": false
@@ -3454,7 +3457,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0151,
+      "tfidf_similarity": 0.0159,
       "key": "Adzuna:5882341236",
       "first_seen": "2026-10-13T22:06:17.511590+00:00",
       "is_new": false
@@ -3491,7 +3494,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0056,
+      "tfidf_similarity": 0.0055,
       "key": "Adzuna:5882341237",
       "first_seen": "2026-10-13T22:06:17.511590+00:00",
       "is_new": false
@@ -3531,7 +3534,7 @@
         "TF-IDF career 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0245,
+      "tfidf_similarity": 0.0246,
       "key": "Adzuna:5819852413",
       "first_seen": "2026-09-14T21:11:51.086403+00:00",
       "is_new": false
@@ -3571,49 +3574,9 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0145,
+      "tfidf_similarity": 0.0143,
       "key": "Adzuna:5750933900",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5912483043",
-      "company": "Integrated Power Services",
-      "title": "Wind Technician - Traveling",
-      "location": "Burlington, Halton",
-      "description": "Job Description Job Description Why IPS? If you're searching for a place where you can grow, continue learning, and make a meaningful impact while still having time for the people and moments that matter most, welcome to Integrated Power Services! We believe your value extends far beyond your job title because the best work comes from people who feel supported, challenged, and fulfilled both professionally and personally. Here, you'll find opportunities to develop your career, work alongside ex…",
-      "url": "https://www.adzuna.ca/details/5912483043?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-05T08:19:23Z",
-      "salary_min": 97760,
-      "salary_max": 118560,
-      "source": "Adzuna",
-      "search_query": "Integrated Power Services",
-      "search_type": "target_company",
-      "searched_target": "Integrated Power Services",
-      "target_company": true,
-      "target_fit": 8.8,
-      "target_category": "Service + Repair",
-      "target_equipment": [
-        "motor",
-        "generator",
-        "pump",
-        "rotating equipment"
-      ],
-      "score": 4.5,
-      "matched_keywords": [
-        "rotating equipment",
-        "pump",
-        "Offering 5.0/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 4.0/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.00",
-        "TF-IDF technical 0.01"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0101,
-      "key": "Adzuna:5912483043",
-      "first_seen": "2026-10-13T22:06:17.511590+00:00",
       "is_new": false
     },
     {
@@ -3622,7 +3585,7 @@
       "title": "CNC Machinist (Rotating Shift)",
       "location": "Hamilton, Hamilton region",
       "description": "Job Description Job Description Company Description John Crane, a business of Smiths Group, is a global leader in mission-critical flow control solutions for energy and process industries that enable efficient and sustainable operations. Our products include mechanical seals and systems, couplings, bearings, filtration systems, and predictive digital monitoring technologies. We have a global network of more than 200 sites in over 50 countries and employ more than 6,000 people worldwide. We part…",
-      "url": "https://www.adzuna.ca/land/ad/5936661059?se=pB1T2xvT8RGL1vVuxoYTQQ&utm_medium=api&utm_source=6ca94df0&v=E8F11C3B75E068686A859D457E4A83A0A05A41CC",
+      "url": "https://www.adzuna.ca/details/5936661059?utm_medium=api&utm_source=6ca94df0",
       "created": "2026-10-21T07:50:07Z",
       "salary_min": null,
       "salary_max": null,
@@ -3651,7 +3614,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0377,
+      "tfidf_similarity": 0.0372,
       "key": "Adzuna:5936661059",
       "first_seen": "2026-10-21T21:03:04.544340+00:00",
       "is_new": false
@@ -3692,50 +3655,9 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0115,
+      "tfidf_similarity": 0.0119,
       "key": "Adzuna:5942110449",
       "first_seen": "2026-10-26T22:06:52.913851+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5937644217",
-      "company": "Toromont Cat",
-      "title": "Rental Coordinator",
-      "location": "Cedarhill Estates, Ottawa",
-      "description": "Position: Rental Coordinator Location: Nepean, ON Type: Full-time, permanent Pay: $23.00–$25.00 hourly (depending on experience) At Battlefield Equipment Rentals , we don’t just rent out top-tier construction equipment, we empower our team to grow, thrive, and make a real impact in local communities every day. As part of the Toromont Industries Ltd. family, we’re proud to be Canada’s leading construction equipment rental company and you can find our equipment powering projects on jobsites acros…",
-      "url": "https://www.adzuna.ca/details/5937644217?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-22T04:53:33Z",
-      "salary_min": 47840,
-      "salary_max": 52000,
-      "source": "Adzuna",
-      "search_query": "Toromont Cat",
-      "search_type": "target_company",
-      "searched_target": "Toromont Cat",
-      "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "OEM Dealer + Service",
-      "target_equipment": [
-        "engine",
-        "power systems",
-        "industrial rotating equipment"
-      ],
-      "score": 4.5,
-      "matched_keywords": [
-        "rotating equipment",
-        "industrial",
-        "Offering 5.0/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 4.0/5",
-        "TF-IDF career 0.02",
-        "TF-IDF role 0.00",
-        "TF-IDF technical 0.01"
-      ],
-      "negative_keywords": [
-        "coordinator"
-      ],
-      "tfidf_similarity": 0.0146,
-      "key": "Adzuna:5937644217",
-      "first_seen": "2026-10-22T20:59:16.363452+00:00",
       "is_new": false
     },
     {
@@ -3772,7 +3694,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0178,
+      "tfidf_similarity": 0.0184,
       "key": "Adzuna:5911357100",
       "first_seen": "2026-10-13T22:06:17.511590+00:00",
       "is_new": false
@@ -3811,7 +3733,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0184,
+      "tfidf_similarity": 0.019,
       "key": "Adzuna:5943344004",
       "first_seen": "2026-10-27T21:37:15.258434+00:00",
       "is_new": false
@@ -3850,7 +3772,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0183,
+      "tfidf_similarity": 0.0189,
       "key": "Adzuna:5909796717",
       "first_seen": "2026-10-13T22:06:17.511590+00:00",
       "is_new": false
@@ -3889,7 +3811,7 @@
         "TF-IDF role 0.05"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0282,
+      "tfidf_similarity": 0.0287,
       "key": "Adzuna:5934057366",
       "first_seen": "2026-10-20T21:00:42.430134+00:00",
       "is_new": false
@@ -3928,7 +3850,7 @@
         "TF-IDF role 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0257,
+      "tfidf_similarity": 0.0261,
       "key": "Adzuna:5909719911",
       "first_seen": "2026-10-19T21:52:05.573836+00:00",
       "is_new": false
@@ -3967,7 +3889,7 @@
         "TF-IDF role 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0258,
+      "tfidf_similarity": 0.0262,
       "key": "Adzuna:5934059452",
       "first_seen": "2026-10-19T21:52:05.573836+00:00",
       "is_new": false
@@ -4006,7 +3928,7 @@
         "TF-IDF role 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0258,
+      "tfidf_similarity": 0.0262,
       "key": "Adzuna:5870278930",
       "first_seen": "2026-10-19T21:52:05.573836+00:00",
       "is_new": false
@@ -4045,7 +3967,7 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0262,
+      "tfidf_similarity": 0.0265,
       "key": "Adzuna:5909710466",
       "first_seen": "2026-10-19T21:52:05.573836+00:00",
       "is_new": false
@@ -4084,7 +4006,7 @@
         "TF-IDF role 0.04"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0306,
+      "tfidf_similarity": 0.031,
       "key": "Adzuna:5871697476",
       "first_seen": "2026-10-19T21:52:05.573836+00:00",
       "is_new": false
@@ -4122,7 +4044,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0081,
+      "tfidf_similarity": 0.0082,
       "key": "Adzuna:5775819698",
       "first_seen": "2026-10-24T19:59:15.747114+00:00",
       "is_new": false
@@ -4160,7 +4082,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0163,
+      "tfidf_similarity": 0.0168,
       "key": "Adzuna:5934219358",
       "first_seen": "2026-10-20T21:00:42.430134+00:00",
       "is_new": false
@@ -4198,7 +4120,7 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0044,
+      "tfidf_similarity": 0.0043,
       "key": "Adzuna:5927194693",
       "first_seen": "2026-10-14T21:07:04.349508+00:00",
       "is_new": false
@@ -4242,44 +4164,6 @@
       "is_new": false
     },
     {
-      "external_id": "5927412215",
-      "company": "Armstrong Fluid Technology",
-      "title": "Offering Specialist, Heat Transfer and Expansion Systems",
-      "location": "Toronto, Ontario",
-      "description": "Job Description Job Description The Offering Specialist supports lifecycle direction and management for the profit and loss of a suite of Armstrong offerings. In addition to annual initiatives, the key accountabilities of this position are: STRATEGIC DEVELOPMENT Analyzes macro trends, addressable markets, growth rates, trends, new and existing competition, where Armstrong is targeted, where Armstrong could target, how Armstrong will differentiate, financial aspirations in each segment of market…",
-      "url": "https://www.adzuna.ca/details/5927412215?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-14T07:33:00Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Armstrong Fluid Technology",
-      "search_type": "target_company",
-      "searched_target": "Armstrong Fluid Technology",
-      "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "OEM",
-      "target_equipment": [
-        "pump",
-        "fluid systems"
-      ],
-      "score": 3.8,
-      "matched_keywords": [
-        "pump",
-        "Offering 4.3/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.4/5",
-        "TF-IDF career 0.00",
-        "TF-IDF role 0.02",
-        "TF-IDF technical 0.00",
-        "target company"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0058,
-      "key": "Adzuna:5927412215",
-      "first_seen": "2026-10-15T20:43:51.982748+00:00",
-      "is_new": false
-    },
-    {
       "external_id": "5930289939",
       "company": "Lakeside Process Controls",
       "title": "Order Management Coordinator",
@@ -4315,7 +4199,7 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0249,
+      "tfidf_similarity": 0.0252,
       "key": "Adzuna:5930289939",
       "first_seen": "2026-10-16T20:16:32.679927+00:00",
       "is_new": false
@@ -4350,7 +4234,7 @@
         "new business"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0298,
+      "tfidf_similarity": 0.0299,
       "key": "Adzuna:5939201633",
       "first_seen": "2026-10-23T20:49:05.067098+00:00",
       "is_new": false
@@ -4385,7 +4269,7 @@
         "Offering 4.6/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0266,
+      "tfidf_similarity": 0.0265,
       "key": "Adzuna:5854253838",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
       "is_new": false
@@ -4420,7 +4304,7 @@
         "manufacturing"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0254,
+      "tfidf_similarity": 0.0253,
       "key": "Adzuna:5785918357",
       "first_seen": "2026-09-15T20:39:48.087126+00:00",
       "is_new": false
@@ -4455,7 +4339,7 @@
         "manufacturing"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0245,
+      "tfidf_similarity": 0.0244,
       "key": "Adzuna:5936498938",
       "first_seen": "2026-10-21T21:03:04.544340+00:00",
       "is_new": false
@@ -4490,7 +4374,7 @@
         "Offering 4.3/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0305,
+      "tfidf_similarity": 0.031,
       "key": "Adzuna:5935395995",
       "first_seen": "2026-10-21T21:03:04.544340+00:00",
       "is_new": false
@@ -4525,7 +4409,7 @@
         "TF-IDF x0.75"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0269,
+      "tfidf_similarity": 0.0271,
       "key": "Adzuna:5936628070",
       "first_seen": "2026-10-22T20:59:16.363452+00:00",
       "is_new": false
