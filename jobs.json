@@ -1,131 +1,54 @@
 {
-  "last_checked": "2026-11-03T22:42:40.376441+00:00",
+  "last_checked": "2026-11-04T23:00:05.355758+00:00",
   "jobs": [
     {
-      "external_id": "5951007143",
+      "external_id": "5952912318",
+      "company": "Atlas Copco",
+      "title": "Technical Sales Representative- Windsor",
+      "location": "Windsor, Essex region",
+      "description": "Who is Atlas Copco Compressors Canada? Allow us to introduce ourselves… You may think you don’t already know us, but our paths have definitely crossed before! From the water bottle in your hand, to the lamp lighting up your room, and even the t-shirt on your back, chances are each of these items were created using one of Atlas Copco’s industry leading air compressors. That’s right, compressed air is EVERYWHERE, and we are thrilled to have customers across all industries; medical, textiles, phar…",
+      "url": "https://www.adzuna.ca/details/5952912318?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-04T08:03:14Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Atlas Copco",
+      "search_type": "target_company",
+      "searched_target": "Atlas Copco",
+      "target_company": true,
+      "target_fit": 9.3,
+      "target_category": "OEM + Service",
+      "target_equipment": [
+        "compressor",
+        "vacuum",
+        "blower",
+        "pump"
+      ],
+      "score": 6.9,
+      "matched_keywords": [
+        "technical sales representative",
+        "technical sales",
+        "sales representative",
+        "compressor",
+        "compressed air",
+        "blower",
+        "pump",
+        "Offering 5.0/5"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0488,
+      "key": "Adzuna:5952912318",
+      "first_seen": "2026-11-04T23:00:05.355758+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5952179060",
       "company": "Hydro One Networks Inc",
-      "title": "AI Engineer (Data Scientist)",
+      "title": "Assistant to Vice President, Supply Chain, Fleet & Aviation",
       "location": "Toronto, Ontario",
-      "description": "52257 - Toronto - Regular . Hiring Salary Range : $110,500.00-143,000.00 / year Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and en…",
-      "url": "https://www.adzuna.ca/details/5951007143?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-11-02T17:47:20Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Hydro Inc.",
-      "search_type": "target_company",
-      "searched_target": "Hydro Inc.",
-      "target_company": true,
-      "target_fit": 9.1,
-      "target_category": "Pump Aftermarket / Service",
-      "target_equipment": [
-        "pump",
-        "repair",
-        "reliability"
-      ],
-      "score": 5.3,
-      "matched_keywords": [
-        "pump",
-        "reliability",
-        "aftermarket",
-        "Offering 4.4/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.5/5",
-        "TF-IDF career 0.02",
-        "TF-IDF role 0.02"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0158,
-      "key": "Adzuna:5951007143",
-      "first_seen": "2026-11-03T22:42:40.376441+00:00",
-      "is_new": true
-    },
-    {
-      "external_id": "5951007148",
-      "company": "Hydro One Networks Inc",
-      "title": "Commercial Lead, Strategic Project Delivery",
-      "location": "Toronto, Ontario",
-      "description": "52254 - Toronto - Regular Hiring salary range: $4,374.92 - 5,874.88 / Bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and en…",
-      "url": "https://www.adzuna.ca/details/5951007148?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-11-02T17:47:20Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Hydro Inc.",
-      "search_type": "target_company",
-      "searched_target": "Hydro Inc.",
-      "target_company": true,
-      "target_fit": 9.1,
-      "target_category": "Pump Aftermarket / Service",
-      "target_equipment": [
-        "pump",
-        "repair",
-        "reliability"
-      ],
-      "score": 5.3,
-      "matched_keywords": [
-        "pump",
-        "reliability",
-        "aftermarket",
-        "Offering 4.4/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.5/5",
-        "TF-IDF career 0.02",
-        "TF-IDF role 0.02"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0163,
-      "key": "Adzuna:5951007148",
-      "first_seen": "2026-11-03T22:42:40.376441+00:00",
-      "is_new": true
-    },
-    {
-      "external_id": "5951007140",
-      "company": "Hydro One Networks Inc",
-      "title": "Customer Data and Report Analyst",
-      "location": "Markham, York region",
-      "description": "52253 - Markham - Rotation - 16 Months Hiring salary range: $3,610.06 - $4,139.80 / Bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer …",
-      "url": "https://www.adzuna.ca/details/5951007140?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-11-02T17:47:20Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Hydro Inc.",
-      "search_type": "target_company",
-      "searched_target": "Hydro Inc.",
-      "target_company": true,
-      "target_fit": 9.1,
-      "target_category": "Pump Aftermarket / Service",
-      "target_equipment": [
-        "pump",
-        "repair",
-        "reliability"
-      ],
-      "score": 5.3,
-      "matched_keywords": [
-        "pump",
-        "reliability",
-        "aftermarket",
-        "Offering 4.4/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.5/5",
-        "TF-IDF career 0.02",
-        "TF-IDF role 0.01"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0147,
-      "key": "Adzuna:5951007140",
-      "first_seen": "2026-11-03T22:42:40.376441+00:00",
-      "is_new": true
-    },
-    {
-      "external_id": "5951007149",
-      "company": "Hydro One Networks Inc",
-      "title": "Helicopter Pilot",
-      "location": "Oro Station, Simcoe region",
-      "description": "52245 - Oro Station - Temporary 12 Months Hiring salary range: $6,459.64 - $7,459.14 / bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional custom…",
-      "url": "https://www.adzuna.ca/details/5951007149?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-11-02T17:47:20Z",
+      "description": "52246 - Toronto - Temporary 15 Months Hiring Salary Range : $71,400.00-92,400.00 / year Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer servic…",
+      "url": "https://www.adzuna.ca/details/5952179060?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-03T19:03:12Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
@@ -152,174 +75,58 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0129,
-      "key": "Adzuna:5951007149",
-      "first_seen": "2026-11-03T22:42:40.376441+00:00",
+      "tfidf_similarity": 0.0125,
+      "key": "Adzuna:5952179060",
+      "first_seen": "2026-11-04T23:00:05.355758+00:00",
       "is_new": true
     },
     {
-      "external_id": "5951007146",
-      "company": "Hydro One Networks Inc",
-      "title": "Labour Relations Manager",
-      "location": "Toronto, Ontario",
-      "description": "52248 - Toronto - Regular . Hiring Salary Range : $110,500.00-143,000.00 / year Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and en…",
-      "url": "https://www.adzuna.ca/details/5951007146?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-11-02T17:47:20Z",
+      "external_id": "5953002825",
+      "company": "John Crane",
+      "title": "CNC Machinist (Rotating Shift)",
+      "location": "Hamilton region, Ontario",
+      "description": "Job Description SUMMARY OF ESSENTIAL FUNCTIONS: The CNC Machinist will perform and record manufacturing activities consistent with those required to meet company objectives. Must be able to handle multiple concurrent tasks with fluctuating priorities. Sets up and operates CNC Milling or Turning machines to manufacture precision components. Capable of operating manual lathes and mills. Familiar with operations like drilling, tapping, threading, turning, reaming, boring, facing and other machinin…",
+      "url": "https://www.adzuna.ca/details/5953002825?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-04T08:51:28Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
-      "search_query": "Hydro Inc.",
+      "search_query": "John Crane",
       "search_type": "target_company",
-      "searched_target": "Hydro Inc.",
+      "searched_target": "John Crane",
       "target_company": true,
-      "target_fit": 9.1,
-      "target_category": "Pump Aftermarket / Service",
+      "target_fit": 8.7,
+      "target_category": "OEM + Service",
       "target_equipment": [
-        "pump",
-        "repair",
-        "reliability"
+        "mechanical seal",
+        "coupling",
+        "filtration",
+        "rotating equipment"
       ],
-      "score": 5.3,
-      "matched_keywords": [
-        "pump",
-        "reliability",
-        "aftermarket",
-        "Offering 4.4/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.5/5",
-        "TF-IDF career 0.02",
-        "TF-IDF role 0.03"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0175,
-      "key": "Adzuna:5951007146",
-      "first_seen": "2026-11-03T22:42:40.376441+00:00",
-      "is_new": true
-    },
-    {
-      "external_id": "5951007144",
-      "company": "Hydro One Networks Inc",
-      "title": "Manager, Business Management",
-      "location": "Toronto, Ontario",
-      "description": "52258 - Toronto - Regular . Hiring Salary Range : $110,500.00-143,000.00 / year Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and en…",
-      "url": "https://www.adzuna.ca/details/5951007144?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-11-02T17:47:20Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Hydro Inc.",
-      "search_type": "target_company",
-      "searched_target": "Hydro Inc.",
-      "target_company": true,
-      "target_fit": 9.1,
-      "target_category": "Pump Aftermarket / Service",
-      "target_equipment": [
-        "pump",
-        "repair",
-        "reliability"
-      ],
-      "score": 5.3,
-      "matched_keywords": [
-        "pump",
-        "reliability",
-        "aftermarket",
-        "Offering 4.4/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.5/5",
-        "TF-IDF career 0.02",
-        "TF-IDF role 0.05"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0211,
-      "key": "Adzuna:5951007144",
-      "first_seen": "2026-11-03T22:42:40.376441+00:00",
-      "is_new": true
-    },
-    {
-      "external_id": "5951007147",
-      "company": "Hydro One Networks Inc",
-      "title": "Senior Manager Real Estate, Project Delivery",
-      "location": "Markham, York region",
-      "description": "51940 - Markham - Regular . Hiring Salary Range : $110,500.00-143,000.00 / year Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and en…",
-      "url": "https://www.adzuna.ca/details/5951007147?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-11-02T17:47:20Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Hydro Inc.",
-      "search_type": "target_company",
-      "searched_target": "Hydro Inc.",
-      "target_company": true,
-      "target_fit": 9.1,
-      "target_category": "Pump Aftermarket / Service",
-      "target_equipment": [
-        "pump",
-        "repair",
-        "reliability"
-      ],
-      "score": 5.3,
-      "matched_keywords": [
-        "pump",
-        "reliability",
-        "aftermarket",
-        "Offering 4.4/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.5/5",
-        "TF-IDF career 0.02",
-        "TF-IDF role 0.02"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.017,
-      "key": "Adzuna:5951007147",
-      "first_seen": "2026-11-03T22:42:40.376441+00:00",
-      "is_new": true
-    },
-    {
-      "external_id": "5952076980",
-      "company": "Toromont CAT",
-      "title": "Heavy Equipment Technician",
-      "location": "Vaughan, York region",
-      "description": "Toromont CAT is Hiring TechniciansMultiple Locations In OntarioBenefits:Pay: Earn $55-$70/hour depending on experience, position, and location. This is a blended average including base pay, overtime, and other premiums.Health and dental careShort-term and long-term disability optionsOpportunity to grow and move across Eastern CanadaAll uniforms providedTool purchase programComprehensive training & Continuing educationFlexible work schedulesSafety trainingsHealth & Wellness programsWhat You'll D…",
-      "url": "https://www.adzuna.ca/land/ad/5952076980?se=kElyydjX8RGT9NV5Q-REgg&utm_medium=api&utm_source=6ca94df0&v=08981930167DD32D5C816DE7C62054F0156385A2",
-      "created": "2026-11-03T13:57:33Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Toromont Cat",
-      "search_type": "target_company",
-      "searched_target": "Toromont Cat",
-      "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "OEM Dealer + Service",
-      "target_equipment": [
-        "engine",
-        "power systems",
-        "industrial rotating equipment"
-      ],
-      "score": 5.1,
+      "score": 5.2,
       "matched_keywords": [
         "rotating equipment",
-        "industrial",
+        "mechanical seal",
+        "manufacturing",
         "Offering 5.0/5",
         "TF-IDF x0.80",
         "Offering adjusted 4.0/5",
-        "TF-IDF career 0.02",
-        "TF-IDF role 0.00",
-        "TF-IDF technical 0.01"
+        "TF-IDF career 0.01",
+        "TF-IDF role 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0119,
-      "key": "Adzuna:5952076980",
-      "first_seen": "2026-11-03T22:42:40.376441+00:00",
+      "tfidf_similarity": 0.0138,
+      "key": "Adzuna:5953002825",
+      "first_seen": "2026-11-04T23:00:05.355758+00:00",
       "is_new": true
     },
     {
-      "external_id": "5951844476",
+      "external_id": "5951844471",
       "company": "Toromont CAT",
       "title": "Heavy Equipment Technician",
       "location": "Thunder Bay, Ontario",
       "description": "Toromont CAT is Hiring Technicians Multiple Locations In Ontario Benefits: Pay: Earn $55-$70/hour depending on experience, position, and location. This is a blended average including base pay, overtime, and other premiums. Health and dental care Short-term and long-term disability options Opportunity to grow and move across Eastern Canada All uniforms provided Tool purchase program Comprehensive training & Continuing education Flexible work schedules Safety trainings Health & Wellness programs …",
-      "url": "https://www.adzuna.ca/land/ad/5951844476?se=kElyydjX8RGT9NV5Q-REgg&utm_medium=api&utm_source=6ca94df0&v=9C770E0FAF86E9EFAEF2D2DCDEA012CB91B147B3",
+      "url": "https://www.adzuna.ca/land/ad/5951844471?se=JnR4cqTY8RGLVYGr7O6wFw&utm_medium=api&utm_source=6ca94df0&v=2367075CE6F94CF7AA02519D8079647586E10E8B",
       "created": "2026-11-03T10:19:18Z",
       "salary_min": null,
       "salary_max": null,
@@ -342,55 +149,168 @@
         "Offering 5.0/5",
         "TF-IDF x0.80",
         "Offering adjusted 4.0/5",
-        "TF-IDF career 0.01",
+        "TF-IDF career 0.02",
         "TF-IDF role 0.00",
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0111,
-      "key": "Adzuna:5951844476",
-      "first_seen": "2026-11-03T22:42:40.376441+00:00",
+      "tfidf_similarity": 0.011,
+      "key": "Adzuna:5951844471",
+      "first_seen": "2026-11-04T23:00:05.355758+00:00",
       "is_new": true
     },
     {
-      "external_id": "5951007142",
-      "company": "Hydro One Networks Inc",
-      "title": "Real Estate Coordinator",
-      "location": "Markham, York region",
-      "description": "52251 - Markham - Temporary 12 months Hiring salary range: $3,610.06 - $5,508.4 / Bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer se…",
-      "url": "https://www.adzuna.ca/details/5951007142?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-11-02T17:47:20Z",
+      "external_id": "5951672345",
+      "company": "Armstrong Fluid Technology",
+      "title": "Controls Engineer",
+      "location": "Toronto, Ontario",
+      "description": "Job Description Job Description Imagine working at the forefront of innovation in fluid-flow technology, with over 1,400 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. As part of our team, you'll be immer…",
+      "url": "https://www.adzuna.ca/details/5951672345?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-03T07:27:04Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
-      "search_query": "Hydro Inc.",
+      "search_query": "Armstrong Fluid Technology",
       "search_type": "target_company",
-      "searched_target": "Hydro Inc.",
+      "searched_target": "Armstrong Fluid Technology",
       "target_company": true,
-      "target_fit": 9.1,
-      "target_category": "Pump Aftermarket / Service",
+      "target_fit": 8.5,
+      "target_category": "OEM",
       "target_equipment": [
         "pump",
-        "repair",
-        "reliability"
+        "fluid systems"
       ],
-      "score": 4.7,
+      "score": 4.6,
       "matched_keywords": [
         "pump",
-        "reliability",
-        "aftermarket",
-        "Offering 4.4/5",
+        "manufacturing",
+        "Offering 4.3/5",
         "TF-IDF x0.80",
-        "Offering adjusted 3.5/5",
-        "TF-IDF career 0.02",
-        "TF-IDF role 0.01"
+        "Offering adjusted 3.4/5",
+        "TF-IDF career 0.00",
+        "TF-IDF role 0.01",
+        "TF-IDF technical 0.00"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0033,
+      "key": "Adzuna:5951672345",
+      "first_seen": "2026-11-04T23:00:05.355758+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5953123656",
+      "company": "Armstrong Fluid Technology",
+      "title": "General Labourer - (12:00am - 7:30am)",
+      "location": "Toronto, Ontario",
+      "description": "Job Description Job Description Imagine working at the forefront of innovation in fluid-flow technology, with over 1400 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. As a member of our team, you'll dive …",
+      "url": "https://www.adzuna.ca/details/5953123656?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-04T10:52:28Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Armstrong Fluid Technology",
+      "search_type": "target_company",
+      "searched_target": "Armstrong Fluid Technology",
+      "target_company": true,
+      "target_fit": 8.5,
+      "target_category": "OEM",
+      "target_equipment": [
+        "pump",
+        "fluid systems"
+      ],
+      "score": 4.6,
+      "matched_keywords": [
+        "pump",
+        "manufacturing",
+        "Offering 4.3/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.4/5",
+        "TF-IDF career 0.00",
+        "TF-IDF role 0.00",
+        "TF-IDF technical 0.00"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0025,
+      "key": "Adzuna:5953123656",
+      "first_seen": "2026-11-04T23:00:05.355758+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5953052313",
+      "company": "Armstrong Fluid Technology",
+      "title": "Pump Tester - Afternoon",
+      "location": "Toronto, Ontario",
+      "description": "Job Description Job Description Imagine working at the forefront of innovation in fluid-flow technology, with over 1400 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. As a member of our team, you'll dive …",
+      "url": "https://www.adzuna.ca/details/5953052313?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-04T09:54:53Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Armstrong Fluid Technology",
+      "search_type": "target_company",
+      "searched_target": "Armstrong Fluid Technology",
+      "target_company": true,
+      "target_fit": 8.5,
+      "target_category": "OEM",
+      "target_equipment": [
+        "pump",
+        "fluid systems"
+      ],
+      "score": 4.6,
+      "matched_keywords": [
+        "pump",
+        "manufacturing",
+        "Offering 4.3/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.4/5",
+        "TF-IDF career 0.00",
+        "TF-IDF role 0.00",
+        "TF-IDF technical 0.00"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0032,
+      "key": "Adzuna:5953052313",
+      "first_seen": "2026-11-04T23:00:05.355758+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5951671713",
+      "company": "Armstrong Fluid Technology",
+      "title": "Service Coordinator",
+      "location": "Toronto, Ontario",
+      "description": "Job Description Job Description Imagine working at the forefront of innovation in fluid-flow technology, with over 1400 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. As a member of our team, you'll dive …",
+      "url": "https://www.adzuna.ca/details/5951671713?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-03T07:26:09Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Armstrong Fluid Technology",
+      "search_type": "target_company",
+      "searched_target": "Armstrong Fluid Technology",
+      "target_company": true,
+      "target_fit": 8.5,
+      "target_category": "OEM",
+      "target_equipment": [
+        "pump",
+        "fluid systems"
+      ],
+      "score": 4.0,
+      "matched_keywords": [
+        "pump",
+        "manufacturing",
+        "Offering 4.3/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.4/5",
+        "TF-IDF career 0.00",
+        "TF-IDF role 0.01",
+        "TF-IDF technical 0.00"
       ],
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0144,
-      "key": "Adzuna:5951007142",
-      "first_seen": "2026-11-03T22:42:40.376441+00:00",
+      "tfidf_similarity": 0.0041,
+      "key": "Adzuna:5951671713",
+      "first_seen": "2026-11-04T23:00:05.355758+00:00",
       "is_new": true
     },
     {
@@ -404,9 +324,9 @@
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
-      "search_query": "product support sales",
-      "search_type": "keyword",
-      "searched_target": null,
+      "search_query": "Toromont Cat",
+      "search_type": "target_company",
+      "searched_target": "Toromont Cat",
       "target_company": true,
       "target_fit": 8.5,
       "target_category": "OEM Dealer + Service",
@@ -427,7 +347,7 @@
         "TF-IDF x0.85"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0479,
+      "tfidf_similarity": 0.0464,
       "key": "Adzuna:5946724473",
       "first_seen": "2026-10-30T21:48:35.964416+00:00",
       "is_new": false
@@ -467,7 +387,7 @@
         "Offering 5.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0646,
+      "tfidf_similarity": 0.0648,
       "key": "Adzuna:5832067424",
       "first_seen": "2026-09-14T21:11:51.086403+00:00",
       "is_new": false
@@ -506,7 +426,7 @@
         "industrial service"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0336,
+      "tfidf_similarity": 0.033,
       "key": "Adzuna:5944360131",
       "first_seen": "2026-10-29T22:12:55.948355+00:00",
       "is_new": false
@@ -545,7 +465,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0296,
+      "tfidf_similarity": 0.0292,
       "key": "Adzuna:5946712708",
       "first_seen": "2026-10-30T21:48:35.964416+00:00",
       "is_new": false
@@ -586,7 +506,7 @@
         "Offering adjusted 4.2/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.057,
+      "tfidf_similarity": 0.0548,
       "key": "Adzuna:5925673074",
       "first_seen": "2026-10-25T20:09:39.153489+00:00",
       "is_new": false
@@ -624,7 +544,7 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0151,
+      "tfidf_similarity": 0.0155,
       "key": "Adzuna:5885845311",
       "first_seen": "2026-10-13T22:06:17.511590+00:00",
       "is_new": false
@@ -663,7 +583,7 @@
         "distributor"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.035,
+      "tfidf_similarity": 0.0342,
       "key": "Adzuna:5539679612",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
       "is_new": false
@@ -702,7 +622,7 @@
         "distributor"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0387,
+      "tfidf_similarity": 0.038,
       "key": "Adzuna:5832031995",
       "first_seen": "2026-09-08T20:30:33.278892+00:00",
       "is_new": false
@@ -741,7 +661,7 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0298,
+      "tfidf_similarity": 0.0295,
       "key": "Adzuna:5948986529",
       "first_seen": "2026-11-01T21:29:58.421730+00:00",
       "is_new": false
@@ -780,7 +700,7 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0306,
+      "tfidf_similarity": 0.0305,
       "key": "Adzuna:5930275325",
       "first_seen": "2026-10-17T19:52:23.309893+00:00",
       "is_new": false
@@ -819,7 +739,7 @@
         "TF-IDF x0.85"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0485,
+      "tfidf_similarity": 0.0496,
       "key": "Adzuna:5934060262",
       "first_seen": "2026-10-19T21:52:05.573836+00:00",
       "is_new": false
@@ -858,7 +778,7 @@
         "industrial"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0301,
+      "tfidf_similarity": 0.03,
       "key": "Adzuna:5944333193",
       "first_seen": "2026-10-29T22:12:55.948355+00:00",
       "is_new": false
@@ -897,7 +817,7 @@
         "industrial"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0301,
+      "tfidf_similarity": 0.03,
       "key": "Adzuna:5920333405",
       "first_seen": "2026-10-09T22:01:31.849312+00:00",
       "is_new": false
@@ -973,7 +893,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0152,
+      "tfidf_similarity": 0.0151,
       "key": "Adzuna:5822089738",
       "first_seen": "2026-10-13T22:06:17.511590+00:00",
       "is_new": false
@@ -989,9 +909,9 @@
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
-      "search_query": "aftermarket sales",
-      "search_type": "keyword",
-      "searched_target": null,
+      "search_query": "Grundfos",
+      "search_type": "target_company",
+      "searched_target": "Grundfos",
       "target_company": true,
       "target_fit": 8.5,
       "target_category": "OEM",
@@ -1010,7 +930,7 @@
         "TF-IDF role 0.16"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0277,
+      "tfidf_similarity": 0.0285,
       "key": "Adzuna:5931826350",
       "first_seen": "2026-10-28T22:00:49.844171+00:00",
       "is_new": false
@@ -1088,7 +1008,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0473,
+      "tfidf_similarity": 0.0483,
       "key": "Adzuna:5870257232",
       "first_seen": "2026-10-19T21:52:05.573836+00:00",
       "is_new": false
@@ -1129,7 +1049,7 @@
         "TF-IDF career 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0107,
+      "tfidf_similarity": 0.0104,
       "key": "Adzuna:5942211051",
       "first_seen": "2026-10-26T22:06:52.913851+00:00",
       "is_new": false
@@ -1170,9 +1090,48 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.013,
+      "tfidf_similarity": 0.0127,
       "key": "Adzuna:5942158163",
       "first_seen": "2026-10-26T22:06:52.913851+00:00",
+      "is_new": false
+    },
+    {
+      "external_id": "5941252353",
+      "company": "Toromont Cat",
+      "title": "Parts Counter Person (Rotation), Mining",
+      "location": "Ontario, Canada",
+      "description": "Toromont Cat is looking for a Parts Counter Person to join our team! The Parts Counter Person plays a vital role in customer service at our Branch as the key customer contact for advising and distributing parts and consistently providing superior service. Note: This position will be rotational as it is working at a remote site. Pay Type Full Time, Permanent Compensation $49,845.00 to $62,305.00 The listed base salary is just one component of our total rewards package, and performance-based or d…",
+      "url": "https://www.adzuna.ca/details/5941252353?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-10-25T04:36:56Z",
+      "salary_min": 49845,
+      "salary_max": 62305,
+      "source": "Adzuna",
+      "search_query": "Toromont Cat",
+      "search_type": "target_company",
+      "searched_target": "Toromont Cat",
+      "target_company": true,
+      "target_fit": 8.5,
+      "target_category": "OEM Dealer + Service",
+      "target_equipment": [
+        "engine",
+        "power systems",
+        "industrial rotating equipment"
+      ],
+      "score": 5.4,
+      "matched_keywords": [
+        "rotating equipment",
+        "mining",
+        "industrial",
+        "Offering 5.0/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 4.0/5",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.00"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0149,
+      "key": "Adzuna:5941252353",
+      "first_seen": "2026-11-04T23:00:05.355758+00:00",
       "is_new": false
     },
     {
@@ -1209,7 +1168,7 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.035,
+      "tfidf_similarity": 0.0357,
       "key": "Adzuna:5946720465",
       "first_seen": "2026-10-30T21:48:35.964416+00:00",
       "is_new": false
@@ -1248,7 +1207,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0342,
+      "tfidf_similarity": 0.0338,
       "key": "Adzuna:5940272002",
       "first_seen": "2026-10-24T19:59:15.747114+00:00",
       "is_new": false
@@ -1289,7 +1248,7 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0286,
+      "tfidf_similarity": 0.0283,
       "key": "Adzuna:5947849102",
       "first_seen": "2026-11-01T21:29:58.421730+00:00",
       "is_new": false
@@ -1328,19 +1287,19 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0271,
+      "tfidf_similarity": 0.0267,
       "key": "Adzuna:5947821909",
       "first_seen": "2026-10-31T20:48:01.155859+00:00",
       "is_new": false
     },
     {
-      "external_id": "5940717495",
-      "company": "Hydro One Inc.",
-      "title": "Manager Economics and Load Forecasting",
+      "external_id": "5951007143",
+      "company": "Hydro One Networks Inc",
+      "title": "AI Engineer (Data Scientist)",
       "location": "Toronto, Ontario",
-      "description": "51716 - Toronto - Regular . 51716 - Toronto - Regular . Hiring Salary Range : $137,700.00-178,200.00 / year Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing excepti…",
-      "url": "https://www.adzuna.ca/details/5940717495?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-24T12:50:50Z",
+      "description": "52257 - Toronto - Regular . Hiring Salary Range : $110,500.00-143,000.00 / year Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and en…",
+      "url": "https://www.adzuna.ca/details/5951007143?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-02T17:47:20Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
@@ -1363,13 +1322,13 @@
         "Offering 4.4/5",
         "TF-IDF x0.80",
         "Offering adjusted 3.5/5",
-        "TF-IDF career 0.01",
+        "TF-IDF career 0.02",
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0142,
-      "key": "Adzuna:5940717495",
-      "first_seen": "2026-10-24T19:59:15.747114+00:00",
+      "tfidf_similarity": 0.0155,
+      "key": "Adzuna:5951007143",
+      "first_seen": "2026-11-03T22:42:40.376441+00:00",
       "is_new": false
     },
     {
@@ -1406,9 +1365,87 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0148,
+      "tfidf_similarity": 0.0145,
       "key": "Adzuna:5942779508",
       "first_seen": "2026-10-27T21:37:15.258434+00:00",
+      "is_new": false
+    },
+    {
+      "external_id": "5951007148",
+      "company": "Hydro One Networks Inc",
+      "title": "Commercial Lead, Strategic Project Delivery",
+      "location": "Toronto, Ontario",
+      "description": "52254 - Toronto - Regular Hiring salary range: $4,374.92 - 5,874.88 / Bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and en…",
+      "url": "https://www.adzuna.ca/details/5951007148?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-02T17:47:20Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Hydro Inc.",
+      "search_type": "target_company",
+      "searched_target": "Hydro Inc.",
+      "target_company": true,
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
+      "target_equipment": [
+        "pump",
+        "repair",
+        "reliability"
+      ],
+      "score": 5.3,
+      "matched_keywords": [
+        "pump",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.02"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0161,
+      "key": "Adzuna:5951007148",
+      "first_seen": "2026-11-03T22:42:40.376441+00:00",
+      "is_new": false
+    },
+    {
+      "external_id": "5951007140",
+      "company": "Hydro One Networks Inc",
+      "title": "Customer Data and Report Analyst",
+      "location": "Markham, York region",
+      "description": "52253 - Markham - Rotation - 16 Months Hiring salary range: $3,610.06 - $4,139.80 / Bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer …",
+      "url": "https://www.adzuna.ca/details/5951007140?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-02T17:47:20Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Hydro Inc.",
+      "search_type": "target_company",
+      "searched_target": "Hydro Inc.",
+      "target_company": true,
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
+      "target_equipment": [
+        "pump",
+        "repair",
+        "reliability"
+      ],
+      "score": 5.3,
+      "matched_keywords": [
+        "pump",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.01"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0145,
+      "key": "Adzuna:5951007140",
+      "first_seen": "2026-11-03T22:42:40.376441+00:00",
       "is_new": false
     },
     {
@@ -1445,9 +1482,165 @@
         "TF-IDF role 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0183,
+      "tfidf_similarity": 0.0182,
       "key": "Adzuna:5942779507",
       "first_seen": "2026-10-27T21:37:15.258434+00:00",
+      "is_new": false
+    },
+    {
+      "external_id": "5951007149",
+      "company": "Hydro One Networks Inc",
+      "title": "Helicopter Pilot",
+      "location": "Oro Station, Simcoe region",
+      "description": "52245 - Oro Station - Temporary 12 Months Hiring salary range: $6,459.64 - $7,459.14 / bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional custom…",
+      "url": "https://www.adzuna.ca/details/5951007149?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-02T17:47:20Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Hydro Inc.",
+      "search_type": "target_company",
+      "searched_target": "Hydro Inc.",
+      "target_company": true,
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
+      "target_equipment": [
+        "pump",
+        "repair",
+        "reliability"
+      ],
+      "score": 5.3,
+      "matched_keywords": [
+        "pump",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.01",
+        "TF-IDF role 0.01"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0127,
+      "key": "Adzuna:5951007149",
+      "first_seen": "2026-11-03T22:42:40.376441+00:00",
+      "is_new": false
+    },
+    {
+      "external_id": "5951007146",
+      "company": "Hydro One Networks Inc",
+      "title": "Labour Relations Manager",
+      "location": "Toronto, Ontario",
+      "description": "52248 - Toronto - Regular . Hiring Salary Range : $110,500.00-143,000.00 / year Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and en…",
+      "url": "https://www.adzuna.ca/details/5951007146?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-02T17:47:20Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Hydro Inc.",
+      "search_type": "target_company",
+      "searched_target": "Hydro Inc.",
+      "target_company": true,
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
+      "target_equipment": [
+        "pump",
+        "repair",
+        "reliability"
+      ],
+      "score": 5.3,
+      "matched_keywords": [
+        "pump",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.03"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0174,
+      "key": "Adzuna:5951007146",
+      "first_seen": "2026-11-03T22:42:40.376441+00:00",
+      "is_new": false
+    },
+    {
+      "external_id": "5951007144",
+      "company": "Hydro One Networks Inc",
+      "title": "Manager, Business Management",
+      "location": "Toronto, Ontario",
+      "description": "52258 - Toronto - Regular . Hiring Salary Range : $110,500.00-143,000.00 / year Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and en…",
+      "url": "https://www.adzuna.ca/details/5951007144?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-02T17:47:20Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Hydro Inc.",
+      "search_type": "target_company",
+      "searched_target": "Hydro Inc.",
+      "target_company": true,
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
+      "target_equipment": [
+        "pump",
+        "repair",
+        "reliability"
+      ],
+      "score": 5.3,
+      "matched_keywords": [
+        "pump",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.05"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.021,
+      "key": "Adzuna:5951007144",
+      "first_seen": "2026-11-03T22:42:40.376441+00:00",
+      "is_new": false
+    },
+    {
+      "external_id": "5951007147",
+      "company": "Hydro One Networks Inc",
+      "title": "Senior Manager Real Estate, Project Delivery",
+      "location": "Markham, York region",
+      "description": "51940 - Markham - Regular . Hiring Salary Range : $110,500.00-143,000.00 / year Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and en…",
+      "url": "https://www.adzuna.ca/details/5951007147?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-02T17:47:20Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Hydro Inc.",
+      "search_type": "target_company",
+      "searched_target": "Hydro Inc.",
+      "target_company": true,
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
+      "target_equipment": [
+        "pump",
+        "repair",
+        "reliability"
+      ],
+      "score": 5.3,
+      "matched_keywords": [
+        "pump",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.03"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0168,
+      "key": "Adzuna:5951007147",
+      "first_seen": "2026-11-03T22:42:40.376441+00:00",
       "is_new": false
     },
     {
@@ -1481,10 +1674,10 @@
         "TF-IDF x0.80",
         "Offering adjusted 3.5/5",
         "TF-IDF career 0.02",
-        "TF-IDF role 0.02"
+        "TF-IDF role 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0169,
+      "tfidf_similarity": 0.0168,
       "key": "Adzuna:5946152935",
       "first_seen": "2026-11-03T22:42:40.376441+00:00",
       "is_new": false
@@ -1523,49 +1716,9 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0316,
+      "tfidf_similarity": 0.0327,
       "key": "Adzuna:5941253751",
       "first_seen": "2026-10-25T20:09:39.153489+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5916801301",
-      "company": "John Crane",
-      "title": "CNC Machinist (Rotating Shift)",
-      "location": "Hamilton region, Ontario",
-      "description": "Job Description SUMMARY OF ESSENTIAL FUNCTIONS: The CNC Machinist will perform and record manufacturing activities consistent with those required to meet company objectives. Must be able to handle multiple concurrent tasks with fluctuating priorities. Sets up and operates CNC Milling or Turning machines to manufacture precision components. Capable of operating manual lathes and mills. Familiar with operations like drilling, tapping, threading, turning, reaming, boring, facing and other machinin…",
-      "url": "https://www.adzuna.ca/details/5916801301?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-07T06:50:16Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "John Crane",
-      "search_type": "target_company",
-      "searched_target": "John Crane",
-      "target_company": true,
-      "target_fit": 8.7,
-      "target_category": "OEM + Service",
-      "target_equipment": [
-        "mechanical seal",
-        "coupling",
-        "filtration",
-        "rotating equipment"
-      ],
-      "score": 5.2,
-      "matched_keywords": [
-        "rotating equipment",
-        "mechanical seal",
-        "manufacturing",
-        "Offering 5.0/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 4.0/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.00"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0139,
-      "key": "Adzuna:5916801301",
-      "first_seen": "2026-10-13T22:06:17.511590+00:00",
       "is_new": false
     },
     {
@@ -1602,7 +1755,7 @@
         "Offering adjusted 3.6/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0228,
+      "tfidf_similarity": 0.0224,
       "key": "Adzuna:5944506241",
       "first_seen": "2026-10-28T22:00:49.844171+00:00",
       "is_new": false
@@ -1641,7 +1794,7 @@
         "Offering adjusted 3.5/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.017,
+      "tfidf_similarity": 0.0165,
       "key": "Adzuna:5941399870",
       "first_seen": "2026-10-26T22:06:52.913851+00:00",
       "is_new": false
@@ -1652,7 +1805,7 @@
       "title": "Pressure Welder",
       "location": "Cambridge, Waterloo region",
       "description": "Job Description Job Description MDA Filtration Inc., a division of John Brooks Company Limited, is backed with over 25 years of technical and mechanical experience in pressure vessels and all other facets of filtration. MDA is certified for the manufacture of pressure vessels in accordance with ASME Boiler and Pressure Vessel Code, Section VIII, Division I, and accredited by the American Society of Mechanical Engineers for use of the U and UM stamps, and the current edition of CSA Standard B51,…",
-      "url": "https://www.adzuna.ca/land/ad/5916949138?se=Ws_mgtjX8RGtDZBIyhV77A&utm_medium=api&utm_source=6ca94df0&v=BE614ACC2D7ECA931EB5F33C30F57D041D06597F",
+      "url": "https://www.adzuna.ca/land/ad/5916949138?se=YFYXK6TY8RG908O6iWXBeQ&utm_medium=api&utm_source=6ca94df0&v=BE614ACC2D7ECA931EB5F33C30F57D041D06597F",
       "created": "2026-10-07T07:36:00Z",
       "salary_min": null,
       "salary_max": null,
@@ -1680,7 +1833,7 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0152,
+      "tfidf_similarity": 0.0154,
       "key": "Adzuna:5916949138",
       "first_seen": "2026-10-08T22:39:59.668545+00:00",
       "is_new": false
@@ -1719,7 +1872,7 @@
         "Offering adjusted 3.8/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0359,
+      "tfidf_similarity": 0.0371,
       "key": "Adzuna:5911275758",
       "first_seen": "2026-10-19T21:52:05.573836+00:00",
       "is_new": false
@@ -1758,7 +1911,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0103,
+      "tfidf_similarity": 0.0101,
       "key": "Adzuna:5944344373",
       "first_seen": "2026-10-29T22:12:55.948355+00:00",
       "is_new": false
@@ -1797,7 +1950,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0172,
+      "tfidf_similarity": 0.0171,
       "key": "Adzuna:5947821577",
       "first_seen": "2026-10-31T20:48:01.155859+00:00",
       "is_new": false
@@ -1836,7 +1989,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0195,
+      "tfidf_similarity": 0.0196,
       "key": "Adzuna:5941265248",
       "first_seen": "2026-10-26T22:06:52.913851+00:00",
       "is_new": false
@@ -1875,7 +2028,7 @@
         "TF-IDF technical 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0165,
+      "tfidf_similarity": 0.0161,
       "key": "Adzuna:5945471678",
       "first_seen": "2026-10-30T21:48:35.964416+00:00",
       "is_new": false
@@ -1914,7 +2067,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0127,
+      "tfidf_similarity": 0.0124,
       "key": "Adzuna:5944357962",
       "first_seen": "2026-10-29T22:12:55.948355+00:00",
       "is_new": false
@@ -1953,7 +2106,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0144,
+      "tfidf_similarity": 0.0149,
       "key": "Adzuna:5946726115",
       "first_seen": "2026-10-31T20:48:01.155859+00:00",
       "is_new": false
@@ -1992,7 +2145,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0121,
+      "tfidf_similarity": 0.012,
       "key": "Adzuna:5946719669",
       "first_seen": "2026-10-30T21:48:35.964416+00:00",
       "is_new": false
@@ -2031,7 +2184,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0144,
+      "tfidf_similarity": 0.0146,
       "key": "Adzuna:5941252748",
       "first_seen": "2026-10-25T20:09:39.153489+00:00",
       "is_new": false
@@ -2070,7 +2223,7 @@
         "TF-IDF technical 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.017,
+      "tfidf_similarity": 0.0166,
       "key": "Adzuna:5944338627",
       "first_seen": "2026-10-28T22:00:49.844171+00:00",
       "is_new": false
@@ -2109,7 +2262,7 @@
         "TF-IDF technical 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0168,
+      "tfidf_similarity": 0.0164,
       "key": "Adzuna:5941261405",
       "first_seen": "2026-10-25T20:09:39.153489+00:00",
       "is_new": false
@@ -2148,7 +2301,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0209,
+      "tfidf_similarity": 0.0204,
       "key": "Adzuna:5944333788",
       "first_seen": "2026-10-28T22:00:49.844171+00:00",
       "is_new": false
@@ -2187,7 +2340,7 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0301,
+      "tfidf_similarity": 0.0298,
       "key": "Adzuna:5920331459",
       "first_seen": "2026-10-09T22:01:31.849312+00:00",
       "is_new": false
@@ -2226,7 +2379,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.017,
+      "tfidf_similarity": 0.0165,
       "key": "Adzuna:5888943171",
       "first_seen": "2026-11-01T21:29:58.421730+00:00",
       "is_new": false
@@ -2265,7 +2418,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0184,
+      "tfidf_similarity": 0.0182,
       "key": "Adzuna:5903644376",
       "first_seen": "2026-09-30T21:40:53.526202+00:00",
       "is_new": false
@@ -2304,7 +2457,7 @@
         "TF-IDF career 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0255,
+      "tfidf_similarity": 0.0248,
       "key": "Adzuna:5920328818",
       "first_seen": "2026-10-09T22:01:31.849312+00:00",
       "is_new": false
@@ -2343,7 +2496,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0164,
+      "tfidf_similarity": 0.0162,
       "key": "Adzuna:5940272761",
       "first_seen": "2026-10-25T20:09:39.153489+00:00",
       "is_new": false
@@ -2384,7 +2537,7 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0124,
+      "tfidf_similarity": 0.0123,
       "key": "Adzuna:5946003607",
       "first_seen": "2026-10-29T22:12:55.948355+00:00",
       "is_new": false
@@ -2425,9 +2578,50 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0158,
+      "tfidf_similarity": 0.0156,
       "key": "Adzuna:5942779506",
       "first_seen": "2026-10-27T21:37:15.258434+00:00",
+      "is_new": false
+    },
+    {
+      "external_id": "5951007142",
+      "company": "Hydro One Networks Inc",
+      "title": "Real Estate Coordinator",
+      "location": "Markham, York region",
+      "description": "52251 - Markham - Temporary 12 months Hiring salary range: $3,610.06 - $5,508.4 / Bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer se…",
+      "url": "https://www.adzuna.ca/details/5951007142?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-02T17:47:20Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Hydro Inc.",
+      "search_type": "target_company",
+      "searched_target": "Hydro Inc.",
+      "target_company": true,
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
+      "target_equipment": [
+        "pump",
+        "repair",
+        "reliability"
+      ],
+      "score": 4.7,
+      "matched_keywords": [
+        "pump",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.01"
+      ],
+      "negative_keywords": [
+        "coordinator"
+      ],
+      "tfidf_similarity": 0.0142,
+      "key": "Adzuna:5951007142",
+      "first_seen": "2026-11-03T22:42:40.376441+00:00",
       "is_new": false
     },
     {
@@ -2466,7 +2660,7 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0135,
+      "tfidf_similarity": 0.0133,
       "key": "Adzuna:5944775034",
       "first_seen": "2026-10-28T22:00:49.844171+00:00",
       "is_new": false
@@ -2504,7 +2698,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0054,
+      "tfidf_similarity": 0.0055,
       "key": "Adzuna:5946008604",
       "first_seen": "2026-10-29T22:12:55.948355+00:00",
       "is_new": false
@@ -2580,7 +2774,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.008,
+      "tfidf_similarity": 0.0079,
       "key": "Adzuna:5947005193",
       "first_seen": "2026-10-31T20:48:01.155859+00:00",
       "is_new": false
@@ -2618,7 +2812,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0029,
+      "tfidf_similarity": 0.0028,
       "key": "Adzuna:5946781961",
       "first_seen": "2026-10-31T20:48:01.155859+00:00",
       "is_new": false
@@ -2656,47 +2850,9 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0029,
+      "tfidf_similarity": 0.0028,
       "key": "Adzuna:5946698128",
       "first_seen": "2026-10-30T21:48:35.964416+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5912495686",
-      "company": "Armstrong Fluid Technology",
-      "title": "OEM Engineer (HVAC Modular Performance Systems)",
-      "location": "Toronto, Ontario",
-      "description": "Job Description Job Description Imagine working at the forefront of innovation in fluid-flow technology, with over 1400 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. As a member of our team, you'll dive …",
-      "url": "https://www.adzuna.ca/details/5912495686?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-05T08:27:16Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "pump sales",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "OEM",
-      "target_equipment": [
-        "pump",
-        "fluid systems"
-      ],
-      "score": 4.6,
-      "matched_keywords": [
-        "pump",
-        "manufacturing",
-        "Offering 4.3/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.4/5",
-        "TF-IDF career 0.00",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.00"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.003,
-      "key": "Adzuna:5912495686",
-      "first_seen": "2026-10-06T22:02:05.766221+00:00",
       "is_new": false
     },
     {
@@ -2770,7 +2926,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0048,
+      "tfidf_similarity": 0.0049,
       "key": "Adzuna:5946007335",
       "first_seen": "2026-10-29T22:12:55.948355+00:00",
       "is_new": false
@@ -2808,7 +2964,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0068,
+      "tfidf_similarity": 0.0069,
       "key": "Adzuna:5946002613",
       "first_seen": "2026-10-29T22:12:55.948355+00:00",
       "is_new": false
@@ -2846,7 +3002,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0071,
+      "tfidf_similarity": 0.0072,
       "key": "Adzuna:5946007877",
       "first_seen": "2026-10-29T22:12:55.948355+00:00",
       "is_new": false
@@ -2922,7 +3078,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.008,
+      "tfidf_similarity": 0.0079,
       "key": "Adzuna:5945704789",
       "first_seen": "2026-10-30T21:48:35.964416+00:00",
       "is_new": false
@@ -3004,44 +3160,6 @@
       "is_new": false
     },
     {
-      "external_id": "5945995662",
-      "company": "Armstrong Fluid Technology",
-      "title": "Senior ERP LN Technical Analyst Programmer",
-      "location": "Toronto, Ontario",
-      "description": "Imagine working at the forefront of innovation in fluid-flow technology, with over 1,400 colleagues across the globe, and contributing to a legacy of excellence that spans eight manufacturing facilities on four continents. Armstrong Fluid Technology is more than just a leader in our industry; we are a community of the brightest and most creative minds, driven by a shared mission to engineer the future and safeguard our planet. As part of our team, you'll be immersed in an environment that foste…",
-      "url": "https://www.adzuna.ca/details/5945995662?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-29T13:41:47Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Armstrong Fluid Technology",
-      "search_type": "target_company",
-      "searched_target": "Armstrong Fluid Technology",
-      "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "OEM",
-      "target_equipment": [
-        "pump",
-        "fluid systems"
-      ],
-      "score": 4.6,
-      "matched_keywords": [
-        "pump",
-        "manufacturing",
-        "Offering 4.3/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.4/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.01",
-        "TF-IDF technical 0.00"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.006,
-      "key": "Adzuna:5945995662",
-      "first_seen": "2026-10-30T21:48:35.964416+00:00",
-      "is_new": false
-    },
-    {
       "external_id": "5947007015",
       "company": "Armstrong Fluid Technology",
       "title": "Senior Electrical Engineer",
@@ -3112,7 +3230,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0029,
+      "tfidf_similarity": 0.0028,
       "key": "Adzuna:5948276775",
       "first_seen": "2026-10-31T20:48:01.155859+00:00",
       "is_new": false
@@ -3150,7 +3268,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0029,
+      "tfidf_similarity": 0.0028,
       "key": "Adzuna:5946721176",
       "first_seen": "2026-10-30T21:48:35.964416+00:00",
       "is_new": false
@@ -3188,7 +3306,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0042,
+      "tfidf_similarity": 0.0044,
       "key": "Adzuna:5923235729",
       "first_seen": "2026-10-12T23:57:59.058629+00:00",
       "is_new": false
@@ -3228,7 +3346,7 @@
         "TF-IDF career 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0199,
+      "tfidf_similarity": 0.0202,
       "key": "Adzuna:5885782992",
       "first_seen": "2026-10-25T20:09:39.153489+00:00",
       "is_new": false
@@ -3265,7 +3383,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0157,
+      "tfidf_similarity": 0.0164,
       "key": "Adzuna:5882341236",
       "first_seen": "2026-10-13T22:06:17.511590+00:00",
       "is_new": false
@@ -3339,10 +3457,10 @@
         "Offering 5.0/5",
         "TF-IDF x0.80",
         "Offering adjusted 4.0/5",
-        "TF-IDF career 0.01"
+        "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0246,
+      "tfidf_similarity": 0.0258,
       "key": "Adzuna:5819852413",
       "first_seen": "2026-09-14T21:11:51.086403+00:00",
       "is_new": false
@@ -3382,7 +3500,7 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.014,
+      "tfidf_similarity": 0.0135,
       "key": "Adzuna:5750933900",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
@@ -3423,7 +3541,7 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0212,
+      "tfidf_similarity": 0.0204,
       "key": "Adzuna:5946999704",
       "first_seen": "2026-10-30T21:48:35.964416+00:00",
       "is_new": false
@@ -3463,7 +3581,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.038,
+      "tfidf_similarity": 0.0378,
       "key": "Adzuna:5936661059",
       "first_seen": "2026-10-21T21:03:04.544340+00:00",
       "is_new": false
@@ -3504,7 +3622,7 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0123,
+      "tfidf_similarity": 0.0124,
       "key": "Adzuna:5942110449",
       "first_seen": "2026-10-26T22:06:52.913851+00:00",
       "is_new": false
@@ -3545,7 +3663,7 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0235,
+      "tfidf_similarity": 0.024,
       "key": "Adzuna:5946701521",
       "first_seen": "2026-10-31T20:48:01.155859+00:00",
       "is_new": false
@@ -3584,7 +3702,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0188,
+      "tfidf_similarity": 0.0192,
       "key": "Adzuna:5943344004",
       "first_seen": "2026-10-27T21:37:15.258434+00:00",
       "is_new": false
@@ -3623,126 +3741,9 @@
         "TF-IDF role 0.06"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.031,
+      "tfidf_similarity": 0.032,
       "key": "Adzuna:5934057366",
       "first_seen": "2026-10-20T21:00:42.430134+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5909719911",
-      "company": "Lakeside Process Controls",
-      "title": "Project Engineer, Intermediate",
-      "location": "Mississauga, Peel region",
-      "description": "What you will be doing in the role of Project Engineer, Intermediate: As a Senior Project Engineer, you will bring advanced technical expertise and independent judgment to complex engineering challenges. You will lead technical execution within your area of specialization, while mentoring team members and ensuring high-quality project delivery. Working closely with customers and internal teams, you will be responsible for delivering practical, efficient, and technically sound solutions across a…",
-      "url": "https://www.adzuna.ca/details/5909719911?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-03T04:52:37Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Lakeside Process Controls",
-      "search_type": "target_company",
-      "searched_target": "Lakeside Process Controls",
-      "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "Reliability + Automation",
-      "target_equipment": [
-        "condition monitoring",
-        "vibration",
-        "asset reliability"
-      ],
-      "score": 4.2,
-      "matched_keywords": [
-        "condition monitoring",
-        "vibration",
-        "reliability",
-        "Offering 4.7/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.8/5",
-        "TF-IDF career 0.03",
-        "TF-IDF role 0.03"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0274,
-      "key": "Adzuna:5909719911",
-      "first_seen": "2026-10-19T21:52:05.573836+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5934059452",
-      "company": "Lakeside Process Controls",
-      "title": "Project Engineer, Senior",
-      "location": "Sarnia, Lake Hurron",
-      "description": "What you will be doing in the role of Project Engineer, Senior: As a Senior Project Engineer, you will bring advanced technical expertise and independent judgment to complex engineering challenges. You will lead technical execution within your area of specialization, while mentoring team members and ensuring high-quality project delivery. Working closely with customers and internal teams, you will be responsible for delivering practical, efficient, and technically sound solutions across a varie…",
-      "url": "https://www.adzuna.ca/details/5934059452?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-19T04:58:35Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Lakeside Process Controls",
-      "search_type": "target_company",
-      "searched_target": "Lakeside Process Controls",
-      "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "Reliability + Automation",
-      "target_equipment": [
-        "condition monitoring",
-        "vibration",
-        "asset reliability"
-      ],
-      "score": 4.2,
-      "matched_keywords": [
-        "condition monitoring",
-        "vibration",
-        "reliability",
-        "Offering 4.7/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.8/5",
-        "TF-IDF career 0.03",
-        "TF-IDF role 0.03"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0275,
-      "key": "Adzuna:5934059452",
-      "first_seen": "2026-10-19T21:52:05.573836+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5870278930",
-      "company": "Lakeside Process Controls",
-      "title": "Project Engineer, Senior",
-      "location": "Mississauga, Peel region",
-      "description": "What you will be doing in the role of Project Engineer, Senior: As a Senior Project Engineer, you will bring advanced technical expertise and independent judgment to complex engineering challenges. You will lead technical execution within your area of specialization, while mentoring team members and ensuring high-quality project delivery. Working closely with customers and internal teams, you will be responsible for delivering practical, efficient, and technically sound solutions across a varie…",
-      "url": "https://www.adzuna.ca/details/5870278930?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-09-04T04:50:51Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Lakeside Process Controls",
-      "search_type": "target_company",
-      "searched_target": "Lakeside Process Controls",
-      "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "Reliability + Automation",
-      "target_equipment": [
-        "condition monitoring",
-        "vibration",
-        "asset reliability"
-      ],
-      "score": 4.2,
-      "matched_keywords": [
-        "condition monitoring",
-        "vibration",
-        "reliability",
-        "Offering 4.7/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.8/5",
-        "TF-IDF career 0.03",
-        "TF-IDF role 0.03"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0275,
-      "key": "Adzuna:5870278930",
-      "first_seen": "2026-10-19T21:52:05.573836+00:00",
       "is_new": false
     },
     {
@@ -3779,7 +3780,7 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0277,
+      "tfidf_similarity": 0.029,
       "key": "Adzuna:5909710466",
       "first_seen": "2026-10-19T21:52:05.573836+00:00",
       "is_new": false
@@ -3818,7 +3819,7 @@
         "TF-IDF role 0.04"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0329,
+      "tfidf_similarity": 0.0347,
       "key": "Adzuna:5871697476",
       "first_seen": "2026-10-19T21:52:05.573836+00:00",
       "is_new": false
@@ -3852,11 +3853,11 @@
         "TF-IDF x0.80",
         "Offering adjusted 3.5/5",
         "TF-IDF career 0.01",
-        "TF-IDF role 0.01",
+        "TF-IDF role 0.02",
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0083,
+      "tfidf_similarity": 0.0085,
       "key": "Adzuna:5775819698",
       "first_seen": "2026-10-24T19:59:15.747114+00:00",
       "is_new": false
@@ -3894,7 +3895,7 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0078,
+      "tfidf_similarity": 0.0076,
       "key": "Adzuna:5944215687",
       "first_seen": "2026-10-29T22:12:55.948355+00:00",
       "is_new": false
@@ -3932,7 +3933,7 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0045,
+      "tfidf_similarity": 0.0044,
       "key": "Adzuna:5927194693",
       "first_seen": "2026-10-14T21:07:04.349508+00:00",
       "is_new": false
@@ -3970,7 +3971,7 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0026,
+      "tfidf_similarity": 0.0024,
       "key": "Adzuna:5920330038",
       "first_seen": "2026-10-13T22:06:17.511590+00:00",
       "is_new": false
@@ -4011,7 +4012,7 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0263,
+      "tfidf_similarity": 0.0274,
       "key": "Adzuna:5930289939",
       "first_seen": "2026-10-16T20:16:32.679927+00:00",
       "is_new": false
@@ -4022,7 +4023,7 @@
       "title": "Outside Sales Representative - Sanitary Pumps, Valves and Hose Assemblies",
       "location": "Vaughan, York region",
       "description": "Job Description Job Description Our client is hiring an Outside Sales Representative to sell sanitary pumps, valves and hose assemblies to pharmaceutical and food and beverage manufacturing sites, mostly in the GTA. Hose assemblies are a major product line. Your sales focus is approximately 50% account management and 50% new business. Leads come from your own prospecting and cold calling, plus leads supplied by the company. Customers are pharmaceutical manufacturing sites (the majority) and foo…",
-      "url": "https://www.adzuna.ca/land/ad/5939201633?se=tjiU6NfX8RGznNwYNfa7_Q&utm_medium=api&utm_source=6ca94df0&v=CE55E26B20514438327A849965267E3C7016228A",
+      "url": "https://www.adzuna.ca/details/5939201633?utm_medium=api&utm_source=6ca94df0",
       "created": "2026-10-23T07:32:08Z",
       "salary_min": 80000,
       "salary_max": 100000,
@@ -4046,7 +4047,7 @@
         "new business"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0292,
+      "tfidf_similarity": 0.0295,
       "key": "Adzuna:5939201633",
       "first_seen": "2026-10-23T20:49:05.067098+00:00",
       "is_new": false
@@ -4081,7 +4082,7 @@
         "Offering 4.6/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0281,
+      "tfidf_similarity": 0.027,
       "key": "Adzuna:5854253838",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
       "is_new": false
@@ -4116,44 +4117,9 @@
         "manufacturing"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0266,
+      "tfidf_similarity": 0.0269,
       "key": "Adzuna:5785918357",
       "first_seen": "2026-09-15T20:39:48.087126+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5936498938",
-      "company": "KSB",
-      "title": "Area Sales Manager - Water & Wastewater - Ontario",
-      "location": "Mississauga, Peel region",
-      "description": "KSB is a leading supplier of pumps, valves and related service. Our reliable, high-efficiency products are used in applications wherever fluids need to be transported or shut off, covering everything from building services,industry and water transport to waste water treatment, power plant processes and mining. Founded in 1871 in Frankenthal, Germany, the company has a presence on all continents with its own sales and marketing organisations and manufacturing facilities. Around the globe, more t…",
-      "url": "https://www.adzuna.ca/details/5936498938?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-21T04:53:46Z",
-      "salary_min": 100000,
-      "salary_max": 120000,
-      "source": "Adzuna",
-      "search_query": "aftermarket sales",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": false,
-      "target_fit": null,
-      "target_category": "",
-      "target_equipment": [],
-      "score": 6.3,
-      "matched_keywords": [
-        "area sales",
-        "sales manager",
-        "pump",
-        "pumps",
-        "valve",
-        "valves",
-        "mining",
-        "manufacturing"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0255,
-      "key": "Adzuna:5936498938",
-      "first_seen": "2026-10-21T21:03:04.544340+00:00",
       "is_new": false
     },
     {
@@ -4186,7 +4152,7 @@
         "Offering 4.3/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.031,
+      "tfidf_similarity": 0.0315,
       "key": "Adzuna:5935395995",
       "first_seen": "2026-10-21T21:03:04.544340+00:00",
       "is_new": false
