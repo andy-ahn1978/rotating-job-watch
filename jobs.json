@@ -1,78 +1,240 @@
 {
-  "last_checked": "2026-11-24T03:37:55.500016+00:00",
+  "last_checked": "2026-11-25T01:45:13.539044+00:00",
   "jobs": [
     {
-      "external_id": "5976091937",
-      "company": "Schaeffler",
-      "title": "Sales Profess.",
-      "location": "Chatham-Kent, Ontario",
-      "description": "Schaeffler is a dynamic global technology company and its success has been a result of its entrepreneurial spirit and long history of private ownership. Does that sound interesting to you? As a partner to all of the major automobile manufacturers, as well as key players in the aerospace and industrial sectors, we offer you many development opportunities. Your Key Responsibilities Sales growth as per Product Line targets, lead negotiations of pricing / claims, lead customer satisfaction metrics,…",
-      "url": "https://www.adzuna.ca/details/5976091937?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-11-23T07:47:55Z",
+      "external_id": "5976552664",
+      "company": "Hydro One Networks Inc",
+      "title": "Aircraft Maintenance Engineer (M and E)",
+      "location": "Oro Station, Simcoe region",
+      "description": "52285 - Oro Station - Temporary 12 Months Hiring salary range: $4,852.70 - $5,140.60 / bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional custom…",
+      "url": "https://www.adzuna.ca/details/5976552664?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-23T19:43:15Z",
       "salary_min": null,
       "salary_max": null,
       "source": "Adzuna",
-      "search_query": "Schaeffler",
+      "search_query": "Hydro Inc.",
       "search_type": "target_company",
-      "searched_target": "Schaeffler",
+      "searched_target": "Hydro Inc.",
       "target_company": true,
-      "target_fit": 8.5,
-      "target_category": "OEM + Reliability",
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
       "target_equipment": [
-        "bearing",
-        "condition monitoring",
-        "rotating equipment"
+        "pump",
+        "repair",
+        "reliability"
       ],
-      "score": 5.1,
+      "score": 5.3,
       "matched_keywords": [
-        "rotating equipment",
-        "condition monitoring",
+        "pump",
         "reliability",
-        "bearing",
-        "industrial",
-        "Offering 5.0/5",
+        "aftermarket",
+        "maintenance",
+        "Offering 4.4/5",
         "TF-IDF x0.80",
-        "Offering adjusted 4.0/5"
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.029,
-      "key": "Adzuna:5976091937",
-      "first_seen": "2026-11-24T03:37:55.500016+00:00",
+      "tfidf_similarity": 0.0215,
+      "key": "Adzuna:5976552664",
+      "first_seen": "2026-11-25T01:45:13.539044+00:00",
       "is_new": true
     },
     {
-      "external_id": "5975114008",
-      "company": "Just Sales Jobs",
-      "title": "Outside Sales Representative - Sanitary Pumps, Valves and Hose Assemblies",
-      "location": "Vaughan, York region",
-      "description": "Job Description Job Description \\n Our client is hiring an Outside Sales Representative to sell sanitary pumps, valves and hose assemblies to pharmaceutical and food and beverage manufacturing sites, mostly in the GTA. Hose assemblies are a major product line. Your sales focus is approximately 50% account management and 50% new business. Leads come from your own prospecting and cold calling, plus leads supplied by the company. Customers are pharmaceutical manufacturing sites (the majority) and …",
-      "url": "https://www.adzuna.ca/details/5975114008?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-11-22T08:45:11Z",
-      "salary_min": 80000,
-      "salary_max": 100000,
+      "external_id": "5976552675",
+      "company": "Hydro One Networks Inc",
+      "title": "Project Analyst, Real Estate Capital Delivery",
+      "location": "Markham, York region",
+      "description": "52304 - Markham - Regular . Hiring salary range: $3,850.32 - $5,170.44 / Bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and…",
+      "url": "https://www.adzuna.ca/details/5976552675?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-23T19:43:15Z",
+      "salary_min": null,
+      "salary_max": null,
       "source": "Adzuna",
-      "search_query": "pump sales",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": false,
-      "target_fit": null,
-      "target_category": "",
-      "target_equipment": [],
-      "score": 7.1,
-      "matched_keywords": [
-        "outside sales",
-        "sales representative",
+      "search_query": "Hydro Inc.",
+      "search_type": "target_company",
+      "searched_target": "Hydro Inc.",
+      "target_company": true,
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
+      "target_equipment": [
         "pump",
-        "pumps",
-        "valve",
-        "valves",
-        "prospecting",
-        "new business"
+        "repair",
+        "reliability"
+      ],
+      "score": 5.3,
+      "matched_keywords": [
+        "pump",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.026,
-      "key": "Adzuna:5975114008",
-      "first_seen": "2026-11-24T03:37:55.500016+00:00",
+      "tfidf_similarity": 0.0137,
+      "key": "Adzuna:5976552675",
+      "first_seen": "2026-11-25T01:45:13.539044+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5976552668",
+      "company": "Hydro One Networks Inc",
+      "title": "Pwr Equipt Comp Refinisher-JP",
+      "location": "Pickering, Durham region",
+      "description": "52298 - Pickering - Regular Hiring salary range: $31.76 - $52.95 / hourly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and ensuring…",
+      "url": "https://www.adzuna.ca/details/5976552668?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-23T19:43:15Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Hydro Inc.",
+      "search_type": "target_company",
+      "searched_target": "Hydro Inc.",
+      "target_company": true,
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
+      "target_equipment": [
+        "pump",
+        "repair",
+        "reliability"
+      ],
+      "score": 5.3,
+      "matched_keywords": [
+        "pump",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.01"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0137,
+      "key": "Adzuna:5976552668",
+      "first_seen": "2026-11-25T01:45:13.539044+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5976552678",
+      "company": "Hydro One Networks Inc",
+      "title": "Sr. Financial Advisor",
+      "location": "Toronto, Ontario",
+      "description": "52307 - Toronto - Regular Not Applicable/Optional Hiring Salary Range : $89,250.00-115,500.00 / year Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional cu…",
+      "url": "https://www.adzuna.ca/details/5976552678?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-23T19:43:15Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Hydro Inc.",
+      "search_type": "target_company",
+      "searched_target": "Hydro Inc.",
+      "target_company": true,
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
+      "target_equipment": [
+        "pump",
+        "repair",
+        "reliability"
+      ],
+      "score": 5.3,
+      "matched_keywords": [
+        "pump",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.01",
+        "TF-IDF role 0.01"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0125,
+      "key": "Adzuna:5976552678",
+      "first_seen": "2026-11-25T01:45:13.539044+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5976552674",
+      "company": "Hydro One Networks Inc",
+      "title": "Transmission System Operator Trainee",
+      "location": "Orillia, Simcoe region",
+      "description": "52301 - Orillia - Regular . Hiring salary range: $33.60 - $49.12 / hourly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and ensuring…",
+      "url": "https://www.adzuna.ca/details/5976552674?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-23T19:43:15Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Hydro Inc.",
+      "search_type": "target_company",
+      "searched_target": "Hydro Inc.",
+      "target_company": true,
+      "target_fit": 9.1,
+      "target_category": "Pump Aftermarket / Service",
+      "target_equipment": [
+        "pump",
+        "repair",
+        "reliability"
+      ],
+      "score": 5.3,
+      "matched_keywords": [
+        "pump",
+        "reliability",
+        "aftermarket",
+        "Offering 4.4/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 3.5/5",
+        "TF-IDF career 0.02",
+        "TF-IDF role 0.01"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0143,
+      "key": "Adzuna:5976552674",
+      "first_seen": "2026-11-25T01:45:13.539044+00:00",
+      "is_new": true
+    },
+    {
+      "external_id": "5977372993",
+      "company": "Air Canada Ltd.",
+      "title": "Digital Loyalty Product Owner",
+      "location": "Toronto, Ontario",
+      "description": "Belonging to Air Canada is belonging to a Canadian symbol, Air Canada recently voted best airline in North America. Take your career to new heights by joining our innovative and diverse team at the forefront of passenger air transport. The incumbent for the Digital Loyalty Product Owner position is responsible for the delivery and continuous improvement of a defined portfolio of digital experiences related to Aeroplan and loyalty. Within a permanent cross-functional Product team, the incumbent …",
+      "url": "https://www.adzuna.ca/details/5977372993?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-24T12:28:26Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "reliability",
+      "search_type": "keyword",
+      "searched_target": null,
+      "target_company": true,
+      "target_fit": 9.3,
+      "target_category": "Compressed Air / Blower Sales & Service",
+      "target_equipment": [
+        "compressor",
+        "blower",
+        "compressed air",
+        "service",
+        "air audit"
+      ],
+      "score": 4.6,
+      "matched_keywords": [
+        "compressor",
+        "compressed air",
+        "blower",
+        "Offering 5.0/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 4.0/5",
+        "TF-IDF career 0.01",
+        "TF-IDF role 0.03"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0336,
+      "key": "Adzuna:5977372993",
+      "first_seen": "2026-11-25T01:45:13.539044+00:00",
       "is_new": true
     },
     {
@@ -110,7 +272,7 @@
         "Offering 5.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0629,
+      "tfidf_similarity": 0.0631,
       "key": "Adzuna:5832067424",
       "first_seen": "2026-11-20T00:01:57.781602+00:00",
       "is_new": false
@@ -149,7 +311,7 @@
         "industrial service"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0306,
+      "tfidf_similarity": 0.0309,
       "key": "Adzuna:5944360131",
       "first_seen": "2026-10-29T22:12:55.948355+00:00",
       "is_new": false
@@ -190,7 +352,7 @@
         "mro"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0255,
+      "tfidf_similarity": 0.0261,
       "key": "Adzuna:5970271959",
       "first_seen": "2026-11-18T23:42:50.352934+00:00",
       "is_new": false
@@ -351,7 +513,7 @@
         "Offering adjusted 4.2/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0531,
+      "tfidf_similarity": 0.0515,
       "key": "Adzuna:5963224513",
       "first_seen": "2026-11-20T23:29:54.860881+00:00",
       "is_new": false
@@ -389,7 +551,7 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0151,
+      "tfidf_similarity": 0.0156,
       "key": "Adzuna:5885845311",
       "first_seen": "2026-11-17T01:18:32.749895+00:00",
       "is_new": false
@@ -429,7 +591,7 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.034,
+      "tfidf_similarity": 0.0345,
       "key": "Adzuna:5971721699",
       "first_seen": "2026-11-20T23:29:54.860881+00:00",
       "is_new": false
@@ -468,7 +630,7 @@
         "distributor"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0331,
+      "tfidf_similarity": 0.0334,
       "key": "Adzuna:5539679612",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
       "is_new": false
@@ -546,7 +708,7 @@
         "Offering 4.7/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0446,
+      "tfidf_similarity": 0.0445,
       "key": "Adzuna:5962886042",
       "first_seen": "2026-11-13T23:01:55.584936+00:00",
       "is_new": false
@@ -585,7 +747,7 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0263,
+      "tfidf_similarity": 0.0265,
       "key": "Adzuna:5948986529",
       "first_seen": "2026-11-01T21:29:58.421730+00:00",
       "is_new": false
@@ -624,7 +786,7 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0286,
+      "tfidf_similarity": 0.0287,
       "key": "Adzuna:5930275325",
       "first_seen": "2026-10-17T19:52:23.309893+00:00",
       "is_new": false
@@ -663,7 +825,7 @@
         "TF-IDF x0.85"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0445,
+      "tfidf_similarity": 0.0447,
       "key": "Adzuna:5934060262",
       "first_seen": "2026-10-19T21:52:05.573836+00:00",
       "is_new": false
@@ -702,7 +864,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0217,
+      "tfidf_similarity": 0.022,
       "key": "Adzuna:5970104109",
       "first_seen": "2026-11-20T00:01:57.781602+00:00",
       "is_new": false
@@ -742,7 +904,7 @@
         "Offering 5.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0477,
+      "tfidf_similarity": 0.0464,
       "key": "Adzuna:5952912318",
       "first_seen": "2026-11-10T22:39:53.186284+00:00",
       "is_new": false
@@ -779,7 +941,7 @@
         "Offering adjusted 3.4/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0337,
+      "tfidf_similarity": 0.0327,
       "key": "Adzuna:5953986800",
       "first_seen": "2026-11-06T22:32:18.336523+00:00",
       "is_new": false
@@ -818,7 +980,7 @@
         "Offering 4.5/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0284,
+      "tfidf_similarity": 0.0282,
       "key": "Adzuna:5959468193",
       "first_seen": "2026-11-10T00:59:15.728933+00:00",
       "is_new": false
@@ -857,7 +1019,7 @@
         "TF-IDF role 0.06"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0205,
+      "tfidf_similarity": 0.0208,
       "key": "Adzuna:5973938182",
       "first_seen": "2026-11-22T22:58:55.729144+00:00",
       "is_new": false
@@ -891,11 +1053,11 @@
         "TF-IDF x0.80",
         "Offering adjusted 3.4/5",
         "TF-IDF career 0.01",
-        "TF-IDF role 0.06",
+        "TF-IDF role 0.05",
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0125,
+      "tfidf_similarity": 0.0124,
       "key": "Adzuna:5823490937",
       "first_seen": "2026-10-13T22:06:17.511590+00:00",
       "is_new": false
@@ -929,11 +1091,11 @@
         "TF-IDF x0.80",
         "Offering adjusted 3.4/5",
         "TF-IDF career 0.01",
-        "TF-IDF role 0.06",
+        "TF-IDF role 0.05",
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0125,
+      "tfidf_similarity": 0.0124,
       "key": "Adzuna:5822089738",
       "first_seen": "2026-10-13T22:06:17.511590+00:00",
       "is_new": false
@@ -971,7 +1133,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0156,
+      "tfidf_similarity": 0.0154,
       "key": "Adzuna:5970381012",
       "first_seen": "2026-11-20T00:01:57.781602+00:00",
       "is_new": false
@@ -1008,7 +1170,7 @@
         "TF-IDF role 0.16"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0274,
+      "tfidf_similarity": 0.0273,
       "key": "Adzuna:5931826350",
       "first_seen": "2026-11-13T23:01:55.584936+00:00",
       "is_new": false
@@ -1049,7 +1211,7 @@
         "Offering 4.7/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0214,
+      "tfidf_similarity": 0.0218,
       "key": "Adzuna:5974049666",
       "first_seen": "2026-11-21T22:36:53.501602+00:00",
       "is_new": false
@@ -1087,7 +1249,7 @@
         "TF-IDF role 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0144,
+      "tfidf_similarity": 0.0143,
       "key": "Adzuna:5971467858",
       "first_seen": "2026-11-20T23:29:54.860881+00:00",
       "is_new": false
@@ -1163,7 +1325,7 @@
         "TF-IDF role 0.04"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0138,
+      "tfidf_similarity": 0.0137,
       "key": "Adzuna:5972980522",
       "first_seen": "2026-11-21T22:36:53.501602+00:00",
       "is_new": false
@@ -1202,7 +1364,7 @@
         "TF-IDF role 0.04"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0209,
+      "tfidf_similarity": 0.0213,
       "key": "Adzuna:5973939330",
       "first_seen": "2026-11-21T22:36:53.501602+00:00",
       "is_new": false
@@ -1241,7 +1403,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0211,
+      "tfidf_similarity": 0.0213,
       "key": "Adzuna:5971448777",
       "first_seen": "2026-11-20T00:01:57.781602+00:00",
       "is_new": false
@@ -1280,7 +1442,7 @@
         "TF-IDF role 0.05"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.024,
+      "tfidf_similarity": 0.0242,
       "key": "Adzuna:5970109895",
       "first_seen": "2026-11-18T23:42:50.352934+00:00",
       "is_new": false
@@ -1319,7 +1481,7 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0279,
+      "tfidf_similarity": 0.0281,
       "key": "Adzuna:5974895149",
       "first_seen": "2026-11-22T22:58:55.729144+00:00",
       "is_new": false
@@ -1358,7 +1520,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0178,
+      "tfidf_similarity": 0.0181,
       "key": "Adzuna:5954049356",
       "first_seen": "2026-11-05T23:02:15.831442+00:00",
       "is_new": false
@@ -1397,7 +1559,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0189,
+      "tfidf_similarity": 0.0191,
       "key": "Adzuna:5954052645",
       "first_seen": "2026-11-06T22:32:18.336523+00:00",
       "is_new": false
@@ -1436,7 +1598,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0342,
+      "tfidf_similarity": 0.034,
       "key": "Adzuna:5940272002",
       "first_seen": "2026-10-24T19:59:15.747114+00:00",
       "is_new": false
@@ -1477,7 +1639,7 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0276,
+      "tfidf_similarity": 0.0274,
       "key": "Adzuna:5947849102",
       "first_seen": "2026-11-21T22:36:53.501602+00:00",
       "is_new": false
@@ -1516,7 +1678,7 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.015,
+      "tfidf_similarity": 0.0148,
       "key": "Adzuna:5951007143",
       "first_seen": "2026-11-20T00:01:57.781602+00:00",
       "is_new": false
@@ -1555,7 +1717,7 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0126,
+      "tfidf_similarity": 0.0122,
       "key": "Adzuna:5952179060",
       "first_seen": "2026-11-18T00:13:50.358049+00:00",
       "is_new": false
@@ -1594,7 +1756,7 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0146,
+      "tfidf_similarity": 0.0142,
       "key": "Adzuna:5963761197",
       "first_seen": "2026-11-13T23:01:55.584936+00:00",
       "is_new": false
@@ -1633,48 +1795,9 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0124,
+      "tfidf_similarity": 0.0122,
       "key": "Adzuna:5951007149",
       "first_seen": "2026-11-18T23:42:50.352934+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5959619391",
-      "company": "Hydro One Networks Inc",
-      "title": "Land Use Agent",
-      "location": "Markham, York region",
-      "description": "52264 - Markham - Regular . Hiring salary range: $4,722.44 - $5,023.89 / bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and…",
-      "url": "https://www.adzuna.ca/details/5959619391?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-11-09T19:33:42Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Hydro Inc.",
-      "search_type": "target_company",
-      "searched_target": "Hydro Inc.",
-      "target_company": true,
-      "target_fit": 9.1,
-      "target_category": "Pump Aftermarket / Service",
-      "target_equipment": [
-        "pump",
-        "repair",
-        "reliability"
-      ],
-      "score": 5.3,
-      "matched_keywords": [
-        "pump",
-        "reliability",
-        "aftermarket",
-        "Offering 4.4/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.5/5",
-        "TF-IDF career 0.02",
-        "TF-IDF role 0.01"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0146,
-      "key": "Adzuna:5959619391",
-      "first_seen": "2026-11-10T22:39:53.186284+00:00",
       "is_new": false
     },
     {
@@ -1711,7 +1834,7 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0161,
+      "tfidf_similarity": 0.0159,
       "key": "Adzuna:5968348609",
       "first_seen": "2026-11-18T00:13:50.358049+00:00",
       "is_new": false
@@ -1750,48 +1873,9 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0146,
+      "tfidf_similarity": 0.0144,
       "key": "Adzuna:5968348606",
       "first_seen": "2026-11-18T00:13:50.358049+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5959619393",
-      "company": "Hydro One Networks Inc",
-      "title": "Service Management Analyst",
-      "location": "Toronto, Ontario",
-      "description": "52269 - Rexdale - Regular . Hiring salary range: $3,610.06 - $5,157.24 / Bi-weekly Hydro One is proud to be the largest electricity transmission and distribution provider in Ontario, serving nearly 1.5 million customers. We have a long history in the industry with our roots dating back over 110 years to 1906. Since then, we have worked to grow and evolve to meet the changing needs of our customers and communities across Ontario. Today, we’re focused on providing exceptional customer service and…",
-      "url": "https://www.adzuna.ca/details/5959619393?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-11-09T19:33:42Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "Hydro Inc.",
-      "search_type": "target_company",
-      "searched_target": "Hydro Inc.",
-      "target_company": true,
-      "target_fit": 9.1,
-      "target_category": "Pump Aftermarket / Service",
-      "target_equipment": [
-        "pump",
-        "repair",
-        "reliability"
-      ],
-      "score": 5.3,
-      "matched_keywords": [
-        "pump",
-        "reliability",
-        "aftermarket",
-        "Offering 4.4/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.5/5",
-        "TF-IDF career 0.02",
-        "TF-IDF role 0.01"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0152,
-      "key": "Adzuna:5959619393",
-      "first_seen": "2026-11-10T22:39:53.186284+00:00",
       "is_new": false
     },
     {
@@ -1828,7 +1912,7 @@
         "TF-IDF role 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0136,
+      "tfidf_similarity": 0.0134,
       "key": "Adzuna:5968348604",
       "first_seen": "2026-11-18T00:13:50.358049+00:00",
       "is_new": false
@@ -1868,7 +1952,7 @@
         "TF-IDF role 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0128,
+      "tfidf_similarity": 0.0131,
       "key": "Adzuna:5970902927",
       "first_seen": "2026-11-20T00:01:57.781602+00:00",
       "is_new": false
@@ -1907,7 +1991,7 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0387,
+      "tfidf_similarity": 0.0385,
       "key": "Adzuna:5971470520",
       "first_seen": "2026-11-20T00:01:57.781602+00:00",
       "is_new": false
@@ -1946,7 +2030,7 @@
         "Offering adjusted 3.8/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0289,
+      "tfidf_similarity": 0.0287,
       "key": "Adzuna:5955457656",
       "first_seen": "2026-11-07T21:14:14.117192+00:00",
       "is_new": false
@@ -1985,7 +2069,7 @@
         "TF-IDF role 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.007,
+      "tfidf_similarity": 0.0072,
       "key": "Adzuna:5973932080",
       "first_seen": "2026-11-22T22:58:55.729144+00:00",
       "is_new": false
@@ -2026,7 +2110,7 @@
         "TF-IDF role 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0108,
+      "tfidf_similarity": 0.011,
       "key": "Adzuna:5956776971",
       "first_seen": "2026-11-07T21:14:14.117192+00:00",
       "is_new": false
@@ -2067,7 +2151,7 @@
         "TF-IDF role 0.03"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0111,
+      "tfidf_similarity": 0.0114,
       "key": "Adzuna:5955697793",
       "first_seen": "2026-11-20T00:01:57.781602+00:00",
       "is_new": false
@@ -2106,7 +2190,7 @@
         "Offering adjusted 3.6/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0198,
+      "tfidf_similarity": 0.02,
       "key": "Adzuna:5944506241",
       "first_seen": "2026-11-13T23:01:55.584936+00:00",
       "is_new": false
@@ -2145,7 +2229,7 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0163,
+      "tfidf_similarity": 0.0169,
       "key": "Adzuna:5955736646",
       "first_seen": "2026-11-07T21:14:14.117192+00:00",
       "is_new": false
@@ -2301,7 +2385,7 @@
         "Offering adjusted 3.8/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0361,
+      "tfidf_similarity": 0.0362,
       "key": "Adzuna:5962876634",
       "first_seen": "2026-11-12T22:59:03.214497+00:00",
       "is_new": false
@@ -2340,7 +2424,7 @@
         "Offering adjusted 3.8/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0327,
+      "tfidf_similarity": 0.0326,
       "key": "Adzuna:5962885706",
       "first_seen": "2026-11-13T23:01:55.584936+00:00",
       "is_new": false
@@ -2418,7 +2502,7 @@
         "Offering adjusted 3.8/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0299,
+      "tfidf_similarity": 0.03,
       "key": "Adzuna:5968883867",
       "first_seen": "2026-11-18T23:42:50.352934+00:00",
       "is_new": false
@@ -2457,9 +2541,48 @@
         "Offering adjusted 3.8/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0292,
+      "tfidf_similarity": 0.0293,
       "key": "Adzuna:5968978447",
       "first_seen": "2026-11-18T00:13:50.358049+00:00",
+      "is_new": false
+    },
+    {
+      "external_id": "5976091937",
+      "company": "Schaeffler",
+      "title": "Sales Profess.",
+      "location": "Chatham-Kent, Ontario",
+      "description": "Schaeffler is a dynamic global technology company and its success has been a result of its entrepreneurial spirit and long history of private ownership. Does that sound interesting to you? As a partner to all of the major automobile manufacturers, as well as key players in the aerospace and industrial sectors, we offer you many development opportunities. Your Key Responsibilities Sales growth as per Product Line targets, lead negotiations of pricing / claims, lead customer satisfaction metrics,…",
+      "url": "https://www.adzuna.ca/details/5976091937?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-23T07:47:55Z",
+      "salary_min": null,
+      "salary_max": null,
+      "source": "Adzuna",
+      "search_query": "Schaeffler",
+      "search_type": "target_company",
+      "searched_target": "Schaeffler",
+      "target_company": true,
+      "target_fit": 8.5,
+      "target_category": "OEM + Reliability",
+      "target_equipment": [
+        "bearing",
+        "condition monitoring",
+        "rotating equipment"
+      ],
+      "score": 5.1,
+      "matched_keywords": [
+        "rotating equipment",
+        "condition monitoring",
+        "reliability",
+        "bearing",
+        "industrial",
+        "Offering 5.0/5",
+        "TF-IDF x0.80",
+        "Offering adjusted 4.0/5"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.029,
+      "key": "Adzuna:5976091937",
+      "first_seen": "2026-11-24T03:37:55.500016+00:00",
       "is_new": false
     },
     {
@@ -2498,7 +2621,7 @@
         "TF-IDF role 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.009,
+      "tfidf_similarity": 0.0092,
       "key": "Adzuna:5957158004",
       "first_seen": "2026-11-20T23:29:54.860881+00:00",
       "is_new": false
@@ -2539,49 +2662,8 @@
         "TF-IDF role 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0088,
+      "tfidf_similarity": 0.009,
       "key": "Adzuna:5957158081",
-      "first_seen": "2026-11-20T23:29:54.860881+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5957116770",
-      "company": "Sherwood Electromotion",
-      "title": "Frame Repair Technician",
-      "location": "Concord, York region",
-      "description": "Job Description Job Description Frame Repair Technician\\n \\n \\nSherwood Electromotion Inc. - Concord, Ontario, Canada\\n \\n What we offer: \\n \\n \\n Competitive Hourly Rates based on skills and experience. \\n Profit sharing for employees after the probationary period. \\n Employer paid Full extended benefits coverage (Prescription drugs, Dental, Physiotherapy, etc.) \\n Referral Program bonus up to $1500.00 \\n Collaborative and supportive team culture. \\n Stable company celebrating 50 years milesto…",
-      "url": "https://www.adzuna.ca/details/5957116770?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-11-07T09:24:54Z",
-      "salary_min": 39520,
-      "salary_max": 45760,
-      "source": "Adzuna",
-      "search_query": "rotating equipment",
-      "search_type": "keyword",
-      "searched_target": null,
-      "target_company": true,
-      "target_fit": 8.9,
-      "target_category": "Distributor + Service",
-      "target_equipment": [
-        "bearing",
-        "seal",
-        "motor",
-        "pump",
-        "power transmission"
-      ],
-      "score": 5.1,
-      "matched_keywords": [
-        "pump",
-        "bearing",
-        "distributor",
-        "Offering 4.4/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.5/5",
-        "TF-IDF career 0.01",
-        "TF-IDF role 0.00"
-      ],
-      "negative_keywords": [],
-      "tfidf_similarity": 0.0109,
-      "key": "Adzuna:5957116770",
       "first_seen": "2026-11-20T23:29:54.860881+00:00",
       "is_new": false
     },
@@ -2619,7 +2701,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0122,
+      "tfidf_similarity": 0.0124,
       "key": "Adzuna:5973928766",
       "first_seen": "2026-11-21T22:36:53.501602+00:00",
       "is_new": false
@@ -2658,7 +2740,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0159,
+      "tfidf_similarity": 0.016,
       "key": "Adzuna:5971469568",
       "first_seen": "2026-11-20T00:01:57.781602+00:00",
       "is_new": false
@@ -2697,7 +2779,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0161,
+      "tfidf_similarity": 0.0163,
       "key": "Adzuna:5971469120",
       "first_seen": "2026-11-20T00:01:57.781602+00:00",
       "is_new": false
@@ -2736,7 +2818,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0104,
+      "tfidf_similarity": 0.0107,
       "key": "Adzuna:5971462247",
       "first_seen": "2026-11-20T00:01:57.781602+00:00",
       "is_new": false
@@ -2853,7 +2935,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0153,
+      "tfidf_similarity": 0.0157,
       "key": "Adzuna:5965587579",
       "first_seen": "2026-11-18T23:42:50.352934+00:00",
       "is_new": false
@@ -2892,7 +2974,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0149,
+      "tfidf_similarity": 0.0152,
       "key": "Adzuna:5971453765",
       "first_seen": "2026-11-20T23:29:54.860881+00:00",
       "is_new": false
@@ -2931,7 +3013,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0144,
+      "tfidf_similarity": 0.0147,
       "key": "Adzuna:5965589066",
       "first_seen": "2026-11-14T21:49:41.079429+00:00",
       "is_new": false
@@ -2970,7 +3052,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.017,
+      "tfidf_similarity": 0.0174,
       "key": "Adzuna:5944333788",
       "first_seen": "2026-10-28T22:00:49.844171+00:00",
       "is_new": false
@@ -3009,7 +3091,7 @@
         "TF-IDF career 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0109,
+      "tfidf_similarity": 0.0113,
       "key": "Adzuna:5966143882",
       "first_seen": "2026-11-15T22:17:17.491337+00:00",
       "is_new": false
@@ -3048,7 +3130,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0182,
+      "tfidf_similarity": 0.0186,
       "key": "Adzuna:5947849832",
       "first_seen": "2026-11-20T00:01:57.781602+00:00",
       "is_new": false
@@ -3087,7 +3169,7 @@
         "TF-IDF x0.80"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0289,
+      "tfidf_similarity": 0.0288,
       "key": "Adzuna:5920331459",
       "first_seen": "2026-10-09T22:01:31.849312+00:00",
       "is_new": false
@@ -3126,7 +3208,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0156,
+      "tfidf_similarity": 0.0159,
       "key": "Adzuna:5888943171",
       "first_seen": "2026-11-20T00:01:57.781602+00:00",
       "is_new": false
@@ -3165,7 +3247,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0166,
+      "tfidf_similarity": 0.0171,
       "key": "Adzuna:5903644376",
       "first_seen": "2026-11-08T21:29:05.816837+00:00",
       "is_new": false
@@ -3204,7 +3286,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0159,
+      "tfidf_similarity": 0.0163,
       "key": "Adzuna:5972735209",
       "first_seen": "2026-11-21T22:36:53.501602+00:00",
       "is_new": false
@@ -3245,7 +3327,7 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0142,
+      "tfidf_similarity": 0.0136,
       "key": "Adzuna:5974232969",
       "first_seen": "2026-11-21T22:36:53.501602+00:00",
       "is_new": false
@@ -3283,7 +3365,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0167,
+      "tfidf_similarity": 0.0165,
       "key": "Adzuna:5971449840",
       "first_seen": "2026-11-20T00:01:57.781602+00:00",
       "is_new": false
@@ -3321,7 +3403,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.017,
+      "tfidf_similarity": 0.0168,
       "key": "Adzuna:5970379428",
       "first_seen": "2026-11-20T00:01:57.781602+00:00",
       "is_new": false
@@ -3397,7 +3479,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0063,
+      "tfidf_similarity": 0.0064,
       "key": "Adzuna:5970271810",
       "first_seen": "2026-11-18T23:42:50.352934+00:00",
       "is_new": false
@@ -3435,7 +3517,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0063,
+      "tfidf_similarity": 0.0064,
       "key": "Adzuna:5970109028",
       "first_seen": "2026-11-20T00:01:57.781602+00:00",
       "is_new": false
@@ -3473,7 +3555,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0082,
+      "tfidf_similarity": 0.0083,
       "key": "Adzuna:5965983772",
       "first_seen": "2026-11-15T22:17:17.491337+00:00",
       "is_new": false
@@ -3511,7 +3593,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0079,
+      "tfidf_similarity": 0.0078,
       "key": "Adzuna:5970093222",
       "first_seen": "2026-11-21T22:36:53.501602+00:00",
       "is_new": false
@@ -3663,7 +3745,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0109,
+      "tfidf_similarity": 0.011,
       "key": "Adzuna:5971464409",
       "first_seen": "2026-11-20T23:29:54.860881+00:00",
       "is_new": false
@@ -3701,7 +3783,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0095,
+      "tfidf_similarity": 0.0097,
       "key": "Adzuna:5970378150",
       "first_seen": "2026-11-18T23:42:50.352934+00:00",
       "is_new": false
@@ -3777,7 +3859,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0064,
+      "tfidf_similarity": 0.0063,
       "key": "Adzuna:5974236191",
       "first_seen": "2026-11-22T22:58:55.729144+00:00",
       "is_new": false
@@ -3855,7 +3937,7 @@
         "TF-IDF career 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0187,
+      "tfidf_similarity": 0.0186,
       "key": "Adzuna:5885782992",
       "first_seen": "2026-11-20T23:29:54.860881+00:00",
       "is_new": false
@@ -3892,7 +3974,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0027,
+      "tfidf_similarity": 0.0028,
       "key": "Adzuna:5974890736",
       "first_seen": "2026-11-22T22:58:55.729144+00:00",
       "is_new": false
@@ -3929,7 +4011,7 @@
         "TF-IDF technical 0.00"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0047,
+      "tfidf_similarity": 0.0049,
       "key": "Adzuna:5882341237",
       "first_seen": "2026-10-13T22:06:17.511590+00:00",
       "is_new": false
@@ -4009,7 +4091,7 @@
         "TF-IDF career 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0189,
+      "tfidf_similarity": 0.0188,
       "key": "Adzuna:5973921717",
       "first_seen": "2026-11-21T22:36:53.501602+00:00",
       "is_new": false
@@ -4049,14 +4131,14 @@
         "TF-IDF role 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0119,
+      "tfidf_similarity": 0.0123,
       "key": "Adzuna:5750933900",
       "first_seen": "2026-08-31T22:12:15.867659+00:00",
       "is_new": false
     },
     {
       "external_id": "5953109943",
-      "company": "Integrated Power Services",
+      "company": "INTEGRATED POWER SERVICES",
       "title": "Wind Technician - Traveling",
       "location": "Burlington, Halton",
       "description": "Job Description Job Description Why IPS? If you're searching for a place where you can grow, continue learning, and make a meaningful impact while still having time for the people and moments that matter most, welcome to Integrated Power Services! We believe your value extends far beyond your job title because the best work comes from people who feel supported, challenged, and fulfilled both professionally and personally. Here, you'll find opportunities to develop your career, work alongside ex…",
@@ -4089,50 +4171,9 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0092,
+      "tfidf_similarity": 0.009,
       "key": "Adzuna:5953109943",
       "first_seen": "2026-11-06T22:32:18.336523+00:00",
-      "is_new": false
-    },
-    {
-      "external_id": "5946999704",
-      "company": "John Brooks Company",
-      "title": "Service Coordinator",
-      "location": "Mississauga, Peel region",
-      "description": "Job Description Job Description WHAT DO WE DO? \\n We create solutions for the people who keep our world flowing. \\n For over 80 years, John Brooks Company has been solving fluid handling challenges for customers in various industries/markets across Canada by providing a diverse selection of engineered products and innovative system designs, focusing on customized solutions consisting of filtration, pump, spray, and valve products. \\n \\n THE ROLE \\n Reporting to the Service Operations Supervisor…",
-      "url": "https://www.adzuna.ca/details/5946999704?utm_medium=api&utm_source=6ca94df0",
-      "created": "2026-10-30T10:13:28Z",
-      "salary_min": null,
-      "salary_max": null,
-      "source": "Adzuna",
-      "search_query": "John Brooks Company",
-      "search_type": "target_company",
-      "searched_target": "John Brooks Company",
-      "target_company": true,
-      "target_fit": 8.8,
-      "target_category": "Distributor + Service",
-      "target_equipment": [
-        "pump",
-        "spray",
-        "process equipment"
-      ],
-      "score": 4.5,
-      "matched_keywords": [
-        "pump",
-        "valve",
-        "fluid handling",
-        "process equipment",
-        "distributor",
-        "Offering 4.5/5",
-        "TF-IDF x0.80",
-        "Offering adjusted 3.6/5"
-      ],
-      "negative_keywords": [
-        "coordinator"
-      ],
-      "tfidf_similarity": 0.019,
-      "key": "Adzuna:5946999704",
-      "first_seen": "2026-10-30T21:48:35.964416+00:00",
       "is_new": false
     },
     {
@@ -4170,7 +4211,7 @@
         "Offering adjusted 4.0/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0354,
+      "tfidf_similarity": 0.0359,
       "key": "Adzuna:5971720407",
       "first_seen": "2026-11-20T23:29:54.860881+00:00",
       "is_new": false
@@ -4211,7 +4252,7 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0255,
+      "tfidf_similarity": 0.0257,
       "key": "Adzuna:5962885709",
       "first_seen": "2026-11-18T23:42:50.352934+00:00",
       "is_new": false
@@ -4252,7 +4293,7 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0286,
+      "tfidf_similarity": 0.0287,
       "key": "Adzuna:5966737232",
       "first_seen": "2026-11-15T22:17:17.491337+00:00",
       "is_new": false
@@ -4293,7 +4334,7 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0119,
+      "tfidf_similarity": 0.0124,
       "key": "Adzuna:5972717486",
       "first_seen": "2026-11-20T23:29:54.860881+00:00",
       "is_new": false
@@ -4334,7 +4375,7 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0135,
+      "tfidf_similarity": 0.014,
       "key": "Adzuna:5972713645",
       "first_seen": "2026-11-21T22:36:53.501602+00:00",
       "is_new": false
@@ -4373,7 +4414,7 @@
         "TF-IDF career 0.02"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.017,
+      "tfidf_similarity": 0.0171,
       "key": "Adzuna:5943344004",
       "first_seen": "2026-10-27T21:37:15.258434+00:00",
       "is_new": false
@@ -4412,7 +4453,7 @@
         "TF-IDF role 0.05"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0281,
+      "tfidf_similarity": 0.028,
       "key": "Adzuna:5934057366",
       "first_seen": "2026-10-20T21:00:42.430134+00:00",
       "is_new": false
@@ -4455,7 +4496,7 @@
       "negative_keywords": [
         "junior"
       ],
-      "tfidf_similarity": 0.009,
+      "tfidf_similarity": 0.0092,
       "key": "Adzuna:5957155982",
       "first_seen": "2026-11-20T23:29:54.860881+00:00",
       "is_new": false
@@ -4498,7 +4539,7 @@
       "negative_keywords": [
         "junior"
       ],
-      "tfidf_similarity": 0.009,
+      "tfidf_similarity": 0.0092,
       "key": "Adzuna:5972981119",
       "first_seen": "2026-11-20T23:29:54.860881+00:00",
       "is_new": false
@@ -4536,7 +4577,7 @@
         "TF-IDF technical 0.01"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0178,
+      "tfidf_similarity": 0.0176,
       "key": "Adzuna:5970377089",
       "first_seen": "2026-11-20T00:01:57.781602+00:00",
       "is_new": false
@@ -4574,7 +4615,7 @@
         "target company"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0026,
+      "tfidf_similarity": 0.0025,
       "key": "Adzuna:5955420765",
       "first_seen": "2026-11-06T22:32:18.336523+00:00",
       "is_new": false
@@ -4653,9 +4694,44 @@
       "negative_keywords": [
         "coordinator"
       ],
-      "tfidf_similarity": 0.0177,
+      "tfidf_similarity": 0.0176,
       "key": "Adzuna:5966737539",
       "first_seen": "2026-11-15T22:17:17.491337+00:00",
+      "is_new": false
+    },
+    {
+      "external_id": "5975114008",
+      "company": "Just Sales Jobs",
+      "title": "Outside Sales Representative - Sanitary Pumps, Valves and Hose Assemblies",
+      "location": "Vaughan, York region",
+      "description": "Job Description Job Description \\n Our client is hiring an Outside Sales Representative to sell sanitary pumps, valves and hose assemblies to pharmaceutical and food and beverage manufacturing sites, mostly in the GTA. Hose assemblies are a major product line. Your sales focus is approximately 50% account management and 50% new business. Leads come from your own prospecting and cold calling, plus leads supplied by the company. Customers are pharmaceutical manufacturing sites (the majority) and …",
+      "url": "https://www.adzuna.ca/details/5975114008?utm_medium=api&utm_source=6ca94df0",
+      "created": "2026-11-22T08:45:11Z",
+      "salary_min": 80000,
+      "salary_max": 100000,
+      "source": "Adzuna",
+      "search_query": "pump sales",
+      "search_type": "keyword",
+      "searched_target": null,
+      "target_company": false,
+      "target_fit": null,
+      "target_category": "",
+      "target_equipment": [],
+      "score": 7.1,
+      "matched_keywords": [
+        "outside sales",
+        "sales representative",
+        "pump",
+        "pumps",
+        "valve",
+        "valves",
+        "prospecting",
+        "new business"
+      ],
+      "negative_keywords": [],
+      "tfidf_similarity": 0.0259,
+      "key": "Adzuna:5975114008",
+      "first_seen": "2026-11-24T03:37:55.500016+00:00",
       "is_new": false
     },
     {
@@ -4688,7 +4764,7 @@
         "Offering 4.6/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0251,
+      "tfidf_similarity": 0.025,
       "key": "Adzuna:5854253838",
       "first_seen": "2026-08-27T21:05:01.271622+00:00",
       "is_new": false
@@ -4793,7 +4869,7 @@
         "Offering 4.3/5"
       ],
       "negative_keywords": [],
-      "tfidf_similarity": 0.0309,
+      "tfidf_similarity": 0.0306,
       "key": "Adzuna:5971722800",
       "first_seen": "2026-11-20T23:29:54.860881+00:00",
       "is_new": false
